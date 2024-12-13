@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>JoyFeli - Lifestyle coaching & Personal Training</title>
   <!-- Meta Description -->
   <meta property="og:type" content="website">
@@ -22,7 +22,6 @@
 
   <!-- Bootstrap CSS -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-  
   <!-- Custom CSS -->
   <link rel="stylesheet" href="./css/styles.css">
 
@@ -41,6 +40,7 @@
 
       <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
         <div class="offcanvas-header">
+          <h5 id="offcanvasNavbarLabel" class="visually-hidden">Navigation Menu</h5>
           <button type="button" class="btn-close btn-close-dark p-4" data-bs-dismiss="offcanvas" aria-label="Close"></button>
         </div>
         <div class="offcanvas-body text-center text-uppercase">
@@ -73,7 +73,7 @@
     <div class="container">
       <blockquote class="blockquote">
         <p class="fs-2 fst-italic">"You cannot step into the same river twice,<br> for other waters are ever flowing on to you."</p>
-        <footer class="blockquote-footer text-white">Heraclitus</footer>
+        <q class="blockquote-footer text-white">Heraclitus</q>
       </blockquote>
     </div>
   </header>
@@ -82,48 +82,57 @@
   <!-- About Me Section -->
   <section class="py-5" id="about">
     <div class="container">
-      <h2 class="mb-4">About Me</h2>
-      <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ultrices ex a egestas sodales. Suspendisse potenti. Duis vehicula turpis lacus, eu rhoncus velit convallis non. Nulla facilisi. Pellentesque habitant morbi tristique senectus et netus.</p>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed viverra mauris ac nunc elementum, at gravida urna interdum. Fusce pellentesque odio at urna elementum luctus. Suspendisse suscipit malesuada feugiat. Cras lobortis neque eu nulla varius.</p>
+      <h2 class="mb-5">About Me</h2>
+      <p>Hi, I'm Feli Aarsman. I moved to Wageningen for university,
+        fell in love with the city, and decided to stay. Over time, 
+        my focus shifted from academics to a passion for sports and staying active.
+        From outdoor adventures like climbing and kayaking to indoor activities like spinning and Pilates.
+      </p>
+      <p>
+        Nature and human connection have always been at the heart of what I do. In summer,
+        I work as a white-water kayaking instructor in Slovenia, and in winter,
+        I coach in the gym and lead group fitness classes. With over 8 years of teaching experience,
+        I'm guided by a belief in the power of positive energy to foster strength, happiness, and a brighter world for all.
+      </p>
     </div>
   </section>
   <!-- End About Me Section -->
 
   <!-- Coaching Services Section -->
-  <section class="py-5 bg-light" id="services">
+  <section class="py-5" id="services">
     <div class="container">
-      <h2 class="mb-4">Coaching Services</h2>
+      <h2 class="mb-5">Coaching Services</h2>
       <div class="row g-4">
         <div class="col-md-4">
-          <div class="card h-100">
+          <div class="card h-100 shadow-sm hover-effect">
             <div class="card-body">
-              <h5 class="card-title text-center">Lifestyle Coaching</h5>
-              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce blandit bibendum sem, quis vulputate odio.</p>
+              <h5 class="card-title text-center text-uppercase">Lifestyle Coaching</h5>
+              <p class="card-text text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce blandit bibendum sem, quis vulputate odio.</p>
             </div>
             <div class="card-footer text-center bg-white border-0">
-              <a href="lifestyle-coaching.html" class="btn custom-btn">Learn More</a>
+              <a href="lifestyle-coaching.html" class="btn custom-btn p-2 fs-5">Learn More</a>
             </div>
           </div>
         </div><!-- End Column -->
         <div class="col-md-4">
-          <div class="card h-100">
+          <div class="card h-100 shadow-sm hover-effect">
             <div class="card-body">
-              <h5 class="card-title text-center">Personal Training</h5>
-              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce blandit bibendum sem, quis vulputate odio.</p>
+              <h5 class="card-title text-center text-uppercase">Personal Training</h5>
+              <p class="card-text text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce blandit bibendum sem, quis vulputate odio.</p>
             </div>
             <div class="card-footer text-center bg-white border-0">
-              <a href="personal-training.html" class="btn custom-btn">Learn More</a>
+              <a href="personal-training.html" class="btn custom-btn p-2 fs-5">Learn More</a>
             </div>
           </div>
         </div><!-- End Column -->
         <div class="col-md-4">
-          <div class="card h-100">
+          <div class="card h-100 shadow-sm hover-effect">
             <div class="card-body">
-              <h5 class="card-title text-center">Woman</h5>
-              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce blandit bibendum sem, quis vulputate odio.</p>
+              <h5 class="card-title text-center text-uppercase">Woman</h5>
+              <p class="card-text text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce blandit bibendum sem, quis vulputate odio.</p>
             </div>
             <div class="card-footer text-center bg-white border-0">
-              <a href="woman.html" class="btn custom-btn">Learn More</a>
+              <a href="woman.html" class="btn custom-btn p-2 fs-5">Learn More</a>
             </div>
           </div>
         </div><!-- End Column -->
@@ -135,8 +144,9 @@
   <!-- Reviews Section -->
   <section class="py-5" id="reviews">
     <div class="container">
-      <h2 class="mb-4">Reviews</h2>
-      <div id="reviewsCarousel" class="carousel slide" data-bs-ride="carousel">
+      <h2 class="mb-5">Reviews</h2>
+      <!-- data-bs-interval to set the time between slides -->
+      <div id="reviewsCarousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="6000">
         <div class="carousel-inner">
           <div class="carousel-item active">
             <blockquote class="blockquote text-center">
@@ -157,13 +167,15 @@
             </blockquote>
           </div>
         </div>
+        <!-- Previous Button -->
         <button class="carousel-control-prev" type="button" data-bs-target="#reviewsCarousel" data-bs-slide="prev">
           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span>Previous</span>
+          <span class="visually-hidden">Previous</span>
         </button>
+        <!-- Next Button -->
         <button class="carousel-control-next" type="button" data-bs-target="#reviewsCarousel" data-bs-slide="next">
           <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span>Next</span>
+          <span class="visually-hidden">Next</span>
         </button>
       </div>
     </div>
@@ -173,7 +185,7 @@
   <!-- Contact Section -->
   <section class="py-5 bg-light" id="contact">
     <div class="container">
-      <h2 class="mb-4">Contact</h2>
+      <h2 class="mb-5">Contact</h2>
       <form>
         <div class="mb-3">
           <label for="contactName" class="form-label">Name</label>
@@ -220,6 +232,8 @@
           <ul class="list-unstyled">
             <li class="mb-2"><a href="tel:+31611220741" class="footer-link">+31 61 122 0741</a></li>
             <li class="mb-2"><a href="mailto:feli.aarsman@gmail.com" class="footer-link">feli.aarsman@gmail.com</a></li>
+          </ul>
+        </div>
       </div>
       <!-- Copyright -->
       <div class="text-center mt-3 small">
