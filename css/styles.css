@@ -1,8 +1,10 @@
 :root {
   --primary-color: #053742;
-  --primary-light-color: #A8EAF8;
-  --secondary-color: #E8FAE9;
+  --primary-light-color: #C3CDE6;
+}
 
+html {
+  scroll-padding-top: 3.85rem;
 }
 
 body {
@@ -20,7 +22,6 @@ body {
 .navbar-nav .nav-link:hover, .footer-link:hover {
   color: var(--primary-color);
   text-shadow: 0 1px 3px rgba(0,0,0,0.1);
-  text-decoration: underline;
 }
 
 .navbar-logo {
@@ -28,29 +29,51 @@ body {
   width: auto;
 }
 
-.custom-toggler {
-  border-color: var(--primary-color);
+.custom-toggler, .custom-toggler:focus, .custom-toggler:active {
+  border: none;
+  outline: none;
+  box-shadow: none;
+}
+
+.custom-toggler .navbar-toggler-icon { 
+  background-image: url("data:image/svg+xml;charset=utf8, %3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgb(5, 55, 66)' stroke-width='3' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+  font-size: 27px;
 }
 
 #offcanvasNavbar {
-  width: 100vh;
-  background-color: var(--secondary-color);
+  width: 100vw;
+  background-color: var(--primary-light-color);
 }
 
 .offcanvas-header .btn-close {
-  font-size: 1.5rem; /* Adjust size of the close button */
+  font-size: 1.6rem;
+  padding: 1.6rem;
 }
 
-i {
-  font-family: 'Font Awesome 5 Free';
-  font-weight: 900; /* Required for solid icons */
+.footer-logo {
+  height: 80px;
+  width: auto;
 }
 
-@media (max-width: 991px) {
+@media (max-width: 1199px) {
+  html {
+    scroll-padding-top: 3.5rem;
+  }
+
   #offcanvasNavbar .nav-link {
     font-size: 1.6rem; 
     font-weight: 700;
     padding: 1.6rem 0;
+  }
+
+  .navbar-logo {
+    height: 50px;
+    width: auto;
+  }
+
+  .footer-logo {
+    height: 60px;
+    width: auto;
   }
 }
 
@@ -63,6 +86,8 @@ i {
 .custom-btn, .custom-btn:hover {
   background-color: var(--primary-color);
   color: #fff;
+  border-radius: 20px;
+  padding: 10px 20px;
 }
 
 .custom-btn:hover {
@@ -75,37 +100,23 @@ i {
 
 /* Custom card styling */
 .card {
-  border: none; /* Remove default border */
-  border-radius: 10px; /* Add smooth rounded corners */
-  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth hover effect */
+  border-radius: 20px; 
+  box-shadow: 0px 4px 6px var(--primary-light-color); 
+  transition: transform 0.3s ease, box-shadow 0.3s ease; 
 }
 
 .card .card-title {
-  font-weight: 700; /* Make the titles stand out */
+  font-weight: 700; 
   color: var(--primary-color); /* Use your primary color */
 }
 
 .card .card-text {
-  font-size: 0.95rem; /* Adjust for readability */
-  line-height: 1.5; /* Add space between lines */
+  line-height: 1.8;
 }
 
-.card-footer .custom-btn {
-  border-radius: 25px; /* Rounded button for a modern look */
-  padding: 0.5rem 1.5rem;
-}
-
-.shadow-sm {
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
-}
-
-.hover-effect:hover {
-  transform: translateY(-5px); /* Lift effect on hover */
-  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* Stronger shadow on hover */
-}
-
-.text-muted {
-  color: #6c757d; /* Use muted color for descriptions */
+.card:hover {
+  transform: translateY(-5px); 
+  box-shadow: 0 6px 12px var(--primary-light-color); 
 }
 
 /* Review section - set the color of the arrows*/
@@ -119,12 +130,6 @@ i {
 
 .carousel-item {
   padding: 0 4rem;
-}
-
-/* Footer styling */
-.footer-logo {
-  height: 80px;
-  width: auto;
 }
 
 #scrollToTopBtn {
