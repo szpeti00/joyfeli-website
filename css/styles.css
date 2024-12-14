@@ -95,7 +95,7 @@ body {
 }
 
 #services, .page-footer {
-  background-color: #E8FAE9;
+  background-color: var(--primary-light-color);
 }
 
 /* Custom card styling */
