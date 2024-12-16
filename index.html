@@ -22,6 +22,10 @@
 
   <!-- Bootstrap CSS -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
   <!-- Custom CSS -->
   <link rel="stylesheet" href="./css/styles.css">
 
@@ -30,7 +34,7 @@
   
   <!-- Navbar with Offcanvas for Small Screens -->
   <nav class="navbar navbar-expand-xl bg-light bg-opacity-75 fixed-top">
-    <div class="container">
+    <div class="container-fluid">
       <a class="navbar-brand" href="index.html">
         <img src="img/logo.png" alt="JoyFeli" class="navbar-logo">
       </a>
@@ -99,49 +103,44 @@
     </div>
   </section>
   <!-- End About Me Section -->
+<div class="sun-divider">
+  <span class="sun"></span>
+</div>
 
   <!-- Coaching Services Section -->
   <section class="py-5" id="services">
     <div class="container">
       <h2 class="mb-5">Coaching Services</h2>
-      <div class="row g-0">
-        <!-- Card 1 -->
+      <div class="row g-4">
         <div class="col-lg-4">
-          <div class="card card-primary-light h-100">
-            <img src="img/lifestylecoaching_icon.png" class="card-img-top" alt="Lifestyle Coaching Image">
+          <div class="card h-100">
             <div class="card-body">
               <h5 class="card-title text-center text-uppercase">Lifestyle Coaching</h5>
               <p class="card-text text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce blandit bibendum sem, quis vulputate odio.</p>
             </div>
-            <div class="card-footer text-center bg-transparent border-0">
+            <div class="card-footer text-center bg-white border-0">
               <a href="lifestyle-coaching.html" class="btn custom-btn fs-5">More</a>
             </div>
           </div>
         </div><!-- End Column -->
-
-        <!-- Card 2 -->
         <div class="col-lg-4">
-          <div class="card card-secondary-light h-100">
-            <img src="img/personaltraining_icon.png" class="card-img-top" alt="Personal Training Image">
+          <div class="card h-100">
             <div class="card-body">
               <h5 class="card-title text-center text-uppercase">Personal Training</h5>
               <p class="card-text text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce blandit bibendum sem, quis vulputate odio.</p>
             </div>
-            <div class="card-footer text-center bg-transparent border-0">
+            <div class="card-footer text-center bg-white border-0">
               <a href="personal-training.html" class="btn custom-btn fs-5">More</a>
             </div>
           </div>
         </div><!-- End Column -->
-
-        <!-- Card 3 -->
         <div class="col-lg-4">
-          <div class="card card-third-light h-100">
-            <img src="img/Feli_soca.jpg" class="card-img-top" alt="Women's Coaching Image">
+          <div class="card h-100">
             <div class="card-body">
               <h5 class="card-title text-center text-uppercase">Woman</h5>
               <p class="card-text text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce blandit bibendum sem, quis vulputate odio.</p>
             </div>
-            <div class="card-footer text-center bg-transparent border-0">
+            <div class="card-footer text-center bg-white border-0">
               <a href="woman.html" class="btn custom-btn fs-5">More</a>
             </div>
           </div>
@@ -151,6 +150,9 @@
   </section>
   <!-- End Coaching Services Section -->
 
+<div class="sun-divider">
+  <span class="sun"></span>
+</div>
 
   <!-- Reviews Section -->
   <section class="py-5" id="reviews">
@@ -192,26 +194,38 @@
     </div>
   </section>
   <!-- End Reviews Section -->
-
+<div class="sun-divider">
+  <span class="sun"></span>
+</div>
   <!-- Contact Section -->
   <section class="py-5 bg-light" id="contact">
     <div class="container">
       <h2 class="mb-5">Contact</h2>
         <h4>Contact me for more information</h4>
-        <p>Phone: +1 (123) 456-7890</p>
-        <p>Email: <a href="mailto:feli.aarsman@gmail.com">feli.aarsman@gmail.com</a></p>
+        <p>
+          <a href="tel:+31611220741">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="icon">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 0 0 2.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 0 1-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 0 0-1.091-.852H4.5A2.25 2.25 0 0 0 2.25 4.5v2.25Z" />
+            </svg>+31 61 122 0741</a> 
+        </p>
+        <p>
+          <a href="mailto:feli.aarsman@gmail.com">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="icon">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M21.75 6.75v10.5a2.25 2.25 0 0 1-2.25 2.25h-15a2.25 2.25 0 0 1-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0 0 19.5 4.5h-15a2.25 2.25 0 0 0-2.25 2.25m19.5 0v.243a2.25 2.25 0 0 1-1.07 1.916l-7.5 4.615a2.25 2.25 0 0 1-2.36 0L3.32 8.91a2.25 2.25 0 0 1-1.07-1.916V6.75" />
+            </svg>Feli.Aarsman@gmail.com</a>
+        </p>
     </div>
   </section>
   <!-- End Contact Section -->
 
   <!-- Footer -->
-  <footer class="py-3 page-footer">
+  <footer class="py-5 page-footer">
     <div class="container">
       <div class="row">
         <!-- Logo column -->
         <div class="col-lg-4 mb-3">
           <a href="index.html" class="text-decoration-none">
-            <img src="img/logo.png" alt="JoyFeli" class="footer-logo">
+            <img src="../img/only_drawing_logo.png" alt="JoyFeli" class="footer-logo">
           </a>
         </div>
         <!-- Sitemap column -->
@@ -229,13 +243,23 @@
         <!-- Contact Info column -->
         <div class="col-lg-4 mb-3">
           <ul class="list-unstyled">
-            <li class="mb-2"><a href="tel:+31611220741" class="footer-link">+31 61 122 0741</a></li>
-            <li class="mb-2"><a href="mailto:feli.aarsman@gmail.com" class="footer-link">feli.aarsman@gmail.com</a></li>
+            <li class="mb-2">
+              <a href="tel:+31611220741" class="footer-link">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="icon">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 0 0 2.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 0 1-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 0 0-1.091-.852H4.5A2.25 2.25 0 0 0 2.25 4.5v2.25Z" />
+                </svg>+31 61 122 0741</a> 
+            </li>
+            <li class="mb-2">
+              <a href="mailto:feli.aarsman@gmail.com" class="footer-link">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="icon">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M21.75 6.75v10.5a2.25 2.25 0 0 1-2.25 2.25h-15a2.25 2.25 0 0 1-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0 0 19.5 4.5h-15a2.25 2.25 0 0 0-2.25 2.25m19.5 0v.243a2.25 2.25 0 0 1-1.07 1.916l-7.5 4.615a2.25 2.25 0 0 1-2.36 0L3.32 8.91a2.25 2.25 0 0 1-1.07-1.916V6.75" />
+                </svg>Feli.Aarsman@gmail.com</a>
+            </li>
           </ul>
         </div>
       </div>
       <!-- Copyright -->
-      <div class="text-center mt-3 small">
+      <div class="text-center mt-3 small" id="copyright">
         <p>&copy;2024 JoyFeli Coaching </p>
       </div>
     </div>

@@ -1,8 +1,10 @@
 :root {
   --primary-color: #053742;
   --primary-light-color: #C3CDE6;
-  --secondary-light-color: #FEE64E;
-  --third-lightcolor: #93EA8C;
+  --yellow-color: #fbf074;
+  --green-color: #1B4E1D;
+  --gray-color: #403e3e;
+
 }
 
 html {
@@ -14,14 +16,13 @@ body {
   font-family: 'Montserrat', sans-serif;
 }
 
-.navbar-nav .nav-link, .footer-link {
+.navbar-nav .nav-link {
   margin: 0 1.1rem;
-  color: #000;
-  font-weight: 600;
+  color: var(--gray-color);
   text-decoration: none;
 }
 
-.navbar-nav .nav-link:hover, .footer-link:hover {
+.navbar-nav .nav-link:hover {
   color: var(--primary-color);
   text-shadow: 0 1px 3px rgba(0,0,0,0.1);
 }
@@ -53,8 +54,21 @@ body {
 }
 
 .footer-logo {
-  height: 80px;
+  height: 100px;
   width: auto;
+}
+
+.footer-link  {
+  text-decoration: none;
+  color: #ffffffb7;
+}
+
+.footer-link:hover {
+  color: #ffffffd2;
+}
+
+#copyright {
+  color: #ffffffb7;
 }
 
 @media (max-width: 1199px) {
@@ -85,6 +99,39 @@ body {
   padding: 0 0 2rem 0;  
 }
 
+/*  Section divider */
+.sun-divider {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 2em 0;
+  position: relative; 
+}
+
+.sun-divider::before,
+.sun-divider::after {
+  content: "";
+  flex: 1;
+  height: 2px;
+  /* Creates a gradient that starts solid near the sun and fades out */
+  background: linear-gradient(to left, var(--gray-color) 0%, transparent 75%);
+}
+
+.sun-divider::after {
+  background: linear-gradient(to right, var(--gray-color) 0%, transparent 75%);
+}
+
+.sun {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: radial-gradient(circle at center, var(--yellow-color) 40%, var(--yellow-color));
+  margin: 0 .6em;
+  box-shadow: 0 0 15px var(--yellow-color);
+}
+
+
+/* Custom button */
 .custom-btn, .custom-btn:hover {
   background-color: var(--primary-color);
   color: #fff;
@@ -97,7 +144,7 @@ body {
 }
 
 .page-footer {
-  background-color: var(--primary-light-color);
+  background-color: var(--green-color);
 }
 
 /* Custom card styling */
@@ -115,18 +162,6 @@ body {
 .card:hover {
   transform: translateY(-5px); 
   box-shadow: 0 6px 12px rgba(0,0,0,0.1); 
-}
-
-.card-primary-light {
-  background-color: var(--primary-light-color);
-}
-
-.card-secondary-light {
-  background-color: var(--secondary-light-color);
-}
-
-.card-third-light {
-  background-color: var(--third-lightcolor);
 }
 
 .card .card-title {
@@ -149,6 +184,20 @@ body {
 
 .carousel-item {
   padding: 0 4rem;
+}
+
+a[href^="tel:"], a[href^="mailto:"] {
+  text-decoration: none;
+}
+
+#contact a[href^="tel:"], #contact a[href^="mailto:"] {
+  color: var(--primary-color);
+}
+
+.icon {
+  margin-right: 10px; 
+  width: 24px;
+  height: 24px; 
 }
 
 #scrollToTopBtn {
