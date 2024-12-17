@@ -267,6 +267,10 @@ a[href^="tel:"], a[href^="mailto:"] {
   text-decoration: none;
 }
 
+a[href^="tel:"]:hover, a[href^="mailto:"]:hover {
+  text-decoration: underline;
+}
+
 #contact a[href^="tel:"], #contact a[href^="mailto:"] {
   color: var(--primary-color);
 }
