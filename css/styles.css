@@ -19,6 +19,7 @@ body {
 .navbar-nav .nav-link {
   margin: 0 1.1rem;
   color: var(--gray-color);
+  font-size: .95rem;
   text-decoration: none;
 }
 
@@ -28,7 +29,7 @@ body {
 }
 
 .navbar-logo {
-  height: 70px;
+  height: 60px;
   width: auto;
 }
 
@@ -53,8 +54,86 @@ body {
   padding: 1.6rem;
 }
 
+.bg-image {
+  background-image: url('../img/Feli_mountain.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  height: 60vh;
+  min-height: 600px;
+  background-blend-mode: multiply;
+}
+
+/* The text overlay with semi-transparent white background */
+.text-overlay {
+  position: absolute;
+  top: 10%;
+  height: 80%;
+  right: 0;
+  transform: translateY(-50%);
+  padding: 1.5rem;
+  max-width: 60%;
+}
+
+/* Animations */
+.animate-slide-in-left, .animate-slide-in-right {
+  opacity: 0;
+}
+
+/* Slide in from left */
+.animate-slide-in-left {
+  transform: translateX(-100%);
+  animation: slideInLeft 2s ease forwards;
+}
+
+/* Slide in from right with a delay for a staggered effect */
+.animate-slide-in-right {
+  transform: translateX(100%);
+  animation: slideInRight 2s ease forwards .2s;
+}
+
+@keyframes slideInLeft {
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes slideInRight {
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+/* Responsive adjustments */
+@media (max-width: 1199px) {
+  /* Disable animations */
+  .animate-slide-in-left,
+  .animate-slide-in-right {
+    animation: none;
+    opacity: 1;
+    transform: translateX(0);
+  }
+
+  .bg-image {
+    background-image: url('../img/Feli_mountain_cut.jpg');
+    height: 40vh;
+    min-height: 400px;
+  }
+
+  /* Make the text overlay full width and position it below the image */
+  .text-overlay {
+    position: static;
+    transform: none;
+    max-width: 100%;
+    height: auto;
+  }
+}
+
 .footer-logo {
-  height: 100px;
+  height: 150px;
   width: auto;
 }
 
@@ -88,7 +167,7 @@ body {
   }
 
   .footer-logo {
-    height: 60px;
+    height: 70px;
     width: auto;
   }
 }
@@ -104,7 +183,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin: 2em 0;
+  margin: 3em 0;
   position: relative; 
 }
 
@@ -130,7 +209,6 @@ body {
   box-shadow: 0 0 15px var(--yellow-color);
 }
 
-
 /* Custom button */
 .custom-btn, .custom-btn:hover {
   background-color: var(--primary-color);
@@ -147,13 +225,8 @@ body {
   background-color: var(--green-color);
 }
 
-/* Custom card styling */
-#services .row.g-0 > [class*='col-'] > .card {
-  border-radius: 0; /* Remove default rounding so they align flush */
-}
-
 .card {
-  border: none;
+  /* border: none; */
   border-radius: 0; 
   box-shadow: none; 
   transition: transform 0.3s ease, box-shadow 0.3s ease; 
@@ -182,8 +255,12 @@ body {
   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='053742' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
 }
 
-.carousel-item {
-  padding: 0 4rem;
+.carousel-control-prev {
+  left: -10%;
+}
+ .carousel-control-next {
+  right: -10%;
+
 }
 
 a[href^="tel:"], a[href^="mailto:"] {

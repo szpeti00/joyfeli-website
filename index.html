@@ -45,6 +45,9 @@
       <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
         <div class="offcanvas-header">
           <h5 id="offcanvasNavbarLabel" class="visually-hidden">Navigation Menu</h5>
+          <!-- <p>
+            <a class="nav-link" href="en/">EN</a>
+          </p> -->
           <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
         </div>
         <div class="offcanvas-body text-center text-uppercase">
@@ -56,7 +59,7 @@
               <a class="nav-link" href="personal-training.html">Personal Training</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="woman.html">Woman</a>
+              <a class="nav-link" href="woman.html">For Her</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="about.html">About Me</a>
@@ -84,93 +87,121 @@
     </div>
   </header>
   <!-- End Home Section -->
-
+  <div class="sun-divider">
+    <span class="sun"></span>
+  </div>
   <!-- About Me Section -->
-  <section class="py-5" id="about">
-    <div class="container">
-      <h2 class="mb-5">About Me</h2>
-      <p>Hi, I'm Feli Aarsman. I moved to Wageningen for university,
-        fell in love with the city, and decided to stay. Over time, 
-        my focus shifted from academics to a passion for sports and staying active.
-        From outdoor adventures like climbing and kayaking to indoor activities like spinning and Pilates.
-      </p>
-      <p>
-        Nature and human connection have always been at the heart of what I do. In summer,
-        I work as a white-water kayaking instructor in Slovenia, and in winter,
-        I coach in the gym and lead group fitness classes. With over 8 years of teaching experience,
-        I'm guided by a belief in the power of positive energy to foster strength, happiness, and a brighter world for all.
-      </p>
-    </div>
-  </section>
-  <!-- End About Me Section -->
-<div class="sun-divider">
-  <span class="sun"></span>
-</div>
-
-  <!-- Coaching Services Section -->
-  <section class="py-5" id="services">
-    <div class="container">
-      <h2 class="mb-5">Coaching Services</h2>
-      <div class="row g-4">
-        <div class="col-lg-4">
-          <div class="card h-100">
-            <div class="card-body">
-              <h5 class="card-title text-center text-uppercase">Lifestyle Coaching</h5>
-              <p class="card-text text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce blandit bibendum sem, quis vulputate odio.</p>
-            </div>
-            <div class="card-footer text-center bg-white border-0">
-              <a href="lifestyle-coaching.html" class="btn custom-btn fs-5">More</a>
-            </div>
+  <section  id="about">
+    <div class="container position-relative">
+      <div class="row">
+        <div class="col-12 position-relative">
+          <!-- Background image container -->
+          <div class="bg-image animate-slide-in-left"></div>
+          
+          <!-- Text overlay -->
+          <div class="text-overlay animate-slide-in-right bg-white bg-opacity-75">
+            <h2 class="mb-4">About Me</h2>
+            <p>
+              Hi, ik ben Feli Aarsman. Ik ben naar Wageningen verhuisd voor de universiteit, en werd direct verliefd op deze stad en zijn natuur.
+              Mijn passie is verschoven van ecologische wetenschap naar sport en beweging, zowel buiten als binnen.
+            </p>
+            <p>
+              In de zomer geef ik wildwaterkajak lessen in Slovenië; in de winter coach ik individueel en geef ik fitnesslessen. 
+              Met meer dan 8 jaar ervaring als gecertificeerd instructeur geloof ik in de kracht van positieve energie om een sterke,
+              gelukkige en een mooiere wereld op te bouwen.
+              <div class="text-center">
+                <a href="about.html" class="btn custom-btn fs-5">More</a>
+              </div>
+            </p>
           </div>
-        </div><!-- End Column -->
-        <div class="col-lg-4">
-          <div class="card h-100">
-            <div class="card-body">
-              <h5 class="card-title text-center text-uppercase">Personal Training</h5>
-              <p class="card-text text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce blandit bibendum sem, quis vulputate odio.</p>
-            </div>
-            <div class="card-footer text-center bg-white border-0">
-              <a href="personal-training.html" class="btn custom-btn fs-5">More</a>
-            </div>
-          </div>
-        </div><!-- End Column -->
-        <div class="col-lg-4">
-          <div class="card h-100">
-            <div class="card-body">
-              <h5 class="card-title text-center text-uppercase">Woman</h5>
-              <p class="card-text text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce blandit bibendum sem, quis vulputate odio.</p>
-            </div>
-            <div class="card-footer text-center bg-white border-0">
-              <a href="woman.html" class="btn custom-btn fs-5">More</a>
-            </div>
-          </div>
-        </div><!-- End Column -->
+        </div>
       </div>
     </div>
   </section>
+  
+  <!-- End About Me Section -->
+  <div class="sun-divider">
+    <span class="sun"></span>
+  </div>
+
+  <!-- Coaching Services Section -->
+  <section class="py-5 bg-light" id="services">
+    <div class="container">
+      <h2 class="mb-5 text-center">Coaching Services</h2>
+      <div class="card-group">
+        <div class="card text-center">
+          <img class="card-img-top w-50 mx-auto" src="img/lifestylecoaching_icon.png" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title text-uppercase mb-4">Lifestyle Coaching</h5>
+            <p class="card-text text-muted">
+              Laat mij je begeleiden bij het stellen van doelen en het creëren van gewoontes; voor een meer gebalanceerd en vervuld leven.
+            </p>
+          </div>
+          <div class="card-footer bg-white border-0">
+            <a href="lifestyle-coaching.html" class="btn custom-btn fs-5">More</a>
+          </div>
+        </div><!-- End Card -->
+  
+        <div class="card text-center">
+          <img class="card-img-top w-50 mx-auto" src="img/personaltraining_icon.png" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title text-uppercase mb-4">Personal Training</h5>
+            <p class="card-text text-muted">
+              Versterk je lichaam en gezondheid met deskundige, persoonlijke begeleiding.
+            </p>
+          </div>
+          <div class="card-footer bg-white border-0">
+            <a href="personal-training.html" class="btn custom-btn fs-5">More</a>
+          </div>
+        </div><!-- End Card -->
+  
+        <div class="card text-center">
+          <img class="card-img-top w-50 mx-auto" src="img/woman.png" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title text-uppercase mb-4">For Her</h5>
+            <p class="card-text text-muted">
+              Herontdek je innerlijke kracht en balans, en wees niet bang om ruimte in te nemen met coaching speciaal voor vrouwen.
+            </p>
+          </div>
+          <div class="card-footer bg-white border-0">
+            <a href="woman.html" class="btn custom-btn fs-5">More</a>
+          </div>
+        </div><!-- End Card -->
+      </div><!-- End Card Group -->
+    </div>
+  </section>  
   <!-- End Coaching Services Section -->
 
-<div class="sun-divider">
-  <span class="sun"></span>
-</div>
+  <div class="sun-divider">
+    <span class="sun"></span>
+  </div>
 
   <!-- Reviews Section -->
   <section class="py-5" id="reviews">
     <div class="container">
-      <h2 class="mb-5">Reviews</h2>
+      <h2 class="mb-5 text-center">Reviews</h2>
       <!-- data-bs-interval to set the time between slides -->
-      <div id="reviewsCarousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="6000">
+      <div id="reviewsCarousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="10000">
         <div class="carousel-inner">
           <div class="carousel-item active">
             <blockquote class="blockquote text-center">
-              <p class="fst-italic">"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in massa a tellus posuere pulvinar."</p>
-              <footer class="blockquote-footer">Client 1</footer>
+              <p class="fst-italic">
+                "Feli coacht je en ziet je echt als een uniek persoon. Ze luistert,
+                is geïnteresseerd en legt duidelijk uit wat je het beste kunt doen.
+                Ze is enthousiast met iedereen en altijd behulpzaam. Feli is een echt mensenmens en geeft je de kracht om ervoor te gaan"
+              </p>
+              <footer class="blockquote-footer">Anja Peterse</footer>
             </blockquote>
           </div>
           <div class="carousel-item">
             <blockquote class="blockquote text-center">
-              <p class="fst-italic">"Fusce et lorem sit amet arcu pretium efficitur. Etiam sit amet odio eu ex luctus condimentum."</p>
-              <footer class="blockquote-footer">Client 2</footer>
+              <p class="fst-italic">
+                "Ik ben ontzettend blij dat ik met Feli werk als mijn coach. Vanaf het begin voelde ik me welkom en gemotiveerd.
+                Feli begrijpt mijn doelen en stelt persoonlijke schema's op die me uitdagen. Ze demonstreert de oefeningen goed,
+                kijkt mee en zorgt ervoor dat ik alles correct uitvoer. Haar betrokkenheid en positieve energie helpen me om meer te bereiken dan ik dacht.
+                Ik kan Feli absoluut aanbevelen aan iedereen die op zoek is naar een inspirerende, professionele coach!"
+              </p>
+              <footer class="blockquote-footer">Norbert Essink</footer>
             </blockquote>
           </div>
           <div class="carousel-item">
@@ -194,13 +225,13 @@
     </div>
   </section>
   <!-- End Reviews Section -->
-<div class="sun-divider">
-  <span class="sun"></span>
-</div>
+  <div class="sun-divider">
+    <span class="sun"></span>
+  </div>
   <!-- Contact Section -->
   <section class="py-5 bg-light" id="contact">
-    <div class="container">
-      <h2 class="mb-5">Contact</h2>
+    <div class="container text-center">
+      <h2 class="mb-5 visually-hidden">Contact</h2>
         <h4>Contact me for more information</h4>
         <p>
           <a href="tel:+31611220741">
@@ -225,7 +256,7 @@
         <!-- Logo column -->
         <div class="col-lg-4 mb-3">
           <a href="index.html" class="text-decoration-none">
-            <img src="../img/only_drawing_logo.png" alt="JoyFeli" class="footer-logo">
+            <img src="img/only_drawing_logo.png" alt="JoyFeli" class="footer-logo">
           </a>
         </div>
         <!-- Sitemap column -->
@@ -235,8 +266,7 @@
             <li class="mb-2"><a href="about.html" class="footer-link">About</a></li>
             <li class="mb-2"><a href="lifestyle-coaching.html" class="footer-link">Lifestyle Coaching</a></li>
             <li class="mb-2"><a href="personal-training.html" class="footer-link">Personal Training</a></li>
-            <li class="mb-2"><a href="woman.html" class="footer-link">Woman</a></li>
-            <li class="mb-2"><a href="privacy.html" class="footer-link">Privacy</a></li>
+            <li class="mb-2"><a href="woman.html" class="footer-link">For Her</a></li>
             <li class="mb-2"><a href="#contact" class="footer-link">Contact</a></li>
           </ul>
         </div>
@@ -254,6 +284,9 @@
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="icon">
                     <path stroke-linecap="round" stroke-linejoin="round" d="M21.75 6.75v10.5a2.25 2.25 0 0 1-2.25 2.25h-15a2.25 2.25 0 0 1-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0 0 19.5 4.5h-15a2.25 2.25 0 0 0-2.25 2.25m19.5 0v.243a2.25 2.25 0 0 1-1.07 1.916l-7.5 4.615a2.25 2.25 0 0 1-2.36 0L3.32 8.91a2.25 2.25 0 0 1-1.07-1.916V6.75" />
                 </svg>Feli.Aarsman@gmail.com</a>
+            </li>
+            <li class="mb-2 mt-5">
+              <a href="terms.html" class="footer-link">Terms and Conditions</a>
             </li>
           </ul>
         </div>
