@@ -24,3 +24,26 @@ window.onscroll = () => {
         document.getElementById("scrollToTopBtn").style.display = "none";
     }
 };
+
+const textOverlays = document.querySelectorAll('.text-overlay');
+const backgroundImages = document.querySelectorAll('.bg-image');
+
+const options = {
+  root: null, // relative to the viewport
+  rootMargin: '0px',
+  threshold: 0.1 // trigger when 10% of the element is visible
+};
+
+const callback = (entries, observer) => {
+  entries.forEach(entry => {
+    if (entry.isIntersecting) {
+      entry.target.classList.add('active');
+    }
+  });
+};
+
+const observer = new IntersectionObserver(callback, options);
+
+[...textOverlays, ...backgroundImages].forEach(element => {
+  observer.observe(element);
+});
