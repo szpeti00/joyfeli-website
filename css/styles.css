@@ -1,31 +1,68 @@
+/* =========================================
+   :root - CSS Variables
+========================================= */
 :root {
+  /* Colors */
   --primary-color: #053742;
   --primary-light-color: #C3CDE6;
   --yellow-color: #fbf074;
   --green-color: #071c08;
   --gray-color: #403e3e;
 
+  /* Font Sizes */
+  --font-size-base: 20px;
+  --font-size-nav: 0.95rem;
+  --font-size-nav-lg: 1.6rem;
+
+  /* Spacing */
+  --spacing-sm: 1.5rem;
+  --spacing-md: 2rem;
+  --spacing-lg: 3.5rem;
+
+  /* Transition */
+  --transition-speed: 0.3s;
 }
 
+/* =========================================
+   Global Styles
+========================================= */
 html {
   scroll-padding-top: 3.85rem;
 }
 
 body {
-  font-size: 20px;
+  font-size: var(--font-size-base);
   font-family: 'Montserrat', sans-serif;
+  color: var(--gray-color);
 }
 
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* =========================================
+   Navbar Styles
+========================================= */
 .navbar-nav .nav-link {
   margin: 0 1.1rem;
   color: var(--gray-color);
-  font-size: .95rem;
+  font-size: var(--font-size-nav);
   text-decoration: none;
 }
 
 .navbar-nav .nav-link:hover {
   color: var(--primary-color);
-  text-shadow: 0 1px 3px rgba(0,0,0,0.1);
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
 }
 
 .navbar-logo {
@@ -33,14 +70,16 @@ body {
   width: auto;
 }
 
-.custom-toggler, .custom-toggler:focus, .custom-toggler:active {
+.custom-toggler,
+.custom-toggler:focus,
+.custom-toggler:active {
   border: none;
   outline: none;
   box-shadow: none;
 }
 
-.custom-toggler .navbar-toggler-icon { 
-  background-image: url("data:image/svg+xml;charset=utf8, %3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgb(5, 55, 66)' stroke-width='3' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+.custom-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgb(5, 55, 66)' stroke-width='3' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
   font-size: 27px;
 }
 
@@ -53,43 +92,49 @@ body {
   padding: 1.6rem;
 }
 
+/* =========================================
+   Background Image Styles
+========================================= */
 .bg-image {
   background-image: url('../img/Feli_mountain.jpg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  background-blend-mode: multiply;
   position: relative;
   height: 60vh;
   min-height: 600px;
-  background-blend-mode: multiply;
 }
 
-/* The text overlay with semi-transparent white background */
+/* =========================================
+   Text Overlay Styles
+========================================= */
 .text-overlay {
   position: absolute;
   top: 10%;
-  height: 80%;
   right: 0;
-  transform: translateY(-50%);
-  padding: 1.5rem;
+  height: 80%;
   max-width: 60%;
+  padding: var(--spacing-sm);
+  transform: translateY(-50%);
 }
 
-/* Animations */
-.animate-slide-in-left, .animate-slide-in-right {
+/* =========================================
+   Animations
+========================================= */
+.animate-slide-in {
   opacity: 0;
+  transition: transform 2s ease, opacity 2s ease;
 }
 
-/* Slide in from left */
 .animate-slide-in-left {
   transform: translateX(-100%);
   animation: slideInLeft 2s ease forwards;
 }
 
-/* Slide in from right with a delay for a staggered effect */
 .animate-slide-in-right {
   transform: translateX(100%);
-  animation: slideInRight 2s ease forwards .2s;
+  animation: slideInRight 2s ease forwards 0.2s;
 }
 
 @keyframes slideInLeft {
@@ -106,9 +151,39 @@ body {
   }
 }
 
-/* Responsive adjustments */
+/* =========================================
+   Responsive Styles
+========================================= */
 @media (max-width: 1199px) {
-  /* Disable animations */
+  html {
+    scroll-padding-top: 3.5rem;
+  }
+
+  body {
+    font-size: 18px; /* Adjust if needed */
+  }
+
+  .navbar-nav .nav-link {
+    font-size: var(--font-size-nav-lg);
+    font-weight: 700;
+    padding: 1.6rem 0;
+  }
+
+  .navbar-logo {
+    height: 50px;
+  }
+
+  #offcanvasNavbar .nav-link {
+    font-size: var(--font-size-nav-lg);
+    font-weight: 700;
+    padding: 1.6rem 0;
+  }
+
+  .footer-logo {
+    height: 70px;
+  }
+
+  /* Disable animations on smaller screens */
   .animate-slide-in-left,
   .animate-slide-in-right {
     animation: none;
@@ -122,7 +197,6 @@ body {
     min-height: 400px;
   }
 
-  /* Make the text overlay full width and position it below the image */
   .text-overlay {
     position: static;
     transform: none;
@@ -131,68 +205,24 @@ body {
   }
 }
 
-.footer-logo {
-  height: 150px;
-  width: auto;
-}
-
-.footer-link  {
-  text-decoration: none;
-  color: #ffffffb7;
-}
-
-.footer-link:hover {
-  color: #ffffffd2;
-}
-
-#copyright {
-  color: #ffffffb7;
-}
-
-@media (max-width: 1199px) {
-  html {
-    scroll-padding-top: 3.5rem;
-  }
-
-  /* #offcanvasNavbar {
-    background: 
-        rgba(255, 255, 255, 0.9), 
-        url('../img/offcanvas_background.jpg') no-repeat center center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-  } */
-
-  #offcanvasNavbar .nav-link {
-    font-size: 1.6rem; 
-    font-weight: 700;
-    padding: 1.6rem 0;
-  }
-
-  .navbar-logo {
-    height: 50px;
-    width: auto;
-  }
-
-  .footer-logo {
-    height: 70px;
-    width: auto;
-  }
-}
-
+/* =========================================
+   Hero Section
+========================================= */
 .hero-section {
   position: relative;
-  color:#fff;
-  padding: 0 0 2rem 0;  
+  color: #fff;
+  padding-bottom: var(--spacing-md);
 }
 
-/*  Section divider */
+/* =========================================
+   Section Divider
+========================================= */
 .sun-divider {
   display: flex;
   align-items: center;
   justify-content: center;
   margin: 3em 0;
-  position: relative; 
+  position: relative;
 }
 
 .sun-divider::before,
@@ -200,7 +230,6 @@ body {
   content: "";
   flex: 1;
   height: 2px;
-  /* Creates a gradient that starts solid near the sun and fades out */
   background: linear-gradient(to left, var(--gray-color) 0%, transparent 75%);
 }
 
@@ -212,83 +241,123 @@ body {
   width: 20px;
   height: 20px;
   border-radius: 50%;
-  background: radial-gradient(circle at center, var(--yellow-color) 40%, var(--yellow-color));
-  margin: 0 .6em;
+  background: radial-gradient(circle, var(--yellow-color) 40%, var(--yellow-color));
+  margin: 0 0.6em;
   box-shadow: 0 0 15px var(--yellow-color);
 }
 
-/* Custom button */
-.custom-btn, .custom-btn:hover {
+/* =========================================
+   Button Styles
+========================================= */
+.custom-btn,
+.custom-btn:hover {
   background-color: var(--primary-color);
   color: #fff;
   border-radius: 20px;
   padding: 10px 20px;
+  transition: filter var(--transition-speed), transform var(--transition-speed);
 }
 
 .custom-btn:hover {
   filter: brightness(1.3);
+  transform: scale(1.05);
 }
 
+/* =========================================
+   Footer Styles
+========================================= */
 .page-footer {
   background-color: var(--green-color);
 }
 
+.footer-link {
+  color: #ffffffb7;
+  text-decoration: none;
+}
+
+.footer-link:hover {
+  color: #ffffffd2;
+}
+
+#copyright {
+  color: #ffffffb7;
+}
+
+.footer-logo {
+  height: 150px;
+  width: auto;
+}
+
+/* =========================================
+   Card Styles
+========================================= */
 .card {
-  /* border: none; */
-  border-radius: 0; 
-  box-shadow: none; 
-  transition: transform 0.3s ease, box-shadow 0.3s ease; 
+  border: none;
+  border-radius: 0;
+  box-shadow: none;
+  transition: transform var(--transition-speed), box-shadow var(--transition-speed);
 }
 
 .card:hover {
-  transform: translateY(-5px); 
-  box-shadow: 0 6px 12px rgba(0,0,0,0.1); 
+  transform: translateY(-5px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
 }
 
 .card .card-title {
-  font-weight: 700; 
-  color: var(--primary-color); 
+  font-weight: 700;
+  color: var(--primary-color);
 }
 
 .card .card-text {
   line-height: 1.8;
 }
 
-/* Review section - set the color of the arrows*/
+/* =========================================
+   Carousel Styles
+========================================= */
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-size: 100%, 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
 .carousel-control-prev-icon {
-  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='053742' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23053742' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
 }
 
 .carousel-control-next-icon {
-  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='053742' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23053742' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
 }
 
 .carousel-item > h5::after {
-  display: block;
   content: "";
+  display: block;
   border-bottom: 2px solid var(--primary-color);
   width: 100px;
-  margin: 10px auto 10px auto;
+  margin: 10px auto;
 }
 
-a[href^="tel:"], a[href^="mailto:"] {
-  text-decoration: none;
-}
-
-a[href^="tel:"]:hover, a[href^="mailto:"]:hover {
-  text-decoration: underline;
-}
-
-#contact a[href^="tel:"], #contact a[href^="mailto:"] {
+/* =========================================
+   Contact Links
+========================================= */
+#contact a[href^="tel:"],
+#contact a[href^="mailto:"] {
   color: var(--primary-color);
 }
 
+/* =========================================
+   Icon Styles
+========================================= */
 .icon {
-  margin-right: 10px; 
+  margin-right: 10px;
   width: 24px;
-  height: 24px; 
+  height: 24px;
 }
 
+/* =========================================
+   Scroll To Top Button
+========================================= */
 #scrollToTopBtn {
   position: fixed;
   bottom: 2rem;
@@ -299,9 +368,12 @@ a[href^="tel:"]:hover, a[href^="mailto:"]:hover {
   border-radius: 50%;
   border: none;
   color: var(--primary-color);
+  background: transparent;
+  cursor: pointer;
+  transition: background-color var(--transition-speed), transform var(--transition-speed);
 }
 
 #scrollToTopBtn:hover {
-  background-color: var(--primary-light-color); 
-  transform: scale(1.1); /* Slightly larger on hover */
+  background-color: var(--primary-light-color);
+  transform: scale(1.1);
 }
