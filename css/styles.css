@@ -46,7 +46,6 @@ body {
 
 #offcanvasNavbar {
   width: 100vw;
-  background-color: var(--primary-light-color);
 }
 
 .offcanvas-header .btn-close {
@@ -155,6 +154,15 @@ body {
     scroll-padding-top: 3.5rem;
   }
 
+  /* #offcanvasNavbar {
+    background: 
+        rgba(255, 255, 255, 0.9), 
+        url('../img/offcanvas_background.jpg') no-repeat center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  } */
+
   #offcanvasNavbar .nav-link {
     font-size: 1.6rem; 
     font-weight: 700;
@@ -255,12 +263,12 @@ body {
   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='053742' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
 }
 
-.carousel-control-prev {
-  left: -10%;
-}
- .carousel-control-next {
-  right: -10%;
-
+.carousel-item > h5::after {
+  display: block;
+  content: "";
+  border-bottom: 2px solid var(--primary-color);
+  width: 100px;
+  margin: 10px auto 10px auto;
 }
 
 a[href^="tel:"], a[href^="mailto:"] {
