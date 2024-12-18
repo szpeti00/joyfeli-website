@@ -25,25 +25,21 @@ window.onscroll = () => {
     }
 };
 
-const textOverlays = document.querySelectorAll('.text-overlay');
-const backgroundImages = document.querySelectorAll('.bg-image');
 
-const options = {
-  root: null, // relative to the viewport
-  rootMargin: '0px',
-  threshold: 0.1 // trigger when 10% of the element is visible
-};
+// Intersection Observer fot the animation in the about me section
+const textOverlay = document.querySelector('.text-overlay');
+const bgImage = document.querySelector('.bg-image');
 
 const callback = (entries, observer) => {
   entries.forEach(entry => {
     if (entry.isIntersecting) {
       entry.target.classList.add('active');
+      observer.unobserve(entry.target);
     }
   });
 };
 
-const observer = new IntersectionObserver(callback, options);
+const observer = new IntersectionObserver(callback, {threshold: 0.4});
 
-[...textOverlays, ...backgroundImages].forEach(element => {
-  observer.observe(element);
-});
+observer.observe(textOverlay);
+observer.observe(bgImage);

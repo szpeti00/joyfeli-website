@@ -18,6 +18,7 @@
   --spacing-sm: 1.5rem;
   --spacing-md: 2rem;
   --spacing-lg: 3.5rem;
+  --spacing-xl: 5rem;
 
   /* Transition */
   --transition-speed: 0.3s;
@@ -94,7 +95,7 @@ img {
 }
 
 /* =========================================
-   Background Image Styles
+   About Me Section Styles
 ========================================= */
 .bg-image {
   background-image: url('../img/Feli_mountain.jpg');
@@ -105,59 +106,46 @@ img {
   position: relative;
   height: 60vh;
   min-height: 600px;
-  opacity: 0;
-  transform: translateX();
 }
 
-/* =========================================
-   Text Overlay Styles
-========================================= */
 .text-overlay {
   position: absolute;
   top: 10%;
   right: 0;
   height: 80%;
   max-width: 60%;
+  border-radius: 20px 0 0 20px;
   padding: var(--spacing-sm);
-  opacity: 0;
-  transition: all 1s ease-out;
 }
 
+
 /* =========================================
-   Animations
+   Animations for the About Me Section
 ========================================= */
 /* Active state when in viewport */
+.bg-image.active,
 .text-overlay.active {
   opacity: 1; 
 }
 
-.bg-image.active {
-  opacity: 1;
-}
-
-/* Slide-in from Left */
 .animate-slide-in-left {
-  transform: translateX(-100%); /* Start shifted to the left */
+  transform: translateX(-200px); 
   opacity: 0;
 }
 
-.animate-slide-in-left.active {
-  transform: translateX(0);
-  opacity: 1;
-  transition: transform 2s ease-out, opacity 1.5s ease-out;
-}
-
-/* Slide-in from Right */
 .animate-slide-in-right {
-  transform: translateX(100%); /* Start shifted to the right */
+  transform: translateX(200px); 
   opacity: 0;
 }
 
+.animate-slide-in-left.active,
 .animate-slide-in-right.active {
   transform: translateX(0);
   opacity: 1;
-  transition: transform 2s ease-out, opacity 1.5s ease-out;
+  transition: transform 3s ease-out, opacity 3s ease-out;
 }
+
+
 
 /* =========================================
    Responsive Styles
@@ -185,6 +173,11 @@ img {
     font-size: var(--font-size-nav-lg);
     font-weight: 700;
     padding: 1.6rem 0;
+  }
+
+  .hero-section {
+    background-image: url('../img/Feli_predel_cut.JPG') !important;
+    padding-top: var(--spacing-xl) !important;
   }
 
   .footer-logo {
@@ -221,13 +214,12 @@ img {
 .hero-section {
   position: relative;
   color: #fff;
-  padding-bottom: var(--spacing-md);
 }
 
 /* =========================================
    Section Divider
 ========================================= */
-.sun-divider {
+.logo-divider {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -235,25 +227,30 @@ img {
   position: relative;
 }
 
-.sun-divider::before,
-.sun-divider::after {
+.logo-divider::before,
+.logo-divider::after {
   content: "";
   flex: 1;
   height: 2px;
+}
+
+.logo-divider::before {
   background: linear-gradient(to left, var(--gray-color) 0%, transparent 75%);
 }
 
-.sun-divider::after {
+.logo-divider::after {
   background: linear-gradient(to right, var(--gray-color) 0%, transparent 75%);
 }
 
-.sun {
+.logo-divider span {
   width: 20px;
   height: 20px;
-  border-radius: 50%;
-  background: radial-gradient(circle, var(--yellow-color) 40%, var(--yellow-color));
-  margin: 0 0.6em;
-  box-shadow: 0 0 15px var(--yellow-color);
+  background-image: url('../img/only_drawing_logo.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: 0 .5rem;
+  box-shadow: 0 0 20px var(--yellow-color);
 }
 
 /* =========================================
@@ -304,7 +301,7 @@ img {
 ========================================= */
 .card {
   border: none;
-  border-radius: 0;
+  border-radius: 20px;
   box-shadow: none;
   transition: transform var(--transition-speed), box-shadow var(--transition-speed);
 }
