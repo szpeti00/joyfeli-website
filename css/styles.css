@@ -129,12 +129,12 @@ img {
 }
 
 .animate-slide-in-left {
-  transform: translateX(-200px); 
+  transform: translateX(-7rem); 
   opacity: 0;
 }
 
 .animate-slide-in-right {
-  transform: translateX(200px); 
+  transform: translateX(7rem); 
   opacity: 0;
 }
 
@@ -144,7 +144,6 @@ img {
   opacity: 1;
   transition: transform 3s ease-out, opacity 3s ease-out;
 }
-
 
 
 /* =========================================
@@ -219,7 +218,7 @@ img {
 /* =========================================
    Section Divider
 ========================================= */
-.logo-divider {
+.sun-divider {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -227,30 +226,25 @@ img {
   position: relative;
 }
 
-.logo-divider::before,
-.logo-divider::after {
+.sun-divider::before,
+.sun-divider::after {
   content: "";
   flex: 1;
   height: 2px;
-}
-
-.logo-divider::before {
   background: linear-gradient(to left, var(--gray-color) 0%, transparent 75%);
 }
 
-.logo-divider::after {
+.sun-divider::after {
   background: linear-gradient(to right, var(--gray-color) 0%, transparent 75%);
 }
 
-.logo-divider span {
+.sun {
   width: 20px;
   height: 20px;
-  background-image: url('../img/only_drawing_logo.png');
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
-  margin: 0 .5rem;
-  box-shadow: 0 0 20px var(--yellow-color);
+  border-radius: 50%;
+  background: radial-gradient(circle, var(--yellow-color) 40%, var(--yellow-color));
+  margin: 0 0.6em;
+  box-shadow: 0 0 15px var(--yellow-color);
 }
 
 /* =========================================
