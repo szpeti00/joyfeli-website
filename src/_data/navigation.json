@@ -1,0 +1,17 @@
+{
+    "nl": [
+      { "name": "Leefstijlcoaching", "url": "/leefstijlcoaching/" },
+      { "name": "Personal Training", "url": "/personal-training/" },
+      { "name": "Voor Haar", "url": "/voor-haar/" },
+      { "name": "Over Mij", "url": "/over-mij/" },
+      { "name": "Contact", "url": "/contact/" }
+    ],
+    "en": [
+      { "name": "Lifestyle Coaching", "url": "/en/lifestyle-coaching/" },
+      { "name": "Personal Training", "url": "/en/personal-training/" },
+      { "name": "For Her", "url": "/en/for-her/" },
+      { "name": "About Me", "url": "/en/about-me/" },
+      { "name": "Contact", "url": "/en/contact/" }
+    ]
+  }
+  

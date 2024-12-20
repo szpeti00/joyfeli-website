@@ -1,0 +1,5 @@
+{% for item in navigation[locale] %}
+    <li class="mb-2">
+        <a href="{{ item.url }}" class="footer-link">{{ item.name }}</a>
+    </li>
+{% endfor %}

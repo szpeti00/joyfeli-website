@@ -1,0 +1,22 @@
+{
+    "nl": {
+      "home": { "name": "Startpagina", "url": "/" },
+      "about": { "name": "Over Mij", "url": "/over-mij/" },
+      "lifestyleCoaching": { "name": "Leefstijlcoaching", "url": "/leefstijlcoaching/" },
+      "personalTraining": { "name": "Personal Training", "url": "/personal-training/" },
+      "forHer": { "name": "Voor Haar", "url": "/voor-haar/" },
+      "contact": { "name": "Contact", "url": "/contact/" },
+      "terms": {"name": "Algemene Voorwaarden", "url": "/algemene-voorwaarden/"}
+    },
+    
+    "en": {
+      "home": { "name": "Home", "url": "/en/" },
+      "about": { "name": "About Me", "url": "/en/about-me/" },
+      "lifestyleCoaching": { "name": "Lifestyle Coaching", "url": "/en/lifestyle-coaching/" },
+      "personalTraining": { "name": "Personal Training", "url": "/en/personal-training/" },
+      "forHer": { "name": "For Her", "url": "/en/for-her/" },
+      "contact": { "name": "Contact", "url": "/en/contact/" },
+      "terms": {"name": "Terms and Conditions", "url": "/en/terms-and-conditions/"}
+    }
+  }
+  

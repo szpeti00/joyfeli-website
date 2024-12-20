@@ -1,0 +1,31 @@
+{
+    "lifestyle-coaching": {
+      "en": "/en/lifestyle-coaching/",
+      "nl": "/leefstijlcoaching/"
+    },
+    "personal-training": {
+      "en": "/en/personal-training/",
+      "nl": "/personal-training/"
+    },
+    "for-her": {
+      "en": "/en/for-her/",
+      "nl": "/voor-haar/"
+    },
+    "about-me": {
+      "en": "/en/about-me/",
+      "nl": "/over-mij/"
+    },
+    "contact": {
+      "en": "/en/contact/",
+      "nl": "/contact/"
+    },
+    "home": {
+      "en": "/en/",
+      "nl": "/"
+    },
+    "terms": {
+      "en": "/en/terms-and-conditions/",
+      "nl": "/algemene-voorwaarden/"
+    }
+  }
+  

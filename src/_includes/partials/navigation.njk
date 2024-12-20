@@ -1,0 +1,35 @@
+<div class="offcanvas-body text-center text-uppercase">
+  <ul class="navbar-nav justify-content-end flex-grow-1">
+    {% for item in navigation[locale] %}
+      <li class="nav-item{% if page.url == item.url %} active{% endif %}">
+        <a class="nav-link" href="{{ item.url }}">{{ item.name }}</a>
+      </li>
+    {% endfor %}
+    {% if pageKey %}
+      {% if locale == "nl" %}
+        <!-- We are on a Dutch page, switch to English -->
+        <li class="nav-item">
+          <a class="nav-link" href={{ translations[pageKey].en }}>EN</a>
+        </li>
+      {% else %}
+        <!-- We are on an English page, switch to Dutch -->
+        <li class="nav-item">
+          <a class="nav-link" href={{ translations[pageKey].nl }}>NL</a>
+        </li>
+      {% endif %}
+    <!-- Fallback if we don't have a pageKey -->
+    {% else %}
+      {% if locale == "nl" %}
+        <!-- We are on a Dutch page, switch to English -->
+        <li class="nav-item">
+          <a class="nav-link" href="/en">EN</a>
+        </li>
+      {% else %}
+        <!-- We are on an English page, switch to Dutch -->
+        <li class="nav-item">
+          <a class="nav-link" href="/">NL</a>
+        </li>
+      {% endif %}
+    {% endif %}
+  </ul>
+</div>
