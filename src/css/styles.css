@@ -8,6 +8,9 @@
   --yellow-color: #fbf074;
   --green-color: #071c08;
   --gray-color: #403e3e;
+  --light-gray-color: #9e9b9b;
+  --white-color: #ffffffd4;
+  --gray-white-color: #ffffffb4;
 
   /* Font Sizes */
   --font-size-base: 20px;
@@ -20,6 +23,8 @@
   --spacing-md: 2rem;
   --spacing-lg: 3.5rem;
   --spacing-xl: 5rem;
+  /* --navbar-height: 86px;
+  --navbar-height-sm: 76px; */
 
   /* Transition */
   --transition-speed: 0.3s;
@@ -41,15 +46,28 @@ body {
 a {
   text-decoration: none;
   color: inherit;
+  background-image: linear-gradient(var(--primary-color), var(--primary-color));
+  background-repeat: no-repeat;
+  background-size: 0% .1rem;
+  background-position: 0 100%;
+  transition: background-size var(--transition-speed) ease-in-out;
 }
 
 a:hover {
-  text-decoration: underline;
+  background-size: 100% .1rem;
 }
 
 img {
   max-width: 100%;
   height: auto;
+}
+
+h2 {
+  color: var(--primary-color);
+}
+
+.custom-color {
+  color: var(--primary-color);
 }
 
 /* =========================================
@@ -178,9 +196,8 @@ img {
     padding: 1.6rem 0;
   }
 
-  .hero-section {
+  .hero-home {
     background-image: url('/img/Feli_predel_cut.JPG') !important;
-    padding-top: var(--spacing-xl) !important;
   }
 
   .footer-logo {
@@ -219,11 +236,16 @@ img {
 }
 
 /* =========================================
-   Hero Section
+   Hero Sections
 ========================================= */
-.hero-section {
+.hero-home {
   position: relative;
   color: #fff;
+}
+
+.hero-pages {
+  height: 40vh;
+  min-height: 300px;
 }
 
 /* =========================================
@@ -280,21 +302,25 @@ img {
    Footer Styles
 ========================================= */
 .page-footer {
-  background-color: var(--gray-color);
+  background-color: var(--green-color);
 }
 
 .footer-link,
-.footer-info{
-  color: #ffffffb7;
+.footer-info {
+  color: var(--white-color);
   text-decoration: none;
 }
 
-.footer-link:hover {
-  color: #ffffffd2;
+.footer-link a {
+  background-image: linear-gradient(var(--gray-white-color), var(--gray-white-color));
+}
+
+.footer-link a:hover {
+  color: var(--gray-white-color)
 }
 
 #copyright {
-  color: #ffffffb7;
+  color: var(--white-color);
 }
 
 .footer-logo {
@@ -355,8 +381,8 @@ img {
 /* =========================================
    Contact Links
 ========================================= */
-#contact a[href^="tel:"],
-#contact a[href^="mailto:"] {
+#contact a[href^="tel:"]:hover,
+#contact a[href^="mailto:"]:hover {
   color: var(--primary-color);
 }
 
@@ -370,11 +396,22 @@ img {
 }
 
 /* =========================================
-   Terms and Conditions Styles
+   Tabs stlyes
 ========================================= */
 
-.mt-custom {
-  margin-top: var(--spacing-xl);
+.custom-tabs .nav-tabs .nav-link {
+  border: none;
+  border-bottom: 2px solid var(--light-gray-color); 
+  font-size: var(--font-size-nav-lg);
+  color: var(--gray-color);
+}
+
+.custom-tabs .nav-tabs .nav-link.active {
+  border-bottom: 2px solid var(--gray-color); /* Thicker active line */
+}
+
+.custom-tabs .tab-content {
+  padding-top: 1rem;
 }
 
 /* =========================================

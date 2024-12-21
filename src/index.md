@@ -3,10 +3,11 @@ layout: layouts/base.njk
 title: "JoyFeli - Leefstijlcoaching & Personal Training"
 locale: "nl"
 pageKey: "home"
+navbarClass: "fixed-top"
 ---
 
 <!-- Home Section  -->
-  <header class="vh-100 d-flex align-items-center justify-content-center text-center hero-section pt-5" style="background: url('/img/Feli_predel.JPG') no-repeat center center/cover;">
+  <header class="vh-100 d-flex align-items-center justify-content-center text-center hero-home pt-5" style="background: url('/img/Feli_predel.JPG') no-repeat center center/cover;">
     <div class="container">
       <blockquote class="blockquote">
         <p class="fs-2 fst-italic">"You cannot step into the same river twice,<br> for other waters are ever flowing on to you."</p>
@@ -53,30 +54,30 @@ pageKey: "home"
       <div class="row">
         <!-- Lifestyle Coaching Card -->
         <div class="col-lg-4 mb-4">
-          <div class="card text-center h-100">
+          <div class="card h-100">
             <img class="card-img-top w-50 mx-auto mt-4" src="/img/lifestylecoaching_icon.png" alt="Lifestyle Coaching Icon">
             <div class="card-body">
-              <h5 class="card-title text-uppercase mb-4">Leefstijlcoaching</h5>
-              <p class="card-text text-muted">
+              <h5 class="card-title text-uppercase text-center mb-4">Leefstijlcoaching</h5>
+              <p class="card-text custom-color">
                 <strong>De kracht van gedrag.</strong> Creëer gezonde gewoontes en ontdek de kracht van je gedrag en innerlijke motivatie, zodat je een duurzaam, gebalanceerd leven kunt leiden.
               </p>
             </div>
-            <div class="card-footer bg-white border-0">
+            <div class="card-footer text-center bg-white border-0">
               <a href={{ links[locale].lifestyleCoaching.url }} class="btn custom-btn fs-5">More</a>
             </div>
           </div>
         </div>
         <!-- Personal Training Card -->
         <div class="col-lg-4 mb-4">
-          <div class="card text-center h-100">
+          <div class="card h-100">
             <img class="card-img-top w-50 mx-auto mt-4" src="/img/personaltraining_icon.png" alt="Personal Training Icon">
             <div class="card-body">
-              <h5 class="card-title text-uppercase mb-4">Personal Training</h5>
+              <h5 class="card-title text-uppercase text-center mb-4">Personal Training</h5>
               <p class="card-text text-muted">
                 <strong>Gezond lichaam, sterke geest.</strong> Versterk zowel je fysieke gezondheid als je mentale welzijn met deskundige, persoonlijke begeleiding.
               </p>
             </div>
-            <div class="card-footer bg-white border-0">
+            <div class="card-footer text-center bg-white border-0">
               <a href="{{ links[locale].personalTraining.url }}" class="btn custom-btn fs-5">More</a>
             </div>
           </div>
@@ -86,7 +87,7 @@ pageKey: "home"
           <div class="card h-100">
             <img class="card-img-top w-50 mx-auto mt-4" src="/img/forher_icon.png" alt="For Her Icon">
             <div class="card-body">
-              <h5 class="card-title text-uppercase text-center mb-4">For Haar</h5>
+              <h5 class="card-title text-uppercase text-center mb-4">Voor Haar</h5>
               <p class="card-text text-muted">
                 <strong>Veilig, sterk en vrouwelijk.</strong> Herontdek je innerlijke kracht en balans in een veilige setting, speciaal voor vrouwen die zich willen verbinden met hun kracht en zelfvertrouwen.
               </p>
@@ -166,16 +167,16 @@ pageKey: "home"
 				<div>
 					<h4>Neem contact met mij op</h4>
 					<p>
-						<a href="tel:{{ settings.phone }}}">
-							<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="icon">
-									<path stroke-linecap="round" stroke-linejoin="round" d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 0 0 2.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 0 1-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 0 0-1.091-.852H4.5A2.25 2.25 0 0 0 2.25 4.5v2.25Z" />
-							</svg>{{ settings.phone_text }}</a> 
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="icon">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 0 0 2.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 0 1-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 0 0-1.091-.852H4.5A2.25 2.25 0 0 0 2.25 4.5v2.25Z" />
+            </svg>
+            <a href="tel:{{ settings.phone }}">{{ settings.phoneText }}</a> 
 					</p>
 					<p>
-						<a href="mailto:{{ settings.email }}">
-							<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="icon">
-									<path stroke-linecap="round" stroke-linejoin="round" d="M21.75 6.75v10.5a2.25 2.25 0 0 1-2.25 2.25h-15a2.25 2.25 0 0 1-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0 0 19.5 4.5h-15a2.25 2.25 0 0 0-2.25 2.25m19.5 0v.243a2.25 2.25 0 0 1-1.07 1.916l-7.5 4.615a2.25 2.25 0 0 1-2.36 0L3.32 8.91a2.25 2.25 0 0 1-1.07-1.916V6.75" />
-							</svg>{{ settings.email_text }}</a>
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="icon">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M21.75 6.75v10.5a2.25 2.25 0 0 1-2.25 2.25h-15a2.25 2.25 0 0 1-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0 0 19.5 4.5h-15a2.25 2.25 0 0 0-2.25 2.25m19.5 0v.243a2.25 2.25 0 0 1-1.07 1.916l-7.5 4.615a2.25 2.25 0 0 1-2.36 0L3.32 8.91a2.25 2.25 0 0 1-1.07-1.916V6.75" />
+            </svg>
+            <a href="mailto:{{ settings.email }}">{{ settings.emailText }}</a>
 					</p>
 				</div>
     </div>
