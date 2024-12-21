@@ -60,7 +60,7 @@ navbarClass: "fixed-top"
             <div class="card-body">
               <h5 class="card-title text-uppercase text-center mb-4">Lifestyle Coaching</h5>
               <p class="card-text text-muted">
-                <strong>The power of behavior.</strong> Create healthy habits and discover the power of your behavior and inner motivation, so you can lead a sustainable, balanced life.
+                <strong>The power of behavior.</strong><br>Create healthy habits and discover the power of your behavior and inner motivation, so you can lead a sustainable, balanced life.
               </p>
             </div>
             <div class="card-footer text-center bg-white border-0">
@@ -75,7 +75,7 @@ navbarClass: "fixed-top"
             <div class="card-body">
               <h5 class="card-title text-center text-uppercase mb-4">Personal Training</h5>
               <p class="card-text text-muted">
-                <strong>Healthy body, strong mind.</strong> Strengthen both your physical health and mental well-being with expert, personal guidance.
+                <strong>Healthy body, strong mind.</strong><br>Strengthen both your physical health and mental well-being with expert, personal guidance.
               </p>
             </div>
             <div class="card-footer text-center bg-white border-0">
@@ -90,7 +90,7 @@ navbarClass: "fixed-top"
             <div class="card-body">
               <h5 class="card-title text-center text-uppercase mb-4">For Her</h5>
               <p class="card-text text-muted">
-                <strong>Safe, strong, and feminine.</strong> Rediscover your inner strength and balance in a safe setting, specially for women who want to connect with their power and self-confidence.
+                <strong>Safe, strong, and feminine.</strong><br>Rediscover your inner strength and balance in a safe setting, specially for women who want to connect with their power and self-confidence.
               </p>
             </div>
             <div class="card-footer text-center bg-white border-0">

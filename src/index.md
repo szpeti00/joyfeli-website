@@ -59,7 +59,7 @@ navbarClass: "fixed-top"
             <div class="card-body">
               <h5 class="card-title text-uppercase text-center mb-4">Leefstijlcoaching</h5>
               <p class="card-text custom-color">
-                <strong>De kracht van gedrag.</strong> Creëer gezonde gewoontes en ontdek de kracht van je gedrag en innerlijke motivatie, zodat je een duurzaam, gebalanceerd leven kunt leiden.
+                <strong>De kracht van gedrag.</strong><br> Creëer gezonde gewoontes en ontdek de kracht van je gedrag en innerlijke motivatie, zodat je een duurzaam, gebalanceerd leven kunt leiden.
               </p>
             </div>
             <div class="card-footer text-center bg-white border-0">
@@ -74,7 +74,7 @@ navbarClass: "fixed-top"
             <div class="card-body">
               <h5 class="card-title text-uppercase text-center mb-4">Personal Training</h5>
               <p class="card-text text-muted">
-                <strong>Gezond lichaam, sterke geest.</strong> Versterk zowel je fysieke gezondheid als je mentale welzijn met deskundige, persoonlijke begeleiding.
+                <strong>Gezond lichaam, sterke geest.</strong><br> Versterk zowel je fysieke gezondheid als je mentale welzijn met deskundige, persoonlijke begeleiding.
               </p>
             </div>
             <div class="card-footer text-center bg-white border-0">
@@ -89,7 +89,7 @@ navbarClass: "fixed-top"
             <div class="card-body">
               <h5 class="card-title text-uppercase text-center mb-4">Voor Haar</h5>
               <p class="card-text text-muted">
-                <strong>Veilig, sterk en vrouwelijk.</strong> Herontdek je innerlijke kracht en balans in een veilige setting, speciaal voor vrouwen die zich willen verbinden met hun kracht en zelfvertrouwen.
+                <strong>Veilig, sterk en vrouwelijk.</strong><br> Herontdek je innerlijke kracht en balans in een veilige setting, speciaal voor vrouwen die zich willen verbinden met hun kracht en zelfvertrouwen.
               </p>
             </div>
             <div class="card-footer text-center bg-white border-0">
