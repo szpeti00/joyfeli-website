@@ -8,7 +8,7 @@
   --yellow-color: #fbf074;
   --green-color: #071c08;
   --gray-color: #403e3e;
-  --light-gray-color: #9e9b9b;
+  --light-gray-color: #e4e1e1;
   --white-color: #ffffffd4;
   --gray-white-color: #ffffffb4;
 
@@ -84,6 +84,11 @@ h6::after {
   color: var(--primary-color);
 }
 
+.custom-bg {
+  background-color: var(--light-gray-color);
+}
+
+
 /* =========================================
    Navbar Styles
 ========================================= */
@@ -97,6 +102,14 @@ h6::after {
 .navbar-nav .nav-link:hover {
   color: var(--primary-color);
   text-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.nav-item.active {
+  text-decoration: underline;
+}
+
+.navbar-brand:hover {
+  background-size: 0; /* reset animation for the logo */
 }
 
 .navbar-logo {
