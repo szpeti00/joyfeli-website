@@ -40,7 +40,7 @@ html {
 body {
   font-size: var(--font-size-base);
   font-family: 'Montserrat', sans-serif;
-  color: var(--gray-color);
+  color: var(--primary-color);
 }
 
 a {
@@ -330,7 +330,7 @@ h6::after {
 }
 
 .footer-link a:hover {
-  color: var(--gray-white-color)
+  color: var(--gray-white-color);
 }
 
 #copyright {
@@ -413,20 +413,33 @@ h6::after {
    Tabs stlyes
 ========================================= */
 
+.custom-tabs .nav-tabs {
+  position: relative;
+}
+
 .custom-tabs .nav-tabs .nav-link {
-  border: none;
-  border-bottom: 2px solid var(--light-gray-color); 
+  border: none !important;
   font-size: var(--font-size-nav-lg);
-  color: var(--gray-color);
+  color: var(--primary-color);
+  padding: 0 1.5rem 0 1.5rem;
+  position: relative;
+  z-index: 1;
+}
+
+.custom-tabs .tab-slider {
+  position: absolute;
+  border-bottom: var(--primary-color);
+  bottom: 0;
+  left: 0;
+  height: 2px;
+  background-color: var(--gray-color);
+  transition: transform 0.3s ease, width 0.3s ease;
 }
 
 .custom-tabs .nav-tabs .nav-link.active {
-  border-bottom: 2px solid var(--gray-color); /* Thicker active line */
+  color: var(--gray-color);
 }
 
-.custom-tabs .tab-content {
-  padding-top: 1rem;
-}
 
 /* =========================================
    Scroll To Top Button

@@ -11,6 +11,7 @@ document.addEventListener('DOMContentLoaded', () => {
       });
     });
   });
+// End
   
 
 // Scroll to top functionality
@@ -24,6 +25,7 @@ window.onscroll = () => {
         document.getElementById("scrollToTopBtn").style.display = "none";
     }
 };
+// End
 
 
 // Intersection Observer fot the animation in the about me section
@@ -39,7 +41,32 @@ const callback = (entries, observer) => {
   });
 };
 
-const observer = new IntersectionObserver(callback, {threshold: 0.4});
+if (textOverlay && bgImage) {
+  const observer = new IntersectionObserver(callback, {threshold: 0.4});
 
-observer.observe(textOverlay);
-observer.observe(bgImage);
+  observer.observe(textOverlay);
+  observer.observe(bgImage);
+}
+// End Intersection Observer
+
+
+// Sliding underline for nav tabs
+const tabs = document.querySelectorAll(".nav-tabs .nav-link");
+const slider = document.querySelector(".tab-slider");
+
+const updateSliderPosition = (activeTab) => {
+  const tabRect = activeTab.getBoundingClientRect();
+  const containerRect = activeTab.parentElement.getBoundingClientRect();
+
+  slider.style.left = `${tabRect.left - containerRect.left}px`;
+  slider.style.width = `${tabRect.width}px`;
+};
+
+tabs.forEach((tab) => {
+  tab.addEventListener("click", () => {
+    updateSliderPosition(tab);
+  });
+});
+
+
+

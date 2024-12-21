@@ -56,12 +56,12 @@ navbarClass: "fixed-top"
         <div class="col-lg-4 mb-4">
           <div class="card h-100">
             <img class="card-img-top w-50 mx-auto mt-4" src="/img/lifestylecoaching_icon.png" alt="Lifestyle Coaching Icon">
-            <div class="card-body">
+            <div class="card-body custom-color">
               <h5 class="card-title text-uppercase text-center mb-4">Leefstijlcoaching</h5>
-              <h6 class="mb-2 text-center custom-color">
+              <h6 class="mb-2 text-center">
                 De kracht van gedrag
               </h6>
-              <p class="card-text custom-color">
+              <p class="card-text">
                 Creëer gezonde gewoontes en ontdek de kracht van je gedrag en innerlijke motivatie, zodat je een duurzaam, gebalanceerd leven kunt leiden.
               </p>
             </div>
@@ -74,12 +74,12 @@ navbarClass: "fixed-top"
         <div class="col-lg-4 mb-4">
           <div class="card h-100">
             <img class="card-img-top w-50 mx-auto mt-4" src="/img/personaltraining_icon.png" alt="Personal Training Icon">
-            <div class="card-body">
+            <div class="card-body custom-color">
               <h5 class="card-title text-uppercase text-center mb-4">Personal Training</h5>
-              <h6 class="mb-2 text-muted text-center">
+              <h6 class="mb-2 text-center">
                 Gezond lichaam, sterke geest
               </h6>
-              <p class="card-text text-muted">
+              <p class="card-text">
                 Versterk zowel je fysieke gezondheid als je mentale welzijn met deskundige, persoonlijke begeleiding.
               </p>
             </div>
@@ -92,12 +92,12 @@ navbarClass: "fixed-top"
         <div class="col-lg-4 mb-4">
           <div class="card h-100">
             <img class="card-img-top w-50 mx-auto mt-4" src="/img/forher_icon.png" alt="For Her Icon">
-            <div class="card-body">
+            <div class="card-body custom-color">
               <h5 class="card-title text-uppercase text-center mb-4">Voor Haar</h5>
-              <h6 class="mb-2 text-muted text-center">
+              <h6 class="mb-2 text-center">
                 Veilig, sterk en vrouwelijk
               </h6>
-              <p class="card-text text-muted">
+              <p class="card-text">
                 Herontdek je innerlijke kracht en balans in een veilige setting, speciaal voor vrouwen die zich willen verbinden met hun kracht en zelfvertrouwen.
               </p>
             </div>
