@@ -16,11 +16,11 @@ navbarClass: "fixed-top"
     </div>
   </header>
   <!-- End Home Section -->
-  <div class="sun-divider">
+  <div class="sun-divider bg-light">
     <span class="sun"></span>
   </div>
   <!-- About Me Section -->
-  <section  id="about">
+  <section  id="about" class="bg-light">
     <div class="container position-relative">
       <div class="row">
         <div class="col-12 position-relative">
@@ -44,7 +44,7 @@ navbarClass: "fixed-top"
   </section>
   
   <!-- End About Me Section -->
-  <div class="sun-divider">
+  <div class="sun-divider bg-light">
     <span class="sun"></span>
   </div>
   <!-- Coaching Services Section -->
@@ -113,12 +113,12 @@ navbarClass: "fixed-top"
   
   <!-- End Coaching Services Section -->
 
-  <div class="sun-divider">
+  <div class="sun-divider bg-light">
     <span class="sun"></span>
   </div>
 
   <!-- Reviews Section -->
-  <section class="py-5" id="reviews">
+  <section class="py-5 bg-light" id="reviews">
     <div class="container">
       <h2 class="mb-5 text-center">Reviews</h2>
       <!-- data-bs-interval to set the time between slides -->
@@ -166,11 +166,11 @@ navbarClass: "fixed-top"
     </div>
   </section>
   <!-- End Reviews Section -->
-  <div class="sun-divider">
+  <div class="sun-divider bg-light">
     <span class="sun"></span>
   </div>
   <!-- Contact Section -->
-  <section class="py-5 bg-light" id="contact">
+  <section class="py-5" id="contact">
     <div class="container d-flex justify-content-center align-items-center">
       <h2 class="mb-5 visually-hidden">Contact</h2>
 				<div>

@@ -4,13 +4,12 @@
 :root {
   /* Colors */
   --primary-color: #053742;
-  --primary-light-color: #C3CDE6;
+  --primary-light-color: #cce6ecb4;
   --yellow-color: #fbf074;
   --green-color: #071c08;
   --gray-color: #403e3e;
-  --light-gray-color: #e4e1e1;
+  --light-gray-color: #e2e1e1;
   --white-color: #ffffffd4;
-  --gray-white-color: #ffffffb4;
 
   /* Font Sizes */
   --font-size-base: 20px;
@@ -85,7 +84,7 @@ h6::after {
 }
 
 .custom-bg {
-  background-color: var(--light-gray-color);
+  background-color: var(--primary-light-color);
 }
 
 
@@ -282,7 +281,7 @@ h6::after {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin: 3em 0;
+  padding: 3em 0;
   position: relative;
 }
 
@@ -339,11 +338,11 @@ h6::after {
 }
 
 .footer-link a {
-  background-image: linear-gradient(var(--gray-white-color), var(--gray-white-color));
+  background-image: linear-gradient(var(--light-gray-color), var(--light-gray-color));
 }
 
 .footer-link a:hover {
-  color: var(--gray-white-color);
+  color: var(--light-gray-color);
 }
 
 #copyright {
@@ -425,33 +424,31 @@ h6::after {
 /* =========================================
    Tabs stlyes
 ========================================= */
-
-.custom-tabs .nav-tabs {
-  position: relative;
-}
-
-.custom-tabs .nav-tabs .nav-link {
-  border: none !important;
-  font-size: var(--font-size-nav-lg);
+.nav-tabs .nav-link,
+.nav-tabs .nav-link:focus,
+.nav-tabs .nav-link:hover {
+  border: none;
+  border-bottom: 1px solid var(--light-gray-color);
   color: var(--primary-color);
-  padding: 0 1.5rem 0 1.5rem;
-  position: relative;
-  z-index: 1;
 }
 
-.custom-tabs .tab-slider {
-  position: absolute;
-  border-bottom: var(--primary-color);
-  bottom: 0;
-  left: 0;
-  height: 2px;
-  background-color: var(--gray-color);
-  transition: transform 0.3s ease, width 0.3s ease;
-}
-
-.custom-tabs .nav-tabs .nav-link.active {
+.nav-tabs .nav-link.active {
   color: var(--gray-color);
+  background-color: transparent;
 }
+
+.custom-tabs {
+  position: relative;
+}
+
+.tab-line {
+  position: absolute;
+  height: 2px;
+  bottom: -1px;
+  background-color: var(--primary-color);
+  transition: linear var(--transition-speed);
+}
+
 
 
 /* =========================================

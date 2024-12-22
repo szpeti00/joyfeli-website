@@ -51,22 +51,33 @@ if (textOverlay && bgImage) {
 
 
 // Sliding underline for nav tabs
-const tabs = document.querySelectorAll(".nav-tabs .nav-link");
-const slider = document.querySelector(".tab-slider");
+document.addEventListener("DOMContentLoaded", () => {
+  const tabs = document.querySelectorAll(".nav-tabs .nav-link");
+  const slider = document.querySelector(".tab-line");
+  const container = document.querySelector(".nav-tabs");
 
-const updateSliderPosition = (activeTab) => {
-  const tabRect = activeTab.getBoundingClientRect();
-  const containerRect = activeTab.parentElement.getBoundingClientRect();
+  const updateSliderPosition = (activeTab) => {
+    const tabRect = activeTab.getBoundingClientRect();
+    const containerRect = container.getBoundingClientRect();
 
-  slider.style.left = `${tabRect.left - containerRect.left}px`;
-  slider.style.width = `${tabRect.width}px`;
-};
+    slider.style.left = `${tabRect.left - containerRect.left}px`;
+    slider.style.width = `${tabRect.width}px`;
+  };
 
-tabs.forEach((tab) => {
-  tab.addEventListener("click", () => {
-    updateSliderPosition(tab);
+  tabs.forEach((tab) => {
+    tab.addEventListener("click", () => {
+      updateSliderPosition(tab);
+    });
   });
-});
+
+  updateSliderPosition(tabs[0]); // Initial position
+
+  window.addEventListener("resize", () => {
+    const activeTab = document.querySelector(".nav-tabs .nav-link.active");
+    updateSliderPosition(activeTab);
+  });
+})
+
 
 
 
