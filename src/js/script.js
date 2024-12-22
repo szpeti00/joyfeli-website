@@ -52,11 +52,14 @@ if (textOverlay && bgImage) {
 
 // Sliding underline for nav tabs
 document.addEventListener("DOMContentLoaded", () => {
-  const tabs = document.querySelectorAll(".nav-tabs .nav-link");
+  const tabs = document.querySelectorAll(".nav-tabs button.nav-link");
   const slider = document.querySelector(".tab-line");
   const container = document.querySelector(".nav-tabs");
 
+    
+  // Update the position of the slider (underline) based on the active tab element. Using getBoundingClientRect() for positioning
   const updateSliderPosition = (activeTab) => {
+    if (!activeTab) return;
     const tabRect = activeTab.getBoundingClientRect();
     const containerRect = container.getBoundingClientRect();
 
@@ -73,7 +76,7 @@ document.addEventListener("DOMContentLoaded", () => {
   updateSliderPosition(tabs[0]); // Initial position
 
   window.addEventListener("resize", () => {
-    const activeTab = document.querySelector(".nav-tabs .nav-link.active");
+    const activeTab = document.querySelector(".nav-tabs button.nav-link.active");
     updateSliderPosition(activeTab);
   });
 })

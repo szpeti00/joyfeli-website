@@ -15,21 +15,36 @@ pageKey: "lifestyle-coaching"
     <div class="custom-tabs">
       <!-- Tab Navigation -->
       <ul class="nav nav-tabs justify-content-center mb-4 border-0" id="leefstijlcoachingTabs" role="tablist">
-        <li class="nav-item">
+        <li class="nav-item d-none d-md-flex">
           <button class="nav-link px-4 active" id="tab-lifestyle" data-bs-toggle="tab" data-bs-target="#lifestyle" type="button" role="tab" aria-controls="lifestyle" aria-selected="true">
             Leefstijlcoaching
           </button>
         </li>
-        <li class="nav-item">
+        <li class="nav-item d-none d-md-flex">
           <button class="nav-link px-4" id="tab-info" data-bs-toggle="tab" data-bs-target="#info" type="button" role="tab" aria-controls="info" aria-selected="false">
             Praktische Informatie
           </button>
         </li>
-        <li class="nav-item">
+        <li class="nav-item d-none d-md-flex">
           <button class="nav-link px-4" id="tab-pricing" data-bs-toggle="tab" data-bs-target="#pricing" type="button" role="tab" aria-controls="pricing" aria-selected="false">
             Tarieven
           </button>
         </li>
+        <!-- Dropdown Menu for Mobile -->
+        <li class="nav-item dropdown w-100 d-block d-md-none text-center fs-5" id="dropdownTabs">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Select a Tab</a>
+          <ul class="dropdown-menu bg-light fs-5" aria-labelledby="dropdownTabs">
+            <li>
+              <a class="dropdown-item" data-bs-toggle="tab" href="#lifestyle" role="tab">Leefstijlcoaching</a>
+            </li>
+            <li>
+              <a class="dropdown-item" data-bs-toggle="tab" href="#info" role="tab">Praktische Informatie</a>
+            </li>
+            <li>
+              <a class="dropdown-item" data-bs-toggle="tab" href="#pricing" role="tab">Tarieven</a>
+            </li>
+          </ul>
+        </li>  
       </ul>
       <div class="tab-line"></div>
     </div>

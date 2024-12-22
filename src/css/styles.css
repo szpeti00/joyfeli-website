@@ -255,9 +255,24 @@ h6::after {
 }
 
 @media (min-width: 1400px) {
-
   .navbar .nav-link {
     font-size: var(--font-size-nav-md);
+  }
+}
+
+@media (max-width: 767px) {
+  .dropdown-menu {
+    width: 100%;
+  }
+
+  .nav-tabs .nav-link,
+  .nav-tabs .nav-link:focus,
+  .nav-tabs .nav-link:hover {
+    border: none !important;
+  }
+
+  .dropdown-menu .dropdown-item.active {
+    background-color: var(--primary-color);
   }
 }
 
