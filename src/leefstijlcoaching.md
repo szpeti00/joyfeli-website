@@ -2,7 +2,7 @@
 layout: layouts/base.njk
 title: "JoyFeli - Leefstijlcoaching"
 locale: "nl"
-pageKey: "lifestyle-coaching"
+pageKey: "lifestyleCoaching"
 ---
 
 <!-- Hero Section -->
@@ -53,18 +53,18 @@ pageKey: "lifestyle-coaching"
         <div class="tab-pane fade show active" id="lifestyle" role="tabpanel" aria-labelledby="tab-lifestyle">
             <h4>Wat is Leefstijlcoaching?</h4>
             <p>
-            Leefstijlcoaching is een persoonlijke en holistische benadering van zelfverbetering, die je helpt om in alle facetten van je leven balans, voldoening en succes te vinden. Het gaat verder dan alleen fysieke gezondheid en richt zich ook op mentale, emotionele en sociale welvaart. Door het ontwikkelen van duurzame gewoonten en het vergroten van zelfbewustzijn, leer je hoe je je dagelijkse keuzes en acties in lijn kunt brengen met je langetermijndoelen. Leefstijlcoaching helpt je obstakels te overwinnen, ongewenste patronen te doorbreken en bewuste keuzes te maken die leiden tot een leven dat jou vervult en past bij wie je echt bent en wilt zijn. 
-                <div class="mx-5 p-3 border border-dark shadow rounded-4 custom-bg">
-                    Leefstijlcoaching stelt je in staat om veerkrachtig de controle over je leven te nemen, uitdagingen te overwinnen en    een toekomst te creëren waarin je balans en kracht kunt ervaren.
-                </div>
+              Leefstijlcoaching is een persoonlijke en holistische benadering van zelfverbetering, die je helpt om in alle facetten van je leven balans, voldoening en succes te vinden. Het gaat verder dan alleen fysieke gezondheid en richt zich ook op mentale, emotionele en sociale welvaart. Door het ontwikkelen van duurzame gewoonten en het vergroten van zelfbewustzijn, leer je hoe je je dagelijkse keuzes en acties in lijn kunt brengen met je langetermijndoelen. Leefstijlcoaching helpt je obstakels te overwinnen, ongewenste patronen te doorbreken en bewuste keuzes te maken die leiden tot een leven dat jou vervult en past bij wie je echt bent en wilt zijn.   
             </p>
+            <div class="mx-5 p-3 border border-dark shadow rounded-4 custom-bg">
+              Leefstijlcoaching stelt je in staat om veerkrachtig de controle over je leven te nemen, uitdagingen te overwinnen en    een toekomst te creëren waarin je balans en kracht kunt ervaren.
+           </div>
             <h4>Waarom Leefstijlcoaching goed voor jou is—en waarom nu?</h4>
             <p>
-            Het leven kan soms overweldigend aanvoelen, maar ik ben hier om je te helpen de controle terug te krijgen en je acties af te stemmen op je doelen. Samen kunnen we blijvende veranderingen creëren. Of je nu op zoek bent naar persoonlijke groei, een overgang doormaakt of gewoon meer vervulling wilt voelen, nu is het perfecte moment om te beginnen. Wacht niet op het 'juiste' moment, het juiste moment is altijd nu. 
-                <div class="mx-5 p-3 border border-dark shadow rounded-4 custom-bg">
-                     Het is een investering in jezelf; je gezondheid, geluk en toekomst.
-                </div>
+              Het leven kan soms overweldigend aanvoelen, maar ik ben hier om je te helpen de controle terug te krijgen en je acties af te stemmen op je doelen. Samen kunnen we blijvende veranderingen creëren. Of je nu op zoek bent naar persoonlijke groei, een overgang doormaakt of gewoon meer vervulling wilt voelen, nu is het perfecte moment om te beginnen. Wacht niet op het 'juiste' moment, het juiste moment is altijd nu. 
             </p>
+            <div class="mx-5 p-3 border border-dark shadow rounded-4 custom-bg">
+              Het is een investering in jezelf; je gezondheid, geluk en toekomst.
+            </div>
         </div>
         <div class="tab-pane fade" id="info" role="tabpanel" aria-labelledby="tab-info">
             <div class="container mt-4">
@@ -109,55 +109,118 @@ pageKey: "lifestyle-coaching"
             <h4>Coachings trajecten:</h4>
             <div class="row g-4">
               <!-- Start pakket Card -->
-              <div class="col-md-6 col-lg-3">
+              <div class="col-md-6 col-lg-6">
                   <div class="card h-100">
-                      <div class="card-body">
-                          <h5 class="card-title">Start pakket</h5>
-                          <p class="card-text"><strong>Duur:</strong> 1 a 2 maanden, 6 sessies</p>
-                          <p class="card-text"><strong>Prijs:</strong> € 350</p>
-                          <p class="card-text"><strong>Inclusief:</strong> gratis kennismaking, intakeanalyse, vervolgadviesgesprekken en evaluatie.</p>
-                          <p class="card-text">
-                            <button class="collapse-btn btn custom-btn" data-bs-toggle="collapse" data-bs-target="#startPakket">More
-                            </button>
-                            <p class="collapse collapse-text" id="startPakket">
-                              Voor een extra duwtje in de goede richting:   korte,  intensieve begeleiding waarmee je snel kennis opdoet en in hoog tempo vooruitgang boekt met huiswerk.
-                            </p>
+                      <div class="card-body custom-color p-4 p-lg-5">
+                          <h5 class="card-title text-center fs-4">Start pakket</h5>
+                          <p class="card-text fs-lg-4">
+                            {% include "icons/calendar-icon.njk" %}
+                            <span class="px-lg-3">1 a 2 maanden, 6 sessies</span>
                           </p>
+                          <p class="card-text fs-lg-4">
+                            {% include "icons/price-icon.njk" %}<span class="px-lg-3">€ 350</span>
+                          </p>
+                          <div class="card-text">
+                            <div>
+                              {% include "icons/check-icon.njk" %}
+                              </svg><span class="px-lg-3">gratis kennismaking</span>
+                            </div>
+                            <div>
+                              {% include "icons/check-icon.njk" %}
+                              </svg><span class="px-lg-3">intakeanalyse</span>
+                            </div>
+                            <div>
+                              {% include "icons/check-icon.njk" %}
+                              </svg><span class="px-lg-3">envervolgadviesgesprekken</span>
+                            </div>
+                            <div>
+                              {% include "icons/check-icon.njk" %}
+                              </svg><span class="px-lg-3">evaluatie</span>
+                            </div>
+                            <button
+                              class="btn toggle-btn w-100"
+                              data-bs-toggle="collapse"
+                              data-bs-target="#startPakket"
+                            >
+                            </button>
+                            <div class="collapse collapse-text" id="startPakket">
+                              <div class="mt-2">
+                                Voor een extra duwtje in de goede richting:   korte,  intensieve begeleiding waarmee je snel kennis opdoet en in hoog tempo vooruitgang boekt met huiswerk.
+                              </div>
+                            </div>
+                          </div>
                       </div>
                   </div>
               </div>
               <!-- Medium pakket Card -->
-              <div class="col-md-6 col-lg-3">
+              <div class="col-md-6 col-lg-6">
                   <div class="card h-100">
-                      <div class="card-body">
-                          <h5 class="card-title">Medium pakket</h5>
-                          <p class="card-text"><strong>Duur:</strong> 2 a 3 maanden, 8 sessies</p>
-                          <p class="card-text"><strong>Prijs:</strong> € 450</p>
-                          <p class="card-text"><strong>Inclusief:</strong> gratis kennismaking, intakeanalyse, vervolgadviesgesprekken en evaluatie.</p>
-                          <p class="card-text">De meest gekozen optie, met meer ruimte voor actieve gedragsverandering en tijd om de aanpassingen in je leven te integreren. Toch blijft het een snel traject, zodat je krachtig van start kunt gaan.</p>
+                      <div class="card-body custom-color">
+                          <h5 class="card-title text-center fs-4">Medium pakket</h5>
+                          <p class="card-text text-center fs-4">
+                            {% include "icons/calendar-icon.njk" %}
+                            2 a 3 maanden, 8 sessies
+                          </p>
+                          <p class="card-text text-center fs-4">
+                            {% include "icons/price-icon.njk" %}€ 450
+                          </p>
+                          <div class="card-text text-center">
+                            <button class="collapse-btn btn custom-btn" data-bs-toggle="collapse" data-bs-target="#mediumPakket">More
+                            </button>
+                            <div class="collapse collapse-text" id="mediumPakket">
+                              <strong>Inclusief:</strong> gratis kennismaking, intakeanalyse, vervolgadviesgesprekken en evaluatie.
+                              <div class="mt-2">
+                                De meest gekozen optie, met meer ruimte voor actieve gedragsverandering en tijd om de aanpassingen in je leven te integreren. Toch blijft het een snel traject, zodat je krachtig van start kunt gaan.
+                              </div>
+                            </div>
+                          </div>
                       </div>
                   </div>
               </div>
               <!-- 10-sessies pakket Card -->
-              <div class="col-md-6 col-lg-3">
+              <div class="col-md-6 col-lg-6">
                   <div class="card h-100">
-                      <div class="card-body">
-                          <h5 class="card-title">10 - sessies pakket</h5>
-                          <p class="card-text"><strong>Duur:</strong> 10 sessies</p>
-                          <p class="card-text"><strong>Prijs:</strong> € 550</p>
-                          <p class="card-text"><strong>Inclusief:</strong> gratis kennismaking, uitgebreide intakeanalyse, vervolgadviesgesprekken en evaluatie.</p>
-                          <p class="card-text">Meer flexibiliteit in het plannen van sessies, met een aanpak van proberen en leren die aansluit bij jouw persoonlijke ontwikkelingscurve. Er is meer ruimte voor terugkoppelmomenten, zodat de veranderingen met impact en kracht plaatsvinden en gedragsverandering blijvend is voor de toekomst.</p>
+                      <div class="card-body custom-color">
+                          <h5 class="card-title text-center fs-4">10-sessies pakket</h5>
+                          <p class="card-text text-center fs-4">
+                            {% include "icons/calendar-icon.njk" %}
+                            10 sessies
+                          </p>
+                          <p class="card-text text-center fs-4">
+                            {% include "icons/price-icon.njk" %}€ 550
+                          </p>
+                          <div class="card-text text-center">
+                            <button class="collapse-btn btn custom-btn" data-bs-toggle="collapse" data-bs-target="#tenSessionsPakket">More
+                            </button>
+                            <div class="collapse collapse-text" id="tenSessionsPakket">
+                              <strong>Inclusief:</strong> gratis kennismaking, uitgebreide intakeanalyse, vervolgadviesgesprekken en evaluatie.
+                              <div class="mt-2">
+                                Meer flexibiliteit in het plannen van sessies, met een aanpak van proberen en leren die aansluit bij jouw persoonlijke ontwikkelingscurve. Er is meer ruimte voor terugkoppelmomenten, zodat de veranderingen met impact en kracht plaatsvinden en gedragsverandering blijvend is voor de toekomst.
+                              </div>
+                            </div>
+                          </div>
                       </div>
                   </div>
               </div>
               <!-- Losse sessie Card -->
-              <div class="col-md-6 col-lg-3">
+              <div class="col-md-6 col-lg-6">
                   <div class="card h-100">
-                      <div class="card-body">
-                          <h5 class="card-title">Losse sessie</h5>
-                          <p class="card-text"><strong>Duur:</strong> 45 - 60 min</p>
-                          <p class="card-text"><strong>Prijs:</strong> € 65</p>
-                          <p class="card-text">Ultieme flexibiliteit: misschien wil je alleen een intake om te zien waar je staat, of heb je behoefte aan enkele adviesgesprekken. Misschien wil je juist de tijd nemen die jij nodig hebt, geheel afgestemd op jouw wensen.</p>
+                      <div class="card-body custom-color">
+                          <h5 class="card-title text-center fs-4">Losse sessie</h5>
+                          <p class="card-text text-center fs-4">
+                            {% include "icons/calendar-icon.njk" %}
+                            45 - 60 min
+                          </p>
+                          <p class="card-text text-center fs-4">
+                            {% include "icons/price-icon.njk" %}€ 65
+                          </p>
+                          <div class="card-text text-center">
+                            <button class="collapse-btn btn custom-btn" data-bs-toggle="collapse" data-bs-target="#singlePakket">More
+                            </button>
+                            <div class="collapse collapse-text" id="singlePakket">
+                              Ultieme flexibiliteit: misschien wil je alleen een intake om te zien waar je staat, of heb je behoefte aan enkele adviesgesprekken. Misschien wil je juist de tijd nemen die jij nodig hebt, geheel afgestemd op jouw wensen.
+                            </div>
+                          </div>
                       </div>
                   </div>
               </div>

@@ -1,6 +1,6 @@
 ---
 layout: layouts/base.njk
-title: "JoyFeli - About Me"
+title: "JoyFeli - About"
 locale: "en"
-pageKey: "about-me"
+pageKey: "about"
 ---

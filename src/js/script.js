@@ -79,7 +79,16 @@ document.addEventListener("DOMContentLoaded", () => {
     const activeTab = document.querySelector(".nav-tabs button.nav-link.active");
     updateSliderPosition(activeTab);
   });
-})
+// End
+
+// Toggle button animation
+  const toggleBtns = document.querySelectorAll('.toggle-btn');
+    toggleBtns.forEach((btn) => {
+      btn.addEventListener('click', () => {
+        btn.classList.toggle('active');
+      });
+    });
+});
 
 
 

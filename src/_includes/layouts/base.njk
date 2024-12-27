@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="nl">
+<html lang="{{ locale }}">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -35,7 +35,7 @@
   <!-- Navbar with Offcanvas for Small Screens -->
   <nav class="navbar navbar-expand-xl bg-light bg-opacity-75 {{ navbarClass | default('sticky-top') }}">
     <div class="container-fluid">
-      <a class="navbar-brand" href={{ links[locale].home.url }}>
+      <a class="navbar-brand" href={{ links.home[locale] }}>
         <img src="/img/logo.png" alt="JoyFeli" class="navbar-logo">
       </a>
       <button class="navbar-toggler custom-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
@@ -66,7 +66,7 @@
       <div class="row">
         <!-- Logo column -->
         <div class="col-lg-4 mb-3">
-          <a href="{{ links[locale].home.url}}">
+          <a href="{{ links.home[locale]}}">
             <img src="/img/only_drawing_logo.png" alt="JoyFeli" class="footer-logo">
           </a>
         </div>
@@ -80,19 +80,21 @@
         <div class="col-lg-4 mb-3">
           <ul class="list-unstyled">
             <li class="mb-2 footer-link">
-                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="icon">
-                    <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 0 0 2.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 0 1-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 0 0-1.091-.852H4.5A2.25 2.25 0 0 0 2.25 4.5v2.25Z" />
-                </svg>
+                {% include "icons/phone-icon.njk" %}
                 <a href="tel:{{ settings.phone }}">{{ settings.phoneText }}</a> 
             </li>
             <li class="mb-2 footer-link">
-                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="icon">
-                    <path stroke-linecap="round" stroke-linejoin="round" d="M21.75 6.75v10.5a2.25 2.25 0 0 1-2.25 2.25h-15a2.25 2.25 0 0 1-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0 0 19.5 4.5h-15a2.25 2.25 0 0 0-2.25 2.25m19.5 0v.243a2.25 2.25 0 0 1-1.07 1.916l-7.5 4.615a2.25 2.25 0 0 1-2.36 0L3.32 8.91a2.25 2.25 0 0 1-1.07-1.916V6.75" />
-                </svg>
+                {% include "icons/email-icon.njk" %}
                 <a href="mailto:{{ settings.email }}">{{ settings.emailText }}</a>
             </li>
             <li class="mb-2 mt-3 footer-link">
-              <a href="{{ links[locale].terms.url }}">{{ links[locale].terms.name }}</a>
+              <a href="{{ links.terms[locale] }}">
+              {% if locale == "nl" %}
+              Algemene Voorwaarden
+              {% else %}
+              Terms and Conditions
+              {% endif %}
+              </a>
             </li>
             <li class="mb-2 footer-info">
               <p class="m-0">KvK-nummer: 95775137</p>

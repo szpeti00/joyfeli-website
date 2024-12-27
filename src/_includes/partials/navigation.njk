@@ -9,12 +9,12 @@
       {% if locale == "nl" %}
         <!-- We are on a Dutch page, switch to English -->
         <li class="nav-item">
-          <a class="nav-link" href={{ translations[pageKey].en }}>EN</a>
+          <a class="nav-link" href={{ links[pageKey].en }}>EN</a>
         </li>
       {% else %}
         <!-- We are on an English page, switch to Dutch -->
         <li class="nav-item">
-          <a class="nav-link" href={{ translations[pageKey].nl }}>NL</a>
+          <a class="nav-link" href={{ links[pageKey].nl }}>NL</a>
         </li>
       {% endif %}
     <!-- Fallback if we don't have a pageKey -->

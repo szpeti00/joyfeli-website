@@ -1,22 +1,31 @@
 {
-    "nl": {
-      "home": { "name": "Startpagina", "url": "/" },
-      "about": { "name": "Over Mij", "url": "/over-mij/" },
-      "lifestyleCoaching": { "name": "Leefstijlcoaching", "url": "/leefstijlcoaching/" },
-      "personalTraining": { "name": "Personal Training", "url": "/personal-training/" },
-      "forHer": { "name": "Voor Haar", "url": "/voor-haar/" },
-      "contact": { "name": "Contact", "url": "/contact/" },
-      "terms": {"name": "Algemene Voorwaarden", "url": "/algemene-voorwaarden/"}
+    "lifestyleCoaching": {
+      "en": "/en/lifestyle-coaching/",
+      "nl": "/leefstijlcoaching/"
     },
-    
-    "en": {
-      "home": { "name": "Home", "url": "/en/" },
-      "about": { "name": "About Me", "url": "/en/about-me/" },
-      "lifestyleCoaching": { "name": "Lifestyle Coaching", "url": "/en/lifestyle-coaching/" },
-      "personalTraining": { "name": "Personal Training", "url": "/en/personal-training/" },
-      "forHer": { "name": "For Her", "url": "/en/for-her/" },
-      "contact": { "name": "Contact", "url": "/en/contact/" },
-      "terms": {"name": "Terms and Conditions", "url": "/en/terms-and-conditions/"}
+    "personalTraining": {
+      "en": "/en/personal-training/",
+      "nl": "/personal-training/"
+    },
+    "forHer": {
+      "en": "/en/for-her/",
+      "nl": "/voor-haar/"
+    },
+    "about": {
+      "en": "/en/about/",
+      "nl": "/over/"
+    },
+    "contact": {
+      "en": "/en/contact/",
+      "nl": "/contact/"
+    },
+    "home": {
+      "en": "/en/",
+      "nl": "/"
+    },
+    "terms": {
+      "en": "/en/terms-and-conditions/",
+      "nl": "/algemene-voorwaarden/"
     }
   }
   

@@ -6,6 +6,7 @@
   --primary-color: #053742;
   --primary-light-color: #cce6ecb4;
   --yellow-color: #fbf074;
+  --red-color: #421005;
   --green-color: #071c08;
   --gray-color: #403e3e;
   --light-gray-color: #e2e1e1;
@@ -16,6 +17,7 @@
   --font-size-nav: 0.95rem;
   --font-size-nav-md: 1.2rem;
   --font-size-nav-lg: 1.6rem;
+  --font-size-nav-xl: 2.5rem;
 
   /* Spacing */
   --spacing-sm: 1.5rem;
@@ -114,6 +116,10 @@ h6::after {
 .navbar-logo {
   height: 60px;
   width: auto;
+}
+
+.navbar {
+  border-bottom: .3px solid var(--light-gray-color);
 }
 
 .custom-toggler,
@@ -339,11 +345,56 @@ h6::after {
   transform: scale(1.05);
 }
 
+.toggle-btn {
+  position: relative;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  transition: background var(--transition-speed);
+}
+
+.toggle-btn:active,
+.toggle-btn:hover,
+.toggle-btn:focus {
+  border: none;
+}
+
+.toggle-btn::before,
+.toggle-btn::after {
+  content: '';
+  position: absolute;
+  background: var(--primary-color);
+  transition: transform var(--transition-speed);
+}
+
+.toggle-btn::before {
+  width: 20px;
+  height: 3px;
+}
+
+.toggle-btn::after {
+  width: 3px;
+  height: 20px;
+  transition: opacity var(--transition-speed);
+}
+
+.card:hover .toggle-btn::after,
+.card:hover .toggle-btn::before {
+  transform: scale(1); /* Reset to neutral scaling */
+}
+
+.toggle-btn.active::after {
+  opacity: 0;
+}
+
 /* =========================================
    Footer Styles
 ========================================= */
 .page-footer {
-  background-color: var(--green-color);
+  background-color: var(--red-color);
 }
 
 .footer-link,
@@ -380,9 +431,13 @@ h6::after {
 }
 
 .card:hover {
-  transform: translateY(-5px);
+  transform: scale(1.02);
   box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
 }
+
+/* .row:hover .card:not(:hover) {
+  filter: blur(1px);
+} */
 
 .card .card-title {
   font-weight: 700;
