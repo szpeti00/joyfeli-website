@@ -394,7 +394,7 @@ h6::after {
    Footer Styles
 ========================================= */
 .page-footer {
-  background-color: var(--red-color);
+  background-color: var(--green-color);
 }
 
 .footer-link,
