@@ -88,6 +88,54 @@ document.addEventListener("DOMContentLoaded", () => {
         btn.classList.toggle('active');
       });
     });
+// End
+
+// Swipeable tabs on small screens using hammer.js libary
+  const tabIds = ['lifestyle','info','pricing'] 
+  const tabContentEl = document.getElementById('lifestyleTabsContent');
+  const hammer = new Hammer(tabContentEl);
+
+  hammer.on('swipeleft', () => {
+    goToNextTab();
+  });
+
+  hammer.on('swiperight', () => {
+    goToPrevTab();
+  });
+
+  const goToNextTab = () => {
+    const currentIndex = getActiveTabIndex();
+    if (currentIndex < tabIds.length - 1) {
+      const nextIndex = currentIndex + 1;
+      showTab(tabIds[nextIndex]);
+    }
+  };
+
+  const goToPrevTab = () => {
+    const currentIndex = getActiveTabIndex();
+    if (currentIndex > 0) {
+      const prevIndex = currentIndex - 1;
+      showTab(tabIds[prevIndex]);
+    }
+  };
+
+  const getActiveTabIndex = () => {
+    for (let i = 0; i < tabIds.length; i++) {
+      const pane = document.getElementById(tabIds[i]);
+      if (pane.classList.contains('active')) {
+        return i;
+      }
+    }
+    return 0; // Fallback if none found
+  };
+
+  const showTab = (tabId) => {
+    const tabTrigger = document.querySelector(`[data-bs-target="#${tabId}"]`) || document.querySelector(`[href="#${tabId}"]`);
+    if (tabTrigger) {
+      const tab = new bootstrap.Tab(tabTrigger);
+      tab.show();
+    }
+  };
 });
 
 
