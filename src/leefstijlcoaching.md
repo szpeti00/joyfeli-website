@@ -14,41 +14,58 @@ pageKey: "lifestyleCoaching"
   <div class="container">
     <div class="custom-tabs">
       <!-- Tab Navigation -->
-      <ul class="nav nav-tabs justify-content-center mb-4 border-0" id="leefstijlcoachingTabs" role="tablist">
-        <li class="nav-item d-none d-md-flex">
-          <button class="nav-link px-4 active" id="tab-lifestyle" data-bs-toggle="tab" data-bs-target="#lifestyle" type="button" role="tab" aria-controls="lifestyle" aria-selected="true">
+      <ul 
+        class="nav nav-tabs border-0 flex-row flex-nowrap overflow-auto justify-content-center mb-4" 
+        style="white-space: nowrap;" 
+        id="leefstijlcoachingTabs" 
+        role="tablist"
+      >
+        <li class="nav-item">
+          <button 
+            class="nav-link active px-4" 
+            id="tab-lifestyle" 
+            data-bs-toggle="tab" 
+            data-bs-target="#lifestyle" 
+            type="button" 
+            role="tab" 
+            aria-controls="lifestyle" 
+            aria-selected="true"
+          >
             Leefstijlcoaching
           </button>
         </li>
-        <li class="nav-item d-none d-md-flex">
-          <button class="nav-link px-4" id="tab-info" data-bs-toggle="tab" data-bs-target="#info" type="button" role="tab" aria-controls="info" aria-selected="false">
+        <li class="nav-item">
+          <button 
+            class="nav-link px-4" 
+            id="tab-info" 
+            data-bs-toggle="tab" 
+            data-bs-target="#info" 
+            type="button" 
+            role="tab" 
+            aria-controls="info" 
+            aria-selected="false"
+          >
             Praktische Informatie
           </button>
         </li>
-        <li class="nav-item d-none d-md-flex">
-          <button class="nav-link px-4" id="tab-pricing" data-bs-toggle="tab" data-bs-target="#pricing" type="button" role="tab" aria-controls="pricing" aria-selected="false">
+        <li class="nav-item">
+          <button 
+            class="nav-link px-4" 
+            id="tab-pricing" 
+            data-bs-toggle="tab" 
+            data-bs-target="#pricing" 
+            type="button" 
+            role="tab" 
+            aria-controls="pricing" 
+            aria-selected="false"
+          >
             Tarieven
           </button>
         </li>
-        <!-- Dropdown Menu for Mobile -->
-        <li class="nav-item dropdown w-100 d-block d-md-none text-center fs-5" id="dropdownTabs">
-          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Select a Tab</a>
-          <ul class="dropdown-menu bg-light fs-5" aria-labelledby="dropdownTabs">
-            <li>
-              <a class="dropdown-item" data-bs-toggle="tab" href="#lifestyle" role="tab">Leefstijlcoaching</a>
-            </li>
-            <li>
-              <a class="dropdown-item" data-bs-toggle="tab" href="#info" role="tab">Praktische Informatie</a>
-            </li>
-            <li>
-              <a class="dropdown-item" data-bs-toggle="tab" href="#pricing" role="tab">Tarieven</a>
-            </li>
-          </ul>
-        </li>  
       </ul>
-      <div class="tab-line"></div>
+      <div class="tab-line d-none d-lg-block"></div>
     </div>
-    <!-- Tab Content -->
+    <!-- Lifestyle Coaching Tab -->
     <div class="tab-content pt-3" id="leefstijlcoachingTabsContent">
         <div class="tab-pane fade show active" id="lifestyle" role="tabpanel" aria-labelledby="tab-lifestyle">
             <h4>Wat is Leefstijlcoaching?</h4>
@@ -67,11 +84,11 @@ pageKey: "lifestyleCoaching"
             </div>
         </div>
     </div>
-    <!-- Practical Information -->
+    <!-- Practical Information Tab-->
     <div class="tab-content pt-3" id="infoTabsContent">
         <div class="tab-pane fade" id="info" role="tabpanel" aria-labelledby="tab-info">
             <div class="container mt-4">
-              <h4>Hoe werkt het traject?</h4>
+              <h4 class="fs-4">Hoe werkt het traject?</h4>
               <p>Een coachingstraject bestaat uit meerdere sessies die in een logische volgorde zijn opgebouwd. We starten altijd met een gratis en vrijblijvend kennismakingsgesprek:</p>
               <div class="row g-4">
                 <div class="col-md-6 col-lg-6">
@@ -151,9 +168,9 @@ pageKey: "lifestyleCoaching"
                   </div>
                 </div>
               </div>
-              <h4 class="mt-4">Wat houdt leefstijlcoaching in?</h4>
+              <h4 class="mt-4 fs-4">Wat houdt leefstijlcoaching in?</h4>
               <p>Een leefstijlcoach kan ondersteunen op veel verschillende vlakken. Soms is het einddoel helder, maar vaak ontdekken we dit gaandeweg. Tijdens het traject werk ik samen met jou aan een duidelijk plan, waarbij we gebruikmaken van verschillende tools en analyses, zoals:</p>
-              <ul class="no-bullet">
+              <ul>
                   <li>{% include "icons/cog-icon.njk" %}<span class="px-lg-3">Lichaamsanalyse</span></li>
                   <li>{% include "icons/chart-pie-icon.njk" %}<span class="px-lg-3">Voedingsanalyse</span></li>
                   <li>{% include "icons/adjustment-icon.njk" %}<span class="px-lg-3">Analyse van je beweegpatroon</span></li>
@@ -168,7 +185,7 @@ pageKey: "lifestyleCoaching"
                   <li>{% include "icons/light-bulb-icon.njk" %}<span class="px-lg-3">Bewustwordingsoefeningen</span></li>
               </ul>
               <p>Kort samengevat: Leefstijlcoaching richt zich op verschillende aspecten van je leven, zoals gedrag, voeding, beweging, slaap, stress en ontspanning. Ik maak gebruik van methoden en modellen die aansluiten bij jouw unieke traject.</p>
-              <h4 class="mt-4">Waar vinden de sessies plaats?</h4>
+              <h4 class="mt-4 fs-4">Waar vinden de sessies plaats?</h4>
               <p>
                 De coachingssessies kunnen plaatsvinden op een locatie die voor jou het meest geschikt is: bij mij, bij jou thuis, of buiten in de natuur, bijvoorbeeld in de vorm van wandelcoaching. Daarnaast is het ook mogelijk om de sessies online te doen, wat flexibiliteit biedt om de coaching te integreren in je dagelijkse routine, waar je ook bent. Het belangrijkste is dat jij je op je gemak voelt en gemotiveerd bent om duurzame veranderingen te realiseren. Mijn doel is om elke sessie doelgericht en inspirerend te maken, zodat ik je effectief kan begeleiden naar een gezonder en meer gebalanceerd leven.
               </p>
