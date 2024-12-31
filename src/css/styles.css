@@ -533,15 +533,52 @@ ul {
   transition: linear var(--transition-speed);
 }
 
-.swipe-arrow {
-  font-size: var(--font-size-nav-lg);
-  user-select: none;
-  pointer-events: none;
+.swipe-hint {
+  position: fixed;    
+  bottom: 20px;         
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  background-color: rgba(0, 0, 0, 0.6);  
+  color: #fff;
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  opacity: 0;
+  pointer-events: none; 
+  transition: opacity var(--transition-speed) ease;
+  z-index: 9999;
 }
 
-.swipe-arrow:not(:last-of-type) {
-  margin-right: var(--spacing-xs);
+.swipe-hint.show {
+  opacity: 1;
 }
+
+.swipe-hand {
+  animation: handMove 2.5s forwards; 
+}
+
+.swipe-text {
+  display: block;
+  white-space: nowrap;
+}
+
+@keyframes handMove {
+  0% {
+    transform: translateX(80px) translateY(0);
+    opacity: 1;
+  }
+  50% {
+    transform: translateX(40px) translateY(0);
+    opacity: 1;
+  }
+  100% {
+    transform: translateX(0) translateY(0);
+    opacity: 0; 
+  }
+}
+
 
 /* =========================================
    Scroll To Top Button

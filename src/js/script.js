@@ -81,61 +81,60 @@ document.addEventListener("DOMContentLoaded", () => {
   });
 // End
 
-// Toggle button animation
-  const toggleBtns = document.querySelectorAll('.toggle-btn');
-    toggleBtns.forEach((btn) => {
-      btn.addEventListener('click', () => {
-        btn.classList.toggle('active');
-      });
-    });
-// End
-
 // Swipeable tabs on small screens using hammer.js libary
-  const tabIds = ['lifestyle','info','pricing'] 
+  const tabIds = Array.from(document.querySelectorAll('.tab-pane')).map((tab) => tab.id);
   const tabContentEl = document.getElementById('lifestyleTabsContent');
-  const hammer = new Hammer(tabContentEl);
+  const hammer = tabContentEl ? new Hammer(tabContentEl) : null;
 
-  hammer.on('swipeleft', () => {
-    goToNextTab();
-  });
-
-  hammer.on('swiperight', () => {
-    goToPrevTab();
-  });
-
-  const goToNextTab = () => {
-    const currentIndex = getActiveTabIndex();
-    if (currentIndex < tabIds.length - 1) {
-      const nextIndex = currentIndex + 1;
-      showTab(tabIds[nextIndex]);
-    }
-  };
-
-  const goToPrevTab = () => {
-    const currentIndex = getActiveTabIndex();
-    if (currentIndex > 0) {
-      const prevIndex = currentIndex - 1;
-      showTab(tabIds[prevIndex]);
-    }
-  };
-
-  const getActiveTabIndex = () => {
-    for (let i = 0; i < tabIds.length; i++) {
-      const pane = document.getElementById(tabIds[i]);
-      if (pane.classList.contains('active')) {
-        return i;
+  if (hammer){
+    hammer.on('swipeleft swiperight', (e) => {
+      const currentIndex = getActiveTabIndex();
+      const nextIndex = e.type === 'swipeleft' ? currentIndex + 1 : currentIndex - 1;
+      if (nextIndex >= 0 && nextIndex < tabIds.length) {
+        showTab(tabIds[nextIndex]);
       }
-    }
-    return 0; // Fallback if none found
-  };
+    });
+  }
+
+  const getActiveTabIndex = () => tabIds.indexOf(document.querySelector('.tab-pane.active').id);
 
   const showTab = (tabId) => {
     const tabTrigger = document.querySelector(`[data-bs-target="#${tabId}"]`) || document.querySelector(`[href="#${tabId}"]`);
     if (tabTrigger) {
       const tab = new bootstrap.Tab(tabTrigger);
       tab.show();
+      updateSliderPosition(tabTrigger); // in case the user swipe on bigger screen and the slider is still visible we update the position
     }
   };
+// End
+
+// Swipe hint
+  const swipeHintEl = document.getElementById('swipeHint');
+  let hintShown = swipeHintEl ? false : true;  // Make sure we only show it once. And only on pages where we have tabs
+
+  const scrollThreshold = 500; 
+
+  // Listen to scroll events
+  window.addEventListener('scroll', function() {
+    if (!hintShown && window.scrollY > scrollThreshold) {
+      swipeHintEl.classList.add('show');
+      hintShown = true; // so we don't show it multiple times
+      setTimeout(() => {
+        // fade out the entire container
+        swipeHintEl.classList.remove('show');
+      }, 2500);
+    }
+  });
+// End
+
+// Toggle (+/-) button animation
+  const toggleBtns = document.querySelectorAll('.toggle-btn');
+  toggleBtns.forEach((btn) => {
+    btn.addEventListener('click', () => {
+      btn.classList.toggle('active');
+    });
+  });
+// End
 });
 
 

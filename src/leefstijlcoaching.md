@@ -42,7 +42,6 @@ pageKey: "lifestyleCoaching"
         >
           Select a tab
         </button>
-        <div class="mt-3">Or</div>
         <ul class="dropdown-menu" aria-labelledby="mobileDropdown" role="tablist">
           <li>
             <a class="dropdown-item" data-bs-toggle="tab" href="#lifestyle" role="tab">
@@ -62,11 +61,6 @@ pageKey: "lifestyleCoaching"
         </ul>
       </div>
       <div class="tab-line"></div>
-      <div class="d-block d-md-none text-center mt-3">
-        <span class="swipe-arrow">&larr;</span>
-        <small class="mx-2">Swipe</small>
-        <span class="swipe-arrow">&rarr;</span>
-      </div>
     </div>
     <!-- Lifestyle Coaching Tab -->
     <div class="tab-content pt-3" id="lifestyleTabsContent" style="overflow:hidden">
@@ -365,5 +359,9 @@ pageKey: "lifestyleCoaching"
         </div>
       </div>
     </div>
+  </div>
+  <div class="swipe-hint d-block d-md-none" id="swipeHint">
+    {% include "icons/hand-icon.njk" %}
+    <span class="swipe-text">Swipe to navigate</span>
   </div>
 </section>
