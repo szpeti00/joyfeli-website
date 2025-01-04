@@ -190,11 +190,10 @@ navbarClass: "fixed-top"
           <form 
             method="POST"
             data-netlify="true"
-            data-netlify-recaptcha="true"
+            netlify-honeypot="bot-field"
             name="contact-form" class="needs-validation"
             novalidate
           >
-            <input type="hidden" name="form-name" value="contact-form">
             <div class="visually-hidden">
               <label>
                 Don't fill this out if you're human:<input name="bot-field">
