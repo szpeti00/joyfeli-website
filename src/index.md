@@ -184,5 +184,48 @@ navbarClass: "fixed-top"
 					</p>
 				</div>
     </div>
+    <div class="container">
+      <div class="row justify-content-center mt-4">
+        <div class="col-md-8">
+          <form 
+            method="POST"
+            data-netlify="true"
+            data-netlify-recaptcha="true"
+            name="contact-form" class="needs-validation"
+            novalidate
+          >
+            <input type="hidden" name="form-name" value="contact-form">
+            <div class="visually-hidden">
+              <label>
+                Don't fill this out if you're human:<input name="bot-field">
+              </label>
+            </div>
+            <div class="mb-3">
+              <label for="name" class="form-label">Naam</label>
+              <input type="text" class="form-control" id="name" name="name" placeholder="Uw naam" required>
+              <div class="invalid-feedback">Vul alstublieft uw naam in.</div>
+            </div>
+            <div class="mb-3">
+              <label for="email" class="form-label">E-mailadres</label>
+              <input type="email" class="form-control" id="email" name="email" placeholder="Uw e-mailadres" required>
+              <div class="invalid-feedback">Vul alstublieft een geldig e-mailadres in.</div>
+            </div>
+            <div class="mb-3">
+              <label for="phone" class="form-label">Telefoonnummer</label>
+              <input type="tel" class="form-control" id="phone" name="phone" placeholder="Uw telefoonnummer">
+              <div class="invalid-feedback">Vul alstublieft uw telefoonnummer in.</div>
+            </div>
+            <div class="mb-3">
+              <label for="message" class="form-label">Bericht</label>
+              <textarea class="form-control" id="message" name="message" rows="4" placeholder="Uw bericht" required></textarea>
+              <div class="invalid-feedback">Vul alstublieft uw bericht in.</div>
+            </div>
+            <div class="text-center">
+              <button type="submit" class="btn custom-btn">Verzenden</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
   </section>
   <!-- End Contact Section -->

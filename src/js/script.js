@@ -90,19 +90,13 @@ document.addEventListener('DOMContentLoaded', () => {
   };
 
   // Add click event listeners to tabs and dropdown items
-  tabs.forEach((tab) => {
-    tab.addEventListener('click', () => {
-      const tabId = tab.getAttribute('data-bs-target').substring(1);
-      activateTab(tabId);
-    });
-  });
+  const handleTabClick = (e) => {
+    const tabId = e.target.getAttribute('data-bs-target').substring(1); // Remove the leading '#' with substring
+    activateTab(tabId);
+  };
 
-  dropdownItems.forEach((item) => {
-    item.addEventListener('click', () => {
-      const tabId = item.getAttribute('data-bs-target').substring(1);
-      activateTab(tabId);
-    });
-  });
+  tabs.forEach((tab) => tab.addEventListener('click', handleTabClick));
+  dropdownItems.forEach((item) => item.addEventListener('click', handleTabClick));
 
   // Swipe event handling
   if (hammer) {
@@ -124,7 +118,7 @@ document.addEventListener('DOMContentLoaded', () => {
   // Set initial slider position
   updateSliderPosition(tabs[0]);
 
-// Swipe hint
+// Swipe hint animation with Intersection Observer
   const swipeHintEl = document.getElementById('swipeHint');
   const swipeFingerEl = document.getElementById('swipeFinger');
   const shownHints = new Set(); // keep track of visited tabs
@@ -150,7 +144,8 @@ document.addEventListener('DOMContentLoaded', () => {
         swipeHintEl.classList.remove('show');
       }, 2500);
 
-      if (counter === 3) {
+      // stop observing when the last tab is shown or when we showed 2 times
+      if (counter === 2 || shownTabId === tabIds[tabIds.length - 1]) {
       observer.unobserve(entry.target);
       }
     }
@@ -160,7 +155,7 @@ document.addEventListener('DOMContentLoaded', () => {
   
     observer.observe(tabContentEl);
   }
-// End
+// End Swipe hint
 
 // Toggle (+/-) button animation
   const toggleBtns = document.querySelectorAll('.toggle-btn');
