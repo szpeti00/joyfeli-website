@@ -535,13 +535,13 @@ ul {
 
 .swipe-hint {
   position: fixed;    
-  bottom: 20px;         
+  bottom: 80px;         
   left: 50%;
   transform: translateX(-50%);
   display: flex;
   align-items: center;
   gap: 1rem;
-  background-color: rgba(0, 0, 0, 0.6);  
+  background-color: rgba(0, 0, 0, 0.7);  
   color: #fff;
   padding: 0.5rem 1rem;
   border-radius: 8px;
@@ -555,8 +555,12 @@ ul {
   opacity: 1;
 }
 
-.swipe-hand {
-  animation: handMove 2.5s forwards; 
+.swipe-finger {
+  opacity: 0;
+}
+
+.swipe-finger.show {
+  animation: fingerMove 2s cubic-bezier(.42, 0, .58, 1) forwards; 
 }
 
 .swipe-text {
@@ -564,13 +568,12 @@ ul {
   white-space: nowrap;
 }
 
-@keyframes handMove {
+@keyframes fingerMove {
   0% {
-    transform: translateX(80px) translateY(0);
+    transform: translateX(130px) translateY(0);
     opacity: 1;
   }
   50% {
-    transform: translateX(40px) translateY(0);
     opacity: 1;
   }
   100% {

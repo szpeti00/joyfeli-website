@@ -44,27 +44,27 @@ pageKey: "lifestyleCoaching"
         </button>
         <ul class="dropdown-menu" aria-labelledby="mobileDropdown" role="tablist">
           <li>
-            <a class="dropdown-item" data-bs-toggle="tab" href="#lifestyle" role="tab">
+            <button class="dropdown-item active" data-bs-toggle="tab" data-bs-target="#lifestyle" type="button" role="tab" aria-selected="true">
               Leefstijlcoaching
-            </a>
+            </button>
           </li>
           <li>
-            <a class="dropdown-item" data-bs-toggle="tab" href="#info" role="tab">
+            <button class="dropdown-item" data-bs-toggle="tab" data-bs-target="#info" type="button" role="tab" aria-selected="false">
               Praktische Informatie
-            </a>
+            </button>
           </li>
           <li>
-            <a class="dropdown-item" data-bs-toggle="tab" href="#pricing" role="tab">
+            <button class="dropdown-item" data-bs-toggle="tab" data-bs-target="#pricing" type="button" role="tab" aria-selected="false">
               Tarieven
-            </a>
+            </button>
           </li>
         </ul>
       </div>
       <div class="tab-line"></div>
     </div>
-    <!-- Lifestyle Coaching Tab -->
     <div class="tab-content pt-3" id="lifestyleTabsContent" style="overflow:hidden">
-      <div class="tab-pane fade show active" id="lifestyle" role="tabpanel" aria-labelledby="tab-lifestyle">
+      <!-- Lifestyle Coaching Tab -->
+      <div class="tab-pane fade active show" id="lifestyle" role="tabpanel" aria-labelledby="tab-lifestyle">
         <h4>Wat is Leefstijlcoaching?</h4>
         <p>
           Leefstijlcoaching is een persoonlijke en holistische benadering van zelfverbetering, die je helpt om in alle facetten van je leven balans, voldoening en succes te vinden. Het gaat verder dan alleen fysieke gezondheid en richt zich ook op mentale, emotionele en sociale welvaart. Door het ontwikkelen van duurzame gewoonten en het vergroten van zelfbewustzijn, leer je hoe je je dagelijkse keuzes en acties in lijn kunt brengen met je langetermijndoelen. Leefstijlcoaching helpt je obstakels te overwinnen, ongewenste patronen te doorbreken en bewuste keuzes te maken die leiden tot een leven dat jou vervult en past bij wie je echt bent en wilt zijn.   
@@ -360,8 +360,8 @@ pageKey: "lifestyleCoaching"
       </div>
     </div>
   </div>
-  <div class="swipe-hint d-block d-md-none" id="swipeHint">
-    {% include "icons/hand-icon.njk" %}
-    <span class="swipe-text">Swipe to navigate</span>
+  <div class="swipe-hint d-block d-md-none" id="swipeHint" aria-live="polite">
+    {% include "icons/finger-icon.njk" %}
+    <span class="swipe-text">Swipe to switch tabs</span>
   </div>
 </section>

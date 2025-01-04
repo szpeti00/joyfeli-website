@@ -15,14 +15,14 @@ document.addEventListener('DOMContentLoaded', () => {
   
 
 // Scroll to top functionality
-document.getElementById("scrollToTopBtn").addEventListener("click", () => {
+document.getElementById('scrollToTopBtn').addEventListener('click', () => {
     window.scrollTo({ top: 0, behavior: 'smooth' });
 });
 window.onscroll = () => {
     if (document.body.scrollTop > 150 || document.documentElement.scrollTop > 150) {
-        document.getElementById("scrollToTopBtn").style.display = "block";
+        document.getElementById('scrollToTopBtn').style.display = 'block';
     } else {
-        document.getElementById("scrollToTopBtn").style.display = "none";
+        document.getElementById('scrollToTopBtn').style.display = 'none';
     }
 };
 // End
@@ -50,14 +50,21 @@ if (textOverlay && bgImage) {
 // End Intersection Observer
 
 
-// Sliding underline for nav tabs
-document.addEventListener("DOMContentLoaded", () => {
-  const tabs = document.querySelectorAll(".nav-tabs button.nav-link");
-  const slider = document.querySelector(".tab-line");
-  const container = document.querySelector(".nav-tabs");
+// Sliding underline for nav tabs and swipe functionality
+document.addEventListener('DOMContentLoaded', () => {
+  const tabs = document.querySelectorAll('.nav-tabs button.nav-link');
+  const dropdownItems = document.querySelectorAll('.dropdown-menu .dropdown-item');
+  const slider = document.querySelector('.tab-line');
+  const container = document.querySelector('.nav-tabs');
+  const tabContentEl = document.getElementById('lifestyleTabsContent');
+  
+  // Tab IDs array for swipe functionality
+  const tabIds = Array.from(document.querySelectorAll('.tab-pane')).map((tab) => tab.id);
+  
+  // Initialize Hammer.js for swipe functionality
+  const hammer = tabContentEl ? new Hammer(tabContentEl) : null;
 
-    
-  // Update the position of the slider (underline) based on the active tab element. Using getBoundingClientRect() for positioning
+  // Function to update the slider position
   const updateSliderPosition = (activeTab) => {
     if (!activeTab) return;
     const tabRect = activeTab.getBoundingClientRect();
@@ -67,64 +74,92 @@ document.addEventListener("DOMContentLoaded", () => {
     slider.style.width = `${tabRect.width}px`;
   };
 
+  // Function to activate the specified tab
+  const activateTab = (tabId) => {
+    const tabTrigger = document.querySelector(`[data-bs-target='#${tabId}']`);
+    if (tabTrigger) {
+      const tab = new bootstrap.Tab(tabTrigger);
+      tab.show();
+      updateSliderPosition(tabTrigger);
+
+      // Synchronize dropdown menu with active tab
+      dropdownItems.forEach((item) => item.classList.remove('active'));
+      const dropdownItem = document.querySelector(`.dropdown-menu .dropdown-item[data-bs-target='#${tabId}']`);
+      if (dropdownItem) dropdownItem.classList.add('active');
+    }
+  };
+
+  // Add click event listeners to tabs and dropdown items
   tabs.forEach((tab) => {
-    tab.addEventListener("click", () => {
-      updateSliderPosition(tab);
+    tab.addEventListener('click', () => {
+      const tabId = tab.getAttribute('data-bs-target').substring(1);
+      activateTab(tabId);
     });
   });
 
-  updateSliderPosition(tabs[0]); // Initial position
-
-  window.addEventListener("resize", () => {
-    const activeTab = document.querySelector(".nav-tabs button.nav-link.active");
-    updateSliderPosition(activeTab);
+  dropdownItems.forEach((item) => {
+    item.addEventListener('click', () => {
+      const tabId = item.getAttribute('data-bs-target').substring(1);
+      activateTab(tabId);
+    });
   });
-// End
 
-// Swipeable tabs on small screens using hammer.js libary
-  const tabIds = Array.from(document.querySelectorAll('.tab-pane')).map((tab) => tab.id);
-  const tabContentEl = document.getElementById('lifestyleTabsContent');
-  const hammer = tabContentEl ? new Hammer(tabContentEl) : null;
-
-  if (hammer){
+  // Swipe event handling
+  if (hammer) {
     hammer.on('swipeleft swiperight', (e) => {
-      const currentIndex = getActiveTabIndex();
+      const currentIndex = tabIds.indexOf(document.querySelector('.tab-pane.active').id);
       const nextIndex = e.type === 'swipeleft' ? currentIndex + 1 : currentIndex - 1;
       if (nextIndex >= 0 && nextIndex < tabIds.length) {
-        showTab(tabIds[nextIndex]);
+        activateTab(tabIds[nextIndex]);
       }
     });
   }
 
-  const getActiveTabIndex = () => tabIds.indexOf(document.querySelector('.tab-pane.active').id);
+  // Update slider position on window resize
+  window.addEventListener('resize', () => {
+    const activeTab = document.querySelector('.nav-tabs button.nav-link.active');
+    updateSliderPosition(activeTab);
+  });
 
-  const showTab = (tabId) => {
-    const tabTrigger = document.querySelector(`[data-bs-target="#${tabId}"]`) || document.querySelector(`[href="#${tabId}"]`);
-    if (tabTrigger) {
-      const tab = new bootstrap.Tab(tabTrigger);
-      tab.show();
-      updateSliderPosition(tabTrigger); // in case the user swipe on bigger screen and the slider is still visible we update the position
-    }
-  };
-// End
+  // Set initial slider position
+  updateSliderPosition(tabs[0]);
 
 // Swipe hint
   const swipeHintEl = document.getElementById('swipeHint');
-  let hintShown = swipeHintEl ? false : true;  // Make sure we only show it once. And only on pages where we have tabs
+  const swipeFingerEl = document.getElementById('swipeFinger');
+  const shownHints = new Set(); // keep track of visited tabs
+  let counter = 0;
 
-  const scrollThreshold = 500; 
+  const swipeHintCallback = (entries, observer) => {
+    entry = entries[0];
+    if (entry.isIntersecting) {
+      const shownTabId = document.querySelector('.tab-pane.active').id;
+      if (shownHints.has(shownTabId)) {
+        return;
+      }
+      shownHints.add(shownTabId);
+      counter++;
 
-  // Listen to scroll events
-  window.addEventListener('scroll', function() {
-    if (!hintShown && window.scrollY > scrollThreshold) {
       swipeHintEl.classList.add('show');
-      hintShown = true; // so we don't show it multiple times
+      swipeFingerEl.classList.add('show');
+      
+
       setTimeout(() => {
         // fade out the entire container
+        swipeFingerEl.classList.remove('show');
         swipeHintEl.classList.remove('show');
       }, 2500);
+
+      if (counter === 3) {
+      observer.unobserve(entry.target);
+      }
     }
-  });
+  };
+  if (swipeHintEl && tabContentEl) {
+    const observer = new IntersectionObserver(swipeHintCallback, {threshold: 0.4});
+  
+    observer.observe(tabContentEl);
+  }
 // End
 
 // Toggle (+/-) button animation
@@ -136,7 +171,3 @@ document.addEventListener("DOMContentLoaded", () => {
   });
 // End
 });
-
-
-
-
