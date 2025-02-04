@@ -16,14 +16,14 @@ navbarClass: "fixed-top"
     </div>
   </header>
   <!-- End Home Section -->
-  <div class="sun-divider bg-light">
+  <div class="sun-divider white-bg">
     <span class="sun"></span>
   </div>
   <!-- About Me Section -->
-  <section  id="about" class="bg-light">
+  <section  id="about" class="white-bg">
     <div class="container position-relative">
       <div class="row">
-        <div class="col-12 position-relative">
+        <div class="col-12 position-relative m-0 p-0">
           <!-- Background image container -->
           <div class="bg-image animate-slide-in-left"></div>
           <!-- Text overlay -->
@@ -32,7 +32,7 @@ navbarClass: "fixed-top"
               Hi, ik ben Feli Aarsman. Ik verhuisde naar Wageningen voor de universiteit en werd direct verliefd op de stad en haar prachtige natuurlijke omgeving. Vervolgens is mijn passie doorontwikkeld van ecologie naar sport, beweging en het coachen van menselijk gedrag; zowel mentaal als fysiek. De verbinding tussen natuur en mens staat altijd centraal in alles wat ik doe.
             </p>
             <p>
-              In de zomer geef ik wildwaterkajaklessen in Slovenië, terwijl ik in de winter individuele coaching en groepslessen verzorg. Met meer dan acht jaar ervaring als gecertificeerd instructeur heb ik waardevolle inzichten opgedaan in menselijk gedrag. Dit heeft mijn overtuiging versterkt van wat ik altijd al voelde: met positieve energie kunnen we samen de wereld sterker, gelukkiger en mooier maken.
+              Met meer dan acht jaar ervaring als gecertificeerd instructeur heb ik waardevolle inzichten opgedaan in menselijk gedrag. Dit heeft mijn overtuiging versterkt dat wat ik altijd al voelde: met positieve energie kunnen we samen de wereld sterker, gelukkiger en mooier maken. Om positieve energie uit te stralen, is het belangrijk gezond, sterk en veerkrachtig te zijn.
             </p>
             <div class="text-center">
               <a href={{ links.about[locale] }} class="btn custom-btn fs-5">More</a>
@@ -44,11 +44,11 @@ navbarClass: "fixed-top"
   </section>
   
   <!-- End About Me Section -->
-  <div class="sun-divider bg-light">
+  <div class="sun-divider white-bg">
     <span class="sun"></span>
   </div>
   <!-- Coaching Services Section -->
-  <section class="py-5 bg-light" id="services">
+  <section class="py-5 gray-bg" id="services">
     <div class="container">
       <h2 class="mb-5 text-center">Coaching Services</h2>
       <div class="row">
@@ -65,7 +65,7 @@ navbarClass: "fixed-top"
                 Creëer gezonde gewoontes en ontdek de kracht van je gedrag en innerlijke motivatie, zodat je een duurzaam, gebalanceerd leven kunt leiden.
               </p>
             </div>
-            <div class="card-footer text-center bg-white border-0">
+            <div class="card-footer text-center white-bg border-0">
               <a href={{ links.lifestyleCoaching[locale] }} class="btn custom-btn fs-5">More</a>
             </div>
           </div>
@@ -83,7 +83,7 @@ navbarClass: "fixed-top"
                 Versterk zowel je fysieke gezondheid als je mentale welzijn met deskundige, persoonlijke begeleiding.
               </p>
             </div>
-            <div class="card-footer text-center bg-white border-0">
+            <div class="card-footer text-center white-bg border-0">
               <a href="{{ links.personalTraining[locale] }}" class="btn custom-btn fs-5">More</a>
             </div>
           </div>
@@ -101,7 +101,7 @@ navbarClass: "fixed-top"
                 Herontdek je innerlijke kracht en balans in een veilige setting, speciaal voor vrouwen die zich willen verbinden met hun kracht en zelfvertrouwen.
               </p>
             </div>
-            <div class="card-footer text-center bg-white border-0">
+            <div class="card-footer text-center white-bg border-0">
               <a href={{ links.forHer[locale] }} class="btn custom-btn fs-5">More</a>
             </div>
           </div>
@@ -112,19 +112,19 @@ navbarClass: "fixed-top"
   
   <!-- End Coaching Services Section -->
 
-  <div class="sun-divider bg-light">
+  <div class="sun-divider white-bg">
     <span class="sun"></span>
   </div>
 
   <!-- Reviews Section -->
-  <section class="py-5 bg-light" id="reviews">
+  <section class="py-5 white-bg" id="reviews">
     <div class="container">
       <h2 class="mb-5 text-center">Reviews</h2>
       <!-- data-bs-interval to set the time between slides -->
       <div id="reviewsCarousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="10000">
         <div class="carousel-inner px-5">
           <div class="carousel-item text-center active">
-            <h5 class="mb-3 text-underline">Uniek, Ondersteund, Empowered</h5>
+            <h5 class="mb-3">Uniek, Ondersteund, Empowered</h5>
             <blockquote class="blockquote">
               <p class="fst-italic">
                 "Feli coacht je en ziet je echt als een uniek persoon. Ze luistert,
@@ -165,14 +165,15 @@ navbarClass: "fixed-top"
     </div>
   </section>
   <!-- End Reviews Section -->
-  <div class="sun-divider bg-light">
+  <div class="sun-divider white-bg">
     <span class="sun"></span>
   </div>
   <!-- Contact Section -->
-  <section class="py-5" id="contact">
+  <section class="py-5 gray-bg" id="contact">
     <div class="container d-flex justify-content-center align-items-center">
       <h2 class="mb-5 visually-hidden">Contact</h2>
 				<div>
+          <a class="visually-hidden" href="/leefstijlcoaching#pricing">See Pricing</a>
 					<h4>Neem contact met mij op</h4>
 					<p>
             {% include "icons/phone-icon.njk" %}
@@ -201,23 +202,23 @@ navbarClass: "fixed-top"
             </div>
             <div class="mb-3">
               <label for="name" class="form-label">Naam</label>
-              <input type="text" class="form-control" id="name" name="name" placeholder="Uw naam" required>
-              <div class="invalid-feedback">Vul alstublieft uw naam in.</div>
+              <input type="text" class="form-control" id="name" name="name" placeholder="Je naam" required>
+              <div class="invalid-feedback">Vul alsjeblieft jouw naam in.</div>
             </div>
             <div class="mb-3">
               <label for="email" class="form-label">E-mailadres</label>
-              <input type="email" class="form-control" id="email" name="email" placeholder="Uw e-mailadres" required>
-              <div class="invalid-feedback">Vul alstublieft een geldig e-mailadres in.</div>
+              <input type="email" class="form-control" id="email" name="email" placeholder="Je e-mailadres" required>
+              <div class="invalid-feedback">Vul alsjeblieft een geldig e-mailadres in.</div>
             </div>
             <div class="mb-3">
               <label for="phone" class="form-label">Telefoonnummer</label>
-              <input type="tel" class="form-control" id="phone" name="phone" placeholder="Uw telefoonnummer">
-              <div class="invalid-feedback">Vul alstublieft uw telefoonnummer in.</div>
+              <input type="tel" class="form-control" id="phone" name="phone" placeholder="Je telefoonnummer">
+              <div class="invalid-feedback">Vul alsjeblieft jouw telefoonnummer in.</div>
             </div>
             <div class="mb-3">
               <label for="message" class="form-label">Bericht</label>
-              <textarea class="form-control" id="message" name="message" rows="4" placeholder="Uw bericht" required></textarea>
-              <div class="invalid-feedback">Vul alstublieft uw bericht in.</div>
+              <textarea class="form-control" id="message" name="message" rows="4" placeholder="Je bericht" required></textarea>
+              <div class="invalid-feedback">Vul alsjeblieft jouw bericht in.</div>
             </div>
             <div class="text-center">
               <button type="submit" class="btn custom-btn">Verzenden</button>

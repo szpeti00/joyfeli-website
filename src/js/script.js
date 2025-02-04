@@ -42,7 +42,7 @@ const callback = (entries, observer) => {
 };
 
 if (textOverlay && bgImage) {
-  const observer = new IntersectionObserver(callback, {threshold: 0.4});
+  const observer = new IntersectionObserver(callback, {threshold: 0.2});
 
   observer.observe(textOverlay);
   observer.observe(bgImage);
@@ -50,19 +50,19 @@ if (textOverlay && bgImage) {
 // End Intersection Observer
 
 
-// Sliding underline for nav tabs and swipe functionality
+// Sliding underline for nav tabs and next/prev buttons
 document.addEventListener('DOMContentLoaded', () => {
   const tabs = document.querySelectorAll('.nav-tabs button.nav-link');
   const dropdownItems = document.querySelectorAll('.dropdown-menu .dropdown-item');
   const slider = document.querySelector('.tab-line');
   const container = document.querySelector('.nav-tabs');
-  const tabContentEl = document.getElementById('lifestyleTabsContent');
+
+  // Arrow buttons
+  const prevTabBtn = document.getElementById('prevTabBtn');
+  const nextTabBtn = document.getElementById('nextTabBtn');
   
-  // Tab IDs array for swipe functionality
+  // Tab IDs array
   const tabIds = Array.from(document.querySelectorAll('.tab-pane')).map((tab) => tab.id);
-  
-  // Initialize Hammer.js for swipe functionality
-  const hammer = tabContentEl ? new Hammer(tabContentEl) : null;
 
   // Function to update the slider position
   const updateSliderPosition = (activeTab) => {
@@ -86,6 +86,10 @@ document.addEventListener('DOMContentLoaded', () => {
       dropdownItems.forEach((item) => item.classList.remove('active'));
       const dropdownItem = document.querySelector(`.dropdown-menu .dropdown-item[data-bs-target='#${tabId}']`);
       if (dropdownItem) dropdownItem.classList.add('active');
+
+      // Update arrow buttons
+      prevTabBtn.disabled = tabIds.indexOf(tabId) === 0; // true if we are on the first tab 
+      nextTabBtn.disabled = tabIds.indexOf(tabId) === tabIds.length - 1; // true if we are on the last tab
     }
   };
 
@@ -98,14 +102,26 @@ document.addEventListener('DOMContentLoaded', () => {
   tabs.forEach((tab) => tab.addEventListener('click', handleTabClick));
   dropdownItems.forEach((item) => item.addEventListener('click', handleTabClick));
 
-  // Swipe event handling
-  if (hammer) {
-    hammer.on('swipeleft swiperight', (e) => {
+  // Arrow Buttons for Previous/Next Tab 
+  if (prevTabBtn) {
+    prevTabBtn.addEventListener('click', () => {
       const currentIndex = tabIds.indexOf(document.querySelector('.tab-pane.active').id);
-      const nextIndex = e.type === 'swipeleft' ? currentIndex + 1 : currentIndex - 1;
-      if (nextIndex >= 0 && nextIndex < tabIds.length) {
-        activateTab(tabIds[nextIndex]);
+      if (currentIndex > 0) {
+        activateTab(tabIds[currentIndex - 1]);
       }
+       //Scroll to the top of the tab 
+       document.querySelector('.tab-section').scrollIntoView({ behavior: 'smooth' });
+    });
+  }
+
+  if (nextTabBtn) {
+    nextTabBtn.addEventListener('click', () => {
+      const currentIndex = tabIds.indexOf(document.querySelector('.tab-pane.active').id);
+      if (currentIndex < tabIds.length - 1) {
+        activateTab(tabIds[currentIndex + 1]);
+      }
+       //Scroll to the top of the tab 
+       document.querySelector('.tab-section').scrollIntoView({ behavior: 'smooth' });
     });
   }
 
@@ -118,44 +134,18 @@ document.addEventListener('DOMContentLoaded', () => {
   // Set initial slider position
   updateSliderPosition(tabs[0]);
 
-// Swipe hint animation with Intersection Observer
-  const swipeHintEl = document.getElementById('swipeHint');
-  const swipeFingerEl = document.getElementById('swipeFinger');
-  const shownHints = new Set(); // keep track of visited tabs
-  let counter = 0;
-
-  const swipeHintCallback = (entries, observer) => {
-    entry = entries[0];
-    if (entry.isIntersecting) {
-      const shownTabId = document.querySelector('.tab-pane.active').id;
-      if (shownHints.has(shownTabId)) {
-        return;
-      }
-      shownHints.add(shownTabId);
-      counter++;
-
-      swipeHintEl.classList.add('show');
-      swipeFingerEl.classList.add('show');
+  const hash = window.location.hash;
+  if (hash) {
+    // Remove the '#' to get the tab id ("pricing")
+    const tabId = hash.substring(1);
+    
+    // Activate the specified tab
+    if (tabIds.includes(tabId)) {
+      activateTab(tabId);
       
-
-      setTimeout(() => {
-        // fade out the entire container
-        swipeFingerEl.classList.remove('show');
-        swipeHintEl.classList.remove('show');
-      }, 2500);
-
-      // stop observing when the last tab is shown or when we showed 2 times
-      if (counter === 2 || shownTabId === tabIds[tabIds.length - 1]) {
-      observer.unobserve(entry.target);
-      }
+      document.querySelector('.tab-section').scrollIntoView({ behavior: 'smooth' });
     }
-  };
-  if (swipeHintEl && tabContentEl) {
-    const observer = new IntersectionObserver(swipeHintCallback, {threshold: 0.4});
-  
-    observer.observe(tabContentEl);
   }
-// End Swipe hint
 
 // Toggle (+/-) button animation
   const toggleBtns = document.querySelectorAll('.toggle-btn');
@@ -165,6 +155,7 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   });
 // End
+
 // Bootstrap form validation (from bootstrap docs)
   (function () {
     'use strict'
