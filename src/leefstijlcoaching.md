@@ -124,9 +124,10 @@ pageKey: "lifestyleCoaching"
               <div class="card">
                 <div class="card-body custom-color p-2 p-lg-5">
                   <button
-                    class="btn toggle-btn w-100 d-flex justify-content-between align-items-center"
+                    class="btn toggle-btn w-100 d-flex justify-content-between align-items-center collapsed collapsed"
                     data-bs-toggle="collapse"
                     data-bs-target="#introduction"
+                    aria-expanded="false"
                   >
                     <span class="card-title fs-4">{% include "icons/chat-bubble-icon.njk" %} Kennismaking</span>
                     <span class="toggle-icon"></span>
@@ -144,9 +145,10 @@ pageKey: "lifestyleCoaching"
               <div class="card">
                 <div class="card-body custom-color p-2 p-lg-5">
                   <button
-                    class="btn toggle-btn w-100 d-flex justify-content-between align-items-center"
+                    class="btn toggle-btn w-100 d-flex justify-content-between align-items-center collapsed"
                     data-bs-toggle="collapse"
                     data-bs-target="#intake"
+                    aria-expanded="false"
                   >
                     <span class="card-title fs-4">{% include "icons/pencil-square-icon.njk" %} Intakegesprek</span>
                     <span class="toggle-icon"></span>
@@ -169,9 +171,10 @@ pageKey: "lifestyleCoaching"
               <div class="card">
                 <div class="card-body custom-color p-2 p-lg-5">
                   <button
-                    class="btn toggle-btn w-100 d-flex justify-content-between align-items-center"
+                    class="btn toggle-btn w-100 d-flex justify-content-between align-items-center collapsed"
                     data-bs-toggle="collapse"
                     data-bs-target="#consultation"
+                    aria-expanded="false"
                   >
                     <span class="card-title fs-4">{% include "icons/light-bulb-icon.njk" %} Adviesgesprek</span>
                     <span class="toggle-icon"></span>
@@ -196,9 +199,10 @@ pageKey: "lifestyleCoaching"
               <div class="card">
                 <div class="card-body custom-color p-2 p-lg-5">
                   <button
-                    class="btn toggle-btn w-100 d-flex justify-content-between align-items-center"
+                    class="btn toggle-btn w-100 d-flex justify-content-between align-items-center collapsed"
                     data-bs-toggle="collapse"
                     data-bs-target="#followUp"
+                    aria-expanded="false"
                   >
                     <span class="card-title fs-4">{% include "icons/arrow-trending-up-icon.njk" %} Vervolgsessies</span>
                     <span class="toggle-icon"></span>
@@ -215,9 +219,10 @@ pageKey: "lifestyleCoaching"
               <div class="card">
                 <div class="card-body custom-color p-2 p-lg-5">
                   <button
-                    class="btn toggle-btn w-100 d-flex justify-content-between align-items-center"
+                    class="btn toggle-btn w-100 d-flex justify-content-between align-items-center collapsed"
                     data-bs-toggle="collapse"
                     data-bs-target="#evaluation"
+                    aria-expanded="false"
                   >
                     <span class="card-title fs-4">{% include "icons/clipboard-icon.njk" %} Evaluatiegesprek</span>
                     <span class="toggle-icon"></span>
@@ -234,9 +239,10 @@ pageKey: "lifestyleCoaching"
               <div class="card">
                 <div class="card-body custom-color p-2 p-lg-5">
                   <button
-                    class="btn toggle-btn w-100 d-flex justify-content-between align-items-center"
+                    class="btn toggle-btn w-100 d-flex justify-content-between align-items-center collapsed"
                     data-bs-toggle="collapse"
                     data-bs-target="#location"
+                    aria-expanded="false"
                   >
                     <span class="card-title fs-4">{% include "icons/home-icon.njk" %} Locatie</span>
                     <span class="toggle-icon"></span>
@@ -286,9 +292,10 @@ pageKey: "lifestyleCoaching"
                             <span class="px-lg-3">Eind evaluatie</span>
                           </div>
                           <button
-                            class="btn toggle-btn w-100 d-flex justify-content-center align-items-center"
+                            class="btn toggle-btn w-100 d-flex justify-content-center align-items-center collapsed"
                             data-bs-toggle="collapse"
                             data-bs-target="#startPakket"
+                            aria-expanded="false"
                           >
                             <span class="fs-lg-4 visually-hidden">Meer Informatie</span>
                             <span class="toggle-icon"></span>
@@ -332,9 +339,10 @@ pageKey: "lifestyleCoaching"
                             <span class="px-lg-3">Eind evaluatie</span>
                           </div>
                           <button
-                            class="btn toggle-btn w-100 d-flex justify-content-center align-items-center"
+                            class="btn toggle-btn w-100 d-flex justify-content-center align-items-center collapsed"
                             data-bs-toggle="collapse"
                             data-bs-target="#mediumPakket"
+                            aria-expanded="false"
                           >
                             <span class="fs-lg-4 visually-hidden">Meer Informatie</span>
                             <span class="toggle-icon"></span>
@@ -378,9 +386,10 @@ pageKey: "lifestyleCoaching"
                             <span class="px-lg-3">Eind evaluatie</span>
                           </div>
                           <button
-                            class="btn toggle-btn w-100 d-flex justify-content-center align-items-center"
+                            class="btn toggle-btn w-100 d-flex justify-content-center align-items-center collapsed"
                             data-bs-toggle="collapse"
                             data-bs-target="#tenSessiesPakket"
+                            aria-expanded="false"
                           >
                             <span class="fs-lg-4 visually-hidden">Meer Informatie</span>
                             <span class="toggle-icon"></span>
@@ -420,9 +429,10 @@ pageKey: "lifestyleCoaching"
                             <span class="px-lg-3">Keuzevrijheid</span>
                           </div>
                           <button
-                            class="btn toggle-btn w-100 d-flex justify-content-center align-items-center"
+                            class="btn toggle-btn w-100 d-flex justify-content-center align-items-center collapsed"
                             data-bs-toggle="collapse"
                             data-bs-target="#singlePakket"
+                            aria-expanded="false"
                           >
                             <span class="fs-lg-4 visually-hidden">Meer Informatie</span>
                             <span class="toggle-icon"></span>

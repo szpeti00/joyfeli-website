@@ -276,7 +276,6 @@ ul {
     border-radius: 0;
     max-width: 100%;
     height: auto;
-    padding: 0;
   }
 }
 
@@ -395,6 +394,12 @@ ul {
   transform: scale(1.05);
 }
 
+.costume-btn:focus,
+.costume-btn:active {
+  filter:none;
+  transform: none;
+}
+
 .toggle-btn {
   border: none;
   padding-left: 0;
@@ -437,8 +442,8 @@ ul {
   transform: scale(1);
 }
 
-/* When active (collapsed shown), hide the vertical line with rotation */
-.toggle-btn.active .toggle-icon::after {
+/* When the collapse is open, the button won't have the "collapsed" class (bootstrap removes it) */
+.toggle-btn:not(.collapsed) .toggle-icon::after {
   transform: rotate(90deg);
   opacity: 0;
 }

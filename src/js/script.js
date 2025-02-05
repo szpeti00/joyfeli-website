@@ -147,15 +147,6 @@ document.addEventListener('DOMContentLoaded', () => {
     }
   }
 
-// Toggle (+/-) button animation
-  const toggleBtns = document.querySelectorAll('.toggle-btn');
-  toggleBtns.forEach((btn) => {
-    btn.addEventListener('click', () => {
-      btn.classList.toggle('active');
-    });
-  });
-// End
-
 // Bootstrap form validation (from bootstrap docs)
   (function () {
     'use strict'
