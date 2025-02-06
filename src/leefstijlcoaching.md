@@ -6,7 +6,7 @@ pageKey: "lifestyleCoaching"
 ---
 
 <!-- Hero Section -->
-<section class="hero-section">
+<!-- <section class="hero-section">
   
   <img src="/img/lifestylecoach_2.jpg" alt="" class="hero-img img-fluid">
   
@@ -17,6 +17,26 @@ pageKey: "lifestyleCoaching"
     <p>Lorem ipsum dolor sit amet</p>
     <p>Lorem ipsum dolor sit amet</p>
     <p>Lorem ipsum dolor sit amet. lorem ipsum dolor sit amet</p>
+  </div>
+</section> -->
+<section class="hero-section">
+  <div class="container-fluid p-0">
+    <!-- Use gx-0 to remove horizontal gutters if you want the columns flush with each other -->
+    <div class="row gx-0 align-items-center">
+      <!-- Image Column -->
+      <div class="col-md-6">
+        <img src="/img/lifestylecoach_2.jpg" alt="Hero Image" class="img-fluid w-100">
+      </div>
+      <!-- Text Column -->
+      <div class="col-md-6 d-flex align-items-center justify-content-center">
+        <div class="p-4">
+          <h1 class="separator">Leefstijlcoaching</h1>
+          <h5>Lorem ipsum</h5>
+          <h5>Dolor sit amet</h5>
+          <h5>Consectetur adipisicing elit</h5>
+        </div>
+      </div>
+    </div>
   </div>
 </section>
 <div class="sun-divider">
