@@ -173,7 +173,9 @@ navbarClass: "fixed-top"
     <div class="container d-flex justify-content-center align-items-center">
       <h2 class="mb-5 visually-hidden">Contact</h2>
 				<div>
+          <!-- Remove this later ˇ -->
           <a class="visually-hidden" href="/leefstijlcoaching#pricing">See Pricing</a>
+          <!-- Remove this later ^ -->
 					<h4>Neem contact met mij op</h4>
 					<p>
             {% include "icons/phone-icon.njk" %}

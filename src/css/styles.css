@@ -311,7 +311,7 @@ ul {
 }
 
 /* Hero section container */
-/* .hero-section {
+.hero-section {
   position: relative;
   background: linear-gradient(to bottom, var(--light-gray-color) 0%, var(--white-color) 100%);
   height: 90vh;
@@ -320,7 +320,7 @@ ul {
 }
 
 /* Hero image styling */
-/* .hero-img {
+.hero-img {
   position: absolute;
   bottom: 0;
   left: 0;
@@ -329,10 +329,10 @@ ul {
   box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
   transform: translateX(20%) translateY(-15%);
   z-index: 1;
-} */
+}
 
 /* Hero textbox styling */
-/* .hero-textbox {
+.hero-textbox {
   position: absolute;
   background: rgba(var(--light-gray-rgb), .9);
   top: 55%;
@@ -342,7 +342,16 @@ ul {
   box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
   transform:  translateY(-50%);
   z-index: 2;
-} */ 
+} 
+
+.img-container {
+  position: relative; /* Needed for absolute positioning of pseudo-elements */
+  display: inline-block; /* Shrinks the container to the size of the img */
+}
+
+.img-container img {
+  display: block; /* Remove any unwanted inline spacing */
+}
 
 /* =========================================
    Section Divider
@@ -396,8 +405,10 @@ ul {
 
 .costume-btn:focus,
 .costume-btn:active {
-  filter:none;
-  transform: none;
+  filter:none !important;
+  transform: none !important;
+  outline: none !important;
+  box-shadow: none !important;
 }
 
 .toggle-btn {
@@ -507,12 +518,14 @@ ul {
   line-height: 1.8;
 }
 
-.custom-card {
-  padding-left: 0;
-  padding-right: 0;
-  margin-left: 0;
-  margin-right: 0;
+/* Small screens: Make sure when the text takes the second line, it aligns with the text above*/
+.collapse.collapse-text ul li {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: var(--spacing-xs);
+  align-items: start;
 }
+
 
 /* =========================================
    Carousel Styles

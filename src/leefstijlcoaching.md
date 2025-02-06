@@ -6,7 +6,7 @@ pageKey: "lifestyleCoaching"
 ---
 
 <!-- Hero Section -->
-<!-- <section class="hero-section">
+<section class="hero-section">
   
   <img src="/img/lifestylecoach_2.jpg" alt="" class="hero-img img-fluid">
   
@@ -17,26 +17,6 @@ pageKey: "lifestyleCoaching"
     <p>Lorem ipsum dolor sit amet</p>
     <p>Lorem ipsum dolor sit amet</p>
     <p>Lorem ipsum dolor sit amet. lorem ipsum dolor sit amet</p>
-  </div>
-</section> -->
-<section class="hero-section">
-  <div class="container-fluid p-0">
-    <!-- Use gx-0 to remove horizontal gutters if you want the columns flush with each other -->
-    <div class="row gx-0 align-items-center">
-      <!-- Image Column -->
-      <div class="col-md-6">
-        <img src="/img/lifestylecoach_2.jpg" alt="Hero Image" class="img-fluid w-100">
-      </div>
-      <!-- Text Column -->
-      <div class="col-md-6 d-flex align-items-center justify-content-center">
-        <div class="p-4">
-          <h1 class="separator">Leefstijlcoaching</h1>
-          <h5>Lorem ipsum</h5>
-          <h5>Dolor sit amet</h5>
-          <h5>Consectetur adipisicing elit</h5>
-        </div>
-      </div>
-    </div>
   </div>
 </section>
 <div class="sun-divider">
@@ -77,17 +57,17 @@ pageKey: "lifestyleCoaching"
         </button>
         <ul class="dropdown-menu" aria-labelledby="mobileDropdown" role="tablist">
           <li>
-            <button class="dropdown-item active" data-bs-toggle="tab" data-bs-target="#lifestyle" type="button" role="tab" aria-selected="true">
+            <button class="dropdown-item active fs-4" data-bs-toggle="tab" data-bs-target="#lifestyle" type="button" role="tab" aria-selected="true">
               Leefstijlcoaching
             </button>
           </li>
           <li>
-            <button class="dropdown-item" data-bs-toggle="tab" data-bs-target="#info" type="button" role="tab" aria-selected="false">
+            <button class="dropdown-item fs-4" data-bs-toggle="tab" data-bs-target="#info" type="button" role="tab" aria-selected="false">
               Praktische Informatie
             </button>
           </li>
           <li>
-            <button class="dropdown-item" data-bs-toggle="tab" data-bs-target="#pricing" type="button" role="tab" aria-selected="false">
+            <button class="dropdown-item fs-4" data-bs-toggle="tab" data-bs-target="#pricing" type="button" role="tab" aria-selected="false">
               Tarieven
             </button>
           </li>
@@ -97,7 +77,7 @@ pageKey: "lifestyleCoaching"
     </div>
     <div class="tab-content pt-3" id="lifestyleTabsContent" style="overflow:hidden">
       <!-- Lifestyle Coaching Tab -->
-      <div class="tab-pane fade active show" id="lifestyle" role="tabpanel" aria-labelledby="tab-lifestyle">
+      <div class="mb-3 tab-pane fade active show" id="lifestyle" role="tabpanel" aria-labelledby="tab-lifestyle">
         <h4 class="mb-3 separator">Leefstijlcoaching</h4>
         <h5 class="mb-3"><i>Persoonlijke groei, veerkracht, balans en doelgerichtheid</i></h5>
         <p>
@@ -110,7 +90,7 @@ pageKey: "lifestyleCoaching"
         </p>
       </div>
       <!-- Practical Information Tab-->
-      <div class="tab-pane fade" id="info" role="tabpanel" aria-labelledby="tab-info">
+      <div class="mb-3 tab-pane fade" id="info" role="tabpanel" aria-labelledby="tab-info">
         <div class="container mt-4">
           <h4 class="fs-4 mt-5 separator">Coachingstraject</h4>
           <p>
@@ -122,7 +102,7 @@ pageKey: "lifestyleCoaching"
           <div class="row g-4">
             <div class="col-md-6 col-lg-6">
               <div class="card">
-                <div class="card-body custom-color p-2 p-lg-5">
+                <div class="card-body custom-color px-2 py-3 p-lg-5">
                   <button
                     class="btn toggle-btn w-100 d-flex justify-content-between align-items-center collapsed collapsed"
                     data-bs-toggle="collapse"
@@ -143,7 +123,7 @@ pageKey: "lifestyleCoaching"
             </div>
             <div class="col-md-6 col-lg-6">
               <div class="card">
-                <div class="card-body custom-color p-2 p-lg-5">
+                <div class="card-body custom-color px-2 py-3 p-lg-5">
                   <button
                     class="btn toggle-btn w-100 d-flex justify-content-between align-items-center collapsed"
                     data-bs-toggle="collapse"
@@ -158,9 +138,9 @@ pageKey: "lifestyleCoaching"
                       In dit gesprek beginnen we met een verkenning van jouw leefstijl en stellen we samen jouw <strong>doelen, motivatie en verwachtingen</strong> vast. We bekijken jouw huidige situatie vanuit een fysiek, mentaal en sociaal perspectief om een traject te ontwikkelen dat perfect aansluit bij jou. Jij bent en blijft de expert over jouw eigen leven.
                       <div>Daarnaast starten we met een aantal analyses, afhankelijk van de facetten waarop we ons richten, zoals:</div>
                       <ul class="mt-3">
-                        <li>{% include "icons/cog-icon.njk" %}<span class="px-2">Lichaamsanalyse</span></li>
-                        <li>{% include "icons/chart-pie-icon.njk" %}<span class="px-2">Voedingsanalyse</span></li>
-                        <li>{% include "icons/adjustment-icon.njk" %}<span class="px-2">Beweegpatroonanalyse</span></li>
+                        <li>{% include "icons/cog-icon.njk" %}<span>Lichaamsanalyse</span></li>
+                        <li>{% include "icons/chart-pie-icon.njk" %}<span>Voedingsanalyse</span></li>
+                        <li>{% include "icons/adjustment-icon.njk" %}<span>Beweegpatroonanalyse</span></li>
                       </ul>
                     </div>
                   </div>
@@ -169,7 +149,7 @@ pageKey: "lifestyleCoaching"
             </div>
             <div class="col-md-6 col-lg-6">
               <div class="card">
-                <div class="card-body custom-color p-2 p-lg-5">
+                <div class="card-body custom-color px-2 py-3 p-lg-5">
                   <button
                     class="btn toggle-btn w-100 d-flex justify-content-between align-items-center collapsed"
                     data-bs-toggle="collapse"
@@ -183,12 +163,12 @@ pageKey: "lifestyleCoaching"
                     <div class="mt-2">
                       In het adviesgesprek bouwen we voort op de thema's die tijdens de intake zijn besproken. Op basis van de resultaten van de intake en de informatie uit het huiswerk, kunnen we gerichte adviezen gaan bespreken.Afhankelijk van jouw behoeften kunnen we aanvullende modellen en testen inzetten, zoals:
                       <ul class="mt-3">
-                        <li>{% include "icons/heart-icon.njk" %}<span class="px-2">Positieve gezondheid</span></li>
-                        <li>{% include "icons/arrow-right-up-icon.njk" %}<span class="px-2">Intrinsieke en extrinsieke motivatie</span></li>
-                        <li>{% include "icons/moon-icon.njk" %}<span class="px-2">Slaapgewoontes</span></li>
-                        <li>{% include "icons/scale-icon.njk" %}<span class="px-2">Stressmanagement</span></li>
-                        <li>{% include "icons/arrows-pointing-icon.njk" %}<span class="px-2">Sociale druk</span></li>
-                        <li>{% include "icons/sun-icon.njk" %}<span class="px-2">Bewustwordingsoefeningen</span></li>
+                        <li>{% include "icons/heart-icon.njk" %}<span>Positieve gezondheid</span></li>
+                        <li>{% include "icons/arrow-right-up-icon.njk" %}<span>Intrinsieke en extrinsieke motivatie</span></li>
+                        <li>{% include "icons/moon-icon.njk" %}<span>Slaapgewoontes</span></li>
+                        <li>{% include "icons/scale-icon.njk" %}<span>Stressmanagement</span></li>
+                        <li>{% include "icons/arrows-pointing-icon.njk" %}<span>Sociale druk</span></li>
+                        <li>{% include "icons/sun-icon.njk" %}<span>Bewustwordingsoefeningen</span></li>
                       </ul>
                     </div>
                   </div>
@@ -197,7 +177,7 @@ pageKey: "lifestyleCoaching"
             </div>
             <div class="col-md-6 col-lg-6">
               <div class="card">
-                <div class="card-body custom-color p-2 p-lg-5">
+                <div class="card-body custom-color px-2 py-3 p-lg-5">
                   <button
                     class="btn toggle-btn w-100 d-flex justify-content-between align-items-center collapsed"
                     data-bs-toggle="collapse"
@@ -217,7 +197,7 @@ pageKey: "lifestyleCoaching"
             </div>
             <div class="col-md-6 col-lg-6">
               <div class="card">
-                <div class="card-body custom-color p-2 p-lg-5">
+                <div class="card-body custom-color px-2 py-3 p-lg-5">
                   <button
                     class="btn toggle-btn w-100 d-flex justify-content-between align-items-center collapsed"
                     data-bs-toggle="collapse"
@@ -237,7 +217,7 @@ pageKey: "lifestyleCoaching"
             </div>
             <div class="col-md-6 col-lg-6">
               <div class="card">
-                <div class="card-body custom-color p-2 p-lg-5">
+                <div class="card-body custom-color px-2 py-3 p-lg-5">
                   <button
                     class="btn toggle-btn w-100 d-flex justify-content-between align-items-center collapsed"
                     data-bs-toggle="collapse"
@@ -259,7 +239,7 @@ pageKey: "lifestyleCoaching"
         </div>
       </div>
       <!-- Pricing tab -->
-      <div class="tab-pane fade" id="pricing" role="tabpanel" aria-labelledby="tab-pricing">
+      <div class="mb-3 tab-pane fade" id="pricing" role="tabpanel" aria-labelledby="tab-pricing">
           <h4>Coachings trajecten:</h4>
           <div class="row g-4">
             <!-- Start pakket Card -->

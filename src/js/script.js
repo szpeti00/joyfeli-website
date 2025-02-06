@@ -103,27 +103,18 @@ document.addEventListener('DOMContentLoaded', () => {
   dropdownItems.forEach((item) => item.addEventListener('click', handleTabClick));
 
   // Arrow Buttons for Previous/Next Tab 
-  if (prevTabBtn) {
-    prevTabBtn.addEventListener('click', () => {
-      const currentIndex = tabIds.indexOf(document.querySelector('.tab-pane.active').id);
-      if (currentIndex > 0) {
-        activateTab(tabIds[currentIndex - 1]);
-      }
-       //Scroll to the top of the tab 
-       document.querySelector('.tab-section').scrollIntoView({ behavior: 'smooth' });
-    });
-  }
+  const handleArrowButtonClick = (direction) => {
+    const currentIndex = tabIds.indexOf(document.querySelector('.tab-pane.active').id);
+    const newIndex = currentIndex + direction;
+    if (newIndex >= 0 && newIndex < tabIds.length) {
+      activateTab(tabIds[newIndex]);
+      // Scroll to the top of the tab section
+      document.querySelector('.tab-section').scrollIntoView({ behavior: 'smooth' });
+    }
+  };
 
-  if (nextTabBtn) {
-    nextTabBtn.addEventListener('click', () => {
-      const currentIndex = tabIds.indexOf(document.querySelector('.tab-pane.active').id);
-      if (currentIndex < tabIds.length - 1) {
-        activateTab(tabIds[currentIndex + 1]);
-      }
-       //Scroll to the top of the tab 
-       document.querySelector('.tab-section').scrollIntoView({ behavior: 'smooth' });
-    });
-  }
+  prevTabBtn?.addEventListener('click', () => handleArrowButtonClick(-1));
+  nextTabBtn?.addEventListener('click', () => handleArrowButtonClick(1));
 
   // Update slider position on window resize
   window.addEventListener('resize', () => {
