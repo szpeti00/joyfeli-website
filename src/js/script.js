@@ -110,10 +110,6 @@ document.addEventListener('DOMContentLoaded', () => {
       activateTab(tabIds[newIndex]);
       // Scroll to the top of the tab section
       document.querySelector('.tab-section').scrollIntoView({ behavior: 'smooth' });
-      // Remove active and focus state from the buttons
-      prevTabBtn.blur();
-      nextTabBtn.blur();
-     
     }
   };
 
