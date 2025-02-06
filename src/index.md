@@ -205,7 +205,7 @@ navbarClass: "fixed-top"
             <div class="mb-3">
               <label for="name" class="form-label">Naam</label>
               <input type="text" class="form-control" id="name" name="name" placeholder="Je naam" required>
-              <div class="invalid-feedback">Vul alsjeblieft jouw naam in.</div>
+              <div class="invalid-feedback">Vul alsjeblieft je naam in.</div>
             </div>
             <div class="mb-3">
               <label for="email" class="form-label">E-mailadres</label>
@@ -215,12 +215,12 @@ navbarClass: "fixed-top"
             <div class="mb-3">
               <label for="phone" class="form-label">Telefoonnummer</label>
               <input type="tel" class="form-control" id="phone" name="phone" placeholder="Je telefoonnummer">
-              <div class="invalid-feedback">Vul alsjeblieft jouw telefoonnummer in.</div>
+              <div class="invalid-feedback">Vul alsjeblieft je telefoonnummer in.</div>
             </div>
             <div class="mb-3">
               <label for="message" class="form-label">Bericht</label>
               <textarea class="form-control" id="message" name="message" rows="4" placeholder="Je bericht" required></textarea>
-              <div class="invalid-feedback">Vul alsjeblieft jouw bericht in.</div>
+              <div class="invalid-feedback">Vul alsjeblieft je bericht in.</div>
             </div>
             <div class="text-center">
               <button type="submit" class="btn custom-btn">Verzenden</button>

@@ -394,8 +394,12 @@ ul {
   transform: scale(1.05);
 }
 
+.custom-btn:active,
 .custom-btn:focus,
-.custom-btn:active {
+.custom-btn:disabled,
+.custom-btn:disabled:hover,
+.custom-btn:disabled:active,
+.custom-btn:disabled:focus {
   filter: none !important;
   transform: none !important;
   outline: none !important;
