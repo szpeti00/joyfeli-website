@@ -12,6 +12,21 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   });
 // End
+
+// Hamburger menu animation
+  const offcanvasElement = document.getElementById('offcanvasNavbar');
+  const toggler = document.querySelector('.navbar-toggler');
+
+  // When offcanvas is about to be shown, add the "active" class to the toggler.
+  offcanvasElement.addEventListener('show.bs.offcanvas', () => {
+    toggler.classList.add('active');
+  });
+
+  // When offcanvas is hidden, remove the "active" class.
+  offcanvasElement.addEventListener('hide.bs.offcanvas', () => {
+    toggler.classList.remove('active');
+  });
+// End
   
 
 // Scroll to top functionality

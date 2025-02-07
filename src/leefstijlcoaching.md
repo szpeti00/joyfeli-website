@@ -20,7 +20,7 @@ pageKey: "lifestyleCoaching"
   </div>
 </section> -->
 <section class="hero-section">
-  <div class="container-fluid p-0">
+  <div class="container-fluid p-xs-0">
     <!-- Use gx-0 to remove horizontal gutters if you want the columns flush with each other -->
     <div class="row gx-0 align-items-center">
       <!-- Image Column -->

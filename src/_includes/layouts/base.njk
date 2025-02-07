@@ -33,23 +33,18 @@
 <body>
   
   <!-- Navbar with Offcanvas for Small Screens -->
-  <nav class="navbar navbar-expand-xl bg-light bg-opacity-75 {{ navbarClass | default('sticky-top') }}">
+  <nav class="navbar navbar-expand-xl {{ navbarClass | default('sticky-top') }}">
     <div class="container-fluid">
       <a class="navbar-brand" href={{ links.home[locale] }}>
         <img src="/img/logo.png" alt="JoyFeli" class="navbar-logo">
       </a>
       <button class="navbar-toggler custom-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
-        <span class="navbar-toggler-icon"></span>
+        <span class="line"></span>
+        <span class="line"></span>
+        <span class="line"></span>
       </button>
 
-      <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
-        <div class="offcanvas-header">
-          <h5 id="offcanvasNavbarLabel" class="visually-hidden">Navigation Menu</h5>
-          <!-- <p>
-            <a class="nav-link" href="en/">EN</a>
-          </p> -->
-          <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-        </div>
+      <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" data-bs-backdrop="false" aria-labelledby="offcanvasNavbarLabel">
        {% include "../partials/navigation.njk" %}
       </div>
     </div>

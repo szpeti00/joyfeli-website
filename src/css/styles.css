@@ -10,6 +10,7 @@
   --green-color: #071c08;
   --light-green-color: #C9F1CB;
   --gray-color: #403e3e;
+  --middle-gray-color: #D4D4D4;
   --light-gray-color: #f7f7f7; /* seasalt */
   --light-gray-rgb: 247, 247, 247;
   --white-color: #FBFEFF;
@@ -27,8 +28,8 @@
   --spacing-md: 2rem;
   --spacing-lg: 3.5rem;
   --spacing-xl: 5rem;
-  /* --navbar-height: 86px;
-  --navbar-height-sm: 76px; */
+  --navbar-height: 86px;
+  --navbar-height-sm: 76px;
 
   /* Transition */
   --transition-speed: 0.3s;
@@ -136,34 +137,51 @@ ul {
 }
 
 .navbar {
+  background: rgba(var(--light-gray-rgb), .75);
   backdrop-filter: blur(10px);
-  border-bottom: .3px solid var(--light-gray-color);
+  border-bottom: .5px solid var(--middle-gray-color);
 }
 
 .custom-toggler,
 .custom-toggler:focus,
-.custom-toggler:active,
-.btn-close,
-.btn-close:focus,
-.btn-close:active {
+.custom-toggler:active {
   border: none;
   outline: none;
+  background: transparent;
   box-shadow: none;
 }
 
-.custom-toggler .navbar-toggler-icon {
-  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgb(5, 55, 66)' stroke-width='3' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
-  font-size: 27px;
+/* Style the hamburger lines */
+.custom-toggler .line {
+  display: block;
+  width: 35px;
+  height: 4px;
+  background-color: var(--primary-color);
+  margin: 6px auto;
+  border-radius: 2px;
+  transition: all 0.6s ease-in-out;
+}
+
+.custom-toggler .line:nth-child(2) {
+  transform-origin: left;
+}
+
+/* Animation when offcanvas is open (active state) */
+.navbar-toggler.active .line:nth-child(1) {
+  transform: translateY(9.5px) rotate(45deg);
+}
+.navbar-toggler.active .line:nth-child(2) {
+  transform: scaleX(0);
+  opacity: 0;
+}
+.navbar-toggler.active .line:nth-child(3) {
+  transform: translateY(-9.5px) rotate(-45deg);
 }
 
 #offcanvasNavbar {
   width: 100vw;
   background-color: var(--light-gray-color);
-}
-
-.offcanvas-header .btn-close {
-  font-size: 1.6rem;
-  padding: 1.6rem;
+  transition: transform 0.6s ease-in-out;
 }
 
 /* =========================================
@@ -227,6 +245,7 @@ ul {
   }
 
   .navbar {
+    background: var(--light-gray-color);
     backdrop-filter: none;
   }
 
@@ -238,6 +257,11 @@ ul {
 
   .navbar-logo {
     height: 50px;
+  }
+
+  #offcanvasNavbar {
+    margin-top: var(--navbar-height-sm);
+    border-width: 0;
   }
 
   #offcanvasNavbar .nav-link {
@@ -307,7 +331,7 @@ ul {
 ========================================= */
 .hero-home {
   position: relative;
-  color: #fff;
+  color: var(--white-color);
 }
 
 /* Hero section container */
@@ -382,7 +406,7 @@ ul {
 .custom-btn,
 .custom-btn:hover {
   background-color: var(--primary-color);
-  color: #fff;
+  color: var(--white-color);
   border-radius: 20px;
   padding: 10px 20px;
   transition: filter var(--transition-speed), transform var(--transition-speed);
