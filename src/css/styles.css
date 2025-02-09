@@ -48,6 +48,11 @@ body {
   color: var(--primary-color);
 }
 
+h1 {
+  /* font-family: Oswald, sans-serif; */
+  font-size: var(--font-size-nav-xl);
+}
+
 a {
   text-decoration: none;
   color: inherit;
@@ -95,12 +100,23 @@ ul {
   color: var(--primary-color);
 }
 
+/* .green {
+  color: red;
+}
+.blue {
+  color: blue;
+} */
+
 .gray-bg {
   background-color: var(--light-gray-color);
 }
 
 .white-bg {
   background-color: var(--white-color);
+}
+
+.green-bg {
+  background-color: #cbdbc6;
 }
 
 .custom-bg {
@@ -168,14 +184,14 @@ ul {
 
 /* Animation when offcanvas is open (active state) */
 .navbar-toggler.active .line:nth-child(1) {
-  transform: translateY(9.5px) rotate(45deg);
+  transform: translateY(10px) rotate(45deg);
 }
 .navbar-toggler.active .line:nth-child(2) {
   transform: scaleX(0);
   opacity: 0;
 }
 .navbar-toggler.active .line:nth-child(3) {
-  transform: translateY(-9.5px) rotate(-45deg);
+  transform: translateY(-10px) rotate(-45deg);
 }
 
 #offcanvasNavbar {
@@ -208,9 +224,17 @@ ul {
   padding: var(--spacing-sm);
 }
 
+.profile-img {
+  display: block;
+  max-height: 600px;
+  width: auto;
+  margin: auto;
+  border-radius: 50%;
+}
+
 
 /* =========================================
-   Animations for the About Me Section
+   Animations for the welcome Section
 ========================================= */
 /* Active state when in viewport */
 .bg-image.active,
@@ -242,6 +266,10 @@ ul {
 @media (max-width: 1199px) {
   body {
     font-size: 18px;
+  }
+
+  h1 {
+    font-size: var(--font-size-nav-xl);
   }
 
   .navbar {
@@ -310,6 +338,10 @@ ul {
 }
 
 @media (max-width: 767px) {
+  h1 {
+    font-size: var(--font-size-nav-lg);
+  }
+
   .dropdown-menu {
     width: 100%;
     color: var(--primary-color)
@@ -326,6 +358,16 @@ ul {
   }
 }
 
+@media (max-width: 575px) {
+  h1 {
+    font-size: var(--font-size-nav-md);
+  }
+
+  .separator-h1::after {
+    width: 100px !important;
+  }
+}
+
 /* =========================================
    Hero Sections
 ========================================= */
@@ -334,39 +376,74 @@ ul {
   color: var(--white-color);
 }
 
+/* ===== Base Styles for Large Screens ===== */
+
 /* Hero section container */
-/* .hero-section {
+.hero-section {
   position: relative;
-  background: linear-gradient(to bottom, var(--light-gray-color) 0%, var(--white-color) 100%);
-  height: 90vh;
-  min-height: 500px;
+  background: linear-gradient(to bottom, #cbdbc6 0%, var(--white-color) 80%);
+  height: 100vh;
   overflow: hidden;
-} */
+}
 
 /* Hero image styling */
-/* .hero-img {
+.hero-img {
   position: absolute;
   bottom: 0;
   left: 0;
-  height: 80%;
+  height: 80vh;
   border: 10px solid var(--white-color);
-  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
-  transform: translateX(20%) translateY(-15%);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  transform: translateX(20%) translateY(-20%);
   z-index: 1;
-} */
+}
 
 /* Hero textbox styling */
-/* .hero-textbox {
+.hero-textbox {
   position: absolute;
-  background: rgba(var(--light-gray-rgb), .9);
+  background: rgba(var(--light-gray-rgb), 0.9);
   top: 55%;
   right: 10%;
   padding: 1rem;
   border: 10px solid var(--white-color);
   box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
-  transform:  translateY(-50%);
+  transform: translateY(-60%);
   z-index: 2;
-}  */
+}
+
+/* ===== Responsive Styles for Screens Smaller than 1200px ===== */
+@media (max-width: 1199px) {
+  /* Make the section auto height so content can stack */
+  .hero-section {
+    height: auto;
+    background: none; 
+    padding: 1rem 0; 
+  }
+
+  /* Remove absolute positioning from the image so it takes up its place in the flow */
+  .hero-img {
+    position: static;
+    display: block;
+    width: 100%;
+    height: auto;
+    border: none;    
+    box-shadow: none;   
+    transform: none;  
+    margin-bottom: 1rem; 
+  }
+
+  /* Remove absolute positioning from the textbox so it stacks below the image */
+  .hero-textbox {
+    position: static;
+    transform: none;
+    width: 100%;
+    margin: 0 auto; 
+    padding: 1rem;
+    box-shadow: none;
+  }
+}
+
+
 
 /* =========================================
    Section Divider
@@ -597,7 +674,15 @@ ul {
 .nav-tabs .nav-link:hover {
   border: none;
   border-bottom: 1px solid var(--primary-light-color);
+}
+
+.nav-tabs .nav-link,
+.nav-tabs .nav-link:focus {
   color: var(--primary-color);
+}
+
+.nav-tabs .nav-link:hover {
+  color: var(--gray-color);
 }
 
 .nav-tabs .nav-link.active {
@@ -617,12 +702,20 @@ ul {
   transition: linear var(--transition-speed);
 }
 
+.separator-h1::after {
+  content: "";
+  display: block;
+  border-bottom: 2px solid var(--primary-color);
+  width: 300px;
+  margin: 50px auto 20px auto;
+}
+
 .separator::after {
   content: "";
   display: block;
   border-bottom: 2px solid var(--primary-color);
   width: 100px;
-  margin: 10px 0;
+  margin: 20px 0;
 }
 
 

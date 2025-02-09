@@ -19,31 +19,34 @@ navbarClass: "fixed-top"
   <div class="sun-divider white-bg">
     <span class="sun"></span>
   </div>
-  <!-- About Me Section -->
-  <section  id="about" class="white-bg">
+  <!-- Welcome Section -->
+  <section id="welcome" class="white-bg">
     <div class="container position-relative">
       <div class="row">
         <div class="col-12 position-relative m-0 p-0">
           <!-- Background image container -->
           <div class="bg-image animate-slide-in-left"></div>
           <!-- Text overlay -->
-          <div class="text-overlay animate-slide-in-right bg-white bg-opacity-75">
+          <div class="text-overlay animate-slide-in-right bg-white bg-opacity-75 p-4 p-md-5">
+            <h1 class="separator-h1 text-uppercase fst-italic mt-4">
+              <span class="d-block mb-2">
+                <span>Jouw <strong>Leefstijlcoach</strong></span>
+              </span>
+              <span class="d-block text-center mb-2">
+                <span>en <strong>Personal Trainer</strong></span>
+              </span>
+              <span class="d-block text-end">in Wageningen</span>
+            </h1>
             <p>
-              Hi, ik ben Feli Aarsman. Ik verhuisde naar Wageningen voor de universiteit en werd direct verliefd op de stad en haar prachtige natuurlijke omgeving. Vervolgens is mijn passie doorontwikkeld van ecologie naar sport, beweging en het coachen van menselijk gedrag; zowel mentaal als fysiek. De verbinding tussen natuur en mens staat altijd centraal in alles wat ik doe.
+              Ik help mensen die klaar zijn om hun leven te transformeren maar niet weten waar te beginnen. Of je nu fitter wilt worden, gezondere gewoonten wilt opbouwen of meer balans zoekt, ik begeleid je met persoonlijke coaching en op maat gemaakte trainingen. Samen ontdekken we de diepere oorzaken van je gedrag en creëren we blijvende verandering voor lichaam en geest.
             </p>
-            <p>
-              Met meer dan acht jaar ervaring als gecertificeerd instructeur heb ik waardevolle inzichten opgedaan in menselijk gedrag. Dit heeft mijn overtuiging versterkt dat wat ik altijd al voelde: met positieve energie kunnen we samen de wereld sterker, gelukkiger en mooier maken. Om positieve energie uit te stralen, is het belangrijk gezond, sterk en veerkrachtig te zijn.
-            </p>
-            <div class="text-center">
-              <a href={{ links.about[locale] }} class="btn custom-btn fs-5">More</a>
-            </div>
           </div>
         </div>
       </div>
     </div>
   </section>
   
-  <!-- End About Me Section -->
+  <!-- End Welcome Me Section -->
   <div class="sun-divider white-bg">
     <span class="sun"></span>
   </div>
@@ -116,8 +119,36 @@ navbarClass: "fixed-top"
     <span class="sun"></span>
   </div>
 
+  <!-- About Me Section -->
+  <section class="py-5 white-bg" id="about">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6">
+            <h2 class="mb-5 separator">Over mij</h2>
+            <p>
+              Hi, ik ben Feli Aarsman. Ik verhuisde naar Wageningen voor de universiteit en werd direct verliefd op de stad en haar prachtige natuurlijke omgeving. Vervolgens is mijn passie doorontwikkeld van ecologie naar sport, beweging en het coachen van menselijk gedrag; zowel mentaal als fysiek. De verbinding tussen natuur en mens staat altijd centraal in alles wat ik doe.
+            </p>
+            <p>
+              &emsp;Met meer dan acht jaar ervaring als gecertificeerd instructeur heb ik waardevolle inzichten opgedaan in menselijk gedrag. Dit heeft mijn overtuiging versterkt dat wat ik altijd al voelde: met positieve energie kunnen we samen de wereld sterker, gelukkiger en mooier maken. <strong><i>Om positieve energie uit te stralen, is het belangrijk gezond, sterk en veerkrachtig te zijn.</i></strong>
+            </p>
+              <div class="text-center">
+                <a href={{ links.about[locale] }} class="btn custom-btn fs-5">More</a>
+              </div>
+        </div>
+        <div class="col-lg-6">
+          <img class="img-fluid profile-img mx-lg-5 mt-3" src="/img/feli.jpg" alt="Feli Aarsman">
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End About Me Section -->
+
+  <div class="sun-divider white-bg">
+    <span class="sun"></span>
+  </div>
+
   <!-- Reviews Section -->
-  <section class="py-5 white-bg" id="reviews">
+  <section class="py-5 gray-bg" id="reviews">
     <div class="container">
       <h2 class="mb-5 text-center">Reviews</h2>
       <!-- data-bs-interval to set the time between slides -->
@@ -165,11 +196,11 @@ navbarClass: "fixed-top"
     </div>
   </section>
   <!-- End Reviews Section -->
-  <div class="sun-divider white-bg">
+  <!-- <div class="sun-divider white-bg">
     <span class="sun"></span>
-  </div>
+  </div> -->
   <!-- Contact Section -->
-  <section class="py-5 gray-bg" id="contact">
+  <section class="py-5 green-bg" id="contact">
     <div class="container d-flex justify-content-center align-items-center">
       <h2 class="mb-5 visually-hidden">Contact</h2>
 				<div>

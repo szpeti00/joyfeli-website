@@ -43,7 +43,7 @@ window.onscroll = () => {
 // End
 
 
-// Intersection Observer fot the animation in the about me section
+// Intersection Observer fot the animation in the welcom section
 const textOverlay = document.querySelector('.text-overlay');
 const bgImage = document.querySelector('.bg-image');
 
