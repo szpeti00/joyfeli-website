@@ -25,18 +25,18 @@ navbarClass: "fixed-top"
       <div class="row">
         <div class="col-12 position-relative m-0 p-0">
           <!-- Background image container -->
-          <div class="bg-image animate-slide-in-left"></div>
+          <div class="bg-image welcome-img animate-slide-in-left"></div>
           <!-- Text overlay -->
-          <div class="text-overlay animate-slide-in-right bg-white bg-opacity-75 p-4 p-md-5">
-            <h1 class="separator-h1 text-uppercase fst-italic mt-4">
+          <div class="text-overlay welcome-text animate-slide-in-right bg-white bg-opacity-75 p-4 p-md-5">
+            <h1 class="separator-h1 text-uppercase">
               <span class="d-block mb-2">
-                <span>Jouw <strong>Leefstijlcoach</strong></span>
+                <span><strong>Train your mind</strong></span>
               </span>
               <span class="d-block text-center mb-2">
-                <span>en <strong>Personal Trainer</strong></span>
+                <strong>Train your body</strong>
               </span>
-              <span class="d-block text-end">in Wageningen</span>
             </h1>
+            <h4 class="mb-4 fst-italic">Leefstijlcoach en Personal Trainer in Wageningen</h4>
             <p>
               Ik help mensen die klaar zijn om hun leven te transformeren maar niet weten waar te beginnen. Of je nu fitter wilt worden, gezondere gewoonten wilt opbouwen of meer balans zoekt, ik begeleid je met persoonlijke coaching en op maat gemaakte trainingen. Samen ontdekken we de diepere oorzaken van je gedrag en creëren we blijvende verandering voor lichaam en geest.
             </p>

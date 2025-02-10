@@ -204,7 +204,6 @@ ul {
    About Me Section Styles
 ========================================= */
 .bg-image {
-  background-image: url('/img/Feli_mountain.jpg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -214,14 +213,31 @@ ul {
   min-height: 665px;
 }
 
+.welcome-img {
+  background-image: url('/img/Feli_mountain.jpg');
+}
+
+.lifestylecoach-img {
+  background-image: url('/img/lifestylecoach_2.jpg');
+}
+
 .text-overlay {
   position: absolute;
-  top: 10%;
   right: 0;
-  height: 80%;
-  max-width: 60%;
   border-radius: 20px 0 0 20px;
   padding: var(--spacing-sm);
+}
+
+.welcome-text {
+  top: 10%;
+  height: 80%;
+  max-width: 60%;
+}
+
+.lifestylecoach-text {
+  top: 40%;
+  height: 50%;
+  max-width: 60%;
 }
 
 .profile-img {
@@ -235,7 +251,7 @@ ul {
 
 /* =========================================
    Animations for the welcome Section
-========================================= */
+=========================================
 /* Active state when in viewport */
 .bg-image.active,
 .text-overlay.active {
@@ -359,10 +375,6 @@ ul {
 }
 
 @media (max-width: 575px) {
-  h1 {
-    font-size: var(--font-size-nav-md);
-  }
-
   .separator-h1::after {
     width: 100px !important;
   }
@@ -382,12 +394,12 @@ ul {
 .hero-section {
   position: relative;
   background: linear-gradient(to bottom, #cbdbc6 0%, var(--white-color) 80%);
-  height: 100vh;
+  height: 80vh;
   overflow: hidden;
 }
 
 /* Hero image styling */
-.hero-img {
+/* .hero-img {
   position: absolute;
   bottom: 0;
   left: 0;
@@ -396,10 +408,10 @@ ul {
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
   transform: translateX(20%) translateY(-20%);
   z-index: 1;
-}
+} */
 
 /* Hero textbox styling */
-.hero-textbox {
+/* .hero-textbox {
   position: absolute;
   background: rgba(var(--light-gray-rgb), 0.9);
   top: 55%;
@@ -409,41 +421,7 @@ ul {
   box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
   transform: translateY(-60%);
   z-index: 2;
-}
-
-/* ===== Responsive Styles for Screens Smaller than 1200px ===== */
-@media (max-width: 1199px) {
-  /* Make the section auto height so content can stack */
-  .hero-section {
-    height: auto;
-    background: none; 
-    padding: 1rem 0; 
-  }
-
-  /* Remove absolute positioning from the image so it takes up its place in the flow */
-  .hero-img {
-    position: static;
-    display: block;
-    width: 100%;
-    height: auto;
-    border: none;    
-    box-shadow: none;   
-    transform: none;  
-    margin-bottom: 1rem; 
-  }
-
-  /* Remove absolute positioning from the textbox so it stacks below the image */
-  .hero-textbox {
-    position: static;
-    transform: none;
-    width: 100%;
-    margin: 0 auto; 
-    padding: 1rem;
-    box-shadow: none;
-  }
-}
-
-
+} */
 
 /* =========================================
    Section Divider

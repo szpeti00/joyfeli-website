@@ -6,7 +6,34 @@ pageKey: "lifestyleCoaching"
 ---
 
 <!-- Hero Section -->
-<section class="hero-section">
+  <section class="hero-section">
+    <div class="container position-relative ">
+      <div class="row">
+        <div class="col-12 position-relative m-0 p-0">
+          <!-- Background image container -->
+          <div class="bg-image lifestylecoach-img animate-slide-in-left"></div>
+          <!-- Text overlay -->
+          <div class="text-overlay lifestylecoach-text animate-slide-in-right bg-white bg-opacity-75 p-4 p-md-5">
+            <h1 class="separator text-uppercase">
+              <span class="d-block mb-2">
+                <span><strong>Leefstijlcoaching</strong></span>
+              </span>
+            </h1>
+              <h4>
+                <span class="d-block mb-3 fst-italic">
+                  <strong>De kracht van gedrag.</strong>
+                </span>
+              </h4>
+            <p>
+              Creëer gezonde gewoontes en ontdek de kracht van je gedrag en innerlijke motivatie, zodat je een duurzaam, gebalanceerd leven kunt leiden.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+<!-- <section class="hero-section">
   
   <img src="/img/lifestylecoach_2.jpg" alt="Hero Image" class="hero-img img-fluid">
   
@@ -18,7 +45,7 @@ pageKey: "lifestyleCoaching"
     <p>Lorem ipsum dolor sit amet</p>
     <p>Lorem ipsum dolor sit amet. lorem ipsum dolor sit amet</p>
   </div>
-</section>
+</section>  -->
 <!-- <section class="hero-section">
   <div class="container-fluid p-xs-0">
     <div class="row gx-0 align-items-center">
