@@ -213,7 +213,7 @@ navbarClass: "fixed-top"
           <!-- Remove this later ^ -->
 					<h4>Neem contact met mij op</h4>
 					<p>
-            {% include "icons/phone-icon.njk" %}
+            {% include "icons/whatsapp-icon.njk" %}
             <a href="tel:{{ settings.phone }}">{{ settings.phoneText }}</a> 
 					</p>
 					<p>

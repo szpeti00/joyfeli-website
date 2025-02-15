@@ -235,7 +235,7 @@ pageKey: "lifestyleCoaching"
                       We sluiten het traject af met een evaluatie, waarin we terugblikken, je voortgang bespreken en <strong>valkuilen</strong> voor de toekomst identificeren. Samen ontwikkelen we strategieën om deze te herkennen en te overwinnen, zodat je nieuwe leefstijl blijvend is. Hoewel het traject kort en intensief is, richt het zich op <strong>duurzame gedragsverandering</strong>.
                       <ul class="mt-3">
                         <li>{% include "icons/exclamation-triangle-icon.njk" %}<span>Obstakels</span></li>
-                        <li>{% include "icons/sun-icon.njk" %}<span>Duurzaamheid</span></li>
+                        <li>{% include "icons/arrow-path-rounded-square-icon.njk" %}<span>Duurzaamheid</span></li>
                       </ul>
                     </div>
                   </div>
