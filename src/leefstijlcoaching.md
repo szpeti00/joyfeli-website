@@ -11,9 +11,10 @@ pageKey: "lifestyleCoaching"
     <div class="row">
       <div class="col-12 position-relative m-0 p-0">
         <!-- Background image container -->
-        <div class="bg-image lifestylecoach-img animate-slide-in-left"></div>
+        <div class="bg-image lifestylecoach-img animate-slide-in-left">
+        </div>
         <!-- Text overlay -->
-        <div class="text-overlay lifestylecoach-text animate-slide-in-right bg-white bg-opacity-75 p-4 p-md-5">
+        <div class="text-overlay lifestylecoach-text animate-slide-in-right bg-white bg-opacity-75 p-4 p-xxl-5">
           <h1 class="separator text-uppercase">
             <span class="d-block mb-2">
               <span><strong>Leefstijlcoaching</strong></span>
