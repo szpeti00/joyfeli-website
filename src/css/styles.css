@@ -235,7 +235,7 @@ ul {
 }
 
 .lifestylecoach-text {
-  bottom: 10%;
+  bottom: 15%;
   height: auto;
   max-width: 60%;
 }
@@ -393,9 +393,7 @@ ul {
 /* Hero section container */
 .hero-section {
   position: relative;
-  background: linear-gradient(to bottom, var(--light-green-color) 0%, var(--white-color) 80%);
-  height: 80vh;
-  overflow: hidden;
+  background: linear-gradient(to bottom, var(--light-green-color) 0%, var(--white-color) 100%);
 }
 
 /* =========================================

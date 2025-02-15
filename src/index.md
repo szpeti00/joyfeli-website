@@ -45,7 +45,6 @@ navbarClass: "fixed-top"
       </div>
     </div>
   </section>
-  
   <!-- End Welcome Me Section -->
   <div class="sun-divider white-bg">
     <span class="sun"></span>
@@ -214,7 +213,7 @@ navbarClass: "fixed-top"
 					<h4>Neem contact met mij op</h4>
 					<p>
             {% include "icons/whatsapp-icon.njk" %}
-            <a href="tel:{{ settings.phone }}">{{ settings.phoneText }}</a> 
+            <a href="https://wa.me/{{ settings.phone }}" target="_blank" rel="noopener noreferrer">{{ settings.phoneText }}</a> 
 					</p>
 					<p>
             {% include "icons/email-icon.njk" %}
