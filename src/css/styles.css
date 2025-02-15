@@ -331,10 +331,17 @@ ul {
   }
 
   .bg-image {
-    background-image: url('/img/Feli_mountain_cut.jpg');
     height: 40vh;
     min-height: 400px;
     margin-bottom: var(--spacing-sm);
+  }
+
+  .welcome-img {
+    background-image: url('/img/Feli_predel_cut.JPG');
+  }
+
+  .lifestylecoach-img {
+    background-image: url('/img/lifestylecoach_2.jpg');
   }
 
   .text-overlay {
