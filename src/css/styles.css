@@ -20,7 +20,7 @@
   --font-size-nav: 0.95rem;
   --font-size-nav-md: 1.2rem;
   --font-size-nav-lg: 1.6rem;
-  --font-size-nav-xl: 2.5rem;
+  --font-size-nav-xl: 2rem;
 
   /* Spacing */
   --spacing-xs: 0.5rem;
@@ -235,7 +235,7 @@ ul {
 }
 
 .lifestylecoach-text {
-  bottom: 15%;
+  bottom: 10%;
   height: auto;
   max-width: 60%;
 }
@@ -341,7 +341,7 @@ ul {
   }
 
   .lifestylecoach-img {
-    background-image: url('/img/lifestylecoach_2.jpg');
+    background-image: url('/img/lifestylecoaching_cut.jpg');
   }
 
   .text-overlay {
@@ -665,7 +665,7 @@ ul {
   display: block;
   border-bottom: 2px solid var(--primary-color);
   width: 300px;
-  margin: 50px auto 20px auto;
+  margin: 40px auto 20px auto;
 }
 
 .separator::after {

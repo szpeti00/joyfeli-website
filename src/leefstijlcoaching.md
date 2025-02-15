@@ -21,7 +21,7 @@ pageKey: "lifestyleCoaching"
           </h1>
             <h4>
               <span class="d-block mb-3 fst-italic">
-                <strong>De kracht van gedrag.</strong>
+                De kracht van gedrag.
               </span>
             </h4>
           <p>
