@@ -6,62 +6,33 @@ pageKey: "lifestyleCoaching"
 ---
 
 <!-- Hero Section -->
-  <section class="hero-section">
-    <div class="container position-relative ">
-      <div class="row">
-        <div class="col-12 position-relative m-0 p-0">
-          <!-- Background image container -->
-          <div class="bg-image lifestylecoach-img animate-slide-in-left"></div>
-          <!-- Text overlay -->
-          <div class="text-overlay lifestylecoach-text animate-slide-in-right bg-white bg-opacity-75 p-4 p-md-5">
-            <h1 class="separator text-uppercase">
-              <span class="d-block mb-2">
-                <span><strong>Leefstijlcoaching</strong></span>
+<section class="hero-section">
+  <div class="container position-relative ">
+    <div class="row">
+      <div class="col-12 position-relative m-0 p-0">
+        <!-- Background image container -->
+        <div class="bg-image lifestylecoach-img animate-slide-in-left"></div>
+        <!-- Text overlay -->
+        <div class="text-overlay lifestylecoach-text animate-slide-in-right bg-white bg-opacity-75 p-4 p-md-5">
+          <h1 class="separator text-uppercase">
+            <span class="d-block mb-2">
+              <span><strong>Leefstijlcoaching</strong></span>
+            </span>
+          </h1>
+            <h4>
+              <span class="d-block mb-3 fst-italic">
+                <strong>De kracht van gedrag.</strong>
               </span>
-            </h1>
-              <h4>
-                <span class="d-block mb-3 fst-italic">
-                  <strong>De kracht van gedrag.</strong>
-                </span>
-              </h4>
-            <p>
-              Creëer gezonde gewoontes en ontdek de kracht van je gedrag en innerlijke motivatie, zodat je een duurzaam, gebalanceerd leven kunt leiden.
-            </p>
-          </div>
+            </h4>
+          <p>
+            Creëer gezonde gewoontes en ontdek de kracht van je gedrag en innerlijke motivatie, zodat je een duurzaam, gebalanceerd leven kunt leiden.
+          </p>
         </div>
       </div>
     </div>
-  </section>
-
-<!-- <section class="hero-section">
-  
-  <img src="/img/lifestylecoach_2.jpg" alt="Hero Image" class="hero-img img-fluid">
-  
-  <div class="hero-textbox">
-    <h2 class="separator">Leefstijlcoaching</h2>
-    <h2>Lorem ipsum</h2>
-    <p>Lorem ipsum dolor sit amet</p>
-    <p>Lorem ipsum dolor sit amet</p>
-    <p>Lorem ipsum dolor sit amet</p>
-    <p>Lorem ipsum dolor sit amet. lorem ipsum dolor sit amet</p>
   </div>
-</section>  -->
-<!-- <section class="hero-section">
-  <div class="container-fluid p-xs-0">
-    <div class="row gx-0 align-items-center">
-      <div class="col-md-6">
-        <img src="/img/lifestylecoach_2.jpg" alt="Hero Image" class="img-fluid w-100">
-      </div>
-      <div class="col-md-6 d-flex align-items-center justify-content-center">
-        <div class="p-4">
-          <h1 class="separator">Leefstijlcoaching</h1>
-          <h5>Lorem ipsum</h5>
-          <h5>Dolor sit amet</h5>
-          <h5>Consectetur adipisicing elit</h5>
-        </div>
-      </div>
-    </div>
-  </div> -->
+</section>
+<!-- End Hero Section -->
 </section>
 <div class="sun-divider">
   <span class="sun"></span>
@@ -153,13 +124,16 @@ pageKey: "lifestyleCoaching"
                     data-bs-target="#introduction"
                     aria-expanded="false"
                   >
-                    <span class="card-title fs-4">{% include "icons/chat-bubble-icon.njk" %} Kennismaking</span>
+                    <span class="card-title fs-4"><span class="pe-2 pe-lg-3">{% include "icons/chat-bubble-icon.njk" %}</span>Kennismaking</span>
                     <span class="toggle-icon"></span>
                   </button>
                   <div class="collapse collapse-text" id="introduction">
                     <div class="mt-2">
                       We starten met een informele kennismaking, zodat we kunnen ontdekken of er een goede klik tussen ons is. Het is voor mij belangrijk dat we elkaar goed begrijpen en vertrouwen, omdat een sterke <strong>vertrouwensband</strong> de basis vormt voor een succesvolle samenwerking. Ik wil dat je je op je gemak voelt en dat we samen een fijne en open werksfeer kunnen creëren.
-                      <div>{% include "icons/arrow-right-icon.njk" %} gratis en vrijblijvend</div>
+                      <ul class="mt-3">
+                        <li>{% include "icons/tag-icon.njk" %}<span>Gratis</span></li>
+                        <li>{% include "icons/lock-open-icon.njk" %}<span>Vrijblijvend</span></li>
+                      </ul>
                     </div>
                   </div>
                 </div>
@@ -174,7 +148,7 @@ pageKey: "lifestyleCoaching"
                     data-bs-target="#intake"
                     aria-expanded="false"
                   >
-                    <span class="card-title fs-4">{% include "icons/pencil-square-icon.njk" %} Intakegesprek</span>
+                    <span class="card-title fs-4"><span class="pe-2 pe-lg-3">{% include "icons/pencil-square-icon.njk" %}</span> Intakegesprek</span>
                     <span class="toggle-icon"></span>
                   </button>
                   <div class="collapse collapse-text" id="intake">
@@ -182,9 +156,9 @@ pageKey: "lifestyleCoaching"
                       In dit gesprek beginnen we met een verkenning van jouw leefstijl en stellen we samen jouw <strong>doelen, motivatie en verwachtingen</strong> vast. We bekijken jouw huidige situatie vanuit een fysiek, mentaal en sociaal perspectief om een traject te ontwikkelen dat perfect aansluit bij jou. Jij bent en blijft de expert over jouw eigen leven.
                       <div>Daarnaast starten we met een aantal analyses, afhankelijk van de facetten waarop we ons richten, zoals:</div>
                       <ul class="mt-3">
-                        <li>{% include "icons/cog-icon.njk" %}<span>Lichaamsanalyse</span></li>
+                        <li>{% include "icons/cog-6-tooth-icon.njk" %}<span>Lichaamsanalyse</span></li>
                         <li>{% include "icons/chart-pie-icon.njk" %}<span>Voedingsanalyse</span></li>
-                        <li>{% include "icons/adjustment-icon.njk" %}<span>Beweegpatroonanalyse</span></li>
+                        <li>{% include "icons/battery-50-icon.njk" %}<span>Beweegpatroonanalyse</span></li>
                       </ul>
                     </div>
                   </div>
@@ -200,12 +174,12 @@ pageKey: "lifestyleCoaching"
                     data-bs-target="#consultation"
                     aria-expanded="false"
                   >
-                    <span class="card-title fs-4">{% include "icons/light-bulb-icon.njk" %} Adviesgesprek</span>
+                    <span class="card-title fs-4"><span class="pe-2 pe-lg-3">{% include "icons/light-bulb-icon.njk" %}</span> Adviesgesprek</span>
                     <span class="toggle-icon"></span>
                   </button>
                   <div class="collapse collapse-text" id="consultation">
                     <div class="mt-2">
-                      In het adviesgesprek bouwen we voort op de thema's die tijdens de intake zijn besproken. Op basis van de resultaten van de intake en de informatie uit het huiswerk, kunnen we gerichte adviezen gaan bespreken.Afhankelijk van jouw behoeften kunnen we aanvullende modellen en testen inzetten, zoals:
+                      In het adviesgesprek bouwen we voort op de thema's die tijdens de intake zijn besproken. Op basis van de resultaten van de intake en de informatie uit het huiswerk, kunnen we <strong>gerichte adviezen</strong> gaan bespreken. Afhankelijk van jouw behoeften kunnen we aanvullende modellen en testen inzetten, zoals:
                       <ul class="mt-3">
                         <li>{% include "icons/heart-icon.njk" %}<span>Positieve gezondheid</span></li>
                         <li>{% include "icons/arrow-right-up-icon.njk" %}<span>Intrinsieke en extrinsieke motivatie</span></li>
@@ -228,12 +202,17 @@ pageKey: "lifestyleCoaching"
                     data-bs-target="#followUp"
                     aria-expanded="false"
                   >
-                    <span class="card-title fs-4">{% include "icons/arrow-trending-up-icon.njk" %} Vervolgsessies</span>
+                    <span class="card-title fs-4"><span class="pe-2 pe-lg-3">{% include "icons/arrow-trending-up-icon.njk" %}</span> Vervolgsessies</span>
                     <span class="toggle-icon"></span>
                   </button>
                   <div class="collapse collapse-text" id="followUp">
                     <div class="mt-2">
                       In de vervolgsessies, onze <strong>coachings- of begeleidingsmomenten</strong>, koppelen we terug naar de behaalde resultaten, evalueren we de voortgang en sturen we bij waar nodig. Soms komen er nieuwe subdoelen naar voren die eerder niet aan het licht zijn gekomen. Openheid en eerlijkheid zijn hierbij van groot belang. Deze sessies bieden praktische handvatten en adviezen om je effectief richting je einddoel te leiden.
+                      <ul class="mt-3">
+                        <li>{% include "icons/arrow-path-icon.njk" %}<span>Terugkoppelen</span></li>
+                        <li>{% include "icons/wrench-screwdriver-icon.njk" %}<span>Bijsturen</span></li>
+                        <li>{% include "icons/cog-icon.njk" %}<span>Optimaliseren</span></li>
+                      </ul>
                     </div>
                   </div>
                 </div>
@@ -248,12 +227,16 @@ pageKey: "lifestyleCoaching"
                     data-bs-target="#evaluation"
                     aria-expanded="false"
                   >
-                    <span class="card-title fs-4">{% include "icons/clipboard-icon.njk" %} Evaluatiegesprek</span>
+                    <span class="card-title fs-4"><span class="pe-2 pe-lg-3">{% include "icons/clipboard-icon.njk" %}</span> Evaluatiegesprek</span>
                     <span class="toggle-icon"></span>
                   </button>
                   <div class="collapse collapse-text" id="evaluation">
                     <div class="mt-2">
-                      We ronden het traject af met een evaluatie, waarin we terugkijken op de stappen die je hebt gezet en mogelijke <strong>valkuilen</strong> voor de toekomst bespreken. Samen ontwikkelen we strategieën om deze valkuilen te herkennen en te overwinnen, zodat je nieuwe leefstijl een blijvend onderdeel van je leven wordt. We richten ons hierbij niet alleen op de veranderingen die je hebt doorgemaakt, maar ook op het versterken van de gedragsverandering die noodzakelijk is voor de toekomst. Hoewel de trajecten kort en intensief zijn, zijn ze ontworpen om <strong>duurzame veranderingen</strong> in je leven te realiseren, die blijvende gedragsverandering ondersteunen.
+                      We sluiten het traject af met een evaluatie, waarin we terugblikken, je voortgang bespreken en <strong>valkuilen</strong> voor de toekomst identificeren. Samen ontwikkelen we strategieën om deze te herkennen en te overwinnen, zodat je nieuwe leefstijl blijvend is. Hoewel het traject kort en intensief is, richt het zich op <strong>duurzame gedragsverandering</strong>.
+                      <ul class="mt-3">
+                        <li>{% include "icons/exclamation-triangle-icon.njk" %}<span>Obstakels</span></li>
+                        <li>{% include "icons/sun-icon.njk" %}<span>Duurzaamheid</span></li>
+                      </ul>
                     </div>
                   </div>
                 </div>
@@ -268,12 +251,16 @@ pageKey: "lifestyleCoaching"
                     data-bs-target="#location"
                     aria-expanded="false"
                   >
-                    <span class="card-title fs-4">{% include "icons/home-icon.njk" %} Locatie</span>
+                    <span class="card-title fs-4"><span class="pe-2 pe-lg-3">{% include "icons/home-icon.njk" %}</span> Locatie</span>
                     <span class="toggle-icon"></span>
                   </button>
                   <div class="collapse collapse-text" id="location">
                     <div class="mt-2">
-                      De coachingssessies kunnen plaatsvinden op een locatie die voor jou het meest geschikt is: bij <strong>mij, bij jou thuis, of buiten in de natuur</strong>, bijvoorbeeld in de vorm van wandelcoaching. Daarnaast is het ook mogelijk om de sessies online te doen, wat flexibiliteit biedt om de coaching te integreren in je dagelijkse routine, waar je ook bent. Het belangrijkste is dat jij je op je gemak voelt en gemotiveerd bent om duurzame veranderingen te realiseren. 
+                      De coachingssessies vinden plaats in <strong>mijn praktijkruimte</strong> in Wageningen, een rustige en fijne omgeving om aan jouw doelen te werken. <strong>Online sessies</strong> zijn ook mogelijk voor extra flexibiliteit. Het belangrijkste is dat jij je op je gemak voelt en gemotiveerd bent om duurzame veranderingen te realiseren.
+                      <ul class="mt-3">
+                        <li>{% include "icons/home-modern-icon.njk" %}<span>Wageningen</span></li>
+                        <li>{% include "icons/wifi-icon.njk" %}<span>Online</span></li>
+                      </ul>
                     </div>
                   </div>
                 </div>
@@ -293,27 +280,27 @@ pageKey: "lifestyleCoaching"
                         <h5 class="card-title text-center fs-4">Start pakket</h5>
                         <p class="card-text fs-lg-4">
                           {% include "icons/calendar-icon.njk" %}
-                          <span class="px-lg-3">1 a 2 maanden, 6 sessies</span>
+                          <span class="ps-2 ps-lg-3">1 - 2 maanden, 6 sessies</span>
                         </p>
                         <p class="card-text fs-lg-4">
-                          {% include "icons/price-icon.njk" %}<span class="px-lg-3">€ 350</span>
+                          {% include "icons/price-icon.njk" %}<span class="ps-2 ps-lg-3">€ 350</span>
                         </p>
                         <div class="card-text">
                           <div>
                             {% include "icons/check-icon.njk" %}
-                            <span class="px-lg-3">Gratis kennismaking</span>
+                            <span class="ps-2 ps-lg-3">Gratis kennismaking</span>
                           </div>
                           <div>
                             {% include "icons/check-icon.njk" %}
-                            <span class="px-lg-3">Vlotte intake</span>
+                            <span class="ps-2 ps-lg-3">Vlotte intake</span>
                           </div>
                           <div>
                             {% include "icons/check-icon.njk" %}
-                            <span class="px-lg-3">4 Coachingsessies</span>
+                            <span class="ps-2 ps-lg-3">4 Coachingsessies</span>
                           </div>
                           <div>
                             {% include "icons/check-icon.njk" %}
-                            <span class="px-lg-3">Eind evaluatie</span>
+                            <span class="ps-2 ps-lg-3">Eind evaluatie</span>
                           </div>
                           <button
                             class="btn toggle-btn w-100 d-flex justify-content-center align-items-center collapsed"
@@ -340,27 +327,27 @@ pageKey: "lifestyleCoaching"
                         <h5 class="card-title text-center fs-4">Medium pakket</h5>
                         <p class="card-text fs-lg-4">
                           {% include "icons/calendar-icon.njk" %}
-                          <span class="px-lg-3">2 a 3 maanden, 8 sessies</span>
+                          <span class="ps-2 ps-lg-3">2 - 3 maanden, 8 sessies</span>
                         </p>
                         <p class="card-text fs-lg-4">
-                          {% include "icons/price-icon.njk" %}<span class="px-lg-3">€ 450</span>
+                          {% include "icons/price-icon.njk" %}<span class="ps-2 ps-lg-3">€ 450</span>
                         </p>
                         <div class="card-text">
                           <div>
                             {% include "icons/check-icon.njk" %}
-                            <span class="px-lg-3">Gratis kennismaking</span>
+                            <span class="ps-2 ps-lg-3">Gratis kennismaking</span>
                           </div>
                           <div>
                             {% include "icons/check-icon.njk" %}
-                            <span class="px-lg-3">Intake gesprek</span>
+                            <span class="ps-2 ps-lg-3">Intake gesprek</span>
                           </div>
                           <div>
                             {% include "icons/check-icon.njk" %}
-                            <span class="px-lg-3">6 Coachingsessies</span>
+                            <span class="ps-2 ps-lg-3">6 Coachingsessies</span>
                           </div>
                           <div>
                             {% include "icons/check-icon.njk" %}
-                            <span class="px-lg-3">Eind evaluatie</span>
+                            <span class="ps-2 ps-lg-3">Eind evaluatie</span>
                           </div>
                           <button
                             class="btn toggle-btn w-100 d-flex justify-content-center align-items-center collapsed"
@@ -387,27 +374,27 @@ pageKey: "lifestyleCoaching"
                         <h5 class="card-title text-center fs-4">10 - Sessies pakket</h5>
                         <p class="card-text fs-lg-4">
                           {% include "icons/calendar-icon.njk" %}
-                          <span class="px-lg-3"> 10 sessies</span>
+                          <span class="ps-2 ps-lg-3"> 10 sessies</span>
                         </p>
                         <p class="card-text fs-lg-4">
-                          {% include "icons/price-icon.njk" %}<span class="px-lg-3">€ 550</span>
+                          {% include "icons/price-icon.njk" %}<span class="ps-2 ps-lg-3">€ 550</span>
                         </p>
                         <div class="card-text">
                           <div>
                             {% include "icons/check-icon.njk" %}
-                            <span class="px-lg-3">Gratis kennismaking</span>
+                            <span class="ps-2 ps-lg-3">Gratis kennismaking</span>
                           </div>
                           <div>
                             {% include "icons/check-icon.njk" %}
-                            <span class="px-lg-3">Uitgebreide intake</span>
+                            <span class="ps-2 ps-lg-3">Uitgebreide intake</span>
                           </div>
                           <div>
                             {% include "icons/check-icon.njk" %}
-                            <span class="px-lg-3">8 Coachingsessies</span>
+                            <span class="ps-2 ps-lg-3">8 Coachingsessies</span>
                           </div>
                           <div>
                             {% include "icons/check-icon.njk" %}
-                            <span class="px-lg-3">Eind evaluatie</span>
+                            <span class="ps-2 ps-lg-3">Eind evaluatie</span>
                           </div>
                           <button
                             class="btn toggle-btn w-100 d-flex justify-content-center align-items-center collapsed"
@@ -434,23 +421,23 @@ pageKey: "lifestyleCoaching"
                         <h5 class="card-title text-center fs-4">Losse sessie</h5>
                         <p class="card-text fs-lg-4">
                           {% include "icons/calendar-icon.njk" %}
-                          <span class="px-lg-3">45 - 60 min</span>
+                          <span class="ps-2 ps-lg-3">45 - 60 min</span>
                         </p>
-                        <p class="card-text fs-4">
-                          {% include "icons/price-icon.njk" %}<span class="px-lg-3">€ 65</span>
+                        <p class="card-text fs-lg-4">
+                          {% include "icons/price-icon.njk" %}<span class="ps-2 ps-lg-3">€ 65</span>
                         </p>
                         <div class="card-text">
                           <div>
                             {% include "icons/check-icon.njk" %}
-                            <span class="px-lg-3">Gratis kennismaking</span>
+                            <span class="ps-2 ps-lg-3">Gratis kennismaking</span>
                           </div>
                           <div>
                             {% include "icons/check-icon.njk" %}
-                            <span class="px-lg-3">Flexibel</span>
+                            <span class="ps-2 ps-lg-3">Flexibel</span>
                           </div>
                           <div>
                             {% include "icons/check-icon.njk" %}
-                            <span class="px-lg-3">Keuzevrijheid</span>
+                            <span class="ps-2 ps-lg-3">Keuzevrijheid</span>
                           </div>
                           <button
                             class="btn toggle-btn w-100 d-flex justify-content-center align-items-center collapsed"

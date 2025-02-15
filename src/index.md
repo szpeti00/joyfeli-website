@@ -38,7 +38,7 @@ navbarClass: "fixed-top"
             </h1>
             <h4 class="mb-4 fst-italic">Leefstijlcoach en Personal Trainer in Wageningen</h4>
             <p>
-              Ik help mensen die klaar zijn om hun leven te transformeren maar niet weten waar te beginnen. Of je nu fitter wilt worden, gezondere gewoonten wilt opbouwen of meer balans zoekt, ik begeleid je met persoonlijke coaching en op maat gemaakte trainingen. Samen ontdekken we de diepere oorzaken van je gedrag en creëren we blijvende verandering voor lichaam en geest.
+              Ik werk met mensen die klaar zijn om hun leven te veranderen, maar niet precies weten waar ze moeten beginnen. Of je nu fitter wilt worden, gezondere gewoontes wilt opbouwen of meer innerlijke balans zoekt, ik begeleid je met persoonlijke coaching en op maat gemaakte trainingen. Samen ontdekken we de diepere oorzaken van je gedrag en creëren we blijvende verandering voor lichaam en geest.
             </p>
           </div>
         </div>
@@ -69,7 +69,7 @@ navbarClass: "fixed-top"
               </p>
             </div>
             <div class="card-footer text-center white-bg border-0">
-              <a href={{ links.lifestyleCoaching[locale] }} class="btn custom-btn fs-5">More</a>
+              <a href={{ links.lifestyleCoaching[locale] }} class="btn custom-btn fs-5">Meer</a>
             </div>
           </div>
         </div>
@@ -87,7 +87,7 @@ navbarClass: "fixed-top"
               </p>
             </div>
             <div class="card-footer text-center white-bg border-0">
-              <a href="{{ links.personalTraining[locale] }}" class="btn custom-btn fs-5">More</a>
+              <a href="{{ links.personalTraining[locale] }}" class="btn custom-btn fs-5">Meer</a>
             </div>
           </div>
         </div>
@@ -105,7 +105,7 @@ navbarClass: "fixed-top"
               </p>
             </div>
             <div class="card-footer text-center white-bg border-0">
-              <a href={{ links.forHer[locale] }} class="btn custom-btn fs-5">More</a>
+              <a href={{ links.forHer[locale] }} class="btn custom-btn fs-5">Meer</a>
             </div>
           </div>
         </div>
@@ -124,19 +124,23 @@ navbarClass: "fixed-top"
     <div class="container">
       <div class="row">
         <div class="col-lg-6">
-            <h2 class="mb-5 separator">Over mij</h2>
-            <p>
-              Hi, ik ben Feli Aarsman. Ik verhuisde naar Wageningen voor de universiteit en werd direct verliefd op de stad en haar prachtige natuurlijke omgeving. Vervolgens is mijn passie doorontwikkeld van ecologie naar sport, beweging en het coachen van menselijk gedrag; zowel mentaal als fysiek. De verbinding tussen natuur en mens staat altijd centraal in alles wat ik doe.
-            </p>
-            <p>
-              &emsp;Met meer dan acht jaar ervaring als gecertificeerd instructeur heb ik waardevolle inzichten opgedaan in menselijk gedrag. Dit heeft mijn overtuiging versterkt dat wat ik altijd al voelde: met positieve energie kunnen we samen de wereld sterker, gelukkiger en mooier maken. <strong><i>Om positieve energie uit te stralen, is het belangrijk gezond, sterk en veerkrachtig te zijn.</i></strong>
-            </p>
-              <div class="text-center">
-                <a href={{ links.about[locale] }} class="btn custom-btn fs-5">More</a>
-              </div>
+          <h2 class="mb-5 separator">Over mij</h2>
+          <p>
+            &emsp;Hi, ik ben Feli Aarsman.
+            Voor mijn studie Ecologie aan de universiteit verhuisde ik naar Wageningen en werd meteen verliefd op de stad en haar prachtige, natuurlijke omgeving. Ik ontdekte een diepe connectie tussen mens en natuur: net als ecosystemen zijn wij afhankelijk van een samenspel van <strong>interne en externe factoren</strong>. Ons welzijn wordt bepaald door biologische, psychologische en sociale lagen, die voortdurend met elkaar in wisselwerking staan.
+          </p>
+          <p>
+            &emsp;Mijn passie voor natuur groeide uit tot een fascinatie voor de manier waarop we denken, communiceren en ons gedragen – vooral als het gaat om leefstijl en beweging. Dit leidde tot een diepe interesse in begeleiding en coaching, waarbij ik mensen help <strong>fysiek en mentaal</strong> sterker te worden.
+          </p>
+          <p>
+            &emsp;Met meer dan <strong>acht jaar ervaring</strong> als <strong>gecertificeerd instructeur</strong> heb ik waardevolle inzichten opgedaan in hoe mensen denken, voelen en handelen. Dit versterkte mijn overtuiging: met positieve energie maken we samen de wereld sterker, gelukkiger en mooier. En om die energie uit te stralen, is het essentieel om <strong>gezond, sterk en veerkrachtig</strong> te zijn.
+          </p>
+          <div class="text-center mt-3">
+            <a href={{ links.about[locale] }} class="btn custom-btn fs-5">Meer</a>
+          </div>
         </div>
         <div class="col-lg-6">
-          <img class="img-fluid profile-img mx-lg-5 mt-3" src="/img/feli.jpg" alt="Feli Aarsman">
+          <img class="img-fluid profile-img mx-lg-5 mt-3" src="/img/feli.jpg" alt="Feli Aarsman profile picture">
         </div>
       </div>
     </div>

@@ -8,7 +8,7 @@
   --yellow-color: #fbf074;
   --red-color: #421005;
   --green-color: #071c08;
-  --light-green-color: #C9F1CB;
+  --light-green-color: #cbdbc6;
   --gray-color: #403e3e;
   --middle-gray-color: #D4D4D4;
   --light-gray-color: #f7f7f7; /* seasalt */
@@ -116,7 +116,7 @@ ul {
 }
 
 .green-bg {
-  background-color: #cbdbc6;
+  background-color: var(--light-green-color);
 }
 
 .custom-bg {
@@ -242,7 +242,7 @@ ul {
 
 .profile-img {
   display: block;
-  max-height: 600px;
+  max-height: 700px;
   width: auto;
   margin: auto;
   border-radius: 50%;
@@ -393,35 +393,10 @@ ul {
 /* Hero section container */
 .hero-section {
   position: relative;
-  background: linear-gradient(to bottom, #cbdbc6 0%, var(--white-color) 80%);
+  background: linear-gradient(to bottom, var(--light-green-color) 0%, var(--white-color) 80%);
   height: 80vh;
   overflow: hidden;
 }
-
-/* Hero image styling */
-/* .hero-img {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  height: 80vh;
-  border: 10px solid var(--white-color);
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
-  transform: translateX(20%) translateY(-20%);
-  z-index: 1;
-} */
-
-/* Hero textbox styling */
-/* .hero-textbox {
-  position: absolute;
-  background: rgba(var(--light-gray-rgb), 0.9);
-  top: 55%;
-  right: 10%;
-  padding: 1rem;
-  border: 10px solid var(--white-color);
-  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
-  transform: translateY(-60%);
-  z-index: 2;
-} */
 
 /* =========================================
    Section Divider
