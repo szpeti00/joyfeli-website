@@ -40,14 +40,12 @@
 ========================================= */
 html {
   scroll-padding-top: 3.85rem;
-  overflow-x: hidden;
 }
 
 body {
   font-size: var(--font-size-base);
   font-family: 'Montserrat', sans-serif;
   color: var(--primary-color);
-  overflow-x: hidden;
 }
 
 h1 {
@@ -115,6 +113,10 @@ ul {
 
 .custom-bg {
   background: linear-gradient(to right, var(--light-gray-color) 0%, var(--white-color) 100%);
+}
+
+.overflow-hidden {
+  overflow-x: hidden;
 }
 
 
@@ -708,5 +710,9 @@ ul {
 
   .lifestylecoach-img {
     background-image: url('/img/lifestylecoaching_cut.jpg');
+  }
+
+  .ptraining-img {
+    background-image: url('/img/Feli_soca_phone.jpg');
   }
 }

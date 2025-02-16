@@ -6,7 +6,7 @@ pageKey: "lifestyleCoaching"
 ---
 
 <!-- Hero Section -->
-<section class="hero-section">
+<section class="hero-section overflow-hidden">
   <div class="container position-relative ">
     <div class="row">
       <div class="col-12 position-relative m-0 p-0">
