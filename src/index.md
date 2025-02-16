@@ -138,7 +138,7 @@ navbarClass: "fixed-top"
           <a href={{ links.about[locale] }} class="btn custom-btn fs-5">Meer</a>
         </div>
       </div>
-      <div class="col-lg-6">
+      <div class="col-lg-6 mt-4">
         <img class="img-fluid profile-img mx-lg-5 mt-3" src="/img/feli.jpg" alt="Feli Aarsman profile picture">
       </div>
     </div>

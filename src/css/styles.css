@@ -51,7 +51,6 @@ body {
 }
 
 h1 {
-  /* font-family: Oswald, sans-serif; */
   font-size: var(--font-size-nav-xl);
 }
 
@@ -101,13 +100,6 @@ ul {
 .custom-color {
   color: var(--primary-color);
 }
-
-/* .green {
-  color: red;
-}
-.blue {
-  color: blue;
-} */
 
 .gray-bg {
   background-color: var(--light-gray-color);
@@ -223,6 +215,10 @@ ul {
   background-image: url('/img/lifestylecoach_2.jpg');
 }
 
+.ptraining-img {
+  background-image: url('/img/Feli_soca.jpg');
+}
+
 .text-overlay {
   position: absolute;
   right: 0;
@@ -236,7 +232,8 @@ ul {
   max-width: 60%;
 }
 
-.lifestylecoach-text {
+.lifestylecoach-text,
+.ptraining-text {
   bottom: 10%;
   height: auto;
   max-width: 60%;
