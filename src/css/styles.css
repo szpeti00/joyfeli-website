@@ -218,7 +218,7 @@ ul {
 }
 
 .ptraining-img {
-  background-image: url('/img/Feli_soca.jpg');
+  background-image: url('/img/Feli_mangart.jpg');
 }
 
 .text-overlay {
@@ -712,7 +712,7 @@ ul {
     background-image: url('/img/lifestylecoaching_cut.jpg');
   }
 
-  .ptraining-img {
+  /* .ptraining-img {
     background-image: url('/img/Feli_soca_phone.jpg');
-  }
+  } */
 }
