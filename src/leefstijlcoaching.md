@@ -34,7 +34,6 @@ pageKey: "lifestyleCoaching"
   </div>
 </section>
 <!-- End Hero Section -->
-</section>
 <div class="sun-divider">
   <span class="sun"></span>
 </div>

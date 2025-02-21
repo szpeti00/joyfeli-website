@@ -39,7 +39,7 @@ navbarClass: "fixed-top"
           </h1>
           <h4 class="mb-4 fst-italic">Leefstijlcoach en Personal Trainer in Wageningen</h4>
           <p>
-            Ik werk met mensen die klaar zijn om hun leven te veranderen, maar niet precies weten waar ze moeten beginnen. Of je nu fitter wilt worden, gezondere gewoontes wilt opbouwen of meer innerlijke balans zoekt, ik begeleid je met persoonlijke coaching en op maat gemaakte trainingen. Samen ontdekken we de diepere oorzaken van je gedrag en creëren we blijvende verandering voor lichaam en geest.
+            Ik werk met mensen die klaar zijn om hun leven te veranderen, maar niet precies weten waar ze moeten beginnen. Of je nu <strong>fitter</strong> wilt worden, <strong>gezondere gewoontes</strong> wilt opbouwen of meer <strong>innerlijke balans</strong> zoekt, ik begeleid je met persoonlijke coaching en op maat gemaakte trainingen. Samen ontdekken we de diepere oorzaken van je gedrag en creëren we <strong>blijvende verandering</strong> voor lichaam en geest.
           </p>
         </div>
       </div>
@@ -53,7 +53,7 @@ navbarClass: "fixed-top"
 <!-- Coaching Services Section -->
 <section class="py-5 gray-bg" id="services">
   <div class="container">
-    <h2 class="mb-5 text-center">Coaching Services</h2>
+    <h2 class="mb-5 text-center separator-h4">Coaching Services</h2>
     <div class="row">
       <!-- Lifestyle Coaching Card -->
       <div class="col-lg-4 mb-4">
@@ -125,14 +125,14 @@ navbarClass: "fixed-top"
       <div class="col-lg-6">
         <h2 class="mb-5 separator">Over mij</h2>
         <p>
-          &emsp;Hi, ik ben Feli Aarsman.
+          Hi, ik ben Feli Aarsman.
           Tijdens mijn studie Ecologie in Wageningen werd ik verliefd op de stad en haar natuur. Ik ontdekte de sterke wisselwerking tussen mens en omgeving: ons welzijn wordt gevormd door <strong>biologische, psychologische en sociale factoren</strong>.
         </p>
         <p>
-          &emsp;Mijn passie voor natuur groeide uit tot een fascinatie voor denken, communicatie en gedrag, vooral rond leefstijl en beweging. Dit leidde tot mijn rol als coach, waarin ik mensen help <strong>fysiek en mentaal sterker</strong> te worden.
+          Mijn passie voor natuur groeide uit tot een fascinatie voor denken, communicatie en gedrag, vooral rond leefstijl en beweging. Dit leidde tot mijn rol als coach, waarin ik mensen help <strong>fysiek en mentaal sterker</strong> te worden.
         </p>
         <p>
-          &emsp;Met <strong>acht jaar</strong> ervaring als <strong>gecertificeerd instructeur</strong> leerde ik hoe we met positieve energie samen een sterkere, gelukkigere wereld creëren. Gezond, sterk en veerkrachtig zijn is daarbij essentieel.
+          Met <strong>acht jaar</strong> ervaring als <strong>gecertificeerd instructeur</strong> leerde ik hoe we met positieve energie samen een sterkere, gelukkigere wereld creëren. Gezond, sterk en veerkrachtig zijn is daarbij essentieel.
         </p>
         <div class="text-center mt-3">
           <a href={{ links.about[locale] }} class="btn custom-btn fs-5">Meer</a>
@@ -198,19 +198,12 @@ navbarClass: "fixed-top"
     </div>
   </div>
 </section>
-<!-- End Reviews Section -->
-<!-- <div class="sun-divider white-bg">
-  <span class="sun"></span>
-</div> -->
 <!-- Contact Section -->
 <section class="py-5 green-bg" id="contact">
   <div class="container d-flex justify-content-center align-items-center">
     <h2 class="mb-5 visually-hidden">Contact</h2>
       <div>
-        <!-- Remove this later ˇ -->
-        <a class="visually-hidden" href="/leefstijlcoaching#pricing">See Pricing</a>
-        <!-- Remove this later ^ -->
-        <h4>Neem contact met mij op</h4>
+        <h4 class="separator-h4">Neem contact met mij op</h4>
         <p>
           {% include "icons/whatsapp-icon.njk" %}
           <a href="https://wa.me/{{ settings.phone }}" target="_blank" rel="noopener noreferrer">{{ settings.phoneText }}</a> 

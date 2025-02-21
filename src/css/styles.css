@@ -207,10 +207,12 @@ ul {
   position: relative;
   height: 60vh;
   min-height: 665px;
+  border-radius: 0 0 20px 20px;
 }
 
 .welcome-img {
   background-image: url('/img/Feli_mountain.jpg');
+  border-radius: 20px;
 }
 
 .lifestylecoach-img {
@@ -225,10 +227,25 @@ ul {
   background-image: url('/img/Feli_soca.jpg');
 }
 
+.aboutme-img {
+  background-image: url('/img/Feli_soca2_cut.jpg');
+}
+
+.contact-img {
+  background-image: url('/img/Cezsoca.jpg');
+}
+
 .text-overlay {
   position: absolute;
   right: 0;
   border-radius: 20px 0 0 20px;
+}
+
+.aboutme-text,
+.contact-text {
+  position: absolute;
+  left: 0;
+  border-radius: 0 20px 20px 0;
 }
 
 .welcome-text {
@@ -240,7 +257,9 @@ ul {
 
 .lifestylecoach-text,
 .ptraining-text,
-.forher-text {
+.forher-text,
+.aboutme-text,
+.contact-text{
   bottom: 10%;
   height: auto;
   max-width: 60%;
@@ -248,15 +267,23 @@ ul {
 
 .profile-img {
   display: block;
-  max-height: 700px;
+  max-height: 600px;
   width: auto;
   margin: auto;
   border-radius: 50%;
 }
 
+.kayak-img {
+  display: block;
+  max-height: 600px;
+  width: auto;
+  margin: auto;
+  border-radius: 20px;
+}
+
 
 /* =========================================
-   Animations for the welcome Section
+   Animations for the welcome and hero sections
 =========================================
 /* Active state when in viewport */
 .bg-image.active,
@@ -476,7 +503,9 @@ ul {
 }
 
 /* Small screens: Make sure when the text takes the second line, it aligns with the text above*/
-.collapse.collapse-text ul li {
+.collapse.collapse-text ul li,
+#studies ul li,
+#work ul li {
   display: grid;
   grid-template-columns: auto 1fr;
   gap: var(--spacing-xs);
@@ -569,6 +598,14 @@ ul {
   border-bottom: 2px solid var(--primary-color);
   width: 300px;
   margin: 30px auto 20px auto;
+}
+
+.separator-h4::after {
+  content: "";
+  display: block;
+  border-bottom: 2px solid var(--primary-color);
+  width: 150px;
+  margin: 20px auto 20px auto;
 }
 
 .separator::after {
@@ -709,6 +746,10 @@ ul {
 }
 
 @media (max-width: 575px) {
+  .bg-image {
+    border-radius: 0;
+  }
+
   .separator-h1::after {
     width: 100px !important;
   }
@@ -719,5 +760,13 @@ ul {
 
   .forher-img {
     background-image: url('/img/Feli_soca_phone.jpg');
+  }
+
+  .aboutme-img {
+    background-image: url('/img/Feli_soca2_phone.jpg');
+  }
+
+  .contact-img {
+    background-image: url('/img/Cezsoca_phone.jpg');
   }
 }
