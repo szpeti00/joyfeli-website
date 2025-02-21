@@ -126,13 +126,13 @@ navbarClass: "fixed-top"
         <h2 class="mb-5 separator">Over mij</h2>
         <p>
           &emsp;Hi, ik ben Feli Aarsman.
-          Voor mijn studie Ecologie aan de universiteit verhuisde ik naar Wageningen en werd meteen verliefd op de stad en haar prachtige, natuurlijke omgeving. Ik ontdekte een diepe connectie tussen mens en natuur: net als ecosystemen zijn wij afhankelijk van een samenspel van <strong>interne en externe factoren</strong>. Ons welzijn wordt bepaald door biologische, psychologische en sociale lagen, die voortdurend met elkaar in wisselwerking staan.
+          Tijdens mijn studie Ecologie in Wageningen werd ik verliefd op de stad en haar natuur. Ik ontdekte de sterke wisselwerking tussen mens en omgeving: ons welzijn wordt gevormd door <strong>biologische, psychologische en sociale factoren</strong>.
         </p>
         <p>
-          &emsp;Mijn passie voor natuur groeide uit tot een fascinatie voor de manier waarop we denken, communiceren en ons gedragen – vooral als het gaat om leefstijl en beweging. Dit leidde tot een diepe interesse in begeleiding en coaching, waarbij ik mensen help <strong>fysiek en mentaal</strong> sterker te worden.
+          &emsp;Mijn passie voor natuur groeide uit tot een fascinatie voor denken, communicatie en gedrag, vooral rond leefstijl en beweging. Dit leidde tot mijn rol als coach, waarin ik mensen help <strong>fysiek en mentaal sterker</strong> te worden.
         </p>
         <p>
-          &emsp;Met meer dan <strong>acht jaar ervaring</strong> als <strong>gecertificeerd instructeur</strong> heb ik waardevolle inzichten opgedaan in hoe mensen denken, voelen en handelen. Dit versterkte mijn overtuiging: met positieve energie maken we samen de wereld sterker, gelukkiger en mooier. En om die energie uit te stralen, is het essentieel om <strong>gezond, sterk en veerkrachtig</strong> te zijn.
+          &emsp;Met <strong>acht jaar</strong> ervaring als <strong>gecertificeerd instructeur</strong> leerde ik hoe we met positieve energie samen een sterkere, gelukkigere wereld creëren. Gezond, sterk en veerkrachtig zijn is daarbij essentieel.
         </p>
         <div class="text-center mt-3">
           <a href={{ links.about[locale] }} class="btn custom-btn fs-5">Meer</a>

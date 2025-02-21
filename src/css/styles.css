@@ -221,6 +221,10 @@ ul {
   background-image: url('/img/Feli_mangart.jpg');
 }
 
+.forher-img {
+  background-image: url('/img/Feli_soca.jpg');
+}
+
 .text-overlay {
   position: absolute;
   right: 0;
@@ -235,7 +239,8 @@ ul {
 }
 
 .lifestylecoach-text,
-.ptraining-text {
+.ptraining-text,
+.forher-text {
   bottom: 10%;
   height: auto;
   max-width: 60%;
@@ -712,7 +717,7 @@ ul {
     background-image: url('/img/lifestylecoaching_cut.jpg');
   }
 
-  /* .ptraining-img {
+  .forher-img {
     background-image: url('/img/Feli_soca_phone.jpg');
-  } */
+  }
 }

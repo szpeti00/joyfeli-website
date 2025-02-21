@@ -185,7 +185,7 @@ pageKey: "lifestyleCoaching"
                       <li>{% include "icons/arrow-right-up-icon.njk" %}<span>Intrinsieke en extrinsieke motivatie</span></li>
                       <li>{% include "icons/moon-icon.njk" %}<span>Slaapgewoontes</span></li>
                       <li>{% include "icons/scale-icon.njk" %}<span>Stressmanagement</span></li>
-                      <li>{% include "icons/arrows-pointing-icon.njk" %}<span>Sociale druk</span></li>
+                      <li>{% include "icons/arrows-pointing-in-icon.njk" %}<span>Sociale druk</span></li>
                       <li>{% include "icons/sun-icon.njk" %}<span>Bewustwordingsoefeningen</span></li>
                     </ul>
                   </div>
@@ -312,7 +312,7 @@ pageKey: "lifestyleCoaching"
                           </button>
                           <div class="collapse collapse-text" id="startPakket">
                             <div class="mt-2">
-                              Voor een extra duwtje in de goede richting:   korte,  intensieve begeleiding waarmee je snel kennis opdoet en in hoog tempo vooruitgang boekt met huiswerk.
+                              Voor een extra duwtje in de goede richting: <strong>korte, intensieve begeleiding</strong> waarmee je snel kennis opdoet en in hoog tempo vooruitgang boekt met huiswerk.
                             </div>
                           </div>
                         </div>
@@ -359,7 +359,7 @@ pageKey: "lifestyleCoaching"
                           </button>
                           <div class="collapse collapse-text" id="mediumPakket">
                             <div class="mt-2">
-                            De meest gekozen optie, met meer ruimte voor actieve gedragsverandering en tijd om de aanpassingen in je leven te integreren. Toch blijft het een snel traject, zodat je krachtig van start kunt gaan.
+                            De meest gekozen optie, met meer ruimte voor <strong>actieve gedragsverandering</strong> en tijd om de aanpassingen in je leven te integreren. Toch blijft het een snel traject, zodat je krachtig van start kunt gaan.
                             </div>
                           </div>
                         </div>
@@ -406,7 +406,7 @@ pageKey: "lifestyleCoaching"
                           </button>
                           <div class="collapse collapse-text" id="tenSessiesPakket">
                             <div class="mt-2">
-                              Meer flexibiliteit in het plannen van sessies, met een aanpak van proberen en leren die aansluit bij jouw persoonlijke ontwikkelingscurve. Er is meer ruimte voor terugkoppelmomenten, zodat de veranderingen met impact en kracht plaatsvinden en gedragsverandering blijvend is voor de toekomst.
+                              <strong>Meer flexibiliteit</strong> in het plannen van sessies, met een aanpak van proberen en leren die aansluit bij jouw persoonlijke ontwikkelingscurve. Er is meer ruimte voor terugkoppelmomenten, zodat de veranderingen met impact en kracht plaatsvinden en gedragsverandering blijvend is voor de toekomst.
                             </div>
                           </div>
                         </div>
@@ -448,7 +448,7 @@ pageKey: "lifestyleCoaching"
                             <span class="toggle-icon"></span>
                           </button>
                           <div class="collapse collapse-text" id="singlePakket">
-                            Ultieme flexibiliteit: misschien wil je alleen een intake om te zien waar je staat, of heb je behoefte aan enkele adviesgesprekken. Misschien wil je juist de tijd nemen die jij nodig hebt, geheel afgestemd op jouw wensen.
+                            <strong>Ultieme flexibiliteit:</strong> misschien wil je alleen een intake om te zien waar je staat, of heb je behoefte aan enkele adviesgesprekken. Misschien wil je juist de tijd nemen die jij nodig hebt, geheel afgestemd op jouw wensen.
                           </div>
                         </div>
                     </div>

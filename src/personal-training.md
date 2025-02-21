@@ -135,7 +135,7 @@ pageKey: "personalTraining"
                 </button>
                 <div class="collapse collapse-text" id="introduction">
                   <div class="mt-2">
-                    We beginnen met een informele kennismaking om te kijken of er een klik is. Een goede vertrouwensband is essentieel voor een succesvolle samenwerking. Het is belangrijk dat je je op je gemak voelt, zodat we samen een fijne en open werksfeer kunnen creëren.
+                    We beginnen met een informele kennismaking om te kijken of er een klik is. Een goede <strong>vertrouwensband</strong> is essentieel voor een succesvolle samenwerking. Het is belangrijk dat je je op je gemak voelt, zodat we samen een fijne en open werksfeer kunnen creëren.
                     <ul class="mt-3">
                       <li>{% include "icons/tag-icon.njk" %}<span>Gratis</span></li>
                       <li>{% include "icons/lock-open-icon.njk" %}<span>Vrijblijvend</span></li>
@@ -159,7 +159,7 @@ pageKey: "personalTraining"
                 </button>
                 <div class="collapse collapse-text" id="intake">
                   <div class="mt-2">
-                    In dit gesprek bespreken we je fitheid, doelen, motivatie en verwachtingen. We kijken naar je fysieke gesteldheid, trainingservaring en eventuele beperkingen om een plan op maat te maken. Jij bepaalt het tempo, en we voeren analyses uit die aansluiten bij jouw doelen en behoeften.
+                    In dit gesprek bespreken we je <strong>fitheid, doelen, motivatie en verwachtingen</strong>. We kijken naar je fysieke gesteldheid, trainingservaring en eventuele beperkingen om een plan op maat te maken. Jij bepaalt het tempo, en we voeren analyses uit die aansluiten bij jouw doelen en behoeften.
                     <ul class="mt-3">
                       <li>{% include "icons/cog-6-tooth-icon.njk" %}<span>Lichaamsanalyse</span></li>
                       <li>{% include "icons/chart-pie-icon.njk" %}<span>Kracht- en conditietests</span></li>
@@ -184,9 +184,9 @@ pageKey: "personalTraining"
                 </button>
                 <div class="collapse collapse-text" id="consultation">
                   <div class="mt-2">
-                    In het adviesgesprek gaan we verder met de inzichten uit de intake en bespreken we gerichte adviezen die passen bij jouw doelen en behoeften. We ontwikkelen een persoonlijk trainingsprogramma waarmee je zowel zelfstandig als met mijn begeleiding aan de slag kunt. Dit programma wordt afgestemd op jouw niveau, wensen en mogelijkheden, zodat je effectief en haalbaar vooruitgang boekt.
+                    In het adviesgesprek gaan we verder met de inzichten uit de intake en bespreken we <strong>gerichte adviezen</strong> die passen bij jouw doelen en behoeften. We ontwikkelen een persoonlijk trainingsprogramma waarmee je zowel zelfstandig als met mijn begeleiding aan de slag kunt. Dit programma wordt afgestemd op jouw niveau, wensen en mogelijkheden, zodat je effectief en haalbaar vooruitgang boekt.
                     <ul class="mt-3">
-                      <li>{% include "icons/adjustment-icon.njk" %}<span>Intrinsieke en extrinsieke motivatie</span></li>
+                      <li>{% include "icons/adjustment-icon.njk" %}<span>Eigen programma</span></li>
                       <li>{% include "icons/heart-icon.njk" %}<span>Passend bij jouw passie</span></li>
                     </ul>
                   </div>
@@ -208,7 +208,7 @@ pageKey: "personalTraining"
                 </button>
                 <div class="collapse collapse-text" id="followUp">
                   <div class="mt-2">
-                    In de vervolgsessies evalueren we je voortgang, bespreken resultaten en passen het programma aan waar nodig. Nieuwe doelen kunnen worden toegevoegd. Openheid is belangrijk om samen te blijven werken aan je groei. De sessies bieden praktische handvatten en gerichte adviezen om je effectief naar je einddoel te leiden.
+                    In de vervolgsessies evalueren we je voortgang, bespreken resultaten en passen het programma aan waar nodig. Nieuwe doelen kunnen worden toegevoegd. Openheid is belangrijk om samen te blijven werken aan je groei. De sessies bieden <strong>praktische handvatten</strong> en <strong>gerichte adviezen</strong> om je effectief naar je einddoel te leiden.
                     <ul class="mt-3">
                       <li>{% include "icons/arrow-path-icon.njk" %}<span>Terugkoppelen</span></li>
                       <li>{% include "icons/wrench-screwdriver-icon.njk" %}<span>Bijsturen</span></li>
@@ -233,7 +233,7 @@ pageKey: "personalTraining"
                 </button>
                 <div class="collapse collapse-text" id="evaluation">
                   <div class="mt-2">
-                    We sluiten het traject af met een evaluatie van je voortgang, behaalde resultaten en obstakels. We bespreken mogelijke toekomstige uitdagingen en ontwikkelen strategieën om deze te overwinnen. Het doel is om duurzame resultaten te behalen, met de juiste tools en motivatie om je nieuwe fysieke niveau vast te houden en blijvende veranderingen in je fitheid door te voeren.
+                    We sluiten het traject af met een evaluatie van je voortgang, behaalde resultaten en obstakels. We bespreken mogelijke <strong>toekomstige uitdagingen</strong> en ontwikkelen strategieën om deze te overwinnen. Het doel is om duurzame resultaten te behalen, met de juiste tools en motivatie om je nieuwe fysieke niveau vast te houden en <strong>blijvende veranderingen</strong> in je fitheid door te voeren.
                     <ul class="mt-3">
                       <li>{% include "icons/exclamation-triangle-icon.njk" %}<span>Obstakels</span></li>
                       <li>{% include "icons/arrow-path-rounded-square-icon.njk" %}<span>Duurzaamheid</span></li>
@@ -257,10 +257,10 @@ pageKey: "personalTraining"
                 </button>
                 <div class="collapse collapse-text" id="location">
                   <div class="mt-2">
-                    De personal training sessies vinden plaats in mijn rustige praktijkruimte in Wageningen, waar we samen aan jouw doelen werken. Als je liever thuis of buiten traint, kan dat ook. Het belangrijkste is dat jij je op je gemak voelt en gemotiveerd bent om duurzame veranderingen in je fysieke gezondheid te realiseren.
+                    De personal training sessies vinden plaats in <strong>mijn rustige praktijkruimte</strong> in Wageningen, waar we samen aan jouw doelen werken. Als je liever <strong>thuis of buiten</strong> traint, kan dat ook. Het belangrijkste is dat jij je op je gemak voelt en gemotiveerd bent om duurzame veranderingen in je fysieke gezondheid te realiseren.
                     <ul class="mt-3">
                       <li>{% include "icons/home-modern-icon.njk" %}<span>Wageningen</span></li>
-                      <li>{% include "icons/wifi-icon.njk" %}<span>Online</span></li>
+                      <li>{% include "icons/sun-icon.njk" %}<span>Buiten of andere locatie</span></li>
                     </ul>
                   </div>
                 </div>
@@ -273,10 +273,7 @@ pageKey: "personalTraining"
       <div class="mb-3 tab-pane fade" id="pricing" role="tabpanel" aria-labelledby="tab-pricing">
           <h4 class="mt-4 mb-3 separator">Coachings trajecten</h4>
           <p>
-            Samen onderzoeken we welke bewegingsvorm het beste bij jou past en je lichaam ondersteunt. We richten ons op het vinden van de juiste motivatie, het ontwikkelen van een effectieve mindset en het opstellen van een plan, zodat je uiteindelijk zelfstandig en plezierig kunt blijven bewegen.
-          </p>
-          <p>
-            Alle sessies en pakketten zijn ook beschikbaar voor DUO's. Deel de kosten, sport samen en ontvang een gezamenlijk plan om samen verder te werken.
+            Alle sessies en pakketten zijn ook beschikbaar voor <strong>duo’s</strong>. Deel de kosten, sport samen en ontvang een plan op maat!
           </p>
           <div class="row g-4">
             <!-- Start pakket Card -->
@@ -320,7 +317,7 @@ pageKey: "personalTraining"
                           </button>
                           <div class="collapse collapse-text" id="startPakket">
                             <div class="mt-2">
-                              Een kort, intensief traject met persoonlijke begeleiding voor snel resultaat, ondersteund door gerichte oefeningen voor thuis
+                              Een <strong>kort, intensief traject</strong> met persoonlijke begeleiding voor snel resultaat, ondersteund door gerichte oefeningen voor thuis
                             </div>
                           </div>
                         </div>
@@ -368,7 +365,7 @@ pageKey: "personalTraining"
                           </button>
                           <div class="collapse collapse-text" id="mediumPakket">
                             <div class="mt-2">
-                              De meest gekozen optie, met intensieve personal training en ruimte om aanpassingen in je routine te integreren. Ontvang de juiste tools om je beweeggedrag duurzaam aan te passen.
+                              De meest gekozen optie, met <strong>intensieve personal training</strong> en ruimte om aanpassingen in je routine te integreren. Ontvang de juiste tools om je beweeggedrag duurzaam aan te passen.
                             </div>
                           </div>
                         </div>
@@ -416,7 +413,7 @@ pageKey: "personalTraining"
                           </button>
                           <div class="collapse collapse-text" id="tenSessiesPakket">
                             <div class="mt-2">
-                              Meer flexibiliteit in het plannen van sessies, met een aanpak die past bij jouw persoonlijke trainingsdoelen. Er is voldoende ruimte voor feedback, zodat je met impact en kracht vooruitgang boekt en blijvende resultaten behaalt.
+                              <strong>Meer flexibiliteit</strong> in het plannen van sessies, met een aanpak die past bij jouw persoonlijke trainingsdoelen. Er is voldoende ruimte voor feedback, zodat je met impact en kracht vooruitgang boekt en blijvende resultaten behaalt.
                             </div>
                           </div>
                         </div>
@@ -459,7 +456,7 @@ pageKey: "personalTraining"
                             <span class="toggle-icon"></span>
                           </button>
                           <div class="collapse collapse-text" id="singlePakket">
-                            Ultieme flexibiliteit: of je nu alleen een intake wilt om je startpunt te bepalen, of behoefte hebt aan enkele trainingssessies, alles wordt afgestemd op jouw wensen en tempo.
+                            <strong>Ultieme flexibiliteit:</strong> of je nu alleen een intake wilt om je startpunt te bepalen, of behoefte hebt aan enkele trainingssessies, alles wordt afgestemd op jouw wensen en tempo.
                           </div>
                         </div>
                     </div>
