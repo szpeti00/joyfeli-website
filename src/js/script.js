@@ -10,11 +10,9 @@ document.addEventListener('DOMContentLoaded', () => {
         offcanvas.hide();
       });
     });
-  });
-// End
+  // End
 
-// Hamburger menu animation
-  const offcanvasElement = document.getElementById('offcanvasNavbar');
+  // Hamburger menu animation
   const toggler = document.querySelector('.navbar-toggler');
 
   // When offcanvas is about to be shown, add the "active" class to the toggler.
@@ -29,48 +27,76 @@ document.addEventListener('DOMContentLoaded', () => {
 // End
   
 
-// Scroll to top functionality
-document.getElementById('scrollToTopBtn').addEventListener('click', () => {
-    window.scrollTo({ top: 0, behavior: 'smooth' });
-});
-window.onscroll = () => {
-    if (document.body.scrollTop > 150 || document.documentElement.scrollTop > 150) {
-        document.getElementById('scrollToTopBtn').style.display = 'block';
-    } else {
-        document.getElementById('scrollToTopBtn').style.display = 'none';
-    }
-};
-// End
-
-
-// Intersection Observer fot the animation in the welcom section
-const textOverlay = document.querySelector('.text-overlay');
-const bgImage = document.querySelector('.bg-image');
-
-const callback = (entries, observer) => {
-  entries.forEach(entry => {
-    if (entry.isIntersecting) {
-      entry.target.classList.add('active');
-      observer.unobserve(entry.target);
-    }
+  // Scroll to top functionality
+  document.getElementById('scrollToTopBtn').addEventListener('click', () => {
+      window.scrollTo({ top: 0, behavior: 'smooth' });
   });
-};
+  window.onscroll = () => {
+      if (document.body.scrollTop > 150 || document.documentElement.scrollTop > 150) {
+          document.getElementById('scrollToTopBtn').style.display = 'block';
+      } else {
+          document.getElementById('scrollToTopBtn').style.display = 'none';
+      }
+  };
+  // End
 
-if (textOverlay && bgImage) {
-  const observer = new IntersectionObserver(callback, {threshold: 0.2});
 
-  observer.observe(textOverlay);
-  observer.observe(bgImage);
-}
-// End Intersection Observer
+  // Intersection Observer fot the animation in the welcom section
+  const textOverlay = document.querySelector('.text-overlay');
+  const bgImage = document.querySelector('.bg-image');
+
+  const callback = (entries, observer) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add('active');
+        observer.unobserve(entry.target);
+      }
+    });
+  };
+
+  if (textOverlay && bgImage) {
+    const observer = new IntersectionObserver(callback, {threshold: 0.2});
+
+    observer.observe(textOverlay);
+    observer.observe(bgImage);
+  }
+  // End Intersection Observer
+
+  // Background image loader
+  const containers = document.querySelectorAll('.bg-image');
+
+  containers.forEach(container => {
+    // Get the image URLs from the data attributes
+    const bgLarge = container.dataset.bg;
+    const bgSmall = container.dataset.bgPhone;
+
+    // Decide which image URL to use based on screen size
+    const bgImageUrl =
+        window.matchMedia("(max-width: 575px)").matches && bgSmall
+          ? bgSmall
+          : bgLarge;
+
+    if (!bgImageUrl) return; // Skip if no valid URL is provided
+
+    const img = new Image();
+    img.src = bgImageUrl;
+
+    img.onload = () => {
+      container.style.backgroundImage = `url(${bgImageUrl})`;
+
+      // Hide the loader once the image is fully loaded
+      const loader = container.querySelector('.loader');
+      if (loader) loader.style.display = 'none';
+    };
+  });
+  // End
 
 
-// Sliding underline for nav tabs and next/prev buttons
-document.addEventListener('DOMContentLoaded', () => {
+  // Sliding underline for nav tabs and next/prev buttons
   const tabs = document.querySelectorAll('.nav-tabs button.nav-link');
   const dropdownItems = document.querySelectorAll('.dropdown-menu .dropdown-item');
   const slider = document.querySelector('.tab-line');
-  const container = document.querySelector('.nav-tabs');
+  const wrapper = document.querySelector('.nav-tabs');
 
   // Arrow buttons
   const prevTabBtn = document.getElementById('prevTabBtn');
@@ -83,7 +109,7 @@ document.addEventListener('DOMContentLoaded', () => {
   const updateSliderPosition = (activeTab) => {
     if (!activeTab) return;
     const tabRect = activeTab.getBoundingClientRect();
-    const containerRect = container.getBoundingClientRect();
+    const containerRect = wrapper.getBoundingClientRect();
 
     slider.style.left = `${tabRect.left - containerRect.left}px`;
     slider.style.width = `${tabRect.width}px`;
@@ -153,10 +179,10 @@ document.addEventListener('DOMContentLoaded', () => {
     }
   }
 
-// Dynamically changing date in copyright section
+  // Dynamically changing date in copyright section
   document.getElementById("year").textContent = new Date().getFullYear();
 
-// Bootstrap form validation (from bootstrap docs)
+  // Bootstrap form validation (from bootstrap docs)
   (function () {
     'use strict'
 

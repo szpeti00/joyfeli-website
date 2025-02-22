@@ -25,11 +25,12 @@ navbarClass: "fixed-top"
     <div class="row">
       <div class="col-12 position-relative m-0 p-0">
         <!-- Background image container -->
-        <div class="bg-image welcome-img animate-slide-in-left">
+        <div class="bg-image welcome-img animate-slide-in-left" data-bg="/img/Feli_mountain.jpg" data-bgPhone="/img/Feli_mountain_cut.jpg">
+          <div class="loader">Loading...</div>
         </div>
         <!-- Text overlay -->
         <div class="text-overlay welcome-text animate-slide-in-right-welcome bg-white bg-opacity-75 p-4 p-xxl-5">
-          <h1 class="separator-h1 text-uppercase">
+          <h1 class="separator-welcome text-uppercase">
             <span class="d-block mb-2">
               <span><strong>Train your mind</strong></span>
             </span>
@@ -53,7 +54,7 @@ navbarClass: "fixed-top"
 <!-- Coaching Services Section -->
 <section class="py-5 gray-bg" id="services">
   <div class="container">
-    <h2 class="mb-5 text-center separator-h4">Coaching Services</h2>
+    <h2 class="mb-5 text-center separator-center">Coaching Services</h2>
     <div class="row">
       <!-- Lifestyle Coaching Card -->
       <div class="col-lg-4 mb-4">
@@ -61,7 +62,7 @@ navbarClass: "fixed-top"
           <img class="card-img-top w-50 mx-auto mt-4" src="/img/lifestylecoaching_icon.png" alt="Lifestyle Coaching Icon">
           <div class="card-body custom-color">
             <h5 class="card-title text-uppercase text-center mb-4">Leefstijlcoaching</h5>
-            <h6 class="mb-2 text-center">
+            <h6 class="mb-2 text-center separator-center">
               De kracht van gedrag
             </h6>
             <p class="card-text">
@@ -79,7 +80,7 @@ navbarClass: "fixed-top"
           <img class="card-img-top w-50 mx-auto mt-4" src="/img/personaltraining_icon.png" alt="Personal Training Icon">
           <div class="card-body custom-color">
             <h5 class="card-title text-uppercase text-center mb-4">Personal Training</h5>
-            <h6 class="mb-2 text-center">
+            <h6 class="mb-2 text-center separator-center">
               Gezond lichaam, sterke geest
             </h6>
             <p class="card-text">
@@ -97,7 +98,7 @@ navbarClass: "fixed-top"
           <img class="card-img-top w-50 mx-auto mt-4" src="/img/forher_icon.png" alt="For Her Icon">
           <div class="card-body custom-color">
             <h5 class="card-title text-uppercase text-center mb-4">Voor Haar</h5>
-            <h6 class="mb-2 text-center">
+            <h6 class="mb-2 text-center separator-center">
               Veilig, sterk en vrouwelijk
             </h6>
             <p class="card-text">
@@ -158,7 +159,7 @@ navbarClass: "fixed-top"
     <div id="reviewsCarousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="10000">
       <div class="carousel-inner px-5">
         <div class="carousel-item text-center active">
-          <h5 class="mb-3">Uniek, Ondersteund, Empowered</h5>
+          <h5 class="mb-3 separator-center">Uniek, Ondersteund, Empowered</h5>
           <blockquote class="blockquote">
             <p class="fst-italic">
               "Feli coacht je en ziet je echt als een uniek persoon. Ze luistert,
@@ -169,7 +170,7 @@ navbarClass: "fixed-top"
           </blockquote>
         </div>
         <div class="carousel-item text-center">
-          <h5 class="mb-3">Geïnspireerd om meer te bereiken</h5>
+          <h5 class="mb-3 separator-center">Geïnspireerd om meer te bereiken</h5>
           <blockquote class="blockquote">
             <p class="fst-italic">
               "Ik ben erg blij dat ik met Feli werk als coach. Vanaf het begin voelde ik me welkom en gemotiveerd. Feli begrijpt mijn doelen en stelt persoonlijke schema’s op die me uitdagen. Ze toont de oefeningen, controleert mijn uitvoering en zorgt voor positieve energie. Dankzij haar bereik ik meer dan ik dacht. Ik kan Feli van harte aanbevelen als inspirerende coach"
@@ -178,7 +179,7 @@ navbarClass: "fixed-top"
           </blockquote>
         </div>
         <!-- <div class="carousel-item text-center">
-          <h5 class="mb-3">Geïnspireerd om meer te bereiken</h5>
+          <h5 class="mb-3 separator-center">Geïnspireerd om meer te bereiken</h5>
           <blockquote class="blockquote">
             <p class="fst-italic">"Pellentesque vitae metus non est pretium pharetra. Curabitur mattis justo quis sem dignissim."</p>
             <footer class="blockquote-footer">Client 3</footer>
@@ -203,7 +204,7 @@ navbarClass: "fixed-top"
   <div class="container d-flex justify-content-center align-items-center">
     <h2 class="mb-5 visually-hidden">Contact</h2>
       <div>
-        <h4 class="separator-h4">Neem contact met mij op</h4>
+        <h4 class="separator-center">Neem contact met mij op</h4>
         <p>
           {% include "icons/whatsapp-icon.njk" %}
           <a href="https://wa.me/{{ settings.phone }}" target="_blank" rel="noopener noreferrer">{{ settings.phoneText }}</a> 

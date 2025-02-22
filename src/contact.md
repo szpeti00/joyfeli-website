@@ -11,7 +11,8 @@ pageKey: "contact"
     <div class="row">
       <div class="col-12 position-relative m-0 p-0">
         <!-- Background image container -->
-        <div class="bg-image contact-img animate-slide-in-right">
+        <div class="bg-image contact-img animate-slide-in-right" data-bg="/img/Cezsoca.jpg" data-bgPhone="/img/soca.jpg">
+          <div class="loader">Loading...</div>
         </div>
         <!-- Text overlay -->
         <div class="text-overlay contact-text animate-slide-in-left bg-white bg-opacity-75 p-4 p-xxl-5">
