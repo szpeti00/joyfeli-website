@@ -7,7 +7,7 @@ pageKey: "about"
 
 <!-- Hero Section -->
 <section class="hero-section overflow-hidden">
-  <div class="container position-relative ">
+  <div class="container position-relative">
     <div class="row">
       <div class="col-12 position-relative m-0 p-0">
         <!-- Background image container -->
@@ -40,8 +40,8 @@ pageKey: "about"
 </div>
 <!-- Tabs Section -->
 <section class="py-5 gray-bg tab-section">
-  <div class="container">
-    <div class="custom-tabs">
+  <div class="container px-0 px-sm-3">
+    <div class="custom-tabs px-2 px-sm-0">
       <!-- Tab Navigation -->
       <ul class="nav nav-tabs justify-content-center mb-4 border-0" id="aboutMeTabs" role="tablist">
         <li class="nav-item d-none d-md-flex">
@@ -94,7 +94,7 @@ pageKey: "about"
     <div class="tab-content pt-3" id="aboutMeTabsContent" style="overflow:hidden">
       <!-- About me Tab -->
       <div class="mb-3 tab-pane fade active show" id="about" role="tabpanel" aria-labelledby="tab-about">
-        <div class="row">
+        <div class="row px-2 px-sm-0">
           <div class="col-lg-6">
             <h4 class="mt-4 mb-3 separator">Hi, ik ben Feli Aarsman.</h4>
             <h5 class="mb-3"><i>Ontdekken, beleven, inspireren en vertrouwen</i></h5>
@@ -105,13 +105,15 @@ pageKey: "about"
               Door de jaren heen verschoof mijn focus van academische studies naar een groeiende passie voor sport, leefstijl en beweging. Wat begon met outdoor avonturen zoals klimmen, wildwaterkajakken en boulderen, breidde zich later uit naar indooractiviteiten zoals spinning, pilates, XCORE en fitness. Mijn fascinatie voor de natuur ontwikkelde zich tot een diepgaande interesse in de manier waarop we <strong>denken, communiceren en ons gedragen</strong> – vooral als het gaat om <strong>gezondheid en welzijn</strong>. Dit leidde tot een sterke drive om mensen te begeleiden en coachen, zodat ze fysiek en mentaal sterker worden.
             </p>
           </div>
-          <div class="col-lg-6 mt-4">
-            <img class="img-fluid profile-img mx-lg-5 my-5" src="/img/Feli2.jpg" alt="Feli Aarsman profile picture">
+          <div class="col-lg-6 my-3">
+            <img class="img-fluid profile-img my-5" src="/img/Feli2.jpg" alt="Feli Aarsman profile picture">
           </div>
-          <div class="col-lg-6 mt-4">
+        </div>
+        <div class="row px-2 px-sm-0">
+          <div class="col-lg-6 px-0 px-lg-3 my-3 order-last order-lg-first ">
             <img class="img-fluid kayak-img me-lg-5" src="/img/Feli_kayak.jpg" alt="Feli Aarsman kayak picture">
           </div>
-          <div class="col-lg-6">
+          <div class="col-lg-6 order-first order-lg-last">
             <p>
               Natuur en menselijke verbinding vormen de kern van alles wat ik doe. In de <strong>zomer</strong> geef ik mijn liefde voor de buitenlucht door als wildwaterkajakinstructeur in de bergen van Slovenië. In de <strong>winter</strong> coach ik individuen in de sportschool en geef ik groepslessen, waarbij ik mijn passie voor beweging en vitaliteit deel.
             </p>
@@ -122,13 +124,13 @@ pageKey: "about"
         </div>
       </div>
       <!-- Studies Tab-->
-      <div class="mb-3 tab-pane fade" id="studies" role="tabpanel" aria-labelledby="tab-studies">
+      <div class="mb-3 tab-pane fade px-2 px-sm-0" id="studies" role="tabpanel" aria-labelledby="tab-studies">
         <h4 class="mt-4 mb-3 separator">Mijn studies</h4>
         <p>
         Mijn reis begon met een universitaire opleiding in de wetenschap, waar mijn interesse in communicatie en menselijke psychologie voor het eerst naar voren kwam. Vervolgens ontwikkelde ik mijn vaardigheden in coaching en training, zowel in extreme natuurlijke omgevingen als in de sportschool. In de loop der tijd verbreedde mijn focus zich naar menselijk gedrag en de impact ervan op leefstijl.
         </p>
         <p id="studies">
-          <ul class="mt-3">
+          <ul class="mt-3 list-unstyled">
             <li class="mb-3">
               {% include "icons/academic-cap-icon.njk" %}<span><strong>Bachelor of Science</strong>: Minor in Communicatie en Psychologie <br>Wageningen University, 2015</span>
             </li>
@@ -148,13 +150,13 @@ pageKey: "about"
         </p>
       </div>
       <!-- Work experience tab -->
-      <div class="mb-3 tab-pane fade" id="work" role="tabpanel" aria-labelledby="tab-work">
+      <div class="mb-3 tab-pane fade px-2 px-sm-0" id="work" role="tabpanel" aria-labelledby="tab-work">
           <h4 class="mt-4 mb-3 separator">Mijn werkervaring</h4>
           <p>
             Met meer dan 8 jaar ervaring in het lesgeven aan zowel groepen als individuen, heb ik veel geleerd en gereflecteerd. Ik heb begrepen dat iedereen een unieke benadering nodig heeft om goed gemotiveerd te blijven, zodat ze hun persoonlijke doelen kunnen bereiken, zowel in sport als in het dagelijks leven.
           </p>
           <p id="work-experience">
-            <ul class="mt-3">
+            <ul class="mt-3 list-unstyled">
               <li class="mb-3">
                 {% include "icons/chevron-icon.njk" %}<span><strong>Boulder-, Spinning- en Fitnessinstructeur</strong>
                 <br>Avalon Fitcentre: 2018 - 2022</span>

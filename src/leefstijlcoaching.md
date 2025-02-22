@@ -7,7 +7,7 @@ pageKey: "lifestyleCoaching"
 
 <!-- Hero Section -->
 <section class="hero-section overflow-hidden">
-  <div class="container position-relative ">
+  <div class="container position-relative">
     <div class="row">
       <div class="col-12 position-relative m-0 p-0">
         <!-- Background image container -->
@@ -42,7 +42,7 @@ pageKey: "lifestyleCoaching"
   <div class="container">
     <div class="custom-tabs">
       <!-- Tab Navigation -->
-      <ul class="nav nav-tabs justify-content-center mb-4 border-0" id="leefstijlcoachingTabs" role="tablist">
+      <ul class="nav nav-tabs justify-content-center mb-4 border-0" id="lifesryleCoachingTabs" role="tablist">
         <li class="nav-item d-none d-md-flex">
           <button class="nav-link px-4 active" id="tab-lifestyle" data-bs-toggle="tab" data-bs-target="#lifestyle" type="button" role="tab" aria-controls="lifestyle" aria-selected="true">
             Leefstijlcoaching
@@ -90,7 +90,7 @@ pageKey: "lifestyleCoaching"
       </div>
       <div class="tab-line"></div>
     </div>
-    <div class="tab-content pt-3" id="lifestyleTabsContent" style="overflow:hidden">
+    <div class="tab-content pt-3" id="lifestyleCoachingTabsContent" style="overflow:hidden">
       <!-- Lifestyle Coaching Tab -->
       <div class="mb-3 tab-pane fade active show" id="lifestyle" role="tabpanel" aria-labelledby="tab-lifestyle">
         <h4 class="mt-4 mb-3 separator">Wat is leefstijlcoaching?</h4>
@@ -129,7 +129,7 @@ pageKey: "lifestyleCoaching"
                 <div class="collapse collapse-text" id="introduction">
                   <div class="mt-2">
                     We starten met een informele kennismaking, zodat we kunnen ontdekken of er een goede klik tussen ons is. Het is voor mij belangrijk dat we elkaar goed begrijpen en vertrouwen, omdat een sterke <strong>vertrouwensband</strong> de basis vormt voor een succesvolle samenwerking. Ik wil dat je je op je gemak voelt en dat we samen een fijne en open werksfeer kunnen creëren.
-                    <ul class="mt-3">
+                    <ul class="mt-3 list-unstyled">
                       <li>{% include "icons/tag-icon.njk" %}<span>Gratis</span></li>
                       <li>{% include "icons/lock-open-icon.njk" %}<span>Vrijblijvend</span></li>
                     </ul>
@@ -154,7 +154,7 @@ pageKey: "lifestyleCoaching"
                   <div class="mt-2">
                     In dit gesprek beginnen we met een verkenning van jouw leefstijl en stellen we samen jouw <strong>doelen, motivatie en verwachtingen</strong> vast. We bekijken jouw huidige situatie vanuit een fysiek, mentaal en sociaal perspectief om een traject te ontwikkelen dat perfect aansluit bij jou. Jij bent en blijft de expert over jouw eigen leven.
                     <div>Daarnaast starten we met een aantal analyses, afhankelijk van de facetten waarop we ons richten, zoals:</div>
-                    <ul class="mt-3">
+                    <ul class="mt-3 list-unstyled">
                       <li>{% include "icons/cog-6-tooth-icon.njk" %}<span>Lichaamsanalyse</span></li>
                       <li>{% include "icons/chart-pie-icon.njk" %}<span>Voedingsanalyse</span></li>
                       <li>{% include "icons/battery-50-icon.njk" %}<span>Beweegpatroonanalyse</span></li>
@@ -179,7 +179,7 @@ pageKey: "lifestyleCoaching"
                 <div class="collapse collapse-text" id="consultation">
                   <div class="mt-2">
                     In het adviesgesprek bouwen we voort op de thema's die tijdens de intake zijn besproken. Op basis van de resultaten van de intake en de informatie uit het huiswerk, kunnen we <strong>gerichte adviezen</strong> gaan bespreken. Afhankelijk van jouw behoeften kunnen we aanvullende modellen en testen inzetten, zoals:
-                    <ul class="mt-3">
+                    <ul class="mt-3 list-unstyled">
                       <li>{% include "icons/heart-icon.njk" %}<span>Positieve gezondheid</span></li>
                       <li>{% include "icons/arrow-right-up-icon.njk" %}<span>Intrinsieke en extrinsieke motivatie</span></li>
                       <li>{% include "icons/moon-icon.njk" %}<span>Slaapgewoontes</span></li>
@@ -207,7 +207,7 @@ pageKey: "lifestyleCoaching"
                 <div class="collapse collapse-text" id="followUp">
                   <div class="mt-2">
                     In de vervolgsessies, onze <strong>coachings- of begeleidingsmomenten</strong>, koppelen we terug naar de behaalde resultaten, evalueren we de voortgang en sturen we bij waar nodig. Soms komen er nieuwe subdoelen naar voren die eerder niet aan het licht zijn gekomen. Openheid en eerlijkheid zijn hierbij van groot belang. Deze sessies bieden praktische handvatten en adviezen om je effectief richting je einddoel te leiden.
-                    <ul class="mt-3">
+                    <ul class="mt-3 list-unstyled">
                       <li>{% include "icons/arrow-path-icon.njk" %}<span>Terugkoppelen</span></li>
                       <li>{% include "icons/wrench-screwdriver-icon.njk" %}<span>Bijsturen</span></li>
                       <li>{% include "icons/cog-icon.njk" %}<span>Optimaliseren</span></li>
@@ -232,7 +232,7 @@ pageKey: "lifestyleCoaching"
                 <div class="collapse collapse-text" id="evaluation">
                   <div class="mt-2">
                     We sluiten het traject af met een evaluatie, waarin we terugblikken, je voortgang bespreken en <strong>valkuilen</strong> voor de toekomst identificeren. Samen ontwikkelen we strategieën om deze te herkennen en te overwinnen, zodat je nieuwe leefstijl blijvend is. Hoewel het traject kort en intensief is, richt het zich op <strong>duurzame gedragsverandering</strong>.
-                    <ul class="mt-3">
+                    <ul class="mt-3 list-unstyled">
                       <li>{% include "icons/exclamation-triangle-icon.njk" %}<span>Obstakels</span></li>
                       <li>{% include "icons/arrow-path-rounded-square-icon.njk" %}<span>Duurzaamheid</span></li>
                     </ul>
@@ -256,7 +256,7 @@ pageKey: "lifestyleCoaching"
                 <div class="collapse collapse-text" id="location">
                   <div class="mt-2">
                     De coachingssessies vinden plaats in <strong>mijn praktijkruimte</strong> in Wageningen, een rustige en fijne omgeving om aan jouw doelen te werken. <strong>Online sessies</strong> zijn ook mogelijk voor extra flexibiliteit. Het belangrijkste is dat jij je op je gemak voelt en gemotiveerd bent om duurzame veranderingen te realiseren.
-                    <ul class="mt-3">
+                    <ul class="mt-3 list-unstyled">
                       <li>{% include "icons/home-modern-icon.njk" %}<span>Wageningen</span></li>
                       <li>{% include "icons/wifi-icon.njk" %}<span>Online</span></li>
                     </ul>

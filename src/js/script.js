@@ -153,6 +153,9 @@ document.addEventListener('DOMContentLoaded', () => {
     }
   }
 
+// Dynamically changing date in copyright section
+  document.getElementById("year").textContent = new Date().getFullYear();
+
 // Bootstrap form validation (from bootstrap docs)
   (function () {
     'use strict'

@@ -91,6 +91,15 @@
               {% endif %}
               </a>
             </li>
+            <li class="mb-2 footer-link">
+              <a href="{{ links.privacy[locale] }}">
+              {% if locale == "nl" %}
+              Privacyverklaring
+              {% else %}
+              Privacy Policy
+              {% endif %}
+              </a>
+            </li>
             <li class="mb-2 footer-info">
               <p class="m-0">KvK-nummer: 95775137</p>
             </li>
@@ -102,7 +111,7 @@
       </div>
       <!-- Copyright -->
       <div class="text-center mt-3 small" id="copyright">
-        <p>&copy; 2025 JoyFeli Coaching </p>
+        <p>&copy; <span id="year"></span> JoyFeli Coaching </p>
       </div>
     </div>
   </footer>

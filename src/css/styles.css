@@ -89,12 +89,6 @@ h6::after {
   background-color: var(--primary-color);
 }
 
-ul {
-  list-style-type: none;
-  padding: 0;
-  margin: 0;
-}
-
 .custom-color {
   color: var(--primary-color);
 }
@@ -486,7 +480,7 @@ ul {
 
 .card:hover {
   transform: scale(1.02);
-  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+  /* box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1); */
 }
 
 /* .row:hover .card:not(:hover) {
@@ -768,5 +762,12 @@ ul {
 
   .contact-img {
     background-image: url('/img/Cezsoca_phone.jpg');
+  }
+
+  .kayak-img {
+    border-radius: 0;
+    margin-left: 0;
+    margin-right: 0;
+    padding:0
   }
 }

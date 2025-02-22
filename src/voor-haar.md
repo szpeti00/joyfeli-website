@@ -7,7 +7,7 @@ pageKey: "forHer"
 
 <!-- Hero Section -->
 <section class="hero-section overflow-hidden">
-  <div class="container position-relative ">
+  <div class="container position-relative">
     <div class="row">
       <div class="col-12 position-relative m-0 p-0">
         <!-- Background image container -->
@@ -138,7 +138,7 @@ pageKey: "forHer"
                 <div class="collapse collapse-text" id="introduction">
                   <div class="mt-2">
                     We starten met een informele kennismaking, waarin we kijken of er een klik is. Het is voor mij belangrijk dat jij je <strong>veilig en op je gemak</strong> voelt, zodat we samen een fijne en open werksfeer kunnen creëren. Een sterke vertrouwensband vormt de basis voor een succesvolle samenwerking.
-                    <ul class="mt-3">
+                    <ul class="mt-3 list-unstyled">
                       <li>{% include "icons/tag-icon.njk" %}<span>Gratis</span></li>
                       <li>{% include "icons/lock-open-icon.njk" %}<span>Vrijblijvend</span></li>
                     </ul>
@@ -165,7 +165,7 @@ pageKey: "forHer"
                     <div>
                     Daarnaast voeren we analyses uit, afhankelijk van jouw behoeften:
                     </div>
-                    <ul class="mt-3">
+                    <ul class="mt-3 list-unstyled">
                       <li>{% include "icons/cog-6-tooth-icon.njk" %}<span>Lichaamsanalyse</span></li>
                       <li>{% include "icons/chart-pie-icon.njk" %}<span>Voedings- en energiepatroon</span></li>
                       <li>{% include "icons/battery-50-icon.njk" %}<span>Beweeg- en herstelgewoonten</span></li>
@@ -190,7 +190,7 @@ pageKey: "forHer"
                 <div class="collapse collapse-text" id="consultation">
                   <div class="mt-2">
                     Op basis van de intake en eventuele analyses bespreken we <strong>gerichte adviezen</strong> en vervolgstappen. Dit gesprek vormt de basis voor een traject dat past bij jouw lichaam, leefstijl en doelen. We kunnen aanvullende modellen en oefeningen inzetten, zoals:
-                    <ul class="mt-3">
+                    <ul class="mt-3 list-unstyled">
                       <li>{% include "icons/heart-icon.njk" %}<span>Positieve gezondheid</span></li>
                       <li>{% include "icons/fire-icon.njk" %}<span>Motivatie vormen</span></li>
                       <li>{% include "icons/moon-icon.njk" %}<span>Slaapgewoontes</span></li>
@@ -218,7 +218,7 @@ pageKey: "forHer"
                 <div class="collapse collapse-text" id="followUp">
                   <div class="mt-2">
                     Tijdens de vervolgsessies kijken we naar jouw voortgang en sturen we bij waar nodig. Soms komen er nieuwe subdoelen naar voren die we kunnen integreren. Openheid en eerlijkheid staan centraal, zodat je <strong>op jouw eigen tempo kunt groeien</strong>. Deze sessies bieden praktische handvatten en ondersteuning om jouw doelen te realiseren.
-                    <ul class="mt-3">
+                    <ul class="mt-3 list-unstyled">
                       <li>{% include "icons/arrow-path-icon.njk" %}<span>Terugkoppelen</span></li>
                       <li>{% include "icons/wrench-screwdriver-icon.njk" %}<span>Bijsturen</span></li>
                       <li>{% include "icons/cog-icon.njk" %}<span>Optimaliseren</span></li>
@@ -243,7 +243,7 @@ pageKey: "forHer"
                 <div class="collapse collapse-text" id="evaluation">
                   <div class="mt-2">
                     We sluiten het traject af met een evaluatie, waarin we terugblikken op jouw voortgang en kijken naar eventuele uitdagingen voor de toekomst. We ontwikkelen strategieën om deze obstakels te herkennen en aan te pakken, zodat je de behaalde resultaten kunt <strong>vasthouden en zelfstandig verder kunt</strong>.
-                    <ul class="mt-3">
+                    <ul class="mt-3 list-unstyled">
                       <li>{% include "icons/exclamation-triangle-icon.njk" %}<span>Duurzame verandering</span></li>
                       <li>{% include "icons/key-icon.njk" %}<span>Zelfstandigheid & Eigen regie</span></li>
                     </ul>

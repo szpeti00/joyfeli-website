@@ -5,7 +5,7 @@ locale: "nl"
 pageKey: "terms"
 ---
 
-<div class="container mt-custom mb-5">
+<div class="container mt-custom my-5">
     <h1 class="text-center mb-4">Algemene Voorwaarden</h1>
     <section class="mb-4">
         <h2>1. Overzicht van de Overeenkomst</h2>
@@ -70,7 +70,7 @@ pageKey: "terms"
         <p>Beide partijen kunnen deze overeenkomst op elk moment beëindigen door schriftelijke kennisgeving. Als de Cliënt ervoor kiest de overeenkomst te beëindigen, worden betalingen voor ongebruikte diensten niet terugbetaald, behalve zoals vermeld in Sectie 6 met betrekking tot de bedenktijd. Als de Coach de overeenkomst beëindigt, wordt de Cliënt terugbetaald voor ongebruikte diensten, indien van toepassing.</p>
     </section>
     <section class="mb-4">
-        <h2>11.Communicatie</h2>
+        <h2>11. Communicatie</h2>
         <p>De Cliënt gaat ermee akkoord om te communiceren met de Coach via e-mail, telefoon of andere overeengekomen communicatiemethoden. De Coach zal binnen 48 uur op werkdagen reageren op alle vragen.</p>
     </section>
     <section class="mb-4">

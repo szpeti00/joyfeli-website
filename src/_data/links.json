@@ -26,6 +26,10 @@
     "terms": {
       "en": "/en/terms-and-conditions/",
       "nl": "/algemene-voorwaarden/"
+    },
+    "privacy": {
+      "en": "/en/privacy-policy/",
+      "nl": "/privacy-verklaring/"
     }
   }
   
