@@ -12,7 +12,6 @@ pageKey: "lifestyleCoaching"
       <div class="col-12 position-relative m-0 p-0">
         <!-- Background image container -->
         <div class="bg-image lifestylecoach-img animate-slide-in-left" data-bg="/img/lifestylecoach_2.jpg" data-bgPhone="/img/lifestylecoach_2.jpg">
-          <div class="loader">Loading...</div>
         </div>
         <!-- Text overlay -->
         <div class="text-overlay lifestylecoach-text animate-slide-in-right bg-white bg-opacity-75 p-4 p-xxl-5">

@@ -62,36 +62,6 @@ document.addEventListener('DOMContentLoaded', () => {
   }
   // End Intersection Observer
 
-  // Background image loader
-  const containers = document.querySelectorAll('.bg-image');
-
-  containers.forEach(container => {
-    // Get the image URLs from the data attributes
-    const bgLarge = container.dataset.bg;
-    const bgSmall = container.dataset.bgPhone;
-
-    // Decide which image URL to use based on screen size
-    const bgImageUrl =
-        window.matchMedia("(max-width: 575px)").matches && bgSmall
-          ? bgSmall
-          : bgLarge;
-
-    if (!bgImageUrl) return; // Skip if no valid URL is provided
-
-    const img = new Image();
-    img.src = bgImageUrl;
-
-    img.onload = () => {
-      container.style.backgroundImage = `url(${bgImageUrl})`;
-
-      // Hide the loader once the image is fully loaded
-      const loader = container.querySelector('.loader');
-      if (loader) loader.style.display = 'none';
-    };
-  });
-  // End
-
-
   // Sliding underline for nav tabs and next/prev buttons
   const tabs = document.querySelectorAll('.nav-tabs button.nav-link');
   const dropdownItems = document.querySelectorAll('.dropdown-menu .dropdown-item');

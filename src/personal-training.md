@@ -12,7 +12,6 @@ pageKey: "personalTraining"
       <div class="col-12 position-relative m-0 p-0">
         <!-- Background image container -->
         <div class="bg-image ptraining-img animate-slide-in-left" data-bg="/img/Feli_mangart.jpg" data-bgPhone="/img/Feli_mangart.jpg">
-          <div class="loader">Loading...</div>
         </div>
         <!-- Text overlay -->
         <div class="text-overlay ptraining-text animate-slide-in-right bg-white bg-opacity-75 p-4 p-xxl-5">

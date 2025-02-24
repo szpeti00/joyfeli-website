@@ -26,7 +26,6 @@ navbarClass: "fixed-top"
       <div class="col-12 position-relative m-0 p-0">
         <!-- Background image container -->
         <div class="bg-image welcome-img animate-slide-in-left" data-bg="/img/Feli_mountain.jpg" data-bgPhone="/img/Feli_mountain_cut.jpg">
-          <div class="loader">Loading...</div>
         </div>
         <!-- Text overlay -->
         <div class="text-overlay welcome-text animate-slide-in-right-welcome bg-white bg-opacity-75 p-4 p-xxl-5">
