@@ -97,7 +97,7 @@ pageKey: "about"
         <div class="row px-2 px-sm-0">
           <div class="col-lg-6">
             <h4 class="mt-4 mb-3 separator">Hi, ik ben Feli Aarsman.</h4>
-            <h5 class="mb-3"><i>Ontdekken, beleven, inspireren en vertrouwen</i></h5>
+            <h5 class="mb-0 mb-lg-3"><i>Ontdekken, beleven, inspireren en vertrouwen</i></h5>
             <p>
               Voor mijn studie Ecologie aan de universiteit verhuisde ik naar Wageningen en werd meteen verliefd op de stad en haar prachtige, natuurlijke omgeving. Hier ontdekte ik een diepe connectie tussen mens en natuur: net als ecosystemen zijn wij afhankelijk van een samenspel van interne en externe factoren. Ons welzijn wordt gevormd door <strong>biologische, psychologische en sociale</strong> lagen, die voortdurend in wisselwerking staan.
             </p>
@@ -105,8 +105,8 @@ pageKey: "about"
               Door de jaren heen verschoof mijn focus van academische studies naar een groeiende passie voor sport, leefstijl en beweging. Wat begon met outdoor avonturen zoals klimmen, wildwaterkajakken en boulderen, breidde zich later uit naar indooractiviteiten zoals spinning, pilates, XCORE en fitness. Mijn fascinatie voor de natuur ontwikkelde zich tot een diepgaande interesse in de manier waarop we <strong>denken, communiceren en ons gedragen</strong> – vooral als het gaat om <strong>gezondheid en welzijn</strong>. Dit leidde tot een sterke drive om mensen te begeleiden en coachen, zodat ze fysiek en mentaal sterker worden.
             </p>
           </div>
-          <div class="col-lg-6 my-3">
-            <img class="img-fluid profile-img my-5" src="/img/Feli2.jpg" alt="Feli Aarsman profile picture">
+          <div class="col-lg-6 my-0 my-lg-3">
+            <img class="img-fluid profile-img my-3 my-lg-5" src="/img/Feli2.jpg" alt="Feli Aarsman profile picture">
           </div>
         </div>
         <div class="row px-2 px-sm-0">

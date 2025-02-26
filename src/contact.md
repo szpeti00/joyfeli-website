@@ -46,7 +46,7 @@ pageKey: "contact"
           Heb je vragen of wil je samen nadenken over wat het beste bij je past? Twijfel je ergens over? Neem gerust contact met me op, dan komen we samen tot de juiste oplossing die bij jou past.
         </p>
         <p>
-          Van november tot en met april ben ik beschikbaar op mijn locatie in Wageningen. In de zomermaanden ben ik flexibel en sta ik open voor het starten of voortzetten van virtuele sessies.
+          Van <strong>november tot en met april</strong> ben ik beschikbaar op mijn locatie in <strong>Wageningen</strong>. In de zomermaanden ben ik flexibel en sta ik open voor het starten of voortzetten van virtuele sessies.
         </p>
         <p>
           Je kunt contact met me opnemen via e-mail, een chatbericht via WhatsApp, of door onderstaand formulier in te vullen. Ik kijk ernaar uit om je te helpen!
