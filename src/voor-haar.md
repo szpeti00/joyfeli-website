@@ -99,7 +99,10 @@ pageKey: "forHer"
           Coaching voor haar is speciaal ontwikkeld voor vrouwen die streven naar een sterke, gezonde en evenwichtige levensstijl – zowel fysiek als mentaal. Of je nu meer kracht en energie wilt, gezonde gewoonten wilt ontwikkelen of balans zoekt in je drukke leven, deze coaching biedt een <strong>veilige</strong> en <strong>ondersteunende omgeving</strong> waarin jij centraal staat.   
         </p>
         <p>
-          In deze <strong>vertrouwde en inspirerende setting</strong> werken we samen aan een duurzame verandering, zodat je niet alleen fysiek sterker wordt, maar ook in je zelfvertrouwen en veerkracht groeit. Dit is coaching die niet alleen gericht is op wat je doet, maar vooral op wie je bent en wie je wilt worden.
+          Met een unieke combinatie van leefstijlcoaching en personal training krijg je begeleiding die past bij jouw lichaam, doelen en levensfase. Hier is ruimte voor <strong>jouw verhaal, jouw uitdagingen en jouw groei</strong>, zonder oordeel, maar met respect, motivatie en een aanpak die aansluit bij wat jij nodig hebt.
+        </p>
+        <p>
+          In deze vertrouwde en inspirerende setting werken we samen aan een duurzame verandering, zodat je niet alleen fysiek sterker wordt, maar ook in je zelfvertrouwen en veerkracht groeit. Dit is coaching die niet alleen gericht is op wat je doet, maar vooral op <strong>wie je bent</strong> en <strong>wie je wilt worden</strong>.
         </p>
         <h4 class="mt-5 mb-3 separator">Waarom nu?</h4>
         <h5 class="mb-3"><i>Het is een investering in jouw kracht, balans en welzijn – zowel fysiek als mentaal.</i></h5>
@@ -115,12 +118,12 @@ pageKey: "forHer"
       </div>
       <!-- Practical Information Tab-->
       <div class="mb-3 tab-pane fade" id="info" role="tabpanel" aria-labelledby="tab-info">
-        <h4 class="mt-4 mb-3 separator">Coachingstraject</h4>
+        <h4 class="mt-4 mb-3 separator">Hoe verloopt het traject?</h4>
         <p>
           Coaching voor haar is gericht op zowel fysieke als mentale groei, afhankelijk van jouw behoeften. Dit traject biedt een combinatie van <strong>leefstijlcoaching en personal training</strong>, waarbij we werken aan <strong>kracht, balans en welzijn</strong>. Of je nu wilt werken aan je energieniveau, stressmanagement, zelfvertrouwen of fysieke kracht, de coaching wordt volledig afgestemd op wat jij nodig hebt.
         </p>
         <p class="mb-5">
-          Een coachingstraject bestaat uit meerdere sessies die in een logische volgorde zijn opgebouwd, zodat je op een <strong>duurzame en haalbare manier</strong> vooruitgang boekt.
+          Een coachingstraject bestaat uit meerdere sessies die in een logische volgorde zijn opgebouwd.
         </p>            
         <div class="row g-4">
           <div class="col-md-6 col-lg-6">
@@ -281,7 +284,7 @@ pageKey: "forHer"
       </div>
       <!-- Pricing tab -->
       <div class="mb-3 tab-pane fade" id="pricing" role="tabpanel" aria-labelledby="tab-pricing">
-          <h4 class="mt-4 mb-3 separator">Coachings trajecten</h4>
+          <h4 class="mt-4 mb-3 separator">Welk coachingstraject?</h4>
           <div class="row g-4">
             <!-- Start pakket Card -->
             <div class="col-md-6 col-lg-6">
@@ -323,7 +326,7 @@ pageKey: "forHer"
                           </button>
                           <div class="collapse collapse-text" id="startPakket">
                             <div class="mt-2">
-                              Voor een extra duwtje in de goede richting: <strong>korte, intensieve begeleiding</strong> waarmee je snel kennis opdoet en in hoog tempo vooruitgang boekt met huiswerk
+                              Voor een extra duwtje in de goede richting: <strong>korte, intensieve begeleiding</strong> waarmee je snel kennis opdoet en in hoog tempo vooruitgang boekt met huiswerk.
                             </div>
                           </div>
                         </div>

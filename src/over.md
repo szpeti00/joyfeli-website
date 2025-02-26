@@ -102,7 +102,7 @@ pageKey: "about"
               Voor mijn studie Ecologie aan de universiteit verhuisde ik naar Wageningen en werd meteen verliefd op de stad en haar prachtige, natuurlijke omgeving. Hier ontdekte ik een diepe connectie tussen mens en natuur: net als ecosystemen zijn wij afhankelijk van een samenspel van interne en externe factoren. Ons welzijn wordt gevormd door <strong>biologische, psychologische en sociale</strong> lagen, die voortdurend in wisselwerking staan.
             </p>
             <p>
-              Door de jaren heen verschoof mijn focus van academische studies naar een groeiende passie voor sport, leefstijl en beweging. Wat begon met outdoor avonturen zoals klimmen, wildwaterkajakken en boulderen, breidde zich later uit naar indooractiviteiten zoals spinning, pilates, XCORE en fitness. Mijn fascinatie voor de natuur ontwikkelde zich tot een diepgaande interesse in de manier waarop we <strong>denken, communiceren en ons gedragen</strong> – vooral als het gaat om <strong>gezondheid en welzijn</strong>. Dit leidde tot een sterke drive om mensen te begeleiden en coachen, zodat ze fysiek en mentaal sterker worden.
+             Naarmate de jaren vorderden, verschoof mijn focus van mijn academische studie naar een steeds grotere passie voor sport, leefstijl en beweging. Wat begon met outdoor avonturen zoals klimmen, wildwaterkajakken en boulderen, breidde zich uit naar indooractiviteiten zoals spinning, pilates, xcore en fitness. Mijn interesse in natuur, beweging en de mens leidde tot een focus op <strong>hoe we denken, communiceren en ons gedragen</strong>, met speciale aandacht voor gezondheid en welzijn. Dit bracht me ertoe om mensen te begeleiden en coachen, zowel fysiek als mentaal.
             </p>
           </div>
           <div class="col-lg-6 my-0 my-lg-3">
@@ -118,7 +118,7 @@ pageKey: "about"
               Natuur en menselijke verbinding vormen de kern van alles wat ik doe. In de <strong>zomer</strong> geef ik mijn liefde voor de buitenlucht door als wildwaterkajakinstructeur in de bergen van Slovenië. In de <strong>winter</strong> coach ik individuen in de sportschool en geef ik groepslessen, waarbij ik mijn passie voor beweging en vitaliteit deel.
             </p>
             <p>
-              Met meer dan <strong>acht jaar ervaring</strong> als <strong>gecertificeerd instructeur</strong> heb ik waardevolle inzichten opgedaan in hoe mensen denken, voelen en handelen. Dit versterkte mijn overtuiging: met positieve energie maken we samen de wereld sterker, gelukkiger en mooier. En om die energie uit te stralen, is het essentieel om <strong>gezond, krachtig en veerkrachtig</strong> te zijn. Mijn missie is om mezelf en anderen te inspireren hun kracht te omarmen en vol energie te leven – zodat we samen niet alleen ons eigen leven, maar ook de wereld om ons heen laten stralen.
+              Met meer dan <strong>acht jaar ervaring</strong> als <strong>gecertificeerd instructeur</strong> heb ik waardevolle inzichten opgedaan in hoe mensen denken, voelen en handelen. Dit versterkte mijn overtuiging: met positieve energie maken we de wereld sterker, gelukkiger en mooier. Om die energie uit te stralen, is het essentieel om <strong>gezond, krachtig en veerkrachtig</strong> te zijn. Mijn missie is om mezelf en anderen te inspireren hun kracht te omarmen en vol energie te leven.
             </p>
           </div>
         </div>

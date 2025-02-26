@@ -106,7 +106,7 @@ pageKey: "lifestyleCoaching"
       </div>
       <!-- Practical Information Tab-->
       <div class="mb-3 tab-pane fade" id="info" role="tabpanel" aria-labelledby="tab-info">
-        <h4 class="mt-4 mb-3 separator">Coachingstraject</h4>
+        <h4 class="mt-4 mb-3 separator">Hoe verloopt het traject?</h4>
         <p>
         Leefstijlcoaching richt zich op verschillende aspecten van je leven, zoals <strong>gedrag, voeding, beweging, slaap, stress en ontspanning</strong>. Ik maak gebruik van methoden en modellen die aansluiten bij jouw unieke traject.
         </p>
@@ -269,7 +269,7 @@ pageKey: "lifestyleCoaching"
       </div>
       <!-- Pricing tab -->
       <div class="mb-3 tab-pane fade" id="pricing" role="tabpanel" aria-labelledby="tab-pricing">
-          <h4 class="mt-4 mb-3 separator">Coachings trajecten</h4>
+          <h4 class="mt-4 mb-3 separator">Welk coachingstraject?</h4>
           <div class="row g-4">
             <!-- Start pakket Card -->
             <div class="col-md-6 col-lg-6">

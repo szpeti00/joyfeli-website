@@ -112,7 +112,7 @@ pageKey: "personalTraining"
       </div>
       <!-- Practical Information Tab-->
       <div class="mb-3 tab-pane fade" id="info" role="tabpanel" aria-labelledby="tab-info">
-        <h4 class="mt-4 mb-3 separator">Coachingstraject</h4>
+        <h4 class="mt-4 mb-3 separator">Hoe verloopt het traject?</h4>
         <p>
           Personal training richt zich op het verbeteren van je fysieke gezondheid en fitheid door middel van doelgerichte training, beweging en motivatie. Ik stem de trainingen af op <strong>jouw persoonlijke doelen, niveau en mogelijkheden</strong>, zodat je op een effectieve en duurzame manier vooruitgang boekt
         </p>
@@ -270,7 +270,7 @@ pageKey: "personalTraining"
       </div>
       <!-- Pricing tab -->
       <div class="mb-3 tab-pane fade" id="pricing" role="tabpanel" aria-labelledby="tab-pricing">
-          <h4 class="mt-4 mb-3 separator">Coachings trajecten</h4>
+          <h4 class="mt-4 mb-3 separator">Welk coachingstraject?</h4>
           <p>
             Alle sessies en pakketten zijn ook beschikbaar voor <strong>duo’s</strong>. Deel de kosten, sport samen en ontvang een plan op maat!
           </p>
@@ -316,7 +316,7 @@ pageKey: "personalTraining"
                           </button>
                           <div class="collapse collapse-text" id="startPakket">
                             <div class="mt-2">
-                              Een <strong>kort, intensief traject</strong> met persoonlijke begeleiding voor snel resultaat, ondersteund door gerichte oefeningen voor thuis
+                              Een <strong>kort, intensief traject</strong> met persoonlijke begeleiding voor snel resultaat, ondersteund door gerichte oefeningen voor thuis.
                             </div>
                           </div>
                         </div>
