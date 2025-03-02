@@ -139,7 +139,7 @@ navbarClass: "fixed-top"
         </div>
       </div>
       <div class="col-lg-6 mt-4">
-        <img class="img-fluid profile-img mx-lg-5 mt-3" src="/img/feli.jpg" alt="Feli Aarsman profile picture">
+        <img class="img-fluid profile-img mx-lg-5 mt-3" src="/img/feli.jpg" alt="Feli Aarsman profile picture" loading="lazy">
       </div>
     </div>
   </div>

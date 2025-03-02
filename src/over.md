@@ -56,7 +56,7 @@ pageKey: "about"
         </li>
         <li class="nav-item d-none d-md-flex">
           <button class="nav-link px-4" id="tab-work" data-bs-toggle="tab" data-bs-target="#work" type="button" role="tab" aria-controls="work" aria-selected="false">
-            Werk
+            Werkervaring
           </button>
         </li>
       </ul>
@@ -106,12 +106,12 @@ pageKey: "about"
             </p>
           </div>
           <div class="col-lg-6 my-0 my-lg-3">
-            <img class="img-fluid profile-img my-3 my-lg-5" src="/img/Feli2.jpg" alt="Feli Aarsman profile picture">
+            <img class="img-fluid profile-img my-3 my-lg-5" src="/img/Feli2.jpg" alt="Feli Aarsman profile picture" loading="lazy">
           </div>
         </div>
         <div class="row px-2 px-sm-0">
           <div class="col-lg-6 px-0 px-lg-3 my-3 order-last order-lg-first ">
-            <img class="img-fluid kayak-img me-lg-5" src="/img/Feli_kayak.jpg" alt="Feli Aarsman kayak picture">
+            <img class="img-fluid kayak-img me-lg-5" src="/img/Feli_kayak.jpg" alt="Feli Aarsman kayak picture" loading="lazy">
           </div>
           <div class="col-lg-6 order-first order-lg-last">
             <p>

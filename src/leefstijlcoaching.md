@@ -181,7 +181,7 @@ pageKey: "lifestyleCoaching"
                     In het adviesgesprek bouwen we voort op de thema's die tijdens de intake zijn besproken. Op basis van de resultaten van de intake en de informatie uit het huiswerk, kunnen we <strong>gerichte adviezen</strong> gaan bespreken. Afhankelijk van jouw behoeften kunnen we aanvullende modellen en testen inzetten, zoals:
                     <ul class="mt-3 list-unstyled">
                       <li>{% include "icons/heart-icon.njk" %}<span>Positieve gezondheid</span></li>
-                      <li>{% include "icons/arrow-right-up-icon.njk" %}<span>Intrinsieke en extrinsieke motivatie</span></li>
+                      <li>{% include "icons/shopping-cart-icon.njk" %}<span>Voedingsdagboek</span></li>
                       <li>{% include "icons/moon-icon.njk" %}<span>Slaapgewoontes</span></li>
                       <li>{% include "icons/scale-icon.njk" %}<span>Stressmanagement</span></li>
                       <li>{% include "icons/arrows-pointing-in-icon.njk" %}<span>Sociale druk</span></li>

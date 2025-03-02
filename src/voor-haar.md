@@ -73,7 +73,7 @@ pageKey: "forHer"
         <ul class="dropdown-menu" aria-labelledby="mobileDropdown" role="tablist">
           <li>
             <button class="dropdown-item active fs-4" data-bs-toggle="tab" data-bs-target="#forher" type="button" role="tab" aria-selected="true">
-              Leefstijlcoaching
+              Voor haar
             </button>
           </li>
           <li>
@@ -248,7 +248,7 @@ pageKey: "forHer"
                     We sluiten het traject af met een evaluatie, waarin we terugblikken op jouw voortgang en kijken naar eventuele uitdagingen voor de toekomst. We ontwikkelen strategieën om deze obstakels te herkennen en aan te pakken, zodat je de behaalde resultaten kunt <strong>vasthouden en zelfstandig verder kunt</strong>.
                     <ul class="mt-3 list-unstyled">
                       <li>{% include "icons/exclamation-triangle-icon.njk" %}<span>Duurzame verandering</span></li>
-                      <li>{% include "icons/key-icon.njk" %}<span>Zelfstandigheid & Eigen regie</span></li>
+                      <li>{% include "icons/key-icon.njk" %}<span>Zelfstandigheid</span></li>
                     </ul>
                   </div>
                 </div>
@@ -387,7 +387,7 @@ pageKey: "forHer"
                         <h5 class="card-title text-center fs-4">10 - Sessies pakket</h5>
                         <p class="card-text fs-lg-4">
                           {% include "icons/calendar-icon.njk" %}
-                          <span class="ps-2 ps-lg-3"> 10 sessies</span>
+                          <span class="ps-2 ps-lg-3">10 sessies</span>
                         </p>
                         <p class="card-text fs-lg-4">
                           {% include "icons/price-icon.njk" %}<span class="ps-2 ps-lg-3">€ 550</span>

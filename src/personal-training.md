@@ -73,7 +73,7 @@ pageKey: "personalTraining"
         <ul class="dropdown-menu" aria-labelledby="mobileDropdown" role="tablist">
           <li>
             <button class="dropdown-item active fs-4" data-bs-toggle="tab" data-bs-target="#ptraining" type="button" role="tab" aria-selected="true">
-              Leefstijlcoaching
+              Personal Training
             </button>
           </li>
           <li>
@@ -114,7 +114,7 @@ pageKey: "personalTraining"
       <div class="mb-3 tab-pane fade" id="info" role="tabpanel" aria-labelledby="tab-info">
         <h4 class="mt-4 mb-3 separator">Hoe verloopt het traject?</h4>
         <p>
-          Personal training richt zich op het verbeteren van je fysieke gezondheid en fitheid door middel van doelgerichte training, beweging en motivatie. Ik stem de trainingen af op <strong>jouw persoonlijke doelen, niveau en mogelijkheden</strong>, zodat je op een effectieve en duurzame manier vooruitgang boekt
+          Personal training richt zich op het verbeteren van je fysieke gezondheid en fitheid door middel van doelgerichte training, beweging en motivatie. Ik stem de trainingen af op <strong>jouw persoonlijke doelen, niveau en mogelijkheden</strong>, zodat je op een effectieve en duurzame manier vooruitgang boekt.
         </p>
         <p class="mb-5">
           Een coachingstraject bestaat uit meerdere sessies die in een logische volgorde zijn opgebouwd. 
@@ -129,7 +129,8 @@ pageKey: "personalTraining"
                   data-bs-target="#introduction"
                   aria-expanded="false"
                 >
-                  <span class="card-title fs-4"><span class="pe-2 pe-lg-3">{% include "icons/chat-bubble-icon.njk" %}</span>Kennismaking</span>
+                  <span class="card-title fs-4"><span class="pe-2 pe-lg-3">{% include "icons/chat-bubble-icon.njk" %}
+                  </span>Kennismaking</span>
                   <span class="toggle-icon"></span>
                 </button>
                 <div class="collapse collapse-text" id="introduction">
@@ -153,7 +154,8 @@ pageKey: "personalTraining"
                   data-bs-target="#intake"
                   aria-expanded="false"
                 >
-                  <span class="card-title fs-4"><span class="pe-2 pe-lg-3">{% include "icons/pencil-square-icon.njk" %}</span> Intakegesprek</span>
+                  <span class="card-title fs-4"><span class="pe-2 pe-lg-3">{% include "icons/pencil-square-icon.njk" %}
+                  </span>Intakegesprek</span>
                   <span class="toggle-icon"></span>
                 </button>
                 <div class="collapse collapse-text" id="intake">
@@ -178,7 +180,8 @@ pageKey: "personalTraining"
                   data-bs-target="#consultation"
                   aria-expanded="false"
                 >
-                  <span class="card-title fs-4"><span class="pe-2 pe-lg-3">{% include "icons/light-bulb-icon.njk" %}</span> Adviesgesprek</span>
+                  <span class="card-title fs-4"><span class="pe-2 pe-lg-3">{% include "icons/light-bulb-icon.njk" %}
+                  </span>Adviesgesprek</span>
                   <span class="toggle-icon"></span>
                 </button>
                 <div class="collapse collapse-text" id="consultation">
@@ -202,7 +205,8 @@ pageKey: "personalTraining"
                   data-bs-target="#followUp"
                   aria-expanded="false"
                 >
-                  <span class="card-title fs-4"><span class="pe-2 pe-lg-3">{% include "icons/arrow-trending-up-icon.njk" %}</span> Vervolgsessies</span>
+                  <span class="card-title fs-4"><span class="pe-2 pe-lg-3">{% include "icons/arrow-trending-up-icon.njk" %}
+                  </span>Vervolgsessies</span>
                   <span class="toggle-icon"></span>
                 </button>
                 <div class="collapse collapse-text" id="followUp">
@@ -227,7 +231,8 @@ pageKey: "personalTraining"
                   data-bs-target="#evaluation"
                   aria-expanded="false"
                 >
-                  <span class="card-title fs-4"><span class="pe-2 pe-lg-3">{% include "icons/clipboard-icon.njk" %}</span> Evaluatiegesprek</span>
+                  <span class="card-title fs-4"><span class="pe-2 pe-lg-3">{% include "icons/clipboard-icon.njk" %}
+                  </span>Evaluatiegesprek<span>
                   <span class="toggle-icon"></span>
                 </button>
                 <div class="collapse collapse-text" id="evaluation">
@@ -251,7 +256,7 @@ pageKey: "personalTraining"
                   data-bs-target="#location"
                   aria-expanded="false"
                 >
-                  <span class="card-title fs-4"><span class="pe-2 pe-lg-3">{% include "icons/home-icon.njk" %}</span> Locatie</span>
+                  <span class="card-title fs-4"><span class="pe-2 pe-lg-3">{% include "icons/home-icon.njk" %}</span>Locatie</span>
                   <span class="toggle-icon"></span>
                 </button>
                 <div class="collapse collapse-text" id="location">
@@ -378,7 +383,7 @@ pageKey: "personalTraining"
                         <h5 class="card-title text-center fs-4">10 - Sessies pakket</h5>
                         <p class="card-text fs-lg-4">
                           {% include "icons/calendar-icon.njk" %}
-                          <span class="ps-2 ps-lg-3"> 10 sessies</span>
+                          <span class="ps-2 ps-lg-3">10 sessies</span>
                         </p>
                         <p class="card-text fs-lg-4">
                           {% include "icons/user-icon.njk" %}<span class="ps-2 ps-lg-3 pe-4 pe-lg-5">€ 550</span>
