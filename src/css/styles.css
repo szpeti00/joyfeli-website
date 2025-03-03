@@ -504,7 +504,8 @@ h6 {
 /* Small screens: Make sure when the text takes the second line, it aligns with the text above*/
 .collapse.collapse-text ul li,
 #studies ul li,
-#work ul li {
+#work ul li,
+.text-stacking {
   display: grid;
   grid-template-columns: auto 1fr;
   gap: var(--spacing-xs);

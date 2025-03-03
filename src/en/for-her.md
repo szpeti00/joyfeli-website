@@ -297,7 +297,7 @@ pageKey: "forHer"
                 <div class="card">
                     <div class="card-body custom-color p-4 p-lg-5">
                         <h5 class="card-title text-center fs-4">Start package</h5>
-                        <p class="card-text fs-lg-4">
+                        <p class="card-text fs-lg-4 text-stacking">
                           {% include "icons/calendar-icon.njk" %}
                           <span class="ps-2 ps-lg-3">1 - 2 months, 6 sessions</span>
                         </p>
@@ -305,19 +305,19 @@ pageKey: "forHer"
                           {% include "icons/price-icon.njk" %}<span class="ps-2 ps-lg-3">€ 350</span>
                         </p>
                         <div class="card-text">
-                          <div>
+                          <div class="text-stacking">
                             {% include "icons/check-icon.njk" %}
                             <span class="ps-2 ps-lg-3">Free introduction</span>
                           </div>
-                          <div>
+                          <div class="text-stacking">
                             {% include "icons/check-icon.njk" %}
                             <span class="ps-2 ps-lg-3">Smooth intake process</span>
                           </div>
-                          <div>
+                          <div class="text-stacking">
                             {% include "icons/check-icon.njk" %}
                             <span class="ps-2 ps-lg-3">4 Coaching sessions</span>
                           </div>
-                          <div>
+                          <div class="text-stacking">
                             {% include "icons/check-icon.njk" %}
                             <span class="ps-2 ps-lg-3">Final evaluation</span>
                           </div>
@@ -344,7 +344,7 @@ pageKey: "forHer"
                 <div class="card">
                     <div class="card-body custom-color p-4 p-lg-5">
                         <h5 class="card-title text-center fs-4">Medium package</h5>
-                        <p class="card-text fs-lg-4">
+                        <p class="card-text fs-lg-4 text-stacking">
                           {% include "icons/calendar-icon.njk" %}
                           <span class="ps-2 ps-lg-3">2 - 3 months, 8 sessions</span>
                         </p>
@@ -352,19 +352,19 @@ pageKey: "forHer"
                           {% include "icons/price-icon.njk" %}<span class="ps-2 ps-lg-3">€ 450</span>
                         </p>
                         <div class="card-text">
-                          <div>
+                          <div class="text-stacking">
                             {% include "icons/check-icon.njk" %}
                             <span class="ps-2 ps-lg-3">Free introduction</span>
                           </div>
-                          <div>
+                          <div class="text-stacking">
                             {% include "icons/check-icon.njk" %}
                             <span class="ps-2 ps-lg-3">Intake session</span>
                           </div>
-                          <div>
+                          <div class="text-stacking">
                             {% include "icons/check-icon.njk" %}
                             <span class="ps-2 ps-lg-3">6 coaching sessions</span>
                           </div>
-                          <div>
+                          <div class="text-stacking">
                             {% include "icons/check-icon.njk" %}
                             <span class="ps-2 ps-lg-3">Final evaluation</span>
                           </div>
@@ -391,7 +391,7 @@ pageKey: "forHer"
                 <div class="card">
                     <div class="card-body custom-color p-4 p-lg-5">
                         <h5 class="card-title text-center fs-4">10 - Sessions Package</h5>
-                        <p class="card-text fs-lg-4">
+                        <p class="card-text fs-lg-4 text-stacking">
                           {% include "icons/calendar-icon.njk" %}
                           <span class="ps-2 ps-lg-3">10 sessions</span>
                         </p>
@@ -399,19 +399,19 @@ pageKey: "forHer"
                           {% include "icons/price-icon.njk" %}<span class="ps-2 ps-lg-3">€ 550</span>
                         </p>
                         <div class="card-text">
-                          <div>
+                          <div class="text-stacking">
                             {% include "icons/check-icon.njk" %}
                             <span class="ps-2 ps-lg-3">Free introduction</span>
                           </div>
-                          <div>
+                          <div class="text-stacking">
                             {% include "icons/check-icon.njk" %}
                             <span class="ps-2 ps-lg-3">In-depth intake</span>
                           </div>
-                          <div>
+                          <div class="text-stacking">
                             {% include "icons/check-icon.njk" %}
                             <span class="ps-2 ps-lg-3">8 coaching sessions</span>
                           </div>
-                          <div>
+                          <div class="text-stacking">
                             {% include "icons/check-icon.njk" %}
                             <span class="ps-2 ps-lg-3">Final evaluation</span>
                           </div>
@@ -438,7 +438,7 @@ pageKey: "forHer"
                 <div class="card">
                     <div class="card-body custom-color p-4 p-lg-5">
                         <h5 class="card-title text-center fs-4">Single Session</h5>
-                        <p class="card-text fs-lg-4">
+                        <p class="card-text fs-lg-4 text-stacking">
                           {% include "icons/calendar-icon.njk" %}
                           <span class="ps-2 ps-lg-3">45 - 60 min</span>
                         </p>
@@ -446,15 +446,15 @@ pageKey: "forHer"
                           {% include "icons/price-icon.njk" %}<span class="ps-2 ps-lg-3">€ 65</span>
                         </p>
                         <div class="card-text">
-                          <div>
+                          <div class="text-stacking">
                             {% include "icons/check-icon.njk" %}
                             <span class="ps-2 ps-lg-3">Free introduction</span>
                           </div>
-                          <div>
+                          <div class="text-stacking">
                             {% include "icons/check-icon.njk" %}
                             <span class="ps-2 ps-lg-3">Flexible</span>
                           </div>
-                          <div>
+                          <div class="text-stacking">
                             {% include "icons/check-icon.njk" %}
                             <span class="ps-2 ps-lg-3">Freedom of choice</span>
                           </div>

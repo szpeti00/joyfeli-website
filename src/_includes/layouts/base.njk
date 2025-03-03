@@ -6,11 +6,36 @@
   <title>{{ title }}</title>
   <!-- Meta Description -->
   <meta property="og:type" content="website">
-  <meta property="og:url" content="https://www.joyfelicoaching.nl">
-  <meta name="description" content="JoyFeli - Lifestyle coaching & Personal Training in Wageningen">
+  <meta property="og:url" content="https://www.joyfelicoaching.nl{{ links[pageKey][locale] }}">
+  <meta name="description" content="{{ metaDescriptions[pageKey][locale] }}">
   <meta name="keywords" content="Lifestyle coaching, Personal Training, Wageningen, coaching, fitness, training">
-  <meta property="og:title" content="JoyFeli - Lifestyle coaching & Personal Training">
-  <meta property="og:description" content="JoyFeli - Lifestyle coaching & Personal Training in Wageningen">
+  <meta property="og:title" content="{{ title }}">
+  <meta property="og:description" content="{{ metaDescriptions[pageKey][locale] }}">
+
+  <!-- JSON-LD -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "LocalBusiness",
+      "name": "JoyFeli Coaching",
+      "image": "https://www.joyfelicoaching.nl/img/logo.png",
+      "url": "https://www.joyfelicoaching.nl",
+      "telephone": "+31 6 1122 0741",
+      "priceRange": "40 - 600 EUR",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Van Uvenweg 136",
+        "addressLocality": "Wageningen",
+        "postalCode": "6707 BH",
+        "addressCountry": "NL"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 51.97363625641619,
+        "longitude": 5.6628359547102125
+      },
+      "description": "JoyFeli Coaching biedt lifestyle coaching en personal training in Wageningen, gericht op jouw groei en welzijn."
+  </script>
 
   <!-- Favicon -->
   <link rel="icon" href="/img/favicon/favicon.ico" type="image/x-icon">

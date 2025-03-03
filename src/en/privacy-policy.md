@@ -72,8 +72,8 @@ pageKey: "privacy"
     <h2>Contact</h2>
     <p>If you have any questions about this privacy statement or wish to exercise your rights, you can contact me at:</p>
     <ul>
-        <li><strong>E-mail:</strong> <a href="mailto:Feli.aarsman@gmail.com">Feli.aarsman@gmail.com</a></li>
-        <li><strong>Telefoonnummer:</strong> 06-11220741</li>
+        <li><strong>Email:</strong> <a href="mailto:Feli.aarsman@gmail.com">Feli.aarsman@gmail.com</a></li>
+        <li><strong>Phone:</strong> 06-11220741</li>
     </ul>
     <h2>Changes to the Privacy Statement</h2>
     <p>This privacy statement may be updated from time to time. I recommend regularly reviewing this statement to stay informed of any changes.</p>

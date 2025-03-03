@@ -276,7 +276,7 @@ pageKey: "lifestyleCoaching"
                 <div class="card">
                     <div class="card-body custom-color p-4 p-lg-5">
                         <h5 class="card-title text-center fs-4">Start Package</h5>
-                        <p class="card-text fs-lg-4">
+                        <p class="card-text fs-lg-4 text-stacking">
                           {% include "icons/calendar-icon.njk" %}
                           <span class="ps-2 ps-lg-3">1 - 2 months, 6 sessions</span>
                         </p>
@@ -284,19 +284,19 @@ pageKey: "lifestyleCoaching"
                           {% include "icons/price-icon.njk" %}<span class="ps-2 ps-lg-3">€ 350</span>
                         </p>
                         <div class="card-text">
-                          <div>
+                          <div class="text-stacking">
                             {% include "icons/check-icon.njk" %}
                             <span class="ps-2 ps-lg-3">Free introduction</span>
                           </div>
-                          <div>
+                          <div class="text-stacking">
                             {% include "icons/check-icon.njk" %}
                             <span class="ps-2 ps-lg-3">Quick intake</span>
                           </div>
-                          <div>
+                          <div class="text-stacking">
                             {% include "icons/check-icon.njk" %}
                             <span class="ps-2 ps-lg-3">4 Coaching sessions</span>
                           </div>
-                          <div>
+                          <div class="text-stacking">
                             {% include "icons/check-icon.njk" %}
                             <span class="ps-2 ps-lg-3">End evaluation</span>
                           </div>
@@ -323,7 +323,7 @@ pageKey: "lifestyleCoaching"
                 <div class="card">
                     <div class="card-body custom-color p-4 p-lg-5">
                         <h5 class="card-title text-center fs-4">Medium Package</h5>
-                        <p class="card-text fs-lg-4">
+                        <p class="card-text fs-lg-4 text-stacking">
                           {% include "icons/calendar-icon.njk" %}
                           <span class="ps-2 ps-lg-3">2 - 3 months, 8 sessions</span>
                         </p>
@@ -331,18 +331,18 @@ pageKey: "lifestyleCoaching"
                           {% include "icons/price-icon.njk" %}<span class="ps-2 ps-lg-3">€ 450</span>
                         </p>
                         <div class="card-text">
-                          <div>
+                          <div class="text-stacking">
                             {% include "icons/check-icon.njk" %}
                             <span class="ps-2 ps-lg-3">Free introduction</span>
                           </div>
-                          <div>
+                          <div class="text-stacking">
                             {% include "icons/check-icon.njk" %}
                             <span class="ps-2 ps-lg-3">Intake conversation</span>
                           </div>
-                          <div>
+                          <div class="text-stacking">
                             {% include "icons/check-icon.njk" %}
                             <span class="ps-2 ps-lg-3">6 Coaching sessions</span>
-                          </div>
+                          </div class="text-stacking">
                           <div>
                             {% include "icons/check-icon.njk" %}
                             <span class="ps-2 ps-lg-3">End evaluation</span>
@@ -370,7 +370,7 @@ pageKey: "lifestyleCoaching"
                 <div class="card">
                     <div class="card-body custom-color p-4 p-lg-5">
                         <h5 class="card-title text-center fs-4">10 - Session Package</h5>
-                        <p class="card-text fs-lg-4">
+                        <p class="card-text fs-lg-4 text-stacking">
                           {% include "icons/calendar-icon.njk" %}
                           <span class="ps-2 ps-lg-3">10 sessions</span>
                         </p>
@@ -378,19 +378,19 @@ pageKey: "lifestyleCoaching"
                           {% include "icons/price-icon.njk" %}<span class="ps-2 ps-lg-3">€ 550</span>
                         </p>
                         <div class="card-text">
-                          <div>
+                          <div class="text-stacking">
                             {% include "icons/check-icon.njk" %}
                             <span class="ps-2 ps-lg-3">Free introduction</span>
                           </div>
-                          <div>
+                          <div class="text-stacking">
                             {% include "icons/check-icon.njk" %}
                             <span class="ps-2 ps-lg-3">Comprehensive intake</span>
                           </div>
-                          <div>
+                          <div class="text-stacking">
                             {% include "icons/check-icon.njk" %}
                             <span class="ps-2 ps-lg-3">8 Coaching sessions</span>
                           </div>
-                          <div>
+                          <div class="text-stacking">
                             {% include "icons/check-icon.njk" %}
                             <span class="ps-2 ps-lg-3">End evaluation</span>
                           </div>
@@ -417,7 +417,7 @@ pageKey: "lifestyleCoaching"
                 <div class="card">
                     <div class="card-body custom-color p-4 p-lg-5">
                         <h5 class="card-title text-center fs-4">Single Session</h5>
-                        <p class="card-text fs-lg-4">
+                        <p class="card-text fs-lg-4 text-stacking">
                           {% include "icons/calendar-icon.njk" %}
                           <span class="ps-2 ps-lg-3">45 - 60 min</span>
                         </p>
@@ -425,15 +425,15 @@ pageKey: "lifestyleCoaching"
                           {% include "icons/price-icon.njk" %}<span class="ps-2 ps-lg-3">€ 65</span>
                         </p>
                         <div class="card-text">
-                          <div>
+                          <div class="text-stacking">
                             {% include "icons/check-icon.njk" %}
                             <span class="ps-2 ps-lg-3">Free introduction</span>
                           </div>
-                          <div>
+                          <div class="text-stacking">
                             {% include "icons/check-icon.njk" %}
                             <span class="ps-2 ps-lg-3">Flexible</span>
                           </div>
-                          <div>
+                          <div class="text-stacking">
                             {% include "icons/check-icon.njk" %}
                             <span class="ps-2 ps-lg-3">Autonomy</span>
                           </div>

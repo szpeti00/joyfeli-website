@@ -285,7 +285,7 @@ pageKey: "personalTraining"
                 <div class="card">
                     <div class="card-body custom-color p-4 p-lg-5">
                         <h5 class="card-title text-center fs-4">Start pakket</h5>
-                        <p class="card-text fs-lg-4">
+                        <p class="card-text fs-lg-4 text-stacking">
                           {% include "icons/calendar-icon.njk" %}
                           <span class="ps-2 ps-lg-3">1 - 2 maanden, 6 sessies</span>
                         </p>
@@ -294,19 +294,19 @@ pageKey: "personalTraining"
                           {% include "icons/users-icon.njk" %}<span class="ps-2 ps-lg-3">€ 200 p.p</span>
                         </p>
                         <div class="card-text">
-                          <div>
+                          <div class="text-stacking">
                             {% include "icons/check-icon.njk" %}
                             <span class="ps-2 ps-lg-3">Gratis kennismaking</span>
                           </div>
-                          <div>
+                          <div class="text-stacking">
                             {% include "icons/check-icon.njk" %}
                             <span class="ps-2 ps-lg-3">6 Trainingssessies</span>
                           </div>
-                          <div>
+                          <div class="text-stacking">
                             {% include "icons/check-icon.njk" %}
                             <span class="ps-2 ps-lg-3">Vlotte intake</span>
                           </div>
-                          <div>
+                          <div class="text-stacking">
                             {% include "icons/check-icon.njk" %}
                             <span class="ps-2 ps-lg-3">Eind evaluatie</span>
                           </div>
@@ -333,7 +333,7 @@ pageKey: "personalTraining"
                 <div class="card">
                     <div class="card-body custom-color p-4 p-lg-5">
                         <h5 class="card-title text-center fs-4">Medium pakket</h5>
-                        <p class="card-text fs-lg-4">
+                        <p class="card-text fs-lg-4 text-stacking">
                           {% include "icons/calendar-icon.njk" %}
                           <span class="ps-2 ps-lg-3">2 - 3 maanden, 8 sessies</span>
                         </p>
@@ -342,19 +342,19 @@ pageKey: "personalTraining"
                           {% include "icons/users-icon.njk" %}<span class="ps-2 ps-lg-3">€ 250 p.p</span>
                         </p>
                         <div class="card-text">
-                          <div>
+                          <div class="text-stacking">
                             {% include "icons/check-icon.njk" %}
                             <span class="ps-2 ps-lg-3">Gratis kennismaking</span>
                           </div>
-                          <div>
+                          <div class="text-stacking">
                             {% include "icons/check-icon.njk" %}
                             <span class="ps-2 ps-lg-3">8 Trainingssessies</span>
                           </div>
-                          <div>
+                          <div class="text-stacking">
                             {% include "icons/check-icon.njk" %}
                             <span class="ps-2 ps-lg-3">Intake met analyse</span>
                           </div>
-                          <div>
+                          <div class="text-stacking">
                             {% include "icons/check-icon.njk" %}
                             <span class="ps-2 ps-lg-3">Eind evaluatie</span>
                           </div>
@@ -381,7 +381,7 @@ pageKey: "personalTraining"
                 <div class="card">
                     <div class="card-body custom-color p-4 p-lg-5">
                         <h5 class="card-title text-center fs-4">10 - Sessies pakket</h5>
-                        <p class="card-text fs-lg-4">
+                        <p class="card-text fs-lg-4 text-stacking">
                           {% include "icons/calendar-icon.njk" %}
                           <span class="ps-2 ps-lg-3">10 sessies</span>
                         </p>
@@ -390,19 +390,19 @@ pageKey: "personalTraining"
                           {% include "icons/users-icon.njk" %}<span class="ps-2 ps-lg-3">€ 300 p.p</span>
                         </p>
                         <div class="card-text">
-                          <div>
+                          <div class="text-stacking">
                             {% include "icons/check-icon.njk" %}
                             <span class="ps-2 ps-lg-3">Gratis kennismaking</span>
                           </div>
-                          <div>
+                          <div class="text-stacking">
                             {% include "icons/check-icon.njk" %}
                             <span class="ps-2 ps-lg-3">10 Trainingssessies</span>
                           </div>
-                          <div>
+                          <div class="text-stacking">
                             {% include "icons/check-icon.njk" %}
                             <span class="ps-2 ps-lg-3">Uitgebreide intake</span>
                           </div>
-                          <div>
+                          <div class="text-stacking">
                             {% include "icons/check-icon.njk" %}
                             <span class="ps-2 ps-lg-3">Eind evaluatie</span>
                           </div>
@@ -429,7 +429,7 @@ pageKey: "personalTraining"
                 <div class="card">
                     <div class="card-body custom-color p-4 p-lg-5">
                         <h5 class="card-title text-center fs-4">Losse sessie</h5>
-                        <p class="card-text fs-lg-4">
+                        <p class="card-text fs-lg-4 text-stacking">
                           {% include "icons/calendar-icon.njk" %}
                           <span class="ps-2 ps-lg-3">45 - 60 min</span>
                         </p>
@@ -438,15 +438,15 @@ pageKey: "personalTraining"
                           {% include "icons/users-icon.njk" %}<span class="ps-2 ps-lg-3">€ 40 p.p</span>
                         </p>
                         <div class="card-text">
-                          <div>
+                          <div class="text-stacking">
                             {% include "icons/check-icon.njk" %}
                             <span class="ps-2 ps-lg-3">Gratis kennismaking</span>
                           </div>
-                          <div>
+                          <div class="text-stacking">
                             {% include "icons/check-icon.njk" %}
                             <span class="ps-2 ps-lg-3">Flexibel</span>
                           </div>
-                          <div>
+                          <div class="text-stacking">
                             {% include "icons/check-icon.njk" %}
                             <span class="ps-2 ps-lg-3">Keuzevrijheid</span>
                           </div>
