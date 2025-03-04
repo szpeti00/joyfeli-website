@@ -1,0 +1,66 @@
+{
+    "breadcrumbs": {
+        "nl": {
+            "home": {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://www.joyfelicoaching.nl/"
+            },
+            "services": {
+                "lifestyleCoaching": {
+                    "position": 2,
+                    "name": "Leefstijlcoaching",
+                    "item": "https://www.joyfelicoaching.nl/leefstijlcoaching"
+                },
+                "personalTraining": {
+                    "position": 2,
+                    "name": "Personal Training",
+                    "item": "https://www.joyfelicoaching.nl/personal-training"
+                },
+                "forHer": {
+                    "position": 2,
+                    "name": "Voor Haar",
+                    "item": "https://www.joyfelicoaching.nl/voor-haar"
+                }
+            }
+        },
+        "en": {
+            "home": {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://www.joyfelicoaching.nl/en/"
+            },
+            "services": {
+                "lifestyleCoaching": {
+                    "position": 2,
+                    "name": "Lifestyle Coaching",
+                    "item": "https://www.joyfelicoaching.nl/en/lifestyle-coaching"
+                },
+                "personalTraining": {
+                    "position": 2,
+                    "name": "Personal Training",
+                    "item": "https://www.joyfelicoaching.nl/en/personal-training"
+                },
+                "forHer": {
+                    "position": 2,
+                    "name": "For Her",
+                    "item": "https://www.joyfelicoaching.nl/en/for-her"
+                }
+            }
+        }
+    },
+    "lifestyleCoaching": {
+        "nl": "Leefstijlcoaching is een holistische benadering om jouw welzijn en balans in Wageningen te verbeteren.",
+        "en": "Lifestyle coaching is a holistic approach to enhance your well-being and balance in Wageningen."
+    },
+    "personalTraining": {
+        "nl": "Persoonlijke training op maat om je fysieke en mentale kracht in Wageningen te verbeteren.",
+        "en": "Tailored personal training sessions to boost your physical and mental strength in Wageningen."
+    },
+    "forHer": {
+        "nl": "Coaching speciaal voor vrouwen, gericht op het ontdekken van kracht, balans en zelfvertrouwen.",
+        "en": "Coaching specifically for women, focused on discovering strength, balance, and confidence."
+    }
+  }  

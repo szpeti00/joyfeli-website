@@ -1,5 +1,9 @@
-{
-    "lifestyleCoaching": {
+{   
+    "home": {
+      "en": "/en/",
+      "nl": "/"
+    },
+    "lifestyleCoaching": { 
       "en": "/en/lifestyle-coaching/",
       "nl": "/leefstijlcoaching/"
     },
@@ -18,10 +22,6 @@
     "contact": {
       "en": "/en/contact/",
       "nl": "/contact/"
-    },
-    "home": {
-      "en": "/en/",
-      "nl": "/"
     },
     "terms": {
       "en": "/en/terms-and-conditions/",
