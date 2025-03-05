@@ -5,14 +5,6 @@ locale: "nl"
 pageKey: "privacy"
 ---
 
-{% for key, value in links %}
-    {% for lang, link in value %}
-    <div>
-       {{ site.url }}{{ link }}</a>
-    </div>
-    {% endfor %}
-{% endfor %}
-
 <div class="container mt-custom my-5">
     <h1 class="text-center mb-4">Privacyverklaring JoyFeli Coaching</h1>
     <p class="text-muted text-center">Laatst bijgewerkt: Februari 2025</p>

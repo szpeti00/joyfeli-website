@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+    xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+    xmlns:xhtml="http://www.w3.org/1999/xhtml">
+    <url>
+        <loc>{{ site.url }}</loc>
+        <lastmod>{{ "src/index.md" | fileLastModified }}</lastmod>
+        <xhtml:link rel="alternate" hreflang="nl" href="{{ site.url }}"/>
+        <xhtml:link rel="alternate" hreflang="en" href="{{ site.url }}/en"/>
+    </url>
+    {% for item in navigation.nl %}
+        <url>
+            <loc>{{ site.url }}{{ item.url }}</loc>
+            <lastmod>{{ item.filepath | fileLastModified }}</lastmod>
+            <xhtml:link rel="alternate" hreflang="nl" href="{{ site.url }}{{ item.url }}"/>
+            <xhtml:link rel="alternate" hreflang="en" href="{{ site.url }}{{ navigation.en[loop.index0].url }}"/>
+        </url>
+    {% endfor %}
+</urlset>

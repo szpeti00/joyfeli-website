@@ -1,17 +1,16 @@
 {
     "nl": [
-      { "name": "Leefstijlcoaching", "url": "/leefstijlcoaching/" },
-      { "name": "Personal Training", "url": "/personal-training/" },
-      { "name": "Voor Haar", "url": "/voor-haar/" },
-      { "name": "Over", "url": "/over/" },
-      { "name": "Contact", "url": "/contact/" }
+      { "name": "Leefstijlcoaching", "url": "/leefstijlcoaching/", "filepath": "src/leefstijlcoaching.md" },
+      { "name": "Personal Training", "url": "/personal-training/", "filepath": "src/personal-training.md" },
+      { "name": "Voor Haar", "url": "/voor-haar/", "filepath": "src/voor-haar.md" },
+      { "name": "Over", "url": "/over/", "filepath": "src/over.md" },
+      { "name": "Contact", "url": "/contact/", "filepath": "src/contact.md" }
     ],
     "en": [
-      { "name": "Lifestyle Coaching", "url": "/en/lifestyle-coaching/" },
-      { "name": "Personal Training", "url": "/en/personal-training/" },
-      { "name": "For Her", "url": "/en/for-her/" },
-      { "name": "About", "url": "/en/about/" },
-      { "name": "Contact", "url": "/en/contact/" }
+      { "name": "Lifestyle Coaching", "url": "/en/lifestyle-coaching/", "filepath": "src/lifestyle-coaching.md" },
+      { "name": "Personal Training", "url": "/en/personal-training/", "filepath": "src/personal-training.md" },
+      { "name": "For Her", "url": "/en/for-her/", "filepath": "src/for-her.md" },
+      { "name": "About", "url": "/en/about/", "filepath": "src/about.md" },
+      { "name": "Contact", "url": "/en/contact/", "filepath": "src/contact.md" }
     ]
   }
-  

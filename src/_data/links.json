@@ -1,35 +1,35 @@
 {   
     "home": {
-      "en": "/en/",
-      "nl": "/"
+      "nl": "/",
+      "en": "/en/"
     },
     "lifestyleCoaching": { 
-      "en": "/en/lifestyle-coaching/",
-      "nl": "/leefstijlcoaching/"
+      "nl": "/leefstijlcoaching/",
+      "en": "/en/lifestyle-coaching/"
     },
     "personalTraining": {
-      "en": "/en/personal-training/",
-      "nl": "/personal-training/"
+      "nl": "/personal-training/",
+      "en": "/en/personal-training/"
     },
     "forHer": {
-      "en": "/en/for-her/",
-      "nl": "/voor-haar/"
+      "nl": "/voor-haar/",
+      "en": "/en/for-her/"
     },
     "about": {
-      "en": "/en/about/",
-      "nl": "/over/"
+      "nl": "/over/",
+      "en": "/en/about/"
     },
     "contact": {
-      "en": "/en/contact/",
-      "nl": "/contact/"
+      "nl": "/contact/",
+      "en": "/en/contact/"
     },
     "terms": {
-      "en": "/en/terms-and-conditions/",
-      "nl": "/algemene-voorwaarden/"
+      "nl": "/algemene-voorwaarden/",
+      "en": "/en/terms-and-conditions/"
     },
     "privacy": {
-      "en": "/en/privacy-policy/",
-      "nl": "/privacy-verklaring/"
+      "nl": "/privacy-verklaring/",
+      "en": "/en/privacy-policy/"
     }
   }
   
