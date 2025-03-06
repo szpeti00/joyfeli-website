@@ -3,8 +3,8 @@ layout: layouts/base.njk
 title: "404 - {% if locale == 'nl' %}Pagina niet gevonden{% else %}Page Not Found{% endif %}"
 permalink: "/404.html"
 ---
-<div class="container text-center" style="padding: 4rem 0;">
-  <h1 style="font-size: 4rem; margin-bottom: 1rem;">404</h1>
+<div class="container text-center"">
+  <h1 class="my-4 fs-1">404</h1>
   <h2>
     {% if locale == 'nl' %}
       Pagina niet gevonden
@@ -19,11 +19,11 @@ permalink: "/404.html"
       Sorry, the page you're looking for doesn't exist.
     {% endif %}
   </p>
-  <a href="/" class="btn custom-btn">
+  <a href="/" class="btn custom-btn mb-5">
     {% if locale == 'nl' %}
       Terug naar de homepagina
     {% else %}
-      Back to Home
+      Back to Homepage
     {% endif %}
   </a>
 </div>
