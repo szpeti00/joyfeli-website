@@ -253,7 +253,7 @@ navbarClass: "fixed-top"
           <div class="text-center">
             <button type="submit" class="btn custom-btn">Send</button>
           </div>
-          <div id="form-message" class="text-center mt-3"></div>
+          <div id="form-message" class="text-center mt-3 p-3 rounded"></div>
         </form>
       </div>
     </div>

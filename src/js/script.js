@@ -155,9 +155,24 @@ document.addEventListener('DOMContentLoaded', () => {
   (function () {
     'use strict';
   
-    // Get the form element (ensure you select the correct one)
+    // Get the form element
     const form = document.querySelector('.needs-validation');
-  
+
+    // Get the current language (default to 'nl')
+    const lang = document.documentElement.getAttribute('lang') || 'nl';
+
+    // 
+    const messages = {
+      'en': {
+        success: "Thank you for your message! I will get back to you soon!",
+        error: "There was an error submitting the form. Please try again. Or contact me via email or WhatsApp"
+      },
+      'nl': {
+        success: "Dank je voor je bericht! Ik neem binnenkort contact met je op!",
+        error: "Er is een fout opgetreden bij het indienen van het formulier. Probeer het opnieuw. Of neem contact met mij op via e-mail of WhatsApp."
+      }
+    };
+
     form.addEventListener('submit', function(event) {
       event.preventDefault(); // Prevent default submission
   
@@ -179,15 +194,15 @@ document.addEventListener('DOMContentLoaded', () => {
       })
         .then(response => {
           if (response.ok) {
-            showMessage("Thank you for your message! I will get back to you soon!", "success");
+            showMessage(messages[lang]?.success || messages['nl'].success, "success");
             form.reset();
             form.classList.remove('was-validated'); // Reset validation styling
           } else {
-            showMessage("There was an error submitting the form. Please try again.", "error");
+            showMessage(messages[lang]?.error || messages['nl'].error, "error");
           }
         })
         .catch(error => {
-          showMessage("There was an error submitting the form. Please try again.", "error");
+          showMessage(messages[lang]?.error || messages['nl'].error, "error");
         });
     });
   
@@ -196,7 +211,7 @@ document.addEventListener('DOMContentLoaded', () => {
       const messageDiv = document.getElementById('form-message');
       messageDiv.textContent = message;
       if (type === "success") {
-        messageDiv.style.backgroundColor = "#28a745";
+        messageDiv.style.backgroundColor = "#053742";
         messageDiv.style.color = "#fff";
       } else {
         messageDiv.style.backgroundColor = "#dc3545";

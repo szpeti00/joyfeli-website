@@ -224,6 +224,7 @@ navbarClass: "fixed-top"
           name="contact-form" class="needs-validation"
           novalidate
         >
+          <input type="hidden" name="form-name" value="contact-form" />
           <div class="visually-hidden">
             <label>
               Don't fill this out if you're human:<input name="bot-field">
@@ -252,6 +253,7 @@ navbarClass: "fixed-top"
           <div class="text-center">
             <button type="submit" class="btn custom-btn">Verzenden</button>
           </div>
+          <div id="form-message" class="text-center mt-3 p-3 rounded"></div>
         </form>
       </div>
     </div>
