@@ -111,7 +111,7 @@ pageKey: "about"
         </div>
         <div class="row px-2 px-sm-0">
           <div class="col-lg-6 px-0 px-lg-3 my-3 order-last order-lg-first ">
-            <img class="img-fluid kayak-img me-lg-5" src="/img/Feli_kayak.jpg" alt="Feli Aarsman kayak picture" loading="lazy">
+            <img class="img-fluid kayak-img me-lg-5" src="/img/Feli_kayak.jpg" alt="Feli Aarsman kayak picture">
           </div>
           <div class="col-lg-6 order-first order-lg-last">
             <p>

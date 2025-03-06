@@ -39,11 +39,12 @@
         "latitude": 51.97363625641619,
         "longitude": 5.6628359547102125
       },
-      "description": "{% if locale == 'nl' %}
-                      JoyFeli Coaching biedt lifestyle coaching en personal training in Wageningen, gericht op jouw groei en welzijn.
-                      {% else %}
-                      JoyFeli Coaching offers lifestyle coaching and personal training in Wageningen, focusing on your growth and well-being.
-                      {% endif %}"
+      "description": {% if locale == 'nl' %}
+                    "JoyFeli Coaching biedt lifestyle coaching en personal training in Wageningen, gericht op jouw groei en welzijn."
+                    {% else %}
+                    "JoyFeli Coaching offers lifestyle coaching and personal training in Wageningen, focusing on your growth and well-being."
+                    {% endif %}
+    }
   </script>
 
 {% set validKeys = ['forHer', 'personalTraining', 'lifestyleCoaching'] %}
