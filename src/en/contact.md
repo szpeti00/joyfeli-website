@@ -46,7 +46,7 @@ pageKey: "contact"
           Do you have any questions or want to discuss what works best for you? Not sure about something? Don’t hesitate to contact me, and together we’ll find the right solution for you.
         </p>
         <p>
-          <strong>From November to April</strong>, I’m available at my location in <strong>Wageningen</strong>. During the summer months, I’m more flexible and open to starting or continuing virtual sessions.
+          From <strong>November to April</strong>, I'm based in <strong>Wageningen</strong> and available for in-person sessions at my location or any other preferred venue. Online sessions are also an option during this time. In the summer months, as I’m not in the Netherlands, I’m only available for online sessions, whether starting new ones or continuing existing ones.
         </p>
         <p>
           You can contact me via email, a WhatsApp chat message, or by filling out the form below. I look forward to helping you!

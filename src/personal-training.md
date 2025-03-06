@@ -261,7 +261,7 @@ pageKey: "personalTraining"
                 </button>
                 <div class="collapse collapse-text" id="location">
                   <div class="mt-2">
-                    De personal training sessies vinden plaats in <strong>mijn rustige praktijkruimte</strong> in Wageningen, waar we samen aan jouw doelen werken. Als je liever <strong>thuis of buiten</strong> traint, kan dat ook. Het belangrijkste is dat jij je op je gemak voelt en gemotiveerd bent om duurzame veranderingen in je fysieke gezondheid te realiseren.
+                    De personal training sessies vinden plaats in mijn rustige praktijkruimte in <strong>Wageningen</strong>, waar we samen aan jouw doelen werken. Als je liever <strong>thuis of buiten</strong> traint, kan dat ook. Het belangrijkste is dat jij je op je gemak voelt en gemotiveerd bent om duurzame veranderingen in je fysieke gezondheid te realiseren.
                     <ul class="mt-3 list-unstyled">
                       <li>{% include "icons/home-modern-icon.njk" %}<span>Wageningen</span></li>
                       <li>{% include "icons/sun-icon.njk" %}<span>Buiten of andere locatie</span></li>

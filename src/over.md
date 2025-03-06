@@ -99,10 +99,10 @@ pageKey: "about"
             <h4 class="mt-4 mb-3 separator">Hi, ik ben Feli Aarsman.</h4>
             <h5 class="mb-0 mb-lg-3"><i>Ontdekken, beleven, inspireren en vertrouwen</i></h5>
             <p>
-              Voor mijn studie Ecologie aan de universiteit verhuisde ik naar Wageningen en werd meteen verliefd op de stad en haar prachtige, natuurlijke omgeving. Hier ontdekte ik een diepe connectie tussen mens en natuur: net als ecosystemen zijn wij afhankelijk van een samenspel van interne en externe factoren. Ons welzijn wordt gevormd door <strong>biologische, psychologische en sociale</strong> lagen, die voortdurend in wisselwerking staan.
+              Voor mijn studie Ecologie aan de universiteit verhuisde ik naar Wageningen, hier ontdekte ik voor het eerst een diepe connectie tussen mens en natuur: net als ecosystemen zijn wij afhankelijk van een samenspel van interne en externe factoren. Ons welzijn wordt gevormd door <strong>biologische, psychologische en sociale lagen</strong>, die voortdurend in wisselwerking staan.
             </p>
             <p>
-             Naarmate de jaren vorderden, verschoof mijn focus van mijn academische studie naar een steeds grotere passie voor sport, leefstijl en beweging. Wat begon met outdoor avonturen zoals klimmen, wildwaterkajakken en boulderen, breidde zich uit naar indooractiviteiten zoals spinning, pilates, xcore en fitness. Mijn interesse in natuur, beweging en de mens leidde tot een focus op <strong>hoe we denken, communiceren en ons gedragen</strong>, met speciale aandacht voor gezondheid en welzijn. Dit bracht me ertoe om mensen te begeleiden en coachen, zowel fysiek als mentaal.
+             In de loop der jaren is mijn interesse verschoven van de academische wereld naar een groeiende passie voor sport, beweging en een gezonde leefstijl. Ik vond balans door avonturen in de bergen en op wildwater rivieren te combineren met coaching in de fitness, waarbij ik me richt op lichaamsbewustzijn, houding, spiercontrole en ademhaling. Mijn liefde voor de natuur, beweging en menselijke interactie leidde me naar het onderzoeken van hoe we <strong>denken, communiceren en ons gedragen</strong>, met een sterke focus op gezondheid en welzijn. Deze reis inspireerde me om anderen zowel fysiek als mentaal te begeleiden en te coachen.
             </p>
           </div>
           <div class="col-lg-6 my-0 my-lg-3">

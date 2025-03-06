@@ -255,7 +255,7 @@ pageKey: "lifestyleCoaching"
                 </button>
                 <div class="collapse collapse-text" id="location">
                   <div class="mt-2">
-                    De coachingssessies vinden plaats in <strong>mijn praktijkruimte</strong> in Wageningen, een rustige en fijne omgeving om aan jouw doelen te werken. <strong>Online sessies</strong> zijn ook mogelijk voor extra flexibiliteit. Het belangrijkste is dat jij je op je gemak voelt en gemotiveerd bent om duurzame veranderingen te realiseren.
+                    De coachingssessies vinden plaats in mijn praktijkruimte in <strong>Wageningen</strong>, een rustige en fijne omgeving om aan jouw doelen te werken. <strong>Online sessies</strong> zijn ook mogelijk voor extra flexibiliteit. Het belangrijkste is dat jij je op je gemak voelt en gemotiveerd bent om duurzame veranderingen te realiseren.
                     <ul class="mt-3 list-unstyled">
                       <li>{% include "icons/home-modern-icon.njk" %}<span>Wageningen</span></li>
                       <li>{% include "icons/wifi-icon.njk" %}<span>Online</span></li>

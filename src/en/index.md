@@ -39,7 +39,7 @@ navbarClass: "fixed-top"
           </h1>
           <h4 class="mb-4 fst-italic">Lifestyle Coach and Personal Trainer in Wageningen</h4>
           <p>
-            I work with people who are ready to change their lives but don’t know exactly where to start. Whether you want to <strong>get fitter</strong>, <strong>build healthier habits</strong>, or find more <strong>inner balance</strong>, I guide you with personal coaching and tailored training. Together, we uncover the deeper causes of your behavior and create <strong>lasting change</strong> for both body and mind.
+            I work with people who are ready to change their lives but don’t know exactly where to start. Whether you want to get <strong>fitter</strong>, build <strong>healthier habits</strong>, or find more <strong>inner balance</strong>, I will guide you with personal coaching and tailored training. Together, we uncover the deeper causes of your behavior and create <strong>lasting change</strong> for both body and mind.
           </p>
         </div>
       </div>

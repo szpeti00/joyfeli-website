@@ -261,7 +261,7 @@ pageKey: "personalTraining"
                 </button>
                 <div class="collapse collapse-text" id="location">
                   <div class="mt-2">
-                    Personal training sessions take place in my <strong>private practice in Wageningen</strong>, a calm and supportive environment to focus on your goals. If you prefer training <strong>outdoors or at home</strong>, that’s also possible. The most important thing is that you feel comfortable and motivated to make lasting changes to your physical health.
+                    Personal training sessions take place in my private practice in <strong>Wageningen</strong>, a calm and supportive environment to focus on your goals. If you prefer training <strong>outdoors or at home</strong>, that’s also possible. The most important thing is that you feel comfortable and motivated to make lasting changes to your physical health.
                     <ul class="mt-3 list-unstyled">
                       <li>{% include "icons/home-modern-icon.njk" %}<span>Wageningen Practice</span></li>
                       <li>{% include "icons/sun-icon.njk" %}<span>Outdoor or Alternative Locations</span></li>

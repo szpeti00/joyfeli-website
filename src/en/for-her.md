@@ -290,7 +290,7 @@ pageKey: "forHer"
       </div>
       <!-- Pricing tab -->
       <div class="mb-3 tab-pane fade" id="pricing" role="tabpanel" aria-labelledby="tab-pricing">
-          <h4 class="mt-4 mb-3 separator">Welk coachingstraject?</h4>
+          <h4 class="mt-4 mb-3 separator">Which coaching package?</h4>
           <div class="row g-4">
             <!-- Start package Card -->
             <div class="col-md-6 col-lg-6">
@@ -311,7 +311,7 @@ pageKey: "forHer"
                           </div>
                           <div class="text-stacking">
                             {% include "icons/check-icon.njk" %}
-                            <span class="ps-2 ps-lg-3">Smooth intake process</span>
+                            <span class="ps-2 ps-lg-3">Quick intake session</span>
                           </div>
                           <div class="text-stacking">
                             {% include "icons/check-icon.njk" %}

@@ -155,13 +155,14 @@ document.addEventListener('DOMContentLoaded', () => {
   (function () {
     'use strict';
   
-    // Get the form element
+    // Get the form element and check if it exists
     const form = document.querySelector('.needs-validation');
+    if (!form) return;
 
     // Get the current language (default to 'nl')
     const lang = document.documentElement.getAttribute('lang') || 'nl';
 
-    // 
+    // Translation form messages
     const messages = {
       'en': {
         success: "Thank you for your message! I will get back to you soon!",
@@ -173,7 +174,7 @@ document.addEventListener('DOMContentLoaded', () => {
       }
     };
 
-    form.addEventListener('submit', function(event) {
+    form.addEventListener('submit', event => {
       event.preventDefault(); // Prevent default submission
   
       // Check Bootstrap validation
@@ -219,10 +220,10 @@ document.addEventListener('DOMContentLoaded', () => {
       }
       messageDiv.style.display = "block";
   
-      // Hide the message after 10 seconds
+      // Hide the message after 5 seconds
       setTimeout(() => {
         messageDiv.style.display = "none";
-      }, 10000);
+      }, 5000);
     }
   })();
 });

@@ -1,0 +1,29 @@
+---
+layout: layouts/base.njk
+title: "404 - {% if locale == 'nl' %}Pagina niet gevonden{% else %}Page Not Found{% endif %}"
+permalink: "/404.html"
+---
+<div class="container text-center" style="padding: 4rem 0;">
+  <h1 style="font-size: 4rem; margin-bottom: 1rem;">404</h1>
+  <h2>
+    {% if locale == 'nl' %}
+      Pagina niet gevonden
+    {% else %}
+      Page Not Found
+    {% endif %}
+  </h2>
+  <p>
+    {% if locale == 'nl' %}
+      Sorry, de pagina die je zoekt bestaat niet.
+    {% else %}
+      Sorry, the page you're looking for doesn't exist.
+    {% endif %}
+  </p>
+  <a href="/" class="btn custom-btn">
+    {% if locale == 'nl' %}
+      Terug naar de homepagina
+    {% else %}
+      Back to Home
+    {% endif %}
+  </a>
+</div>

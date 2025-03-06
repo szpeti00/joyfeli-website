@@ -101,7 +101,7 @@ pageKey: "lifestyleCoaching"
         <h4 class="mt-5 mb-3 separator">Why now?</h4>
         <h5 class="mb-3"> <i>It’s an investment in yourself; your health, happiness, and future.</i></h5>
         <p>
-          Life can sometimes feel overwhelming, but I’m here to help you take back control, and together we can create lasting change. Whether you’re striving for personal growth, going through a transition, or simply want to experience more fulfillment, self-improvement and lifestyle coaching help you develop the willpower and cultivate the right behaviors. This gives you the balance, strength, and direction you’re seeking in your life. Don’t wait for the 'right' moment – <strong>the right moment is always now.</strong>
+          Life can sometimes feel overwhelming, but I’m here to help you take back control, and together we can create lasting change. Whether you’re striving for personal growth, going through a transition, or simply want to experience more fulfillment, self-improvement and lifestyle coaching help you develop the willpower and cultivate the right behaviors. This can give you the balance, strength, and direction you’re seeking in your life. Don’t wait for the 'right' moment – <strong>the right moment is always now.</strong>
         </p>
       </div>
       <!-- Practical Information Tab-->
@@ -128,7 +128,7 @@ pageKey: "lifestyleCoaching"
                 </button>
                 <div class="collapse collapse-text" id="introduction">
                   <div class="mt-2">
-                    We start with an informal introduction to see if we have a good connection. It’s important to me that we understand and trust each other, as a strong foundation of trust is key to a successful collaboration. I want you to feel comfortable so we can create a <strong>positive and open working atmosphere</strong> together.
+                    We start with an informal introduction to see if we have a good connection. It’s important that we understand and trust each other, as a strong foundation of trust is key to a successful collaboration. I want you to feel comfortable so we can create a <strong>positive and open working atmosphere</strong> together.
                     <ul class="mt-3 list-unstyled">
                       <li>{% include "icons/tag-icon.njk" %}<span>Free of charge</span></li>
                       <li>{% include "icons/lock-open-icon.njk" %}<span>No obligation</span></li>
@@ -152,8 +152,7 @@ pageKey: "lifestyleCoaching"
                 </button>
                 <div class="collapse collapse-text" id="intake">
                   <div class="mt-2">
-                    During this session, we explore your lifestyle and define your <strong>goals, motivation</strong> and expectations together. We assess your current situation from a physical, mental, and social perspective to create a personalized coaching plan that suits you perfectly. You are and remain the expert of your own life.
-                    <div>Additionally, we conduct various analyses depending on the focus areas, such as:</div>
+                    During this session, we explore your lifestyle and define your <strong>goals, motivation</strong> and <strong>expectations</strong> together. We assess your current situation from a physical, mental, and social perspective to create a personalized coaching plan that suits you perfectly. You are and remain the expert of your own life. Additionally, we conduct various analyses depending on the focus areas, such as:
                     <ul class="mt-3 list-unstyled">
                       <li>{% include "icons/cog-6-tooth-icon.njk" %}<span>Body Analysis</span></li>
                       <li>{% include "icons/chart-pie-icon.njk" %}<span>Nutrition Analysis</span></li>
@@ -255,7 +254,7 @@ pageKey: "lifestyleCoaching"
                 </button>
                 <div class="collapse collapse-text" id="location">
                   <div class="mt-2">
-                    Coaching sessions take place <strong>in my practice in Wageningen</strong>, a calm and supportive environment where you can focus on your goals. <strong>Online sessions</strong> are also available for extra flexibility. The most important thing is that you feel comfortable and motivated to achieve lasting change.
+                    Coaching sessions take place in my practice in <strong>Wageningen</strong>, a calm and supportive environment where you can focus on your goals. <strong>Online sessions</strong> are also available for extra flexibility. The most important thing is that you feel comfortable and motivated to achieve lasting change.
                     <ul class="mt-3 list-unstyled">
                       <li>{% include "icons/home-modern-icon.njk" %}<span>Wageningen</span></li>
                       <li>{% include "icons/wifi-icon.njk" %}<span>Online</span></li>
@@ -358,7 +357,7 @@ pageKey: "lifestyleCoaching"
                           </button>
                           <div class="collapse collapse-text" id="mediumPakket">
                             <div class="mt-2">
-                              The most popular option, with more space for <strong>active behavior change</strong> and time to integrate the adjustments into your life. It remains a fast-paced process so you can start strong.
+                              The most popular choice, offering more room for <strong>active behavior change</strong> and time to integrate new habits into your life—while still being a fast-paced process to help you start strong. 
                             </div>
                           </div>
                         </div>
@@ -405,7 +404,7 @@ pageKey: "lifestyleCoaching"
                           </button>
                           <div class="collapse collapse-text" id="tenSessiesPakket">
                             <div class="mt-2">
-                              <strong>More flexibility</strong> in scheduling sessions, with an approach of trial and learning that fits your personal development curve. There’s more room for feedback sessions, so the changes are impactful and lasting for the future.
+                              <strong>More flexibility</strong> in scheduling, allowing for a pace that aligns with your personal development journey. We can take a more gradual approach, spreading the sessions out to fit your needs. This gives your mind and body more time to adjust, making it easier for new habits to take root and create lasting change.
                             </div>
                           </div>
                         </div>

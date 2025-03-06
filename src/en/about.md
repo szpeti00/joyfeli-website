@@ -98,10 +98,10 @@ pageKey: "about"
             <h4 class="mt-4 mb-3 separator">Hi, I'm Feli Aarsman.</h4>
             <h5 class="mb-0 mb-lg-3"><i>Explore, experience, inspire, and trust</i></h5>
             <p>
-              I moved to Wageningen to study Ecology and immediately fell in love with the city and its stunning natural surroundings. It was here that I discovered a deep connection between people and nature: just like ecosystems, we rely on an interplay of internal and external factors. Our well-being is shaped by <strong>biological, psychological, and social layers</strong>, constantly interacting with each other.
+              I moved to Wageningen to study Ecology and it was here that I first discovered a deep connection between people and nature: just like ecosystems, we rely on an interplay of internal and external factors. Our well-being is shaped by <strong>biological, psychological, and social layers</strong>, constantly interacting with each other.
             </p>
             <p>
-              As the years went on, my focus shifted from my academic study to an increasing passion for sport, lifestyle, and movement. What began with outdoor adventures like climbing, white-water kayaking, and bouldering expanded into indoor activities such as spinning, pilates, xcore, and fitness. My interest in nature, movement, and people led me to explore how we <strong>think, communicate, and behave</strong>, with a special focus on health and well-being. This inspired me to start coaching and guiding people both physically and mentally.
+              Over the years, my focus shifted from academia to a growing passion for sport, movement, and lifestyle. I found balance by combining outdoor adventures in the mountains and on white-water rivers with indoor activities focused on fitness, body, and muscle control. My love for nature, movement, and human interaction led me to explore how we <strong>think, communicate, and behave</strong>, with a special emphasis on health and well-being. This journey ultimately inspired me to start coaching and guiding others both physically and mentally.
             </p>
           </div>
           <div class="col-lg-6 my-0 my-lg-3">
