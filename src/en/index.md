@@ -220,9 +220,11 @@ navbarClass: "fixed-top"
           method="POST"
           data-netlify="true"
           netlify-honeypot="bot-field"
-          name="contact-form" class="needs-validation"
+          name="contact-form"
+          class="needs-validation"
           novalidate
         >
+          <input type="hidden" name="form-name" value="contact-form" />
           <div class="visually-hidden">
             <label>
               Don't fill this out if you're human:<input name="bot-field">
@@ -251,6 +253,7 @@ navbarClass: "fixed-top"
           <div class="text-center">
             <button type="submit" class="btn custom-btn">Send</button>
           </div>
+          <div id="form-message" class="text-center mt-3"></div>
         </form>
       </div>
     </div>

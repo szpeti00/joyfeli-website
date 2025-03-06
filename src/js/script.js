@@ -152,24 +152,62 @@ document.addEventListener('DOMContentLoaded', () => {
   // Dynamically changing date in copyright section
   document.getElementById("year").textContent = new Date().getFullYear();
 
-  // Bootstrap form validation (from bootstrap docs)
   (function () {
-    'use strict'
-
-    // Fetch all the forms we want to apply custom Bootstrap validation styles to
-    var forms = document.querySelectorAll('.needs-validation')
-
-    // Loop over them and prevent submission
-    Array.prototype.slice.call(forms)
-      .forEach(function (form) {
-        form.addEventListener('submit', function (event) {
-          if (!form.checkValidity()) {
-            event.preventDefault()
-            event.stopPropagation()
-          }
-
-          form.classList.add('was-validated')
-        }, false)
+    'use strict';
+  
+    // Get the form element (ensure you select the correct one)
+    const form = document.querySelector('.needs-validation');
+  
+    form.addEventListener('submit', function(event) {
+      event.preventDefault(); // Prevent default submission
+  
+      // Check Bootstrap validation
+      if (!form.checkValidity()) {
+        event.stopPropagation();
+        form.classList.add('was-validated');
+        return;
+      }
+  
+      // If valid, add the validated class and submit via AJAX
+      form.classList.add('was-validated');
+      const formData = new FormData(form);
+  
+      fetch("/", {
+        method: "POST",
+        headers: { "Content-Type": "application/x-www-form-urlencoded" },
+        body: new URLSearchParams(formData).toString()
       })
-  })()
+        .then(response => {
+          if (response.ok) {
+            showMessage("Thank you for your message! I will get back to you soon!", "success");
+            form.reset();
+            form.classList.remove('was-validated'); // Reset validation styling
+          } else {
+            showMessage("There was an error submitting the form. Please try again.", "error");
+          }
+        })
+        .catch(error => {
+          showMessage("There was an error submitting the form. Please try again.", "error");
+        });
+    });
+  
+    // Function to show a message in a div and hide it after 10 seconds
+    function showMessage(message, type) {
+      const messageDiv = document.getElementById('form-message');
+      messageDiv.textContent = message;
+      if (type === "success") {
+        messageDiv.style.backgroundColor = "#28a745";
+        messageDiv.style.color = "#fff";
+      } else {
+        messageDiv.style.backgroundColor = "#dc3545";
+        messageDiv.style.color = "#fff";
+      }
+      messageDiv.style.display = "block";
+  
+      // Hide the message after 10 seconds
+      setTimeout(() => {
+        messageDiv.style.display = "none";
+      }, 10000);
+    }
+  })();
 });
