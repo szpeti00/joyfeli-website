@@ -9,16 +9,19 @@
             },
             "services": {
                 "lifestyleCoaching": {
+                    "@type": "ListItem",
                     "position": 2,
                     "name": "Leefstijlcoaching",
                     "item": "https://www.joyfelicoaching.nl/leefstijlcoaching"
                 },
                 "personalTraining": {
+                    "@type": "ListItem",
                     "position": 2,
                     "name": "Personal Training",
                     "item": "https://www.joyfelicoaching.nl/personal-training"
                 },
                 "forHer": {
+                    "@type": "ListItem",
                     "position": 2,
                     "name": "Voor Haar",
                     "item": "https://www.joyfelicoaching.nl/voor-haar"
@@ -34,16 +37,19 @@
             },
             "services": {
                 "lifestyleCoaching": {
+                    "@type": "ListItem",
                     "position": 2,
                     "name": "Lifestyle Coaching",
                     "item": "https://www.joyfelicoaching.nl/en/lifestyle-coaching"
                 },
                 "personalTraining": {
+                    "@type": "ListItem",
                     "position": 2,
                     "name": "Personal Training",
                     "item": "https://www.joyfelicoaching.nl/en/personal-training"
                 },
                 "forHer": {
+                    "@type": "ListItem",
                     "position": 2,
                     "name": "For Her",
                     "item": "https://www.joyfelicoaching.nl/en/for-her"
