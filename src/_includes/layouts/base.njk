@@ -68,10 +68,10 @@
   {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
-    "itemListElement": [
+    "itemListElement": [{
       {{ structuredData.breadcrumbs[locale].home | dump | safe }},
       {{ structuredData.breadcrumbs[locale].services[pageKey] | dump | safe }}
-    ]
+    }]
   }
 </script>
 {% endif %}
