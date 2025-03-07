@@ -58,14 +58,14 @@
       "provider": {
         "@type": "LocalBusiness",
         "name": "JoyFeli Coaching",
-        "url": "https://www.joyfelicoaching.nl{{ links[pageKey][locale] }}"
-      },
-      "address": {
-        "@type": "PostalAddress",
-        "streetAddress": "Van Uvenweg 136",
-        "addressLocality": "Wageningen",
-        "postalCode": "6707 BH",
-        "addressCountry": "NL"
+        "url": "https://www.joyfelicoaching.nl{{ links[pageKey][locale] }}",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "Van Uvenweg 136",
+          "addressLocality": "Wageningen",
+          "postalCode": "6707 BH",
+          "addressCountry": "NL"
+        }
       },
       "description": "{{ structuredData[pageKey][locale] }}"
     }
@@ -75,10 +75,10 @@
   {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
-    "itemListElement": [{
+    "itemListElement": [
       {{ structuredData.breadcrumbs[locale].home | dump | safe }},
       {{ structuredData.breadcrumbs[locale].services[pageKey] | dump | safe }}
-    }]
+    ]
   }
 </script>
 {% endif %}
@@ -207,8 +207,6 @@
 
   <!-- Bootstrap JS -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-  <!-- Hammer.js -->
-  <script src="https://cdn.jsdelivr.net/npm/hammerjs@2.0.8/hammer.min.js"></script>
   <!-- JavaScript -->
   <script src="/js/script.js" defer></script>
 </body>
