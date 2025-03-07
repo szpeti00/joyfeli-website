@@ -1,5 +1,5 @@
-import fs from "fs";
-import path from "path";
+import { execSync } from 'child_process';
+import path from 'path';
 
 export default function (eleventyConfig) {
   // Copy static assets to the output folder
@@ -9,17 +9,17 @@ export default function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy("src/static");
 
   // Custom filter to get file's last modified timestamp in ISO 8601 format
-  eleventyConfig.addFilter("fileLastModified", function (filePath) {
+  eleventyConfig.addFilter("gitLastModified", function (filePath) {
     try {
       const absolutePath = path.join(process.cwd(), filePath);
-      const stats = fs.statSync(absolutePath);
-      return stats.mtime.toISOString();
+      // Use git log to get the last commit date for the file
+      const gitTimestamp = execSync(`git log -1 --format="%ai" "${absolutePath}"`).toString().trim();
+      return new Date(gitTimestamp).toISOString();
     } catch (err) {
-      console.error(`Error reading last modified timestamp for ${filePath}:`, err);
+      console.error(`Error reading git last modified timestamp for ${filePath}:`, err);
       return "";
     }
   });
-
   
   return {
     dir: {

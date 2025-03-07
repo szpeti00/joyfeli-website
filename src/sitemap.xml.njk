@@ -8,14 +8,14 @@ eleventyExcludeFromCollections: true
     xmlns:xhtml="http://www.w3.org/1999/xhtml">
     <url>
         <loc>{{ site.url }}</loc>
-        <lastmod>{{ "src/index.md" | fileLastModified }}</lastmod>
+        <lastmod>{{ "src/index.md" | gitLastModified }}</lastmod>
         <xhtml:link rel="alternate" hreflang="nl" href="{{ site.url }}"/>
         <xhtml:link rel="alternate" hreflang="en" href="{{ site.url }}/en"/>
     </url>
     {% for item in navigation.nl %}
         <url>
             <loc>{{ site.url }}{{ item.url }}</loc>
-            <lastmod>{{ item.filepath | fileLastModified }}</lastmod>
+            <lastmod>{{ item.filepath | gitLastModified }}</lastmod>
             <xhtml:link rel="alternate" hreflang="nl" href="{{ site.url }}{{ item.url }}"/>
             <xhtml:link rel="alternate" hreflang="en" href="{{ site.url }}{{ navigation.en[loop.index0].url }}"/>
         </url>
