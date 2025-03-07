@@ -50,7 +50,7 @@ pageKey: "personalTraining"
         </li>
         <li class="nav-item d-none d-md-flex">
           <button class="nav-link px-4" id="tab-info" data-bs-toggle="tab" data-bs-target="#info" type="button" role="tab" aria-controls="info" aria-selected="false">
-            Praktical Information
+            Practical Information
           </button>
         </li>
         <li class="nav-item d-none d-md-flex">

@@ -157,7 +157,7 @@ pageKey: "about"
           <p id="work-experience">
             <ul class="mt-3 list-unstyled">
               <li class="mb-3">
-                {% include "icons/chevron-icon.njk" %}<span><strong>Boulder, Spinning and Fitness instructo</strong>
+                {% include "icons/chevron-icon.njk" %}<span><strong>Boulder, Spinning and Fitness instructor</strong>
                 <br>Avalon Fitcentre: 2018 - 2022</span>
               </li>
               <li class="mb-3">
