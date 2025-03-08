@@ -184,6 +184,14 @@ h6 {
    Hero Sections Styles
 ========================================= */
 .hero-home {
+  background-image: url('/img/Feli_predel.JPG');
+  background-image: image-set(
+    url('/img/Feli_predel.webp') type('image/webp'),
+    url('/img/Feli_predel.JPG') type('image/jpeg')
+  );
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
   position: relative;
   color: var(--white-color);
 }
@@ -206,28 +214,53 @@ h6 {
 }
 
 .welcome-img {
+  /* Fallback for older browsers */
   background-image: url('/img/Feli_mountain.jpg');
+  background-image: image-set(
+    url('/img/Feli_mountain.webp') type('image/webp'),
+    url('/img/Feli_mountain.jpg') type('image/jpeg')
+  );
   border-radius: 20px;
 }
 
 .lifestylecoach-img {
   background-image: url('/img/lifestylecoach_2.jpg');
+  background-image: image-set(
+    url('/img/lifestylecoach_2.webp') type('image/webp'),
+    url('/img/lifestylecoach_2.jpg') type('image/jpeg')
+  );
 }
 
 .ptraining-img {
   background-image: url('/img/Feli_mangart.jpg');
+  background-image: image-set(
+    url('/img/Feli_mangart.webp') type('image/webp'),
+    url('/img/Feli_mangart.jpg') type('image/jpeg')
+  );
 }
 
 .forher-img {
   background-image: url('/img/Feli_soca.jpg');
+  background-image: image-set(
+    url('/img/Feli_soca.webp') type('image/webp'),
+    url('/img/Feli_soca.jpg') type('image/jpeg')
+  );
 }
 
 .aboutme-img {
   background-image: url('/img/Feli_soca2_cut.jpg');
+  background-image: image-set(
+    url('/img/Feli_soca2_cut.webp') type('image/webp'),
+    url('/img/Feli_soca2_cut.jpg') type('image/jpeg')
+  );
 }
 
 .contact-img {
   background-image: url('/img/Cezsoca.jpg');
+  background-image: image-set(
+    url('/img/Cezsoca.webp') type('image/webp'),
+    url('/img/Cezsoca.jpg') type('image/jpeg')
+  );
 }
 
 .text-overlay {
@@ -647,7 +680,11 @@ h6 {
   }
 
   .hero-home {
-    background-image: url('/img/Feli_predel_cut.JPG') !important;
+    background-image: url('/img/Feli_predel_cut.JPG');
+    background-image: image-set(
+      url('/img/Feli_predel_cut.webp') type('image/webp'),
+      url('/img/Feli_predel_cut.JPG') type('image/jpeg')
+    );
   }
 
   .footer-logo {
@@ -670,6 +707,10 @@ h6 {
 
   .welcome-img {
     background-image: url('/img/Feli_mountain_cut.jpg');
+    background-image: image-set(
+      url('/img/Feli_mountain_cut.webp') type('image/webp'),
+      url('/img/Feli_mountain_cut.jpg') type('image/jpeg')
+    );
   }
 
   .text-overlay {
@@ -724,18 +765,34 @@ h6 {
 
   .lifestylecoach-img {
     background-image: url('/img/lifestylecoaching_cut.jpg');
+    background-image: image-set(
+      url('/img/lifestylecoaching_cut.webp') type('image/webp'),
+      url('/img/lifestylecoaching_cut.jpg') type('image/jpeg')
+    );
   }
 
   .forher-img {
     background-image: url('/img/Feli_soca_phone.jpg');
+    background-image: image-set(
+      url('/img/Feli_soca_phone.webp') type('image/webp'),
+      url('/img/Feli_soca_phone.jpg') type('image/jpeg')
+    );
   }
 
   .aboutme-img {
     background-image: url('/img/Feli_soca2_phone.jpg');
+    background-image: image-set(
+      url('/img/Feli_soca2_phone.webp') type('image/webp'),
+      url('/img/Feli_soca2_phone.jpg') type('image/jpeg')
+    );
   }
 
   .contact-img {
     background-image: url('/img/soca.jpg');
+    background-image: image-set(
+      url('/img/soca.webp') type('image/webp'),
+      url('/img/soca.jpg') type('image/jpeg')
+    );
   }
 
   .kayak-img {

@@ -106,12 +106,20 @@ pageKey: "about"
             </p>
           </div>
           <div class="col-lg-6 my-0 my-lg-3">
-            <img class="img-fluid profile-img my-3 my-lg-5" src="/img/Feli2.jpg" alt="Feli Aarsman profile picture" loading="lazy">
+            <picture>
+              <source srcset="/img/Feli2.webp" type="image/webp">
+              <source srcset="/img/Feli2.jpg" type="image/jpeg">
+              <img class="img-fluid profile-img my-3 my-lg-5" src="/img/Feli2.jpg" alt="Feli Aarsman profile picture" loading="lazy">
+            </picture>
           </div>
         </div>
         <div class="row px-2 px-sm-0">
           <div class="col-lg-6 px-0 px-lg-3 my-3 order-last order-lg-first ">
-            <img class="img-fluid kayak-img me-lg-5" src="/img/Feli_kayak.jpg" alt="Feli Aarsman kayak picture">
+            <picture>
+              <source srcset="/img/Feli_kayak.webp" type="image/webp">
+              <source srcset="/img/Feli_kayak.jpg" type="image/jpeg">
+              <img class="img-fluid kayak-img me-lg-5" src="/img/Feli_kayak.jpg" alt="Feli Aarsman kayak picture">
+            </picture>
           </div>
           <div class="col-lg-6 order-first order-lg-last">
             <p>

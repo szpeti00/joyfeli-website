@@ -11,7 +11,7 @@ pageKey: "forHer"
     <div class="row">
       <div class="col-12 position-relative m-0 p-0">
         <!-- Background image container -->
-        <div class="bg-image forher-img animate-slide-in-left" data-bg="/img/Feli_soca.jpg" data-bgPhone="/img/Feli_soca_phone.jpg">
+        <div class="bg-image forher-img animate-slide-in-left">
         </div>
         <!-- Text overlay -->
         <div class="text-overlay forher-text animate-slide-in-right bg-white bg-opacity-75 p-4 p-xxl-5">

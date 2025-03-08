@@ -7,7 +7,7 @@ navbarClass: "fixed-top"
 ---
 
 <!-- Home Section  -->
-<header class="vh-100 d-flex align-items-center justify-content-center text-center hero-home pt-5" style="background: url('/img/Feli_predel.JPG') no-repeat center center/cover;">
+<header class="vh-100 d-flex align-items-center justify-content-center text-center hero-home pt-5">
   <div class="container">
     <blockquote class="blockquote">
       <p class="fs-2 fst-italic">"You cannot step into the same river twice,<br> for other waters are ever flowing on to you."</p>
@@ -25,7 +25,7 @@ navbarClass: "fixed-top"
     <div class="row">
       <div class="col-12 position-relative m-0 p-0">
         <!-- Background image container -->
-        <div class="bg-image welcome-img animate-slide-in-left" data-bg="/img/Feli_mountain.jpg" data-bgPhone="/img/Feli_mountain_cut.jpg">
+        <div class="bg-image welcome-img animate-slide-in-left">
         </div>
         <!-- Text overlay -->
         <div class="text-overlay welcome-text animate-slide-in-right-welcome bg-white bg-opacity-75 p-4 p-xxl-5">
@@ -58,7 +58,11 @@ navbarClass: "fixed-top"
       <!-- Lifestyle Coaching Card -->
       <div class="col-lg-4 mb-4">
         <div class="card h-100">
-          <img class="card-img-top w-50 mx-auto mt-4" src="/img/lifestylecoaching_icon.png" alt="Lifestyle Coaching Icon">
+          <picture class="card-img-top w-50 mx-auto mt-4">
+            <source srcset="/img/lifestylecoaching_icon.webp" type="image/webp">
+            <source srcset="/img/lifestylecoaching_icon.png" type="image/png">
+            <img src="/img/lifestylecoaching_icon.png" alt="Lifestyle Coaching Icon">
+          </picture>
           <div class="card-body custom-color">
             <h5 class="card-title text-uppercase text-center mb-4">Leefstijlcoaching</h5>
             <h6 class="mb-2 text-center separator-center">
@@ -76,7 +80,11 @@ navbarClass: "fixed-top"
       <!-- Personal Training Card -->
       <div class="col-lg-4 mb-4">
         <div class="card h-100">
-          <img class="card-img-top w-50 mx-auto mt-4" src="/img/personaltraining_icon.png" alt="Personal Training Icon">
+          <picture class="card-img-top w-50 mx-auto mt-4">
+            <source srcset="/img/personaltraining_icon.webp" type="image/webp">
+            <source srcset="/img/personaltraining_icon.png" type="image/png">
+            <img src="/img/personaltraining_icon.png" alt="Personal Training Icon">
+          </picture>
           <div class="card-body custom-color">
             <h5 class="card-title text-uppercase text-center mb-4">Personal Training</h5>
             <h6 class="mb-2 text-center separator-center">
@@ -94,7 +102,11 @@ navbarClass: "fixed-top"
       <!-- For Her Card -->
       <div class="col-lg-4 mb-4">
         <div class="card h-100">
-          <img class="card-img-top w-50 mx-auto mt-4" src="/img/forher_icon.png" alt="For Her Icon">
+          <picture class="card-img-top w-50 mx-auto mt-4">
+            <source srcset="/img/forher_icon.webp" type="image/webp">
+            <source srcset="/img/forher_icon.png" type="image/png">
+            <img src="/img/forher_icon.png" alt="For Her Icon">
+          </picture>
           <div class="card-body custom-color">
             <h5 class="card-title text-uppercase text-center mb-4">Voor Haar</h5>
             <h6 class="mb-2 text-center separator-center">
@@ -139,7 +151,11 @@ navbarClass: "fixed-top"
         </div>
       </div>
       <div class="col-lg-6 mt-4">
-        <img class="img-fluid profile-img mx-lg-5 mt-3" src="/img/feli.jpg" alt="Feli Aarsman profile picture" loading="lazy">
+        <picture>
+          <source srcset="/img/feli.webp" type="image/webp">
+          <source srcset="/img/feli.jpg" type="image/jpeg">
+          <img class="img-fluid profile-img mx-lg-5 mt-3" src="/img/feli.jpg" alt="Feli Aarsman profile picture" loading="lazy">
+        </picture>
       </div>
     </div>
   </div>

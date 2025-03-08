@@ -11,7 +11,7 @@ pageKey: "about"
     <div class="row">
       <div class="col-12 position-relative m-0 p-0">
         <!-- Background image container -->
-        <div class="bg-image aboutme-img animate-slide-in-right" data-bg="/img/Feli_soca2_cut.jpg" data-bgPhone="/img/Feli_soca2_phone.jpg">
+        <div class="bg-image aboutme-img animate-slide-in-right">
         </div>
         <!-- Text overlay -->
         <div class="text-overlay aboutme-text animate-slide-in-left bg-white bg-opacity-75 p-4 p-xxl-5">
@@ -105,12 +105,20 @@ pageKey: "about"
             </p>
           </div>
           <div class="col-lg-6 my-0 my-lg-3">
-            <img class="img-fluid profile-img my-3 my-lg-5" src="/img/Feli2.jpg" alt="Feli Aarsman profile picture" loading="lazy">
+            <picture>
+              <source srcset="/img/Feli2.webp" type="image/webp">
+              <source srcset="/img/Feli2.jpg" type="image/jpeg">
+              <img class="img-fluid profile-img my-3 my-lg-5" src="/img/Feli2.jpg" alt="Feli Aarsman profile picture" loading="lazy">
+            </picture>
           </div>
         </div>
         <div class="row px-2 px-sm-0">
           <div class="col-lg-6 px-0 px-lg-3 my-3 order-last order-lg-first ">
-            <img class="img-fluid kayak-img me-lg-5" src="/img/Feli_kayak.jpg" alt="Feli Aarsman kayak picture">
+            <picture>
+              <source srcset="/img/Feli_kayak.webp" type="image/webp">
+              <source srcset="/img/Feli_kayak.jpg" type="image/jpeg">
+              <img class="img-fluid kayak-img me-lg-5" src="/img/Feli_kayak.jpg" alt="Feli Aarsman kayak picture">
+            </picture>
           </div>
           <div class="col-lg-6 order-first order-lg-last">
             <p>
@@ -124,7 +132,7 @@ pageKey: "about"
       </div>
       <!-- Studies Tab-->
       <div class="mb-3 tab-pane fade px-2 px-sm-0" id="studies" role="tabpanel" aria-labelledby="tab-studies">
-        <h4 class="mt-4 mb-3 separator">Mijn studies</h4>
+        <h4 class="mt-4 mb-3 separator">My studies</h4>
         <p>
           My journey began with a university degree in science, where my interest in communication and human psychology first became apparent. I then developed my skills in coaching and training, both in extreme natural environments and in the gym. Over time, my focus expanded to include human behavior and its impact on lifestyle. 
         </p>

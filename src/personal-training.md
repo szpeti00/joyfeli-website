@@ -11,7 +11,7 @@ pageKey: "personalTraining"
     <div class="row">
       <div class="col-12 position-relative m-0 p-0">
         <!-- Background image container -->
-        <div class="bg-image ptraining-img animate-slide-in-left" data-bg="/img/Feli_mangart.jpg" data-bgPhone="/img/Feli_mangart.jpg">
+        <div class="bg-image ptraining-img animate-slide-in-left">
         </div>
         <!-- Text overlay -->
         <div class="text-overlay ptraining-text animate-slide-in-right bg-white bg-opacity-75 p-4 p-xxl-5">
@@ -232,7 +232,7 @@ pageKey: "personalTraining"
                   aria-expanded="false"
                 >
                   <span class="card-title fs-4"><span class="pe-2 pe-lg-3">{% include "icons/clipboard-icon.njk" %}
-                  </span>Evaluatiegesprek<span>
+                  </span>Evaluatiegesprek</span>
                   <span class="toggle-icon"></span>
                 </button>
                 <div class="collapse collapse-text" id="evaluation">
