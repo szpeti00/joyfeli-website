@@ -7,10 +7,23 @@ navbarClass: "fixed-top"
 ---
 
 <!-- Home Section  -->
-<header class="vh-100 d-flex align-items-center justify-content-center text-center hero-home pt-5">
-  <div class="container">
+<header class="hero-home vh-100 d-flex align-items-center justify-content-center text-center pt-5">
+  <!-- Inline picture element for background image -->
+  <picture class="hero-home-picture">
+    <!-- Mobile: cut-off version -->
+    <source media="(max-width: 1199px)" srcset="/img/Feli_predel_cut.webp" type="image/webp">
+    <source media="(max-width: 1199px)" srcset="/img/Feli_predel_cut.jpg" type="image/jpeg">
+    <!-- Desktop: full image -->
+    <source srcset="/img/Feli_predel.webp" type="image/webp">
+    <source srcset="/img/Feli_predel.JPG" type="image/jpeg">
+    <img src="/img/Feli_predel.JPG" alt="Hero Background" class="hero-home-img">
+  </picture>
+  <!-- Hero content -->
+  <div class="container hero-home-content">
     <blockquote class="blockquote">
-      <p class="fs-2 fst-italic">"You cannot step into the same river twice,<br> for other waters are ever flowing on to you."</p>
+      <p class="fs-2 fst-italic">
+        "You cannot step into the same river twice,<br> for other waters are ever flowing on to you."
+      </p>
       <q class="blockquote-footer text-white">Heraclitus</q>
     </blockquote>
   </div>
@@ -25,7 +38,16 @@ navbarClass: "fixed-top"
     <div class="row">
       <div class="col-12 position-relative m-0 p-0">
         <!-- Background image container -->
-        <div class="bg-image welcome-img animate-slide-in-left">
+        <div class="bg-image-container welcome-img animate-slide-in-left">
+          <picture class="bg-image">
+            <!-- Mobile: cut-off version -->
+            <source media="(max-width: 575px)" srcset="/img/Feli_mountain_cut.webp" type="image/webp">
+            <source media="(max-width: 575px)" srcset="/img/Feli_mountain_cut.jpg" type="image/jpeg">
+            <!-- Desktop: full image -->
+            <source srcset="/img/Feli_mountain.webp" type="image/webp">
+            <source srcset="/img/Feli_mountain.jpg" type="image/jpeg">
+            <img class="bg-image-img" src="/img/Feli_mountain.jpg" alt="Personal Training Background" width="1320" height="665" loading="eager" fetchpriority="high">
+          </picture>
         </div>
         <!-- Text overlay -->
         <div class="text-overlay welcome-text animate-slide-in-right-welcome bg-white bg-opacity-75 p-4 p-xxl-5">

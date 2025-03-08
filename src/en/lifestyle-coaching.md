@@ -11,7 +11,16 @@ pageKey: "lifestyleCoaching"
     <div class="row">
       <div class="col-12 position-relative m-0 p-0">
         <!-- Background image container -->
-        <div class="bg-image lifestylecoach-img animate-slide-in-left">
+        <div class="bg-image-container animate-slide-in-left">
+          <picture class="bg-image">
+            <!-- Mobile: cut-off version -->
+            <source media="(max-width: 575px)" srcset="/img/lifestylecoaching_cut.webp" type="image/webp">
+            <source media="(max-width: 575px)" srcset="/img/lifestylecoaching_cut.jpg" type="image/jpeg">
+            <!-- Desktop: full image -->
+            <source srcset="/img/lifestylecoach_2.webp" type="image/webp">
+            <source srcset="/img/lifestylecoach_2.jpg" type="image/jpeg">
+            <img class="bg-image-img" src="/img/lifestylecoach_2.jpg" alt="Personal Training Background" width="1320" height="665" loading="eager" fetchpriority="high">
+          </picture>
         </div>
         <!-- Text overlay -->
         <div class="text-overlay lifestylecoach-text animate-slide-in-right bg-white bg-opacity-75 p-4 p-xxl-5">

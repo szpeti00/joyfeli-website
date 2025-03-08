@@ -11,7 +11,16 @@ pageKey: "contact"
     <div class="row">
       <div class="col-12 position-relative m-0 p-0">
         <!-- Background image container -->
-        <div class="bg-image contact-img animate-slide-in-right">
+        <div class="bg-image-container animate-slide-in-right">
+          <picture class="bg-image">
+            <!-- Mobile: cut-off version -->
+            <source media="(max-width: 575px)" srcset="/img/soca.webp" type="image/webp">
+            <source media="(max-width: 575px)" srcset="/img/soca.jpg" type="image/jpeg">
+            <!-- Desktop: full image -->
+            <source srcset="/img/Cezsoca.webp" type="image/webp">
+            <source srcset="/img/Cezsoca.jpg" type="image/jpeg">
+            <img class="bg-image-img" src="/img/Cezsoca.jpg" alt="Personal Training Background" width="1320" height="665" loading="eager" fetchpriority="high">
+          </picture>
         </div>
         <!-- Text overlay -->
         <div class="text-overlay contact-text animate-slide-in-left bg-white bg-opacity-75 p-4 p-xxl-5">

@@ -184,16 +184,29 @@ h6 {
    Hero Sections Styles
 ========================================= */
 .hero-home {
-  background-image: url('/img/Feli_predel.JPG');
-  background-image: image-set(
-    url('/img/Feli_predel.webp') type('image/webp'),
-    url('/img/Feli_predel.JPG') type('image/jpeg')
-  );
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
   position: relative;
+  height: 100vh;
   color: var(--white-color);
+  overflow: hidden;
+}
+
+/* Position the picture element so it fills the header */
+.hero-home-picture,
+.hero-home-img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;       /* Mimics background-size: cover */
+  object-position: center; /* Mimics background-position: center */
+  z-index: -1;             /* Places the image behind the content */
+}
+
+/* Ensure your content stays above the background image */
+.hero-home-content {
+  position: relative;
+  z-index: 1;
 }
 
 /* Hero section container */
@@ -202,65 +215,25 @@ h6 {
   background: linear-gradient(to bottom, var(--light-green-color) 0%, var(--white-color) 100%);
 }
 
-.bg-image {
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-blend-mode: multiply;
+.bg-image,
+.bg-image-container {
   position: relative;
   height: 60vh;
   min-height: 665px;
   border-radius: 0 0 20px 20px;
+  overflow: hidden; /* Ensures the image stays within the rounded corners */
+}
+
+/* The image itself */
+.bg-image-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;       /* Mimics background-size: cover */
+  object-position: center; /* Mimics background-position: center */
 }
 
 .welcome-img {
-  /* Fallback for older browsers */
-  background-image: url('/img/Feli_mountain.jpg');
-  background-image: image-set(
-    url('/img/Feli_mountain.webp') type('image/webp'),
-    url('/img/Feli_mountain.jpg') type('image/jpeg')
-  );
   border-radius: 20px;
-}
-
-.lifestylecoach-img {
-  background-image: url('/img/lifestylecoach_2.jpg');
-  background-image: image-set(
-    url('/img/lifestylecoach_2.webp') type('image/webp'),
-    url('/img/lifestylecoach_2.jpg') type('image/jpeg')
-  );
-}
-
-.ptraining-img {
-  background-image: url('/img/Feli_mangart.jpg');
-  background-image: image-set(
-    url('/img/Feli_mangart.webp') type('image/webp'),
-    url('/img/Feli_mangart.jpg') type('image/jpeg')
-  );
-}
-
-.forher-img {
-  background-image: url('/img/Feli_soca.jpg');
-  background-image: image-set(
-    url('/img/Feli_soca.webp') type('image/webp'),
-    url('/img/Feli_soca.jpg') type('image/jpeg')
-  );
-}
-
-.aboutme-img {
-  background-image: url('/img/Feli_soca2_cut.jpg');
-  background-image: image-set(
-    url('/img/Feli_soca2_cut.webp') type('image/webp'),
-    url('/img/Feli_soca2_cut.jpg') type('image/jpeg')
-  );
-}
-
-.contact-img {
-  background-image: url('/img/Cezsoca.jpg');
-  background-image: image-set(
-    url('/img/Cezsoca.webp') type('image/webp'),
-    url('/img/Cezsoca.jpg') type('image/jpeg')
-  );
 }
 
 .text-overlay {
@@ -309,16 +282,9 @@ h6 {
   border-radius: 20px;
 }
 
-
 /* =========================================
    Animations for the welcome and hero sections
-=========================================
-/* Active state when in viewport */
-.bg-image.active,
-.text-overlay.active {
-  opacity: 1; 
-}
-
+=========================================*/
 .animate-slide-in-left {
   transform: translateX(-7rem); 
   opacity: 0;
@@ -338,13 +304,13 @@ h6 {
 .animate-slide-in-right.active {
   transform: translateX(0);
   opacity: 1;
-  transition: transform 3s ease-out, opacity 3s ease-out;
+  transition: transform 2.5s ease-out, opacity 2.5s ease-out;
 }
 
 .animate-slide-in-right-welcome.active {
   transform: translate(0, -50%);
   opacity: 1;
-  transition: transform 3s ease-out, opacity 3s ease-out;
+  transition: transform 2.5s ease-out, opacity 2.5s ease-out;
 }
 
 /* =========================================
@@ -679,14 +645,6 @@ h6 {
     padding: 1.6rem 0;
   }
 
-  .hero-home {
-    background-image: url('/img/Feli_predel_cut.JPG');
-    background-image: image-set(
-      url('/img/Feli_predel_cut.webp') type('image/webp'),
-      url('/img/Feli_predel_cut.JPG') type('image/jpeg')
-    );
-  }
-
   .footer-logo {
     height: 70px;
   }
@@ -699,18 +657,11 @@ h6 {
     transform: translateX(0);
   }
 
-  .bg-image {
+  .bg-image,
+  .bg-image-container {
     height: 40vh;
     min-height: 430px;
     margin-bottom: var(--spacing-sm);
-  }
-
-  .welcome-img {
-    background-image: url('/img/Feli_mountain_cut.jpg');
-    background-image: image-set(
-      url('/img/Feli_mountain_cut.webp') type('image/webp'),
-      url('/img/Feli_mountain_cut.jpg') type('image/jpeg')
-    );
   }
 
   .text-overlay {
@@ -755,46 +706,15 @@ h6 {
 }
 
 @media (max-width: 575px) {
-  .bg-image {
+  .bg-image,
+  .bg-image-container {
     border-radius: 0;
   }
 
   .separator-welcome::after {
     width: 100px !important;
   }
-
-  .lifestylecoach-img {
-    background-image: url('/img/lifestylecoaching_cut.jpg');
-    background-image: image-set(
-      url('/img/lifestylecoaching_cut.webp') type('image/webp'),
-      url('/img/lifestylecoaching_cut.jpg') type('image/jpeg')
-    );
-  }
-
-  .forher-img {
-    background-image: url('/img/Feli_soca_phone.jpg');
-    background-image: image-set(
-      url('/img/Feli_soca_phone.webp') type('image/webp'),
-      url('/img/Feli_soca_phone.jpg') type('image/jpeg')
-    );
-  }
-
-  .aboutme-img {
-    background-image: url('/img/Feli_soca2_phone.jpg');
-    background-image: image-set(
-      url('/img/Feli_soca2_phone.webp') type('image/webp'),
-      url('/img/Feli_soca2_phone.jpg') type('image/jpeg')
-    );
-  }
-
-  .contact-img {
-    background-image: url('/img/soca.jpg');
-    background-image: image-set(
-      url('/img/soca.webp') type('image/webp'),
-      url('/img/soca.jpg') type('image/jpeg')
-    );
-  }
-
+ 
   .kayak-img {
     border-radius: 0;
     margin-left: 0;

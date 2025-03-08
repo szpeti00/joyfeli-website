@@ -43,7 +43,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
   // Intersection Observer fot the animation in the welcom section
   const textOverlay = document.querySelector('.text-overlay');
-  const bgImage = document.querySelector('.bg-image');
+  const bgImage = document.querySelector('.bg-image-container ');
 
   const callback = (entries, observer) => {
     entries.forEach(entry => {

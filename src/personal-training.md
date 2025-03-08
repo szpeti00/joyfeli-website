@@ -11,7 +11,12 @@ pageKey: "personalTraining"
     <div class="row">
       <div class="col-12 position-relative m-0 p-0">
         <!-- Background image container -->
-        <div class="bg-image ptraining-img animate-slide-in-left">
+        <div class="bg-image-container animate-slide-in-left">
+          <picture class="bg-image">
+            <source srcset="/img/Feli_mangart.webp" type="image/webp">
+            <source srcset="/img/Feli_mangart.jpg" type="image/jpeg">
+            <img class="bg-image-img" src="/img/Feli_mangart.jpg" alt="Personal Training Background" width="1320" height="665" loading="eager" fetchpriority="high">
+          </picture>
         </div>
         <!-- Text overlay -->
         <div class="text-overlay ptraining-text animate-slide-in-right bg-white bg-opacity-75 p-4 p-xxl-5">

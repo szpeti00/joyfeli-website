@@ -11,7 +11,16 @@ pageKey: "about"
     <div class="row">
       <div class="col-12 position-relative m-0 p-0">
         <!-- Background image container -->
-        <div class="bg-image aboutme-img animate-slide-in-right">
+        <div class="bg-image-container animate-slide-in-right">
+          <picture class="bg-image">
+            <!-- Mobile: cut-off version -->
+            <source media="(max-width: 575px)" srcset="/img/Feli_soca2_phone.webp" type="image/webp">
+            <source media="(max-width: 575px)" srcset="/img/Feli_soca2_phone.jpg" type="image/jpeg">
+            <!-- Desktop: full image -->
+            <source srcset="/img/Feli_soca2_cut.webp" type="image/webp">
+            <source srcset="/img/Feli_soca2_cut.jpg" type="image/jpeg">
+            <img class="bg-image-img" src="/img/Feli_soca2_cut.jpg" alt="Personal Training Background" width="1320" height="665" loading="eager" fetchpriority="high">
+          </picture>
         </div>
         <!-- Text overlay -->
         <div class="text-overlay aboutme-text animate-slide-in-left bg-white bg-opacity-75 p-4 p-xxl-5">
