@@ -86,6 +86,6 @@ pageKey: "terms"
         <p>By engaging in services with the Coach, the Client acknowledges that they have read, understood, and agreed to these terms and conditions.</p>
     </section>
     <a href="/static/terms-and-conditions.pdf">
-        <button class="btn custom-btn">Download</button>
+        <button class="btn custom-btn" aria-label="Download terms and conditions">Download</button>
     </a>
 </div>

@@ -13,6 +13,10 @@ pageKey: "personalTraining"
         <!-- Background image container -->
         <div class="bg-image-container animate-slide-in-left">
           <picture class="bg-image">
+            <!-- Mobile: cut-off version -->
+            <source media="(max-width: 575px)" srcset="/img/Feli_mangart_phone.webp" type="image/webp">
+            <source media="(max-width: 575px)" srcset="/img/Feli_mangart.jpg" type="image/jpeg">
+            <!-- Desktop: full image -->
             <source srcset="/img/Feli_mangart.webp" type="image/webp">
             <source srcset="/img/Feli_mangart.jpg" type="image/jpeg">
             <img class="bg-image-img" src="/img/Feli_mangart.jpg" alt="Personal Training Background" width="1320" height="665" loading="eager" fetchpriority="high">
@@ -49,17 +53,17 @@ pageKey: "personalTraining"
       <!-- Tab Navigation -->
       <ul class="nav nav-tabs justify-content-center mb-4 border-0" id="personalTrainingTabs" role="tablist">
         <li class="nav-item d-none d-md-flex">
-          <button class="nav-link px-4 active" id="tab-ptraining" data-bs-toggle="tab" data-bs-target="#ptraining" type="button" role="tab" aria-controls="ptraining" aria-selected="true">
+          <button class="nav-link px-4 active" id="tab-ptraining" data-bs-toggle="tab" data-bs-target="#ptraining" type="button" role="tab" aria-controls="ptraining" aria-selected="true" aria-label="Personal Training">
             Personal Training
           </button>
         </li>
         <li class="nav-item d-none d-md-flex">
-          <button class="nav-link px-4" id="tab-info" data-bs-toggle="tab" data-bs-target="#info" type="button" role="tab" aria-controls="info" aria-selected="false">
+          <button class="nav-link px-4" id="tab-info" data-bs-toggle="tab" data-bs-target="#info" type="button" role="tab" aria-controls="info" aria-selected="false" aria-label="Practical Information">
             Practical Information
           </button>
         </li>
         <li class="nav-item d-none d-md-flex">
-          <button class="nav-link px-4" id="tab-pricing" data-bs-toggle="tab" data-bs-target="#pricing" type="button" role="tab" aria-controls="pricing" aria-selected="false">
+          <button class="nav-link px-4" id="tab-pricing" data-bs-toggle="tab" data-bs-target="#pricing" type="button" role="tab" aria-controls="pricing" aria-selected="false" aria-label="Prices">
             Prices
           </button>
         </li>
@@ -72,22 +76,23 @@ pageKey: "personalTraining"
           id="mobileDropdown"
           data-bs-toggle="dropdown"
           aria-expanded="false"
+          aria-label="Select a tab"
         >
           Select a tab
         </button>
         <ul class="dropdown-menu" aria-labelledby="mobileDropdown" role="tablist">
           <li>
-            <button class="dropdown-item active fs-4" data-bs-toggle="tab" data-bs-target="#ptraining" type="button" role="tab" aria-selected="true">
+            <button class="dropdown-item active fs-4" data-bs-toggle="tab" data-bs-target="#ptraining" type="button" role="tab" aria-selected="true" aria-label="Personal Training">
               Personal Training
             </button>
           </li>
           <li>
-            <button class="dropdown-item fs-4" data-bs-toggle="tab" data-bs-target="#info" type="button" role="tab" aria-selected="false">
+            <button class="dropdown-item fs-4" data-bs-toggle="tab" data-bs-target="#info" type="button" role="tab" aria-selected="false" aria-label="Practical Information">
               Practical Information
             </button>
           </li>
           <li>
-            <button class="dropdown-item fs-4" data-bs-toggle="tab" data-bs-target="#pricing" type="button" role="tab" aria-selected="false">
+            <button class="dropdown-item fs-4" data-bs-toggle="tab" data-bs-target="#pricing" type="button" role="tab" aria-selected="false" aria-label="Prices">
               Prices
             </button>
           </li>
@@ -133,6 +138,7 @@ pageKey: "personalTraining"
                   data-bs-toggle="collapse"
                   data-bs-target="#introduction"
                   aria-expanded="false"
+                  aria-label="Introduction"
                 >
                   <span class="card-title fs-4"><span class="pe-2 pe-lg-3">{% include "icons/chat-bubble-icon.njk" %}
                   </span>Introduction</span>
@@ -158,6 +164,7 @@ pageKey: "personalTraining"
                   data-bs-toggle="collapse"
                   data-bs-target="#intake"
                   aria-expanded="false"
+                  aria-label="Intake"
                 >
                   <span class="card-title fs-4"><span class="pe-2 pe-lg-3">{% include "icons/pencil-square-icon.njk" %}
                   </span>Intake Session</span>
@@ -184,6 +191,7 @@ pageKey: "personalTraining"
                   data-bs-toggle="collapse"
                   data-bs-target="#consultation"
                   aria-expanded="false"
+                  aria-label="Advice"
                 >
                   <span class="card-title fs-4"><span class="pe-2 pe-lg-3">{% include "icons/light-bulb-icon.njk" %}
                   </span>Advice Session</span>
@@ -209,6 +217,7 @@ pageKey: "personalTraining"
                   data-bs-toggle="collapse"
                   data-bs-target="#followUp"
                   aria-expanded="false"
+                  aria-label="Follow-up"
                 >
                   <span class="card-title fs-4"><span class="pe-2 pe-lg-3">{% include "icons/arrow-trending-up-icon.njk" %}
                   </span>Follow-up Sessions</span>
@@ -235,6 +244,7 @@ pageKey: "personalTraining"
                   data-bs-toggle="collapse"
                   data-bs-target="#evaluation"
                   aria-expanded="false"
+                  aria-label="Evaluation"
                 >
                   <span class="card-title fs-4"><span class="pe-2 pe-lg-3">{% include "icons/clipboard-icon.njk" %}
                   </span>Evaluation Session</span>
@@ -260,6 +270,7 @@ pageKey: "personalTraining"
                   data-bs-toggle="collapse"
                   data-bs-target="#location"
                   aria-expanded="false"
+                  aria-label="Location"
                 >
                   <span class="card-title fs-4"><span class="pe-2 pe-lg-3">{% include "icons/home-icon.njk" %}</span>Location</span>
                   <span class="toggle-icon"></span>
@@ -320,6 +331,7 @@ pageKey: "personalTraining"
                             data-bs-toggle="collapse"
                             data-bs-target="#startPakket"
                             aria-expanded="false"
+                            aria-label="More Information"
                           >
                             <span class="fs-lg-4 visually-hidden">More Information</span>
                             <span class="toggle-icon"></span>
@@ -368,6 +380,7 @@ pageKey: "personalTraining"
                             data-bs-toggle="collapse"
                             data-bs-target="#mediumPakket"
                             aria-expanded="false"
+                            aria-label="More Information"
                           >
                             <span class="fs-lg-4 visually-hidden">More Information</span>
                             <span class="toggle-icon"></span>
@@ -416,6 +429,7 @@ pageKey: "personalTraining"
                             data-bs-toggle="collapse"
                             data-bs-target="#tenSessiesPakket"
                             aria-expanded="false"
+                            aria-label="More Information"
                           >
                             <span class="fs-lg-4 visually-hidden">More Information</span>
                             <span class="toggle-icon"></span>
@@ -460,6 +474,7 @@ pageKey: "personalTraining"
                             data-bs-toggle="collapse"
                             data-bs-target="#singlePakket"
                             aria-expanded="false"
+                            aria-label="More Information"
                           >
                             <span class="fs-lg-4 visually-hidden">More Information</span>
                             <span class="toggle-icon"></span>
@@ -477,7 +492,7 @@ pageKey: "personalTraining"
   </div>
   <!-- Navigation buttons -->
   <div class="mt-3 text-center">
-    <button id="prevTabBtn" class="btn custom-btn mx-3 fs-5" disabled>{% include "icons/arrow-left-icon.njk" %}</button>
-    <button id="nextTabBtn" class="btn custom-btn mx-3 fs-5">{% include "icons/arrow-right-icon.njk" %}</button>
+    <button id="prevTabBtn" class="btn custom-btn mx-3 fs-5" aria-label="Previous tab" disabled>{% include "icons/arrow-left-icon.njk" %}</button>
+    <button id="nextTabBtn" class="btn custom-btn mx-3 fs-5" aria-label="Next tab">{% include "icons/arrow-right-icon.njk" %}</button>
   </div>
 </section>

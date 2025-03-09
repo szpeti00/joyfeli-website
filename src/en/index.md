@@ -205,8 +205,7 @@ navbarClass: "fixed-top"
           </blockquote>
         </div>
         <div class="carousel-item text-center">
-          <h5 class="mb-3 separator-center">Inspired to achieve more
-</h5>
+          <h5 class="mb-3 separator-center">Inspired to achieve more</h5>
           <blockquote class="blockquote">
             <p class="fst-italic">
               "I’m thrilled to work with Feli as my coach. She understands my goals, creates motivating workouts, and ensures I perform exercises correctly. Her positivity and support push me to achieve more. I highly recommend Feli to anyone seeking an inspiring, professional coach!"
@@ -223,12 +222,12 @@ navbarClass: "fixed-top"
         </div> -->
       </div>
       <!-- Previous Button -->
-      <button class="carousel-control-prev d-flex justify-content-start" type="button" data-bs-target="#reviewsCarousel" data-bs-slide="prev">
+      <button class="carousel-control-prev d-flex justify-content-start" type="button" data-bs-target="#reviewsCarousel" data-bs-slide="prev" aria-label="Previous">
         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
         <span class="visually-hidden">Previous</span>
       </button>
       <!-- Next Button -->
-      <button class="carousel-control-next d-flex justify-content-end" type="button" data-bs-target="#reviewsCarousel" data-bs-slide="next">
+      <button class="carousel-control-next d-flex justify-content-end" type="button" data-bs-target="#reviewsCarousel" data-bs-slide="next" aria-label="Next">
         <span class="carousel-control-next-icon text-end" aria-hidden="true"></span>
         <span class="visually-hidden">Next</span>
       </button>
@@ -289,7 +288,7 @@ navbarClass: "fixed-top"
             <div class="invalid-feedback">Please enter a message</div>
           </div>
           <div class="text-center">
-            <button type="submit" class="btn custom-btn">Send</button>
+            <button type="submit" class="btn custom-btn" aria-label="Send">Send</button>
           </div>
           <div id="form-message" class="text-center mt-3 p-3 rounded"></div>
         </form>

@@ -59,6 +59,6 @@ pageKey: "privacy"
     <h2>Wijzigingen in de privacyverklaring</h2>
     <p>Deze privacyverklaring kan van tijd tot tijd worden gewijzigd. Raadpleeg deze verklaring regelmatig om op de hoogte te blijven van wijzigingen.</p>
     <a href="/static/privacy-verklaring.pdf">
-        <button class="btn custom-btn">Download</button>
+        <button class="btn custom-btn" aria-label="Download">Download</button>
     </a>
 </div>

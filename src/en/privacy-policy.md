@@ -78,6 +78,6 @@ pageKey: "privacy"
     <h2>Changes to the Privacy Statement</h2>
     <p>This privacy statement may be updated from time to time. I recommend regularly reviewing this statement to stay informed of any changes.</p>
     <a href="/static/privacy-policy.pdf">
-        <button class="btn custom-btn">Download</button>
+        <button class="btn custom-btn" aria-label="Download">Download</button>
     </a>
 </div>

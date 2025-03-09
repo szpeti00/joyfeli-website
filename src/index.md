@@ -224,12 +224,12 @@ navbarClass: "fixed-top"
         </div> -->
       </div>
       <!-- Previous Button -->
-      <button class="carousel-control-prev d-flex justify-content-start" type="button" data-bs-target="#reviewsCarousel" data-bs-slide="prev">
+      <button class="carousel-control-prev d-flex justify-content-start" type="button" data-bs-target="#reviewsCarousel" data-bs-slide="prev" aria-label="Previous">
         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
         <span class="visually-hidden">Previous</span>
       </button>
       <!-- Next Button -->
-      <button class="carousel-control-next d-flex justify-content-end" type="button" data-bs-target="#reviewsCarousel" data-bs-slide="next">
+      <button class="carousel-control-next d-flex justify-content-end" type="button" data-bs-target="#reviewsCarousel" data-bs-slide="next" aria-label="Next">
         <span class="carousel-control-next-icon text-end" aria-hidden="true"></span>
         <span class="visually-hidden">Next</span>
       </button>
@@ -289,7 +289,7 @@ navbarClass: "fixed-top"
             <div class="invalid-feedback">Vul alsjeblieft je bericht in.</div>
           </div>
           <div class="text-center">
-            <button type="submit" class="btn custom-btn">Verzenden</button>
+            <button type="submit" class="btn custom-btn" aria-label="Verzenden">Verzenden</button>
           </div>
           <div id="form-message" class="text-center mt-3 p-3 rounded"></div>
         </form>

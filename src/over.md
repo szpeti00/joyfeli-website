@@ -54,17 +54,17 @@ pageKey: "about"
       <!-- Tab Navigation -->
       <ul class="nav nav-tabs justify-content-center mb-4 border-0" id="aboutMeTabs" role="tablist">
         <li class="nav-item d-none d-md-flex">
-          <button class="nav-link px-4 active" id="tab-about" data-bs-toggle="tab" data-bs-target="#about" type="button" role="tab" aria-controls="about" aria-selected="true">
+          <button class="nav-link px-4 active" id="tab-about" data-bs-toggle="tab" data-bs-target="#about" type="button" role="tab" aria-controls="about" aria-selected="true" aria-label="Over mij">
             Over mij
           </button>
         </li>
         <li class="nav-item d-none d-md-flex">
-          <button class="nav-link px-4" id="tab-studies" data-bs-toggle="tab" data-bs-target="#studies" type="button" role="tab" aria-controls="studies" aria-selected="false">
+          <button class="nav-link px-4" id="tab-studies" data-bs-toggle="tab" data-bs-target="#studies" type="button" role="tab" aria-controls="studies" aria-selected="false" aria-label="Studies">
             Studies
           </button>
         </li>
         <li class="nav-item d-none d-md-flex">
-          <button class="nav-link px-4" id="tab-work" data-bs-toggle="tab" data-bs-target="#work" type="button" role="tab" aria-controls="work" aria-selected="false">
+          <button class="nav-link px-4" id="tab-work" data-bs-toggle="tab" data-bs-target="#work" type="button" role="tab" aria-controls="work" aria-selected="false" aria-label="Werkervaring">
             Werkervaring
           </button>
         </li>
@@ -77,22 +77,23 @@ pageKey: "about"
           id="mobileDropdown"
           data-bs-toggle="dropdown"
           aria-expanded="false"
+          aria-label="Select a tab"
         >
           Select a tab
         </button>
         <ul class="dropdown-menu" aria-labelledby="mobileDropdown" role="tablist">
           <li>
-            <button class="dropdown-item active fs-4" data-bs-toggle="tab" data-bs-target="#about" type="button" role="tab" aria-selected="true">
+            <button class="dropdown-item active fs-4" data-bs-toggle="tab" data-bs-target="#about" type="button" role="tab" aria-selected="true" aria-label="Over mij">
               Over mij
             </button>
           </li>
           <li>
-            <button class="dropdown-item fs-4" data-bs-toggle="tab" data-bs-target="#studies" type="button" role="tab" aria-selected="false">
+            <button class="dropdown-item fs-4" data-bs-toggle="tab" data-bs-target="#studies" type="button" role="tab" aria-selected="false" aria-label="Studies">
               Studies
             </button>
           </li>
           <li>
-            <button class="dropdown-item fs-4" data-bs-toggle="tab" data-bs-target="#work" type="button" role="tab" aria-selected="false">
+            <button class="dropdown-item fs-4" data-bs-toggle="tab" data-bs-target="#work" type="button" role="tab" aria-selected="false" aria-label="Werkervaring">
               Werkervaring
             </button>
           </li>
@@ -125,6 +126,8 @@ pageKey: "about"
         <div class="row px-2 px-sm-0">
           <div class="col-lg-6 px-0 px-lg-3 my-3 order-last order-lg-first ">
             <picture>
+              <source media="(max-width: 575px)" srcset="/img/Feli_kayak_phone.webp" type="image/webp">
+              <source media="(max-width: 575px)" srcset="/img/Feli_kayak.jpg" type="image/jpeg">
               <source srcset="/img/Feli_kayak.webp" type="image/webp">
               <source srcset="/img/Feli_kayak.jpg" type="image/jpeg">
               <img class="img-fluid kayak-img me-lg-5" src="/img/Feli_kayak.jpg" alt="Feli Aarsman kayak picture">
@@ -195,7 +198,7 @@ pageKey: "about"
       </div>
   <!-- Navigation buttons -->
   <div class="mt-3 text-center">
-    <button id="prevTabBtn" class="btn custom-btn mx-3 fs-5" disabled>{% include "icons/arrow-left-icon.njk" %}</button>
-    <button id="nextTabBtn" class="btn custom-btn mx-3 fs-5">{% include "icons/arrow-right-icon.njk" %}</button>
+    <button id="prevTabBtn" class="btn custom-btn mx-3 fs-5" aria-label="Previous tab" disabled>{% include "icons/arrow-left-icon.njk" %}</button>
+    <button id="nextTabBtn" class="btn custom-btn mx-3 fs-5" aria-label="Next tab">{% include "icons/arrow-right-icon.njk" %}</button>
   </div>
 </section>

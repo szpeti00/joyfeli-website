@@ -86,6 +86,6 @@ pageKey: "terms"
         <p>Door gebruik te maken van de diensten van de Coach, erkent de Cliënt dat hij of zij deze voorwaarden heeft gelezen, begrepen en ermee akkoord gaat.</p>
     </section>
     <a href="/static/algemene-voorwaarden.pdf">
-        <button class="btn custom-btn">Download</button>
+        <button class="btn custom-btn" aria-label="Download algemene voorwaarden">Download</button>
     </a>
 </div>
