@@ -3,6 +3,7 @@ layout: layouts/base.njk
 title: "JoyFeli - Contact"
 locale: "nl"
 pageKey: "contact"
+heroImage: "/img/soca.webp"
 ---
 
 <!-- Hero Section -->
@@ -19,7 +20,7 @@ pageKey: "contact"
             <!-- Desktop: full image -->
             <source srcset="/img/Cezsoca.webp" type="image/webp">
             <source srcset="/img/Cezsoca.jpg" type="image/jpeg">
-            <img class="bg-image-img" src="/img/Cezsoca.jpg" alt="Personal Training Background" width="1320" height="665" loading="eager" fetchpriority="high">
+            <img class="bg-image-img" src="/img/Cezsoca.jpg" alt="Contact Background Image" width="1320" height="665" loading="eager" fetchpriority="high">
           </picture>
         </div>
         <!-- Text overlay -->

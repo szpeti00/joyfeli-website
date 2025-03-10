@@ -3,6 +3,7 @@ layout: layouts/base.njk
 title: "JoyFeli - For Her"
 locale: "en"
 pageKey: "forHer"
+heroImage: "/img/Feli_soca_phone.webp"
 ---
 
 <!-- Hero Section -->
@@ -19,7 +20,7 @@ pageKey: "forHer"
             <!-- Desktop: full image -->
             <source srcset="/img/Feli_soca.webp" type="image/webp">
             <source srcset="/img/Feli_soca.jpg" type="image/jpeg">
-            <img class="bg-image-img" src="/img/Feli_soca.jpg" alt="Personal Training Background" width="1320" height="665" loading="eager" fetchpriority="high">
+            <img class="bg-image-img" src="/img/Feli_soca.jpg" alt="For Her Background" width="1320" height="665" loading="eager" fetchpriority="high">
           </picture>
         </div>
         <!-- Text overlay -->

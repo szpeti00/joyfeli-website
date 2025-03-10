@@ -3,6 +3,7 @@ layout: layouts/base.njk
 title: "JoyFeli - Lifestyle Coaching"
 locale: "en"
 pageKey: "lifestyleCoaching"
+heroImage: "/img/lifestylecoaching_cut.webp"
 ---
 
 <!-- Hero Section -->
@@ -19,7 +20,7 @@ pageKey: "lifestyleCoaching"
             <!-- Desktop: full image -->
             <source srcset="/img/lifestylecoach_2.webp" type="image/webp">
             <source srcset="/img/lifestylecoach_2.jpg" type="image/jpeg">
-            <img class="bg-image-img" src="/img/lifestylecoach_2.jpg" alt="Personal Training Background" width="1320" height="665" loading="eager" fetchpriority="high">
+            <img class="bg-image-img" src="/img/lifestylecoach_2.jpg" alt="Lifestyle Coaching Background" width="1320" height="665" loading="eager" fetchpriority="high">
           </picture>
         </div>
         <!-- Text overlay -->

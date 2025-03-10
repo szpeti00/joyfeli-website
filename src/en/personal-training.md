@@ -3,6 +3,7 @@ layout: layouts/base.njk
 title: "JoyFeli - Personal Training"
 locale: "en"
 pageKey: "personalTraining"
+heroImage: "/img/Feli_mangart_phone.webp"
 ---
 
 <!-- Hero Section -->

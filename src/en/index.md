@@ -4,6 +4,7 @@ title: "JoyFeli - Lifestyle Coaching & Personal Training"
 locale: "en"
 pageKey: "home"
 navbarClass: "fixed-top"
+heroImage: "/img/Feli_predel_cut.webp"
 ---
 
 <!-- Home Section  -->
@@ -46,7 +47,7 @@ navbarClass: "fixed-top"
             <!-- Desktop: full image -->
             <source srcset="/img/Feli_mountain.webp" type="image/webp">
             <source srcset="/img/Feli_mountain.jpg" type="image/jpeg">
-            <img class="bg-image-img" src="/img/Feli_mountain.jpg" alt="Personal Training Background" width="1320" height="665" loading="eager" fetchpriority="high">
+            <img class="bg-image-img" src="/img/Feli_mountain.jpg" alt="Welcome hero Background Image" width="1320" height="665" loading="eager" fetchpriority="high">
           </picture>
         </div>
         <!-- Text overlay -->

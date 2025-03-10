@@ -3,6 +3,7 @@ layout: layouts/base.njk
 title: "JoyFeli - Over"
 locale: "nl"
 pageKey: "about"
+heroImage: "/img/Feli_soca2_phone.webp"
 ---
 
 <!-- Hero Section -->
@@ -19,7 +20,7 @@ pageKey: "about"
             <!-- Desktop: full image -->
             <source srcset="/img/Feli_soca2_cut.webp" type="image/webp">
             <source srcset="/img/Feli_soca2_cut.jpg" type="image/jpeg">
-            <img class="bg-image-img" src="/img/Feli_soca2_cut.jpg" alt="Personal Training Background" width="1320" height="665" loading="eager" fetchpriority="high">
+            <img class="bg-image-img" src="/img/Feli_soca2_cut.jpg" alt="Over Mij Background" width="1320" height="665" loading="eager" fetchpriority="high">
           </picture>
         </div>
         <!-- Text overlay -->
