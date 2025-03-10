@@ -651,7 +651,8 @@ h6 {
 
   /* Disable animations on smaller screens */
   .animate-slide-in-left,
-  .animate-slide-in-right {
+  .animate-slide-in-right,
+  .animate-slide-in-right-welcome {
     animation: none;
     opacity: 1;
     transform: translateX(0);
