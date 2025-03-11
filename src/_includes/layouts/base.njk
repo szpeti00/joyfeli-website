@@ -1,16 +1,6 @@
 <!DOCTYPE html>
 <html lang="{{ locale }}">
 <head>
-  <!-- Preload hero image on mobile -->
-  <script>
-    if (window.matchMedia('(max-width: 575px)').matches) {
-      const link = document.createElement('link');
-      link.rel = 'preload';
-      link.as = 'image';
-      link.href = '{{ heroImage }}';
-      document.head.appendChild(link);
-    }
-  </script>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>{{ title }}</title>
@@ -26,6 +16,16 @@
     {% endif %}">
   <meta property="og:title" content="{{ title }}">
   <meta property="og:description" content="{{ metaDescriptions[pageKey][locale] }}">
+    <!-- Preload hero image on mobile -->
+  <script>
+    if (window.matchMedia('(max-width: 575px)').matches) {
+      const link = document.createElement('link');
+      link.rel = 'preload';
+      link.as = 'image';
+      link.href = '{{ heroImage }}';
+      document.head.appendChild(link);
+    }
+  </script>
   <!-- LocalBusiness Structured Data -->
     <script type="application/ld+json">
     {
