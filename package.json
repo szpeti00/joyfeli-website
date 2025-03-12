@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "build": "eleventy && npm run minify-js && npm run minify-css",
+    "build": "eleventy && npm run build-css && npm run minify-js && npm run minify-css",
+    "build-css": "postcss src/css/bootstrap.min.css -o dist/css/bootstrap.purged.css",
     "serve": "eleventy --serve",
     "test": "echo \"Error: no test specified\" && exit 1",
     "minify-js": "terser src/js/script.js -o dist/js/script.min.js --compress --mangle",
@@ -19,7 +20,10 @@
     "csso": "^5.0.5"
   },
   "devDependencies": {
+    "@fullhuman/postcss-purgecss": "^7.0.2",
+    "autoprefixer": "^10.4.21",
     "csso-cli": "^4.0.2",
+    "postcss-cli": "^11.0.1",
     "terser": "^5.39.0"
   }
 }
