@@ -17,7 +17,7 @@ heroImage: "/img/Feli_predel_cut.webp"
     <!-- Desktop: full image -->
     <source srcset="/img/Feli_predel.webp" type="image/webp">
     <source srcset="/img/Feli_predel.JPG" type="image/jpeg">
-    <img src="/img/Feli_predel.JPG" alt="Hero Background" class="hero-home-img" width="1920" height="1080" sizes="100vw">
+    <img src="/img/Feli_predel.JPG" alt="Hero Background" class="hero-home-img" width="1920" height="1080" sizes="100vw" loading="eager" fetchpriority="high">
   </picture>
   <!-- Hero content -->
   <div class="container hero-home-content">
