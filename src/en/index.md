@@ -17,7 +17,7 @@ heroImage: "/img/Feli_predel_cut.webp"
     <!-- Desktop: full image -->
     <source srcset="/img/Feli_predel.webp" type="image/webp">
     <source srcset="/img/Feli_predel.JPG" type="image/jpeg">
-    <img src="/img/Feli_predel.JPG" alt="Hero Background" class="hero-home-img">
+    <img src="/img/Feli_predel.JPG" alt="Hero Background" class="hero-home-img" width="1920" height="1080" sizes="100vw">
   </picture>
   <!-- Hero content -->
   <div class="container hero-home-content">
@@ -177,7 +177,7 @@ heroImage: "/img/Feli_predel_cut.webp"
         <picture>
           <source srcset="/img/feli.webp" type="image/webp">
           <source srcset="/img/feli.jpg" type="image/jpeg">
-          <img class="img-fluid profile-img mx-lg-5 mt-3" src="/img/feli.jpg" alt="Feli Aarsman profile picture" loading="lazy">
+          <img class="img-fluid profile-img mx-lg-5 mt-3" src="/img/feli.jpg" alt="Feli Aarsman profile picture" loading="lazy" width="450" height="600">
       </picture>
       </div>
     </div>
