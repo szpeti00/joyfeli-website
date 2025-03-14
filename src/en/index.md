@@ -47,7 +47,7 @@ heroImage: "/img/Feli_predel_cut.webp"
             <!-- Desktop: full image -->
             <source srcset="/img/Feli_mountain.webp" type="image/webp">
             <source srcset="/img/Feli_mountain.jpg" type="image/jpeg">
-            <img class="bg-image-img" src="/img/Feli_mountain.jpg" alt="Welcome hero Background Image" width="1320" height="665" loading="eager" fetchpriority="high">
+            <img class="bg-image-img" src="/img/Feli_mountain.jpg" alt="Welcome hero Background Image" width="1320" height="665" loading="lazy">
           </picture>
         </div>
         <!-- Text overlay -->
@@ -84,7 +84,7 @@ heroImage: "/img/Feli_predel_cut.webp"
           <picture class="card-img-top w-50 mx-auto mt-4">
             <source srcset="/img/lifestylecoaching_icon.webp" type="image/webp">
             <source srcset="/img/lifestylecoaching_icon.png" type="image/png">
-            <img src="/img/lifestylecoaching_icon.png" alt="Lifestyle Coaching Icon" width="208" height="208">
+            <img src="/img/lifestylecoaching_icon.png" alt="Lifestyle Coaching Icon" width="208" height="208" loading="lazy">
           </picture>
           <div class="card-body custom-color">
             <h5 class="card-title text-uppercase text-center mb-4">Lifestyle Coaching</h5>
@@ -106,7 +106,7 @@ heroImage: "/img/Feli_predel_cut.webp"
           <picture class="card-img-top w-50 mx-auto mt-4">
             <source srcset="/img/personaltraining_icon.webp" type="image/webp">
             <source srcset="/img/personaltraining_icon.png" type="image/png">
-            <img src="/img/personaltraining_icon.png" alt="Personal Training Icon" width="208" height="208">
+            <img src="/img/personaltraining_icon.png" alt="Personal Training Icon" width="208" height="208" loading="lazy">
           </picture>
           <div class="card-body custom-color">
             <h5 class="card-title text-uppercase text-center mb-4">Personal Training</h5>
@@ -128,7 +128,7 @@ heroImage: "/img/Feli_predel_cut.webp"
           <picture class="card-img-top w-50 mx-auto mt-4">
             <source srcset="/img/forher_icon.webp" type="image/webp">
             <source srcset="/img/forher_icon.png" type="image/png">
-            <img src="/img/forher_icon.png" alt="For Her Icon" width="208" height="208">
+            <img src="/img/forher_icon.png" alt="For Her Icon" width="208" height="208" loading="lazy">
           </picture>
           <div class="card-body custom-color">
             <h5 class="card-title text-uppercase text-center mb-4">For Her</h5>
