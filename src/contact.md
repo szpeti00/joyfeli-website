@@ -50,7 +50,7 @@ heroImage: "/img/soca.webp"
 <section class="contact-section py-5">
   <div class="container">
     <div class="row">
-      <div class="col-lg-6">
+      <div class="col-lg-6 mb-5">
         <h4 class="mb-5 separator">Neem contact op</h4>
         <p>
           Heb je vragen of wil je samen nadenken over wat het beste bij je past? Twijfel je ergens over? Neem gerust contact met me op, dan komen we samen tot de juiste oplossing die bij jou past.
@@ -62,7 +62,22 @@ heroImage: "/img/soca.webp"
           Je kunt contact met me opnemen via e-mail, een chatbericht via WhatsApp, of door onderstaand formulier in te vullen. Ik kijk ernaar uit om je te helpen!
         </p>
       </div>
-      <div class="col-lg-6 my-5 ps-lg-5">
+      <div class="col-lg-6 ps-lg-5">
+        <div class="mb-5">
+          <h4 class="separator">Neem contact met mij op</h4>
+          <p>
+            {% include "icons/whatsapp-icon.njk" %}
+            <a href="https://wa.me/{{ settings.phone }}" target="_blank" rel="noopener noreferrer">{{ settings.phoneText }}</a> 
+          </p>
+          <p>
+            {% include "icons/email-icon.njk" %}
+            <a href="mailto:{{ settings.email }}">{{ settings.emailText }}</a>
+          </p>
+          <p>
+            {% include "icons/instagram-icon.njk" %}
+            <a href="https://www.instagram.com/{{ settings.instagram }}" target="_blank" rel="noopener noreferrer">{{  settings.instagramText }}</a>
+          </p>
+        </div>
         <form 
           method="POST"
           data-netlify="true"

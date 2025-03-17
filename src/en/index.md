@@ -214,13 +214,13 @@ heroImage: "/img/Feli_predel_cut.webp"
             <footer class="blockquote-footer">Norbert Essink</footer>
           </blockquote>
         </div>
-        <!-- <div class="carousel-item text-center">
-          <h5 class="mb-3 separator-center">Geïnspireerd om meer te bereiken</h5>
+        <div class="carousel-item text-center">
+          <h5 class="mb-3 separator-center">Empowering Coaching for Women</h5>
           <blockquote class="blockquote">
-            <p class="fst-italic">"Pellentesque vitae metus non est pretium pharetra. Curabitur mattis justo quis sem dignissim."</p>
-            <footer class="blockquote-footer">Client 3</footer>
+            <p class="fst-italic">"Feli is a joy to work with! Over the past two years, she has helped me gradually build strength through weight training, which is crucial for me as a woman and a mother. She deeply understands women's physiology. If you're looking for a coach who truly sees YOU, understands your unique situation and goals, and takes an integrated approach, Feli is the right coach for you!"</p>
+            <footer class="blockquote-footer">Flora Adams</footer>
           </blockquote>
-        </div> -->
+        </div>
       </div>
       <!-- Previous Button -->
       <button class="carousel-control-prev d-flex justify-content-start" type="button" data-bs-target="#reviewsCarousel" data-bs-slide="prev" aria-label="Previous">
@@ -248,6 +248,10 @@ heroImage: "/img/Feli_predel_cut.webp"
         <p>
           {% include "icons/email-icon.njk" %}
           <a href="mailto:{{ settings.email }}">{{ settings.emailText }}</a>
+        </p>
+        <p>
+          {% include "icons/instagram-icon.njk" %}
+          <a href="https://www.instagram.com/{{ settings.instagram }}" target="_blank" rel="noopener noreferrer">{{  settings.instagramText }}</a>
         </p>
       </div>
   </div>

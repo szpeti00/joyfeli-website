@@ -50,7 +50,7 @@ heroImage: "/img/soca.webp"
 <section class="contact-section py-5">
   <div class="container">
     <div class="row">
-      <div class="col-lg-6">
+      <div class="col-lg-6 mb-5">
         <h4 class="mb-5 separator">Get in touch</h4>
         <p>
           Do you have any questions or want to discuss what works best for you? Not sure about something? Don’t hesitate to contact me, and together we’ll find the right solution for you.
@@ -62,7 +62,22 @@ heroImage: "/img/soca.webp"
           You can contact me via email, a WhatsApp chat message, or by filling out the form below. I look forward to helping you!
         </p>
       </div>
-      <div class="col-lg-6 my-5 ps-lg-5">
+      <div class="col-lg-6 ps-lg-5">
+        <div class="mb-5">
+          <h4 class="separator">Contact me for more information</h4>
+          <p>
+            {% include "icons/whatsapp-icon.njk" %}
+            <a href="https://wa.me/{{ settings.phone }}" target="_blank" rel="noopener noreferrer">{{ settings.phoneText }}</a> 
+          </p>
+          <p>
+            {% include "icons/email-icon.njk" %}
+            <a href="mailto:{{ settings.email }}">{{ settings.emailText }}</a>
+          </p>
+          <p>
+            {% include "icons/instagram-icon.njk" %}
+            <a href="https://www.instagram.com/{{ settings.instagram }}" target="_blank" rel="noopener noreferrer">{{  settings.instagramText }}</a>
+          </p>
+        </div>
         <form 
           method="POST"
           data-netlify="true"
