@@ -293,7 +293,7 @@ heroImage: "/img/Feli_predel_cut.webp"
             <div class="invalid-feedback">Please enter a message</div>
           </div>
           <div class="text-center">
-            <button type="submit" class="btn custom-btn" aria-label="Send">Send</button>
+            <button type="submit" class="btn custom-btn fs-5" aria-label="Send">Send</button>
           </div>
           <div id="form-message" class="text-center mt-3 p-3 rounded"></div>
         </form>

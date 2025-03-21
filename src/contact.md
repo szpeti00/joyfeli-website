@@ -112,7 +112,7 @@ heroImage: "/img/soca.webp"
             <div class="invalid-feedback">Vul alsjeblieft je bericht in.</div>
           </div>
           <div class="text-center">
-            <button type="submit" class="btn custom-btn" aria-label="Verzenden">Verzenden</button>
+            <button type="submit" class="btn custom-btn fs-5" aria-label="Verzenden">Verzenden</button>
           </div>
           <div id="form-message" class="text-center mt-3 p-3 rounded"></div>
         </form>
