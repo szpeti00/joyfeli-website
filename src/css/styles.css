@@ -589,8 +589,8 @@ h6 {
 ========================================= */
 #scrollToTopBtn {
   position: fixed;
-  bottom: 2rem;
-  right: 2rem;
+  bottom: 6.5rem;
+  right: 2.35rem;
   display: none;
   width: 2.7rem;
   height: 2.7rem;
@@ -598,13 +598,40 @@ h6 {
   border: none;
   color: var(--primary-color);
   background: transparent;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.2);
   cursor: pointer;
+  z-index: 999;
   transition: background-color var(--transition-speed), transform var(--transition-speed);
 }
 
 #scrollToTopBtn:hover {
   background-color: var(--primary-light-color);
   transform: scale(1.1);
+}
+
+/* =========================================
+  Whatsapp Floating Button
+========================================= */
+.whatsapp-btn {
+  position: fixed;
+  bottom: 2rem;
+  right: 2rem;
+  width: 3.5rem;      /* Slightly larger than scroll btn looks better */
+  height: 3.5rem;
+  background-color: #25D366; /* Official WhatsApp Green */
+  color: #fff;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+  z-index: 1000;
+  transition: transform 0.3s ease;
+}
+
+.whatsapp-btn:hover {
+    background-color: #25d365c7;
+    background-image: none;
 }
 
 /* =========================================

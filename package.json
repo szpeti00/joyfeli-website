@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "build": "eleventy && npm run build-css && npm run minify-js && npm run minify-css",
+    "build": "npm run build-css && npm run minify-js && npm run minify-css && eleventy",
     "build-css": "postcss src/css/bootstrap.min.css -o dist/css/bootstrap.purged.css",
     "serve": "eleventy --serve",
     "test": "echo \"Error: no test specified\" && exit 1",
