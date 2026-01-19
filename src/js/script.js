@@ -64,9 +64,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
   // Sliding underline for nav tabs and next/prev buttons
   const tabs = document.querySelectorAll('.nav-tabs button.nav-link');
-  const dropdownItems = document.querySelectorAll('.dropdown-menu .dropdown-item');
   const slider = document.querySelector('.tab-line');
-  const wrapper = document.querySelector('.nav-tabs');
 
   // Arrow buttons
   const prevTabBtn = document.getElementById('prevTabBtn');
@@ -78,11 +76,21 @@ document.addEventListener('DOMContentLoaded', () => {
   // Function to update the slider position
   const updateSliderPosition = (activeTab) => {
     if (!activeTab) return;
-    const tabRect = activeTab.getBoundingClientRect();
-    const containerRect = wrapper.getBoundingClientRect();
+    const leftPosition = activeTab.offsetLeft;
+    const width = activeTab.offsetWidth;
 
-    slider.style.left = `${tabRect.left - containerRect.left}px`;
-    slider.style.width = `${tabRect.width}px`;
+    slider.style.left = `${leftPosition}px`;
+    slider.style.width = `${width}px`;
+    
+    // Auto-scroll: to center the active tab on mobile
+    const container = document.querySelector('.custom-tabs');
+    if(container) {
+        const scrollLeft = leftPosition - (container.offsetWidth / 2) + (width / 2);
+        container.scrollTo({
+            left: scrollLeft,
+            behavior: 'smooth'
+        });
+    }
   };
 
   // Function to activate the specified tab
@@ -92,11 +100,6 @@ document.addEventListener('DOMContentLoaded', () => {
       const tab = new bootstrap.Tab(tabTrigger);
       tab.show();
       updateSliderPosition(tabTrigger);
-
-      // Synchronize dropdown menu with active tab
-      dropdownItems.forEach((item) => item.classList.remove('active'));
-      const dropdownItem = document.querySelector(`.dropdown-menu .dropdown-item[data-bs-target='#${tabId}']`);
-      if (dropdownItem) dropdownItem.classList.add('active');
 
       // Update arrow buttons
       prevTabBtn.disabled = tabIds.indexOf(tabId) === 0; // true if we are on the first tab 
@@ -108,10 +111,14 @@ document.addEventListener('DOMContentLoaded', () => {
   const handleTabClick = (e) => {
     const tabId = e.target.getAttribute('data-bs-target').substring(1); // Remove the leading '#' with substring
     activateTab(tabId);
+
+    // Only do this on mobile (<768px) where tabs are sticky
+    if (window.innerWidth < 768) {
+       document.querySelector('.tab-section').scrollIntoView({ behavior: 'smooth' });
+    }
   };
 
   tabs.forEach((tab) => tab.addEventListener('click', handleTabClick));
-  dropdownItems.forEach((item) => item.addEventListener('click', handleTabClick));
 
   // Arrow Buttons for Previous/Next Tab 
   const handleArrowButtonClick = (direction) => {
@@ -134,8 +141,11 @@ document.addEventListener('DOMContentLoaded', () => {
   });
 
   // Set initial slider position
-  updateSliderPosition(tabs[0]);
+  if (tabs.length > 0) {
+    updateSliderPosition(tabs[0]);
+  }
 
+  // Handle URL hash
   const hash = window.location.hash;
   if (hash) {
     // Remove the '#' to get the tab id ("pricing")

@@ -52,56 +52,26 @@ heroImage: "/img/lifestylecoaching_cut.webp"
   <div class="container">
     <div class="custom-tabs">
       <!-- Tab Navigation -->
-      <ul class="nav nav-tabs justify-content-center mb-4 border-0" id="lifesryleCoachingTabs" role="tablist">
-        <li class="nav-item d-none d-md-flex">
+      <ul class="nav nav-tabs justify-content-center border-0" id="lifesryleCoachingTabs" role="tablist">
+        <li class="nav-item">
           <button class="nav-link px-4 active" id="tab-lifestyle" data-bs-toggle="tab" data-bs-target="#lifestyle" type="button" role="tab" aria-controls="lifestyle" aria-selected="true" aria-label="Leefstijlcoaching">
             Leefstijlcoaching
           </button>
         </li>
-        <li class="nav-item d-none d-md-flex">
+        <li class="nav-item">
           <button class="nav-link px-4" id="tab-info" data-bs-toggle="tab" data-bs-target="#info" type="button" role="tab" aria-controls="info" aria-selected="false" aria-label="Praktische Informatie">
             Praktische Informatie
           </button>
         </li>
-        <li class="nav-item d-none d-md-flex">
+        <li class="nav-item">
           <button class="nav-link px-4" id="tab-pricing" data-bs-toggle="tab" data-bs-target="#pricing" type="button" role="tab" aria-controls="pricing" aria-selected="false" aria-label="Tarieven">
             Tarieven
           </button>
         </li>
       </ul>
-      <!-- Dropdown Menu for sm screens -->
-      <div class="dropdown d-block d-md-none text-center fs-4">
-        <button
-          class="btn dropdown-toggle fs-4 w-100 bg-white border"
-          type="button"
-          id="mobileDropdown"
-          data-bs-toggle="dropdown"
-          aria-expanded="false"
-          aria-label="Select a tab"
-        >
-          Select a tab
-        </button>
-        <ul class="dropdown-menu" aria-labelledby="mobileDropdown" role="tablist">
-          <li>
-            <button class="dropdown-item active fs-4" data-bs-toggle="tab" data-bs-target="#lifestyle" type="button" role="tab" aria-selected="true" aria-label="Leefstijlcoaching">
-              Leefstijlcoaching
-            </button>
-          </li>
-          <li>
-            <button class="dropdown-item fs-4" data-bs-toggle="tab" data-bs-target="#info" type="button" role="tab" aria-selected="false" aria-label="Praktische Informatie">
-              Praktische Informatie
-            </button>
-          </li>
-          <li>
-            <button class="dropdown-item fs-4" data-bs-toggle="tab" data-bs-target="#pricing" type="button" role="tab" aria-selected="false" aria-label="Tarieven">
-              Tarieven
-            </button>
-          </li>
-        </ul>
-      </div>
       <div class="tab-line"></div>
     </div>
-    <div class="tab-content pt-3" id="lifestyleCoachingTabsContent" style="overflow:hidden">
+    <div class="tab-content pt-3 mt-4" id="lifestyleCoachingTabsContent" style="overflow:hidden">
       <!-- Lifestyle Coaching Tab -->
       <div class="mb-3 tab-pane fade active show" id="lifestyle" role="tabpanel" aria-labelledby="tab-lifestyle">
         <h4 class="mt-4 mb-3 separator">Wat is leefstijlcoaching?</h4>

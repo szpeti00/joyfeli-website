@@ -52,56 +52,26 @@ heroImage: "/img/Feli_soca2_phone.webp"
   <div class="container px-0 px-sm-3">
     <div class="custom-tabs px-2 px-sm-0">
       <!-- Tab Navigation -->
-      <ul class="nav nav-tabs justify-content-center mb-4 border-0" id="aboutMeTabs" role="tablist">
-        <li class="nav-item d-none d-md-flex">
+      <ul class="nav nav-tabs justify-content-center border-0" id="aboutMeTabs" role="tablist">
+        <li class="nav-item">
           <button class="nav-link px-4 active" id="tab-about" data-bs-toggle="tab" data-bs-target="#about" type="button" role="tab" aria-controls="about" aria-selected="true" aria-label="About Me">
             About me
           </button>
         </li>
-        <li class="nav-item d-none d-md-flex">
+        <li class="nav-item">
           <button class="nav-link px-4" id="tab-studies" data-bs-toggle="tab" data-bs-target="#studies" type="button" role="tab" aria-controls="studies" aria-selected="false" aria-label="Studies">
             Studies
           </button>
         </li>
-        <li class="nav-item d-none d-md-flex">
+        <li class="nav-item">
           <button class="nav-link px-4" id="tab-work" data-bs-toggle="tab" data-bs-target="#work" type="button" role="tab" aria-controls="work" aria-selected="false" aria-label="Work Experience">
             Work experience
           </button>
         </li>
       </ul>
-      <!-- Dropdown Menu for sm screens -->
-      <div class="dropdown d-block d-md-none text-center fs-4">
-        <button
-          class="btn dropdown-toggle fs-4 w-100 bg-white border"
-          type="button"
-          id="mobileDropdown"
-          data-bs-toggle="dropdown"
-          aria-expanded="false"
-          aria-label="Select a tab"
-        >
-          Select a tab
-        </button>
-        <ul class="dropdown-menu" aria-labelledby="mobileDropdown" role="tablist">
-          <li>
-            <button class="dropdown-item active fs-4" data-bs-toggle="tab" data-bs-target="#about" type="button" role="tab" aria-selected="true" aria-label="About Me">
-              About me
-            </button>
-          </li>
-          <li>
-            <button class="dropdown-item fs-4" data-bs-toggle="tab" data-bs-target="#studies" type="button" role="tab" aria-selected="false" aria-label="Studies">
-              Studies
-            </button>
-          </li>
-          <li>
-            <button class="dropdown-item fs-4" data-bs-toggle="tab" data-bs-target="#work" type="button" role="tab" aria-selected="false" aria-label="Work Experience">
-              Work experience
-            </button>
-          </li>
-        </ul>
-      </div>
       <div class="tab-line"></div>
     </div>
-    <div class="tab-content pt-3" id="aboutMeTabsContent" style="overflow:hidden">
+    <div class="tab-content pt-3 mt-4" id="aboutMeTabsContent" style="overflow:hidden">
       <!-- About me Tab -->
       <div class="mb-3 tab-pane fade active show" id="about" role="tabpanel" aria-labelledby="tab-about">
         <div class="row px-2 px-sm-0">

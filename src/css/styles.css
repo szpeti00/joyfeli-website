@@ -526,6 +526,23 @@ h6 {
 /* =========================================
    Tabs stlyes
 ========================================= */
+.nav-tabs {
+  flex-wrap: nowrap;
+  justify-content: flex-start; /* Mobile: start from left */
+  width: max-content; /* Allow list to grow as wide as needed */
+  min-width: 100%; /* Ensures it fills width on desktop */
+  border-bottom: 1px solid var(--primary-light-color); 
+  margin-bottom: 0;
+}
+
+.nav-tabs .nav-link {
+  white-space: nowrap; /* Prevents text from breaking */
+  border: none;
+  background: transparent;
+  margin-bottom: 0;
+  padding: 1rem 0;
+}
+
 .nav-tabs .nav-link,
 .nav-tabs .nav-link:focus,
 .nav-tabs .nav-link:hover {
@@ -549,12 +566,27 @@ h6 {
 
 .custom-tabs {
   position: relative;
+  overflow-x: auto;
+  overflow-y: hidden;
+  -webkit-overflow-scrolling: touch; 
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none;  /* IE 10+ */
+  
+  /* Ensure the container spans full width to allow scrolling */
+  width: 100%;
+  display: block; 
+}
+
+/* Hide webkit scrollbar for Chrome/Safari */
+.custom-tabs::-webkit-scrollbar {
+  display: none;
 }
 
 .tab-line {
   position: absolute;
   height: 2px;
-  bottom: -1px;
+  bottom: 0;
+  left: 0;
   background-color: var(--primary-color);
   transition: linear var(--transition-speed);
 }
@@ -717,6 +749,15 @@ h6 {
     font-size: var(--font-size-nav-lg);
   }
 
+  .custom-tabs {
+    position: -webkit-sticky; /* For Safari compatibility */
+    position: sticky;
+    top: var(--navbar-height-sm); 
+    z-index: 900; 
+    background-color: var(--light-gray-color);
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+  }
+
   .dropdown-menu {
     width: 100%;
     color: var(--primary-color)
@@ -730,6 +771,19 @@ h6 {
 
   .dropdown-menu .dropdown-item.active {
     background-color: var(--primary-color);
+  }
+
+  #scrollToTopBtn {
+    display: none !important;
+  }
+}
+
+@media (min-width: 768px) {
+  .nav-tabs {
+    justify-content: center;
+    padding-left: 0;
+    padding-right: 0;
+    width: 100%;
   }
 }
 
