@@ -51,7 +51,7 @@ heroImage: "/img/lifestylecoaching_cut.webp"
 <section class="py-5 gray-bg tab-section">
   <div class="custom-tabs">
     <!-- Tab Navigation -->
-    <ul class="nav nav-tabs justify-content-center border-0" id="lifesryleCoachingTabs" role="tablist">
+    <ul class="nav nav-tabs justify-content-center border-0" id="lifestyleCoachingTabs" role="tablist">
       <li class="nav-item">
         <button class="nav-link px-4 active" id="tab-lifestyle" data-bs-toggle="tab" data-bs-target="#lifestyle" type="button" role="tab" aria-controls="lifestyle" aria-selected="true" aria-label="Leefstijlcoaching">
           Leefstijlcoaching
