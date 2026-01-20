@@ -49,28 +49,28 @@ heroImage: "/img/lifestylecoaching_cut.webp"
 </div>
 <!-- Tabs Section -->
 <section class="py-5 gray-bg tab-section">
+  <div class="custom-tabs">
+    <!-- Tab Navigation -->
+    <ul class="nav nav-tabs justify-content-center border-0" id="lifesryleCoachingTabs" role="tablist">
+      <li class="nav-item">
+        <button class="nav-link px-4 active" id="tab-lifestyle" data-bs-toggle="tab" data-bs-target="#lifestyle" type="button" role="tab" aria-controls="lifestyle" aria-selected="true" aria-label="Leefstijlcoaching">
+          Leefstijlcoaching
+        </button>
+      </li>
+      <li class="nav-item">
+        <button class="nav-link px-4" id="tab-info" data-bs-toggle="tab" data-bs-target="#info" type="button" role="tab" aria-controls="info" aria-selected="false" aria-label="Praktische Informatie">
+          Praktische Informatie
+        </button>
+      </li>
+      <li class="nav-item">
+        <button class="nav-link px-4" id="tab-pricing" data-bs-toggle="tab" data-bs-target="#pricing" type="button" role="tab" aria-controls="pricing" aria-selected="false" aria-label="Tarieven">
+          Tarieven
+        </button>
+      </li>
+    </ul>
+    <div class="tab-line"></div>
+  </div>
   <div class="container">
-    <div class="custom-tabs">
-      <!-- Tab Navigation -->
-      <ul class="nav nav-tabs justify-content-center border-0" id="lifesryleCoachingTabs" role="tablist">
-        <li class="nav-item">
-          <button class="nav-link px-4 active" id="tab-lifestyle" data-bs-toggle="tab" data-bs-target="#lifestyle" type="button" role="tab" aria-controls="lifestyle" aria-selected="true" aria-label="Leefstijlcoaching">
-            Leefstijlcoaching
-          </button>
-        </li>
-        <li class="nav-item">
-          <button class="nav-link px-4" id="tab-info" data-bs-toggle="tab" data-bs-target="#info" type="button" role="tab" aria-controls="info" aria-selected="false" aria-label="Praktische Informatie">
-            Praktische Informatie
-          </button>
-        </li>
-        <li class="nav-item">
-          <button class="nav-link px-4" id="tab-pricing" data-bs-toggle="tab" data-bs-target="#pricing" type="button" role="tab" aria-controls="pricing" aria-selected="false" aria-label="Tarieven">
-            Tarieven
-          </button>
-        </li>
-      </ul>
-      <div class="tab-line"></div>
-    </div>
     <div class="tab-content pt-3 mt-4" id="lifestyleCoachingTabsContent" style="overflow:hidden">
       <!-- Lifestyle Coaching Tab -->
       <div class="mb-3 tab-pane fade active show" id="lifestyle" role="tabpanel" aria-labelledby="tab-lifestyle">

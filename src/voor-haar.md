@@ -49,28 +49,28 @@ heroImage: "/img/Feli_soca_phone.webp"
 </div>
 <!-- Tabs Section -->
 <section class="py-5 gray-bg tab-section">
+  <div class="custom-tabs">
+    <!-- Tab Navigation -->
+    <ul class="nav nav-tabs justify-content-center border-0" id="forHerTabs" role="tablist">
+      <li class="nav-item">
+        <button class="nav-link px-4 active" id="tab-forher" data-bs-toggle="tab" data-bs-target="#forher" type="button" role="tab" aria-controls="forher" aria-selected="true" aria-label="Voor haar">
+          Voor haar
+        </button>
+      </li>
+      <li class="nav-item">
+        <button class="nav-link px-4" id="tab-info" data-bs-toggle="tab" data-bs-target="#info" type="button" role="tab" aria-controls="info" aria-selected="false" aria-label="Praktische informatie">
+          Praktische Informatie
+        </button>
+      </li>
+      <li class="nav-item">
+        <button class="nav-link px-4" id="tab-pricing" data-bs-toggle="tab" data-bs-target="#pricing" type="button" role="tab" aria-controls="pricing" aria-selected="false" aria-label="Tarieven">
+          Tarieven
+        </button>
+      </li>
+    </ul>
+    <div class="tab-line"></div>
+  </div>
   <div class="container">
-    <div class="custom-tabs">
-      <!-- Tab Navigation -->
-      <ul class="nav nav-tabs justify-content-center border-0" id="forHerTabs" role="tablist">
-        <li class="nav-item">
-          <button class="nav-link px-4 active" id="tab-forher" data-bs-toggle="tab" data-bs-target="#forher" type="button" role="tab" aria-controls="forher" aria-selected="true" aria-label="Voor haar">
-            Voor haar
-          </button>
-        </li>
-        <li class="nav-item">
-          <button class="nav-link px-4" id="tab-info" data-bs-toggle="tab" data-bs-target="#info" type="button" role="tab" aria-controls="info" aria-selected="false" aria-label="Praktische informatie">
-            Praktische Informatie
-          </button>
-        </li>
-        <li class="nav-item">
-          <button class="nav-link px-4" id="tab-pricing" data-bs-toggle="tab" data-bs-target="#pricing" type="button" role="tab" aria-controls="pricing" aria-selected="false" aria-label="Tarieven">
-            Tarieven
-          </button>
-        </li>
-      </ul>
-      <div class="tab-line"></div>
-    </div>
     <div class="tab-content pt-3 mt-4" id="forHerTabsContent" style="overflow:hidden">
       <!-- Voor Haar Tab -->
       <div class="mb-3 tab-pane fade active show" id="forher" role="tabpanel" aria-labelledby="tab-forher">
