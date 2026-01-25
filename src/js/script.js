@@ -76,22 +76,46 @@ document.addEventListener('DOMContentLoaded', () => {
   // Function to update the slider position
   const updateSliderPosition = (activeTab) => {
     if (!activeTab) return;
-    const leftPosition = activeTab.offsetLeft;
-    const width = activeTab.offsetWidth;
 
-    slider.style.left = `${leftPosition}px`;
-    slider.style.width = `${width}px`;
+    const isSmallScreen = window.innerWidth < 768;
+    const fixedWidth = 50;
+    const mobileHeight = 4;
+    const mobileRadius = mobileHeight / 2;
+
+    let targetTranslateX, targetWidth;
+
+    if (isSmallScreen) {
+        // Special behavior for small screens
+        targetWidth = fixedWidth;
+        slider.style.height = `${mobileHeight}px`;
+        slider.style.borderRadius = `${mobileRadius}px`;
+        
+        // Math to center the fixed line under the tab:
+        // Tab's Left + (Half Tab Width) - (Half Slider Width)
+        targetTranslateX = activeTab.offsetLeft + (activeTab.offsetWidth / 2) - (fixedWidth / 2);
+    } else {
+        // Normal behavior on larger screens
+        targetWidth = activeTab.offsetWidth;
+        targetTranslateX = activeTab.offsetLeft;
+
+        slider.style.height = ''; 
+        slider.style.borderRadius = '';
+    }
+
+    // Apply styles
+    slider.style.transform = `translateX(${targetTranslateX}px)`;
+    slider.style.width = `${targetWidth}px`;
     
-    // Auto-scroll: to center the active tab on mobile
+    // Auto-scroll logic to center the tab
     const container = document.querySelector('.custom-tabs');
     if(container) {
-        const scrollLeft = leftPosition - (container.offsetWidth / 2) + (width / 2);
+        const scrollLeft = activeTab.offsetLeft - (container.offsetWidth / 2) + (activeTab.offsetWidth / 2);
         container.scrollTo({
             left: scrollLeft,
             behavior: 'smooth'
         });
     }
-  };
+};
 
   // Function to activate the specified tab
   const activateTab = (tabId) => {
@@ -107,7 +131,7 @@ document.addEventListener('DOMContentLoaded', () => {
     }
   };
 
-  // Add click event listeners to tabs and dropdown items
+  // Add click event listeners to tabs
   const handleTabClick = (e) => {
     const tabId = e.target.getAttribute('data-bs-target').substring(1); // Remove the leading '#' with substring
     activateTab(tabId);
@@ -134,11 +158,18 @@ document.addEventListener('DOMContentLoaded', () => {
   prevTabBtn?.addEventListener('click', () => handleArrowButtonClick(-1));
   nextTabBtn?.addEventListener('click', () => handleArrowButtonClick(1));
 
-  // Update slider position on window resize
+  // Update slider position on window resize with a debounce
+  let resizeTimer;
   window.addEventListener('resize', () => {
-    const activeTab = document.querySelector('.nav-tabs button.nav-link.active');
-    updateSliderPosition(activeTab);
-  });
+    // Clear the previous timer if the user keeps resizing
+    clearTimeout(resizeTimer);
+
+    // Wait 100ms after the last resize event to run the update
+    resizeTimer = setTimeout(() => {
+        const activeTab = document.querySelector('.nav-tabs .active');
+        updateSliderPosition(activeTab);
+    }, 100);
+});
 
   // Set initial slider position
   if (tabs.length > 0) {
