@@ -1,13 +1,13 @@
 ---
 layout: layouts/base.njk
-title: "JoyFeli - Privacyverklaring"
+title: "JoyFeli - Privacy Statement"
 locale: "en"
 pageKey: "privacy"
 ---
 
 <div class="container mt-custom my-5">
     <h1 class="text-center mb-4">Privacy Statement JoyFeli Coaching</h1>
-    <p class="text-muted text-center">Last updated: February 2025</p>
+    <p class="text-muted text-center">Last updated: September 2026</p>
     <h2>Introduction</h2>
     <p>
         Welcome to the privacy statement of JoyFeli Coaching. I highly value the privacy of my clients. In this statement, I explain how I collect, use, and protect personal data in accordance with the General Data Protection Regulation (GDPR).
@@ -17,6 +17,9 @@ pageKey: "privacy"
         JoyFeli Coaching is a coaching company focused on lifestyle and personal coaching. I help clients improve their physical, emotional, and mental well-being. I provide guidance through personalized coaching programs where confidentiality is of utmost importance.
     </p>
     <h2>Personal Data I Collect</h2>
+    <p>
+        In the context of my services, I collect the following personal data from my clients:
+    </p>
     <ul>
         <li>Name</li>
         <li>Phone number</li>
@@ -53,12 +56,22 @@ pageKey: "privacy"
             <strong>Legal Obligation</strong>: In some cases, I am required to retain data due to legal requirements.
         </li>
     </ul>
+    <h2>Use of Artificial Intelligence (AI)</h2>
+    <p>To keep my administration and services efficient, I use AI tools to support administrative tasks, such as
+        summarizing session notes. I always ensure that identifiable personal data and sensitive health
+        information are removed or anonymized as much as possible before being processed in an AI system. The
+        inputted data is not used to train public AI models, and all final coaching advice is always reviewed and
+        determined by me personally.
+    </p>
     <h2>Sharing Data with Third Parties</h2>
     <p>I do not share your personal data with third parties unless it is necessary for the performance of the coaching services (e.g., a collaborating partner such as a doctor or specialist) or when required by law.
     </p>
     <h2>How Long I Retain Your Data</h2>
     <p>I do not retain your personal data longer than necessary for the purpose it was collected, and in any case, no longer than 5 years after the end of the coaching program, unless there is a legal obligation to retain it longer.</p>
     <h2>Your Rights</h2>
+    <p>
+        As a client, you have the following rights regarding your personal data:
+    </p>
     <ul>
         <li><strong>Access</strong>: You have the right to access the data I hold about you.</li>
         <li><strong>Correction</strong>: You can request to correct inaccurate data.</li>
