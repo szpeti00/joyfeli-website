@@ -55,7 +55,13 @@ pageKey: "terms"
     </section>
     <section class="mb-4">
         <h2>7. Confidentiality</h2>
-        <p>All personal information shared by the Client, including health data, fitness progress, and personal preferences, will be kept confidential and will only be shared with third parties with the Client's explicit consent. The Coach will comply with the General Data Protection Regulation (GDPR), the privacy law applicable within the European Union, regarding the collection, processing, and storage of personal data.</p>
+        <p>All personal information shared by the Client, including health data, fitness progress, and personal
+            preferences, will be kept confidential and will only be shared with third parties with the Client's explicit
+            consent. The Coach will comply with the General Data Protection Regulation (GDPR), the privacy law
+            applicable within the European Union, regarding the collection, processing, and storage of personal data.
+            The Coach may use artificial intelligence (AI) tools to assist with administrative tasks, such as
+            summarizing session notes. In such cases, the Coach will take reasonable steps to anonymize
+            identifying personal and health information before processing.</p>
     </section>
     <section class="mb-4">
         <h2>8. Limitation of Liability</h2>
