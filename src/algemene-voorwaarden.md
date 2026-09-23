@@ -63,7 +63,15 @@ pageKey: "terms"
     </section>
     <section class="mb-4">
         <h2>9. Intellectuele Eigendom</h2>
-        <p>Alle trainingsmaterialen, bronnen en programma's die door de Coach worden verstrekt, zijn eigendom van de Coach en zijn beschermd door auteursrechten. Cliënten mogen geen trainingsmaterialen kopiëren, distribueren of reproduceren zonder voorafgaande schriftelijke toestemming.</p>
+        <p>Alle persoonlijke informatie die door de Cliënt wordt gedeeld, inclusief gezondheidsgegevens,
+            fitnessvoortgang en persoonlijke voorkeuren, wordt vertrouwelijk behandeld en zal alleen met derden
+            worden gedeeld met expliciete toestemming van de Cliënt. De Coach zal voldoen aan de Algemene
+            Verordening Gegevensbescherming (AVG), de privacywet die van toepassing is binnen de Europese Unie,
+            met betrekking tot de verzameling, verwerking en opslag van persoonlijke gegevens. De Coach kan
+            gebruikmaken van kunstmatige intelligentie (AI)-tools ter ondersteuning van administratieve taken,
+            zoals het samenvatten van sessienotities. In dergelijke gevallen zal de Coach redelijke stappen
+            ondernemen om identificerende persoonlijke en gezondheidsgegevens te anonimiseren voordat
+            deze worden verwerkt.</p>
     </section>
     <section class="mb-4">
         <h2>10. Beëindiging van de Overeenkomst</h2>

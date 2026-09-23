@@ -37,6 +37,13 @@ pageKey: "privacy"
     </ul>
     <h2>Delen van gegevens met derden</h2>
     <p>Ik deel jouw persoonsgegevens niet met derden, tenzij dit noodzakelijk is voor de uitvoering van de coachingdiensten of wanneer ik daartoe wettelijk verplicht ben.</p>
+    <h2>Gebruik van Kunstmatige Intelligentie (AI)</h2>
+    <p>Om mijn administratie en dienstverlening efficiënt te houden, maak ik ter ondersteuning van
+        administratieve taken (zoals het samenvatten van sessienotities) gebruik van AI-tools. Ik zorg er altijd voor
+        dat herleidbare persoonsgegevens en gevoelige gezondheidsinformatie zoveel mogelijk worden
+        verwijderd of geanonimiseerd voordat deze in een AI-systeem worden verwerkt. De ingevoerde data wordt
+        niet gebruikt om publieke AI-modellen te trainen, en alle uiteindelijke coachingadviezen worden altijd door
+        mijzelf als mens beoordeeld en vastgesteld.</p>
     <h2>Hoe lang bewaar ik jouw gegevens?</h2>
     <p>Jouw gegevens worden niet langer bewaard dan nodig is, met een maximale bewaartermijn van 5 jaar na beëindiging van het coachingtraject, tenzij er een wettelijke verplichting bestaat om ze langer te bewaren.</p>
     <h2>Jouw rechten</h2>
