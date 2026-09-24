@@ -36,12 +36,84 @@ media_folder: "src/img"
 public_folder: "/img"
 
 collections:
-  - name: posts
-    label: Posts
-    folder: src
+  - name: "pages_nl"
+    label: "Dutch Pages"
+    folder: "src"
     create: true
-    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Publish Date", name: "date", widget: "datetime"}
       - {label: "Body", name: "body", widget: "markdown"}
+      
+  - name: "pages_en"
+    label: "English Pages"
+    folder: "src/en"
+    create: true
+    fields:
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Publish Date", name: "date", widget: "datetime"}
+      - {label: "Body", name: "body", widget: "markdown"}
+
+  - name: "specific_pages"
+    label: "Specific Pages"
+    files:
+      - file: "src/en/personal-training.md"
+        label: "Personal Training (EN)"
+        name: "personal_training_en"
+        fields:
+          - {label: "Hero Title", name: "hero.title", widget: "string"}
+          - {label: "Hero Subtitle", name: "hero.subtitle", widget: "string"}
+          - {label: "Hero Text", name: "hero.text", widget: "text"}
+          
+          - label: "Tab 1: Intro Texts"
+            name: "tab_intro"
+            widget: "object"
+            fields:
+              - {label: "Section 1 Title", name: "section1_title", widget: "string"}
+              - {label: "Section 1 Subtitle", name: "section1_subtitle", widget: "string"}
+              - {label: "Section 1 Text", name: "section1_text", widget: "markdown"}
+              - {label: "Section 2 Title", name: "section2_title", widget: "string"}
+              - {label: "Section 2 Subtitle", name: "section2_subtitle", widget: "string"}
+              - {label: "Section 2 Text", name: "section2_text", widget: "markdown"}
+
+          - label: "Tab 2: Practical Info"
+            name: "tab_info"
+            widget: "object"
+            fields:
+              - {label: "Title", name: "title", widget: "string"}
+              - {label: "Intro Text", name: "intro_text", widget: "markdown"}
+              - label: "Process Steps"
+                name: "steps"
+                widget: "list"
+                fields:
+                  - {label: "ID (No spaces)", name: "id", widget: "string"}
+                  - {label: "Title", name: "title", widget: "string"}
+                  - {label: "Icon Name", name: "main_icon", widget: "string"}
+                  - {label: "Description", name: "description", widget: "markdown"}
+                  - label: "Features List"
+                    name: "features"
+                    widget: "list"
+                    fields:
+                      - {label: "Icon Name", name: "icon", widget: "string"}
+                      - {label: "Text", name: "text", widget: "string"}
+
+          - label: "Tab 3: Pricing"
+            name: "tab_pricing"
+            widget: "object"
+            fields:
+              - {label: "Title", name: "title", widget: "string"}
+              - {label: "Intro Text", name: "intro_text", widget: "markdown"}
+              - label: "Pricing Packages"
+                name: "packages"
+                widget: "list"
+                fields:
+                  - {label: "ID (No spaces)", name: "id", widget: "string"}
+                  - {label: "Title", name: "title", widget: "string"}
+                  - {label: "Duration", name: "duration", widget: "string"}
+                  - {label: "Solo Price", name: "price_solo", widget: "string"}
+                  - {label: "Duo Price", name: "price_duo", widget: "string"}
+                  - label: "Features"
+                    name: "features"
+                    widget: "list"
+                    field: {label: "Feature Text", name: "feature", widget: "string"}
+                  - {label: "More Info Text", name: "more_info", widget: "markdown"}
