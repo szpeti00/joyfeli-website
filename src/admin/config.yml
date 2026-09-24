@@ -30,3 +30,18 @@ logo_url: https://decapbridge.com/decapcms-with-bridge.svg
 
 # Add site links in Decap CMS (optional)
 site_url: https://joyfelicoaching.nl
+
+# ---  CONTENT STRUCTURE ---
+media_folder: "src/img" 
+media_library: "_site/img"
+
+collections:
+  - name: posts
+    label: Posts
+    folder: src
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    fields:
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Publish Date", name: "date", widget: "datetime"}
+      - {label: "Body", name: "body", widget: "markdown"}
