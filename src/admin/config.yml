@@ -33,7 +33,7 @@ site_url: https://joyfelicoaching.nl
 
 # ---  CONTENT STRUCTURE ---
 media_folder: "src/img" 
-media_library: "_site/img"
+public_folder: "/img"
 
 collections:
   - name: posts
