@@ -1,10 +1,10 @@
 ---
 layout: layouts/base.njk
-title: "JoyFeli - Privacyverklaring"
-locale: "nl"
-pageKey: "privacy"
+title: JoyFeli - Privacyverklaring
+locale: nl
+pageKey: privacy
+date: 2026-09-24T11:06:00.000+02:00
 ---
-
 <div class="container mt-custom my-5">
     <h1 class="text-center mb-4">Privacyverklaring JoyFeli Coaching</h1>
     <p class="text-muted text-center">Laatst bijgewerkt: Februari 2025</p>
@@ -47,6 +47,8 @@ pageKey: "privacy"
     <h2>Hoe lang bewaar ik jouw gegevens?</h2>
     <p>Jouw gegevens worden niet langer bewaard dan nodig is, met een maximale bewaartermijn van 5 jaar na beëindiging van het coachingtraject, tenzij er een wettelijke verplichting bestaat om ze langer te bewaren.</p>
     <h2>Jouw rechten</h2>
+
+<p>Als cliënt heb je de volgende rechten met betrekking tot je persoonsgegevens:</p>
     <ul>
         <li>Inzage in jouw gegevens</li>
         <li>Correctie van onjuiste gegevens</li>
