@@ -91,6 +91,13 @@ reviews:
         unique situation and goals, and takes an integrated approach, Feli is
         the right coach for you!
       author: Flora Adams
+    - title: Embracing the Healthy Bon Vivant Within
+      quote: Thank you, Feli, for your thoughtful coaching and the insights I’ve
+        gained. You have a wealth of knowledge about lifestyle, nutrition, and
+        movement, and you ask questions that really make me think. You’ve been a
+        valuable part of my journey towards a new lifestyle, helping me embrace
+        the healthy bon vivant within!
+      author: Marjolijn van Roekel
 contact_section:
   title: Contact
   subtitle: Contact me for more information
