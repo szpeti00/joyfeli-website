@@ -79,12 +79,6 @@ reviews:
         unique situation and goals, and takes an integrated approach, Feli is
         the right coach for you!
       author: Flora Adams
-    - title: Unique, Supported, Empowered
-      quote: Feli coaches you and truly sees you as a unique person. She listens, is
-        interested, and explains clearly what you can do best. She is
-        enthusiastic with everyone and always helpful. Feli is a real people
-        person and gives you the power to go for it!
-      author: Anja Peterse
     - title: Personalised Support Through Menopause
       quote: Wow, what an amazing experience! Feli truly stands by your side and takes
         the time to create a fully personalised programme, including thoughtful
@@ -93,6 +87,12 @@ reviews:
         supported. Highly recommended for anyone serious about taking charge of
         their health!
       author: Letty van Hoef
+    - title: Unique, Supported, Empowered
+      quote: Feli coaches you and truly sees you as a unique person. She listens, is
+        interested, and explains clearly what you can do best. She is
+        enthusiastic with everyone and always helpful. Feli is a real people
+        person and gives you the power to go for it!
+      author: Anja Peterse
     - title: Embracing the Healthy Bon Vivant Within
       quote: Thank you, Feli, for your thoughtful coaching and the insights I’ve
         gained. You have a wealth of knowledge about lifestyle, nutrition, and
