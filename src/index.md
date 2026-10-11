@@ -108,6 +108,16 @@ reviews:
         haar bereik ik meer dan ik dacht. Ik kan Feli van harte aanbevelen als
         inspirerende coach
       author: Norbert Essink
+    - quote: De leefstijlcoaching met Feli was een bijzondere ervaring. Ze creëerde
+        een veilige, ondersteunende omgeving waarin ik mijn eigen tempo kon
+        volgen, mezelf meer leerde accepteren en kleine, betekenisvolle gezonde
+        gewoontes ontwikkelde. In plaats van te vertellen wat ik moest doen,
+        hielp ze me reflecteren en zelf de antwoorden te ontdekken. Ik rondde de
+        sessies af met een lichter gevoel, meer positiviteit en trots op de
+        stappen die ik had gezet. Ik raad Feli absoluut aan aan iedereen die
+        nieuwsgierig is naar leefstijlcoaching!
+      title: Een waardevolle stap naar blijvende verandering
+      author: Nabilah Nuha
 contact_section:
   title: Contact
   subtitle: Neem contact met mij op
