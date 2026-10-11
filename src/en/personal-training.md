@@ -46,11 +46,11 @@ tab_intro:
     Why not put this knowledge to work for you? By combining **scientific insights** with **personalised coaching**, we can create an approach that helps you grow stronger, support your health, and look to the future with confidence.
 tab_info:
   title: How Does the Process Work?
-  intro_text: >
-    Personal training focuses on improving your physical health and fitness
-    through goal-oriented **training, movement, and motivation**. I tailor each
-    session to your personal goals, level, and abilities, ensuring effective and
-    sustainable progress. 
+  intro_text: >-
+    We work with a personalised training plan tailored to **your goals, fitness
+    level, needs, and preferences**. Through a varied mix of training methods,
+    we'll build strength, fitness, and confidence in your body, step by step, in
+    a way that works for you.
 
 
     A coaching program consists of multiple sessions, structured in a logical sequence.
@@ -127,11 +127,11 @@ tab_info:
     - id: location
       title: Location
       main_icon: home-icon
-      description: Personal training sessions take place in my private practice in
-        **Wageningen**, a calm and supportive environment to focus on your
-        goals. If you prefer training **outdoors or at home**, that’s also
-        possible. The most important thing is that you feel comfortable and
-        motivated to make lasting changes to your physical health.
+      description: Personal training takes place at a location that suits you and your
+        training. We can train **outdoors** in Wageningen and the surrounding
+        area, or **at your home** if you have enough space. Together, we'll
+        choose a place where you feel comfortable moving and can work towards
+        your goals.
       features:
         - icon: home-modern-icon
           text: Wageningen Practice
