@@ -100,6 +100,14 @@ reviews:
         mezelf heb weten te omarmen!
       title: De gezonde Bourgondiër omarmen
       author: Marjolijn van Roekel
+    - title: Persoonlijke begeleiding rondom de menopauze
+      quote: Wauw, wat een geweldige ervaring! Feli staat écht naast je en neemt alle
+        tijd om een volledig persoonlijk programma op te stellen, met doordacht
+        voedings- en supplementenadvies. Haar kennis en betrokkenheid zijn
+        indrukwekkend; ik voelde me meteen gehoord, begrepen en supergoed
+        geholpen. Een absolute aanrader voor iedereen die serieus aan de slag
+        wil met zijn gezondheid!
+      author: Letty van Hoef
 contact_section:
   title: Contact
   subtitle: Neem contact met mij op
