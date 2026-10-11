@@ -196,4 +196,17 @@ tab_pricing:
         - Gratis kennismaking
         - Flexibel
         - Keuzevrijheid
+    - id: Online Coaching
+      title: Online Coaching
+      duration: 1 Maand
+      price_solo: € 100
+      more_info: Online coaching biedt de flexibiliteit om op jouw **eigen tempo** en
+        vanuit je **eigen omgeving** aan je gezondheid te werken. Met
+        persoonlijke begeleiding leer je zelfstandig inzichten toe te passen en
+        keuzes te maken die bij jou passen.
+      features:
+        - Persoonlijke belmomenten
+        - Doorlopend appcontact
+        - Videoanalyse & feedback
+        - Persoonlijke begeleiding
 ---
