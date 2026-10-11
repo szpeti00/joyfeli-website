@@ -1,0 +1,117 @@
+---
+layout: layouts/base.njk
+---
+<!-- Hero Section -->
+<section class="hero-section overflow-hidden">
+  <div class="container position-relative">
+    <div class="row">
+      <div class="col-12 position-relative m-0 p-0">
+        <div class="bg-image-container animate-slide-in-right">
+          <picture class="bg-image">
+            <source media="(max-width: 575px)" srcset="{{ heroImage | replace('.jpg', '_phone.webp') }}" type="image/webp">
+            <source media="(max-width: 575px)" srcset="{{ heroImage | replace('.jpg', '_phone.jpg') }}" type="image/jpeg">
+            <source srcset="{{ heroImage | replace('.jpg', '.webp') }}" type="image/webp">
+            <source srcset="{{ heroImage }}" type="image/jpeg">
+            <img class="bg-image-img" src="{{ heroImage }}" alt="{{ hero.title }} Background" width="1320" height="665" loading="eager" fetchpriority="high">
+          </picture>
+        </div>
+        <div class="text-overlay aboutme-text animate-slide-in-left bg-white bg-opacity-75 p-4 p-xxl-5">
+          <h1 class="separator text-uppercase">
+            <span class="d-block mb-2">
+              <span><strong>{{ hero.title }}</strong></span>
+            </span>
+          </h1>
+          <h4>
+            <span class="d-block mb-3 fst-italic">
+              {{ hero.subtitle }}
+            </span>
+          </h4>
+          <p>{{ hero.text }}</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="sun-divider"><span class="sun"></span></div>
+
+<!-- Tabs Section -->
+<section class="py-5 gray-bg tab-section">
+  <div class="custom-tabs">
+    <ul class="nav nav-tabs justify-content-center border-0" id="aboutMeTabs" role="tablist">
+      <li class="nav-item">
+        <button class="nav-link px-4 active" id="tab-about" data-bs-toggle="tab" data-bs-target="#about" type="button" role="tab">{{ tabs.about }}</button>
+      </li>
+      <li class="nav-item">
+        <button class="nav-link px-4" id="tab-studies" data-bs-toggle="tab" data-bs-target="#studies" type="button" role="tab">{{ tabs.studies }}</button>
+      </li>
+      <li class="nav-item">
+        <button class="nav-link px-4" id="tab-work" data-bs-toggle="tab" data-bs-target="#work" type="button" role="tab">{{ tabs.work }}</button>
+      </li>
+    </ul>
+    <div class="tab-line"></div>
+  </div>
+  <div class="container px-0 px-sm-3">
+    <div class="tab-content pt-3 mt-4" id="aboutMeTabsContent" style="overflow:hidden">
+      <!-- About me Tab -->
+      <div class="mb-3 tab-pane fade active show" id="about" role="tabpanel">
+        <div class="row px-2 px-sm-0">
+          <div class="col-lg-6">
+            <h4 class="mt-4 mb-3 separator">{{ tab_about.greeting }}</h4>
+            <h5 class="mb-0 mb-lg-3"><i>{{ tab_about.subtitle }}</i></h5>
+            <div>{{ tab_about.top_text | markdown | safe }}</div>
+          </div>
+          <div class="col-lg-6 my-0 my-lg-3">
+            <picture>
+              <source srcset="{{ tab_about.profile_image | replace('.jpg', '.webp') }}" type="image/webp">
+              <source srcset="{{ tab_about.profile_image }}" type="image/jpeg">
+              <img class="img-fluid profile-img my-3 my-lg-5" src="{{ tab_about.profile_image }}" alt="Profile picture" loading="lazy">
+            </picture>
+          </div>
+        </div>
+        <div class="row px-2 px-sm-0">
+          <div class="col-lg-6 px-0 px-lg-3 my-3 order-last order-lg-first ">
+            <picture>
+              <source media="(max-width: 575px)" srcset="{{ tab_about.kayak_image | replace('.jpg', '_phone.webp') }}" type="image/webp">
+              <source media="(max-width: 575px)" srcset="{{ tab_about.kayak_image | replace('.jpg', '_phone.jpg') }}" type="image/jpeg">
+              <source srcset="{{ tab_about.kayak_image | replace('.jpg', '.webp') }}" type="image/webp">
+              <source srcset="{{ tab_about.kayak_image }}" type="image/jpeg">
+              <img class="img-fluid kayak-img me-lg-5" src="{{ tab_about.kayak_image }}" alt="Action picture">
+            </picture>
+          </div>
+          <div class="col-lg-6 order-first order-lg-last">
+            <div>{{ tab_about.bottom_text | markdown | safe }}</div>
+          </div>
+        </div>
+      </div>
+      <!-- Studies Tab-->
+      <div class="mb-3 tab-pane fade px-2 px-sm-0" id="studies" role="tabpanel">
+        <h4 class="mt-4 mb-3 separator">{{ tab_studies.title }}</h4>
+        <p>{{ tab_studies.intro_text | markdown | safe }}</p>
+        <ul class="mt-3 list-unstyled">
+          {% for item in tab_studies.items %}
+          <li class="mb-3">
+            {% include "icons/" ~ item.icon ~ ".njk" %}<span>{{ item.text | markdownInline | safe }}</span>
+          </li>
+          {% endfor %}
+        </ul>
+      </div>
+      <!-- Work experience tab -->
+      <div class="mb-3 tab-pane fade px-2 px-sm-0" id="work" role="tabpanel">
+          <h4 class="mt-4 mb-3 separator">{{ tab_work.title }}</h4>
+          <div>{{ tab_work.intro_text | markdown | safe }}</div>
+          <ul class="mt-3 list-unstyled">
+            {% for item in tab_work.items %}
+            <li class="mb-3">
+              {% include "icons/" ~ item.icon ~ ".njk" %}<span>{{ item.text | markdownInline | safe }}</span>
+            </li>
+            {% endfor %}
+          </ul>
+      </div>
+    </div>
+  </div>
+  <div class="mt-3 text-center">
+    <button id="prevTabBtn" class="btn custom-btn mx-3 fs-5" aria-label="Previous tab" disabled>{% include "icons/arrow-left-icon.njk" %}</button>
+    <button id="nextTabBtn" class="btn custom-btn mx-3 fs-5" aria-label="Next tab">{% include "icons/arrow-right-icon.njk" %}</button>
+  </div>
+</section>

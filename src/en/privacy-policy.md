@@ -1,96 +1,77 @@
 ---
-layout: layouts/base.njk
+layout: layouts/terms.njk
 title: "JoyFeli - Privacy Statement"
 locale: "en"
 pageKey: "privacy"
----
 
-<div class="container mt-custom my-5">
-    <h1 class="text-center mb-4">Privacy Statement JoyFeli Coaching</h1>
-    <p class="text-muted text-center">Last updated: September 2026</p>
-    <h2>Introduction</h2>
-    <p>
-        Welcome to the privacy statement of JoyFeli Coaching. I highly value the privacy of my clients. In this statement, I explain how I collect, use, and protect personal data in accordance with the General Data Protection Regulation (GDPR).
-    </p>
-    <h2>Who I Am</h2>
-    <p>
-        JoyFeli Coaching is a coaching company focused on lifestyle and personal coaching. I help clients improve their physical, emotional, and mental well-being. I provide guidance through personalized coaching programs where confidentiality is of utmost importance.
-    </p>
-    <h2>Personal Data I Collect</h2>
-    <p>
-        In the context of my services, I collect the following personal data from my clients:
-    </p>
-    <ul>
-        <li>Name</li>
-        <li>Phone number</li>
-        <li>Email address</li>
-        <li>Gender</li>
-        <li>Medical information (if relevant to the coaching, such as chronic conditions, allergies, etc.)</li>
-        <li>Data related to your emotional and mental well-being (e.g., through questionnaires or conversations)</li>
-    </ul>
-    <h2>Purposes of Data Processing</h2>
-    <p>
-        I process this data for the following purposes:
-    </p>
-    <ul>
-        <li>To create and implement coaching programs</li>
-        <li>To maintain contact with you for administrative and organizational purposes</li>
-        <li>To provide tailored coaching and advice</li>
-        <li>To respond to your questions or requests</li>
-        <li>To comply with legal obligations (such as tax laws)</li>
-    </ul>
-    <h2>Legal Basis for Processing</h2>
-    <p>
-        The processing of your personal data is based on the following legal grounds:
-    </p>
-    <ul>
-        <li>
-            <strong>Consent</strong>: When I collect sensitive data (e.g., medical or emotional
-            information), I explicitly request your consent.
-        </li>
-        <li>
-            <strong>Contract</strong>: It is necessary to collect data for the execution of my coaching
-            services.
-        </li>
-        <li>
-            <strong>Legal Obligation</strong>: In some cases, I am required to retain data due to legal requirements.
-        </li>
-    </ul>
-    <h2>Use of Artificial Intelligence (AI)</h2>
-    <p>To keep my administration and services efficient, I use AI tools to support administrative tasks, such as
-        summarizing session notes. I always ensure that identifiable personal data and sensitive health
-        information are removed or anonymized as much as possible before being processed in an AI system. The
-        inputted data is not used to train public AI models, and all final coaching advice is always reviewed and
-        determined by me personally.
-    </p>
-    <h2>Sharing Data with Third Parties</h2>
-    <p>I do not share your personal data with third parties unless it is necessary for the performance of the coaching services (e.g., a collaborating partner such as a doctor or specialist) or when required by law.
-    </p>
-    <h2>How Long I Retain Your Data</h2>
-    <p>I do not retain your personal data longer than necessary for the purpose it was collected, and in any case, no longer than 5 years after the end of the coaching program, unless there is a legal obligation to retain it longer.</p>
-    <h2>Your Rights</h2>
-    <p>
-        As a client, you have the following rights regarding your personal data:
-    </p>
-    <ul>
-        <li><strong>Access</strong>: You have the right to access the data I hold about you.</li>
-        <li><strong>Correction</strong>: You can request to correct inaccurate data.</li>
-        <li><strong>Deletion</strong>: You can request the deletion of your data, unless I still need it to perform a contract or comply with a legal obligation.</li>
-        <li><strong>Restriction of Processing</strong>: You can request to limit the processing of your data.</li>
-        <li>Portability: You have the right to receive your data in a structured, commonly used, and machine-readable format, and transfer it to another processor.</li>
-        <li><strong>Withdrawal of Consent</strong>: When the processing of data is based on consent, you can withdraw that consent at any time.</li>
-    </ul>
-    <h2>Data Security</h2>
-    <p>I take appropriate technical and organizational measures to protect your personal data against loss, unauthorized access, or unlawful processing.</p>
-    <h2>Contact</h2>
-    <p>If you have any questions about this privacy statement or wish to exercise your rights, you can contact me at:</p>
-    <ul>
-        <li><strong>Email:</strong> <a href="mailto:Feli.aarsman@gmail.com">Feli.aarsman@gmail.com</a></li>
-        <li><strong>Phone:</strong> 06-11220741</li>
-    </ul>
-    <h2>Changes to the Privacy Statement</h2>
-    <p>This privacy statement may be updated from time to time. I recommend regularly reviewing this statement to stay informed of any changes.</p>
-    <a href="/static/privacy-policy.pdf">
-        <button class="btn custom-btn" aria-label="Download">Download</button>
-    </a>
-</div>
+title_display: "Privacy Statement JoyFeli Coaching"
+last_updated: "Last updated: September 2026"
+pdf_link: "/static/privacy-policy.pdf"
+button_text: "Download"
+button_label: "Download"
+
+sections:
+  - title: "Introduction"
+    content: |
+      Welcome to the privacy statement of JoyFeli Coaching. I highly value the privacy of my clients. In this statement, I explain how I collect, use, and protect personal data in accordance with the General Data Protection Regulation (GDPR).
+  - title: "Who I Am"
+    content: |
+      JoyFeli Coaching is a coaching company focused on lifestyle and personal coaching. I help clients improve their physical, emotional, and mental well-being. I provide guidance through personalized coaching programs where confidentiality is of utmost importance.
+  - title: "Personal Data I Collect"
+    content: |
+      In the context of my services, I collect the following personal data from my clients:
+
+      * Name
+      * Phone number
+      * Email address
+      * Gender
+      * Medical information (if relevant to the coaching, such as chronic conditions, allergies, etc.)
+      * Data related to your emotional and mental well-being (e.g., through questionnaires or conversations)
+  - title: "Purposes of Data Processing"
+    content: |
+      I process this data for the following purposes:
+
+      * To create and implement coaching programs
+      * To maintain contact with you for administrative and organizational purposes
+      * To provide tailored coaching and advice
+      * To respond to your questions or requests
+      * To comply with legal obligations (such as tax laws)
+  - title: "Legal Basis for Processing"
+    content: |
+      The processing of your personal data is based on the following legal grounds:
+
+      * **Consent**: When I collect sensitive data (e.g., medical or emotional information), I explicitly request your consent.
+      * **Contract**: It is necessary to collect data for the execution of my coaching services.
+      * **Legal Obligation**: In some cases, I am required to retain data due to legal requirements.
+  - title: "Use of Artificial Intelligence (AI)"
+    content: |
+      To keep my administration and services efficient, I use AI tools to support administrative tasks, such as summarizing session notes. I always ensure that identifiable personal data and sensitive health information are removed or anonymized as much as possible before being processed in an AI system. The inputted data is not used to train public AI models, and all final coaching advice is always reviewed and determined by me personally.
+  - title: "Sharing Data with Third Parties"
+    content: |
+      I do not share your personal data with third parties unless it is necessary for the performance of the coaching services (e.g., a collaborating partner such as a doctor or specialist) or when required by law.
+  - title: "How Long I Retain Your Data"
+    content: |
+      I do not retain your personal data longer than necessary for the purpose it was collected, and in any case, no longer than 5 years after the end of the coaching program, unless there is a legal obligation to retain it longer.
+  - title: "Your Rights"
+    content: |
+      As a client, you have the following rights regarding your personal data:
+
+      * **Access**: You have the right to access the data I hold about you.
+      * **Correction**: You can request to correct inaccurate data.
+      * **Deletion**: You can request the deletion of your data, unless I still need it to perform a contract or comply with a legal obligation.
+      * **Restriction of Processing**: You can request to limit the processing of your data.
+      * **Portability**: You have the right to receive your data in a structured, commonly used, and machine-readable format, and transfer it to another processor.
+      * **Withdrawal of Consent**: When the processing of data is based on consent, you can withdraw that consent at any time.
+  - title: "Data Security"
+    content: |
+      I take appropriate technical and organizational measures to protect your personal data against loss, unauthorized access, or unlawful processing.
+  - title: "Contact"
+    content: |
+      If you have any questions about this privacy statement or wish to exercise your rights, you can contact me at:
+
+      * **Email:** <a href="mailto:Feli.aarsman@gmail.com">Feli.aarsman@gmail.com</a>
+      * **Phone:** 06-11220741
+  - title: "Changes to the Privacy Statement"
+    content: |
+      This privacy statement may be updated from time to time. I recommend regularly reviewing this statement to stay informed of any changes.
+---

@@ -1,303 +1,84 @@
 ---
-layout: layouts/base.njk
+layout: layouts/home.njk
 title: "JoyFeli - Lifestyle Coaching & Personal Training"
 locale: "en"
 pageKey: "home"
 navbarClass: "fixed-top"
-heroImage: "/img/Feli_predel_cut.webp"
+heroImage: "/img/Feli_predel.jpg"
+
+quote:
+  text: '"You cannot step into the same river twice,<br> for other waters are ever flowing on to you."'
+  author: "Heraclitus"
+
+welcome:
+  image: "/img/Feli_mountain.jpg"
+  title_part1: "Train your mind"
+  title_part2: "Train your body"
+  subtitle: "Lifestyle Coach and Personal Trainer in Wageningen"
+  text: |
+    I work with people who are ready to change their lives but don’t know exactly where to start. Whether you want to get **fitter**, build **healthier habits**, or find more **inner balance**, I will guide you with personal coaching and tailored training. Together, we uncover the deeper causes of your behavior and create **lasting change** for both body and mind.
+
+services:
+  title: "Coaching Services"
+  cards:
+    - image: "/img/lifestylecoaching_icon.png"
+      title: "Lifestyle Coaching"
+      subtitle: "The power of behavior"
+      text: "Create healthy habits and discover the power of your behavior and inner motivation, so you can lead a sustainable, balanced life."
+      button_text: "More"
+      link_key: "lifestyleCoaching"
+    - image: "/img/personaltraining_icon.png"
+      title: "Personal Training"
+      subtitle: "Healthy body, strong mind"
+      text: "Strengthen both your physical health and mental well-being with expert, personal guidance."
+      button_text: "More"
+      link_key: "personalTraining"
+    - image: "/img/forher_icon.png"
+      title: "For Her"
+      subtitle: "Safe, strong, and feminine"
+      text: "Rediscover your inner strength and balance in a safe setting, specially for women who want to connect with their power and self-confidence."
+      button_text: "More"
+      link_key: "forHer"
+
+about:
+  title: "About Me"
+  image: "/img/feli.jpg"
+  button_text: "More"
+  link_key: "about"
+  text: |
+    Hi, I'm Feli Aarsman. During my Ecology studies in Wageningen, I fell in love with the city and its nature. I discovered the strong interaction between people and their environment—our well-being is shaped by **biological, psychological**, and **social factors**.
+
+    My passion for nature grew into a fascination with thinking, communication, and behavior, especially in relation to lifestyle and movement. This led me to my role as a coach, where I help people become **physically and mentally stronger**.
+
+    With **eight years of experience** as a **certified instructor**, I’ve learned how positive energy can help us create a stronger, happier world together. Being healthy, strong, and resilient is essential to that journey.
+
+reviews:
+  title: "Reviews"
+  items:
+    - title: "Unique, Supported, Empowered"
+      quote: "Feli coaches you and truly sees you as a unique person. She listens, is interested, and explains clearly what you can do best. She is enthusiastic with everyone and always helpful. Feli is a real people person and gives you the power to go for it!"
+      author: "Anja Peterse"
+    - title: "Inspired to achieve more"
+      quote: "I’m thrilled to work with Feli as my coach. She understands my goals, creates motivating workouts, and ensures I perform exercises correctly. Her positivity and support push me to achieve more. I highly recommend Feli to anyone seeking an inspiring, professional coach!"
+      author: "Norbert Essink"
+    - title: "Empowering Coaching for Women"
+      quote: "Feli is a joy to work with! Over the past two years, she has helped me gradually build strength through weight training, which is crucial for me as a woman and a mother. She deeply understands women's physiology. If you're looking for a coach who truly sees YOU, understands your unique situation and goals, and takes an integrated approach, Feli is the right coach for you!"
+      author: "Flora Adams"
+
+contact_section:
+  title: "Contact"
+  subtitle: "Contact me for more information"
+
+form_section:
+  button: "Send"
+  labels:
+    name: "Name"
+    email: "Email"
+    phone: "Phone"
+    message: "Message"
+  placeholders:
+    name: "Your name"
+    email: "Your email"
+    phone: "Your phone number"
+    message: "Your message"
 ---
-
-<!-- Home Section  -->
-<header class="hero-home vh-100 d-flex align-items-center justify-content-center text-center pt-5">
-  <!-- Inline picture element for background image -->
-  <picture class="hero-home-picture">
-    <!-- Mobile: cut-off version -->
-    <source media="(max-width: 1199px)" srcset="/img/Feli_predel_cut.webp" type="image/webp">
-    <source media="(max-width: 1199px)" srcset="/img/Feli_predel_cut.jpg" type="image/jpeg">
-    <!-- Desktop: full image -->
-    <source srcset="/img/Feli_predel.webp" type="image/webp">
-    <source srcset="/img/Feli_predel.JPG" type="image/jpeg">
-    <img src="/img/Feli_predel.JPG" alt="Hero Background" class="hero-home-img" width="1920" height="1080" sizes="100vw" loading="eager" fetchpriority="high">
-  </picture>
-  <!-- Hero content -->
-  <div class="container hero-home-content">
-    <blockquote class="blockquote">
-      <p class="fs-2 fst-italic">
-        "You cannot step into the same river twice,<br> for other waters are ever flowing on to you."
-      </p>
-      <q class="blockquote-footer text-white">Heraclitus</q>
-    </blockquote>
-  </div>
-</header>
-<!-- End Home Section -->
-<div class="sun-divider white-bg">
-  <span class="sun"></span>
-</div>
-<!-- Welcome Section -->
-<section id="welcome" class="white-bg overflow-hidden">
-  <div class="container position-relative">
-    <div class="row">
-      <div class="col-12 position-relative m-0 p-0">
-        <!-- Background image container -->
-        <div class="bg-image-container welcome-img animate-slide-in-left">
-          <picture class="bg-image">
-            <!-- Mobile: cut-off version -->
-            <source media="(max-width: 575px)" srcset="/img/Feli_mountain_cut.webp" type="image/webp">
-            <source media="(max-width: 575px)" srcset="/img/Feli_mountain_cut.jpg" type="image/jpeg">
-            <!-- Desktop: full image -->
-            <source srcset="/img/Feli_mountain.webp" type="image/webp">
-            <source srcset="/img/Feli_mountain.jpg" type="image/jpeg">
-            <img class="bg-image-img" src="/img/Feli_mountain.jpg" alt="Welcome hero Background Image" width="1320" height="665" loading="lazy">
-          </picture>
-        </div>
-        <!-- Text overlay -->
-        <div class="text-overlay welcome-text animate-slide-in-right-welcome bg-white bg-opacity-75 p-4 p-xxl-5">
-          <h1 class="separator-welcome text-uppercase">
-            <span class="d-block mb-2">
-              <span><strong>Train your mind</strong></span>
-            </span>
-            <span class="d-block text-center mb-2">
-              <strong>Train your body</strong>
-            </span>
-          </h1>
-          <h4 class="mb-4 fst-italic">Lifestyle Coach and Personal Trainer in Wageningen</h4>
-          <p>
-            I work with people who are ready to change their lives but don’t know exactly where to start. Whether you want to get <strong>fitter</strong>, build <strong>healthier habits</strong>, or find more <strong>inner balance</strong>, I will guide you with personal coaching and tailored training. Together, we uncover the deeper causes of your behavior and create <strong>lasting change</strong> for both body and mind.
-          </p>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-<!-- End Welcome Section -->
-<div class="sun-divider white-bg">
-  <span class="sun"></span>
-</div>
-<!-- Coaching Services Section -->
-<section class="py-5 gray-bg" id="services">
-  <div class="container">
-    <h2 class="mb-5 text-center separator-center">Coaching Services</h2>
-    <div class="row">
-      <!-- Lifestyle Coaching Card -->
-      <div class="col-lg-4 mb-4">
-        <div class="card h-100">
-          <picture class="card-img-top w-50 mx-auto mt-4">
-            <source srcset="/img/lifestylecoaching_icon.webp" type="image/webp">
-            <source srcset="/img/lifestylecoaching_icon.png" type="image/png">
-            <img src="/img/lifestylecoaching_icon.png" alt="Lifestyle Coaching Icon" width="208" height="208" loading="lazy">
-          </picture>
-          <div class="card-body custom-color">
-            <h5 class="card-title text-uppercase text-center mb-4">Lifestyle Coaching</h5>
-            <h6 class="mb-2 text-center separator-center">
-              The power of behavior
-            </h6>
-            <p class="card-text">
-              Create healthy habits and discover the power of your behavior and inner motivation, so you can lead a sustainable, balanced life.
-            </p>
-          </div>
-          <div class="card-footer text-center white-bg border-0">
-            <a href={{ links.lifestyleCoaching[locale] }} class="btn custom-btn fs-5">More</a>
-          </div>
-        </div>
-      </div>
-      <!-- Personal Training Card -->
-      <div class="col-lg-4 mb-4">
-        <div class="card h-100">
-          <picture class="card-img-top w-50 mx-auto mt-4">
-            <source srcset="/img/personaltraining_icon.webp" type="image/webp">
-            <source srcset="/img/personaltraining_icon.png" type="image/png">
-            <img src="/img/personaltraining_icon.png" alt="Personal Training Icon" width="208" height="208" loading="lazy">
-          </picture>
-          <div class="card-body custom-color">
-            <h5 class="card-title text-uppercase text-center mb-4">Personal Training</h5>
-            <h6 class="mb-2 text-center separator-center">
-              Healthy body, strong mind
-            </h6>
-            <p class="card-text">
-              Strengthen both your physical health and mental well-being with expert, personal guidance.
-            </p>
-          </div>
-          <div class="card-footer text-center white-bg border-0">
-            <a href="{{ links.personalTraining[locale] }}" class="btn custom-btn fs-5">More</a>
-          </div>
-        </div>
-      </div>
-      <!-- For Her Card -->
-      <div class="col-lg-4 mb-4">
-        <div class="card h-100">
-          <picture class="card-img-top w-50 mx-auto mt-4">
-            <source srcset="/img/forher_icon.webp" type="image/webp">
-            <source srcset="/img/forher_icon.png" type="image/png">
-            <img src="/img/forher_icon.png" alt="For Her Icon" width="208" height="208" loading="lazy">
-          </picture>
-          <div class="card-body custom-color">
-            <h5 class="card-title text-uppercase text-center mb-4">For Her</h5>
-            <h6 class="mb-2 text-center separator-center">
-              Safe, strong, and feminine
-            </h6>
-            <p class="card-text">
-              Rediscover your inner strength and balance in a safe setting, specially for women who want to connect with their power and self-confidence.
-            </p>
-          </div>
-          <div class="card-footer text-center white-bg border-0">
-            <a href={{ links.forHer[locale] }} class="btn custom-btn fs-5">More</a>
-          </div>
-        </div>
-      </div>
-    </div><!-- End Row -->
-  </div>
-</section>
-<!-- End Coaching Services Section -->
-
-<div class="sun-divider white-bg">
-  <span class="sun"></span>
-</div>
-
-<!-- About Me Section -->
-<section class="py-5 white-bg" id="about">
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-6">
-        <h2 class="mb-5 separator">About Me</h2>
-        <p>
-          Hi, I'm Feli Aarsman.
-          During my Ecology studies in Wageningen, I fell in love with the city and its nature. I discovered the strong interaction between people and their environment—our well-being is shaped by <strong>biological, psychological</strong>, and <strong>social factors</strong>.
-        </p>
-        <p>
-          My passion for nature grew into a fascination with thinking, communication, and behavior, especially in relation to lifestyle and movement. This led me to my role as a coach, where I help people become <strong>physically and mentally stronger</strong>.
-        </p>
-        <p>
-          With <strong>eight years of experience</strong> as a <strong>certified instructor</strong>, I’ve learned how positive energy can help us create a stronger, happier world together. Being healthy, strong, and resilient is essential to that journey.
-        </p>
-        <div class="text-center mt-3">
-          <a href={{ links.about[locale] }} class="btn custom-btn fs-5">More</a>
-        </div>
-      </div>
-      <div class="col-lg-6 mt-4">
-        <picture>
-          <source srcset="/img/feli.webp" type="image/webp">
-          <source srcset="/img/feli.jpg" type="image/jpeg">
-          <img class="img-fluid profile-img mx-lg-5 mt-3" src="/img/feli.jpg" alt="Feli Aarsman profile picture" loading="lazy" width="450" height="600">
-      </picture>
-      </div>
-    </div>
-  </div>
-</section>
-<!-- End About Me Section -->
-
-<div class="sun-divider white-bg">
-  <span class="sun"></span>
-</div>
-
-<!-- Reviews Section -->
-<section class="py-5 gray-bg" id="reviews">
-  <div class="container">
-    <h2 class="mb-5 text-center">Reviews</h2>
-    <!-- data-bs-interval to set the time between slides -->
-    <div id="reviewsCarousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="10000">
-      <div class="carousel-inner px-5">
-        <div class="carousel-item text-center active">
-          <h5 class="mb-3 separator-center">Unique, Supported, Empowered</h5>
-          <blockquote class="blockquote">
-            <p class="fst-italic">
-              "Feli coaches you and truly sees you as a unique person. She listens, is interested, and explains clearly what you can do best. She is enthusiastic with everyone and always helpful. Feli is a real people person and gives you the power to go for it!"
-            </p>
-            <footer class="blockquote-footer">Anja Peterse</footer>
-          </blockquote>
-        </div>
-        <div class="carousel-item text-center">
-          <h5 class="mb-3 separator-center">Inspired to achieve more</h5>
-          <blockquote class="blockquote">
-            <p class="fst-italic">
-              "I’m thrilled to work with Feli as my coach. She understands my goals, creates motivating workouts, and ensures I perform exercises correctly. Her positivity and support push me to achieve more. I highly recommend Feli to anyone seeking an inspiring, professional coach!"
-            </p>
-            <footer class="blockquote-footer">Norbert Essink</footer>
-          </blockquote>
-        </div>
-        <div class="carousel-item text-center">
-          <h5 class="mb-3 separator-center">Empowering Coaching for Women</h5>
-          <blockquote class="blockquote">
-            <p class="fst-italic">"Feli is a joy to work with! Over the past two years, she has helped me gradually build strength through weight training, which is crucial for me as a woman and a mother. She deeply understands women's physiology. If you're looking for a coach who truly sees YOU, understands your unique situation and goals, and takes an integrated approach, Feli is the right coach for you!"</p>
-            <footer class="blockquote-footer">Flora Adams</footer>
-          </blockquote>
-        </div>
-      </div>
-      <!-- Previous Button -->
-      <button class="carousel-control-prev d-flex justify-content-start" type="button" data-bs-target="#reviewsCarousel" data-bs-slide="prev" aria-label="Previous">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
-      </button>
-      <!-- Next Button -->
-      <button class="carousel-control-next d-flex justify-content-end" type="button" data-bs-target="#reviewsCarousel" data-bs-slide="next" aria-label="Next">
-        <span class="carousel-control-next-icon text-end" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
-      </button>
-    </div>
-  </div>
-</section>
-<!-- Contact Section -->
-<section class="py-5 green-bg" id="contact">
-  <div class="container d-flex justify-content-center align-items-center">
-    <h2 class="mb-5 visually-hidden">Contact</h2>
-      <div>
-        <h4 class="separator-center">Contact me for more information</h4>
-        <p>
-          {% include "icons/whatsapp-icon.njk" %}
-          <a href="https://wa.me/{{ settings.phone }}" target="_blank" rel="noopener noreferrer">{{ settings.phoneText }}</a> 
-        </p>
-        <p>
-          {% include "icons/email-icon.njk" %}
-          <a href="mailto:{{ settings.email }}">{{ settings.emailText }}</a>
-        </p>
-        <p>
-          {% include "icons/instagram-icon.njk" %}
-          <a href="https://www.instagram.com/{{ settings.instagram }}" target="_blank" rel="noopener noreferrer">{{  settings.instagramText }}</a>
-        </p>
-      </div>
-  </div>
-  <div class="container">
-    <div class="row justify-content-center mt-4">
-      <div class="col-md-8">
-        <form 
-          method="POST"
-          data-netlify="true"
-          netlify-honeypot="bot-field"
-          name="contact-form"
-          class="needs-validation"
-          novalidate
-        >
-          <input type="hidden" name="form-name" value="contact-form" />
-          <div class="visually-hidden">
-            <label>
-              Don't fill this out if you're human:<input name="bot-field">
-            </label>
-          </div>
-          <div class="mb-3">
-            <label for="name" class="form-label">Name</label>
-            <input type="text" class="form-control" id="name" name="name" placeholder="Your name" required>
-            <div class="invalid-feedback">Please enter your name</div>
-          </div>
-          <div class="mb-3">
-            <label for="email" class="form-label">Email</label>
-            <input type="email" class="form-control" id="email" name="email" placeholder="Your email" required>
-            <div class="invalid-feedback">Please enter your email</div>
-          </div>
-          <div class="mb-3">
-            <label for="phone" class="form-label">Phone</label>
-            <input type="tel" class="form-control" id="phone" name="phone" placeholder="Your phone number">
-            <div class="invalid-feedback">Please enter your phone number</div>
-          </div>
-          <div class="mb-3">
-            <label for="message" class="form-label">Message</label>
-            <textarea class="form-control" id="message" name="message" rows="4" placeholder="Your message" required></textarea>
-            <div class="invalid-feedback">Please enter a message</div>
-          </div>
-          <div class="text-center">
-            <button type="submit" class="btn custom-btn fs-5" aria-label="Send">Send</button>
-          </div>
-          <div id="form-message" class="text-center mt-3 p-3 rounded"></div>
-        </form>
-      </div>
-    </div>
-  </div>
-</section>

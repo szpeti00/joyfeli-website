@@ -1,174 +1,57 @@
 ---
-layout: layouts/base.njk
+layout: layouts/about.njk
 title: "JoyFeli - About"
 locale: "en"
 pageKey: "about"
-heroImage: "/img/Feli_soca2_phone.webp"
----
+heroImage: "/img/Feli_soca2_cut.jpg"
 
-<!-- Hero Section -->
-<section class="hero-section overflow-hidden">
-  <div class="container position-relative">
-    <div class="row">
-      <div class="col-12 position-relative m-0 p-0">
-        <!-- Background image container -->
-        <div class="bg-image-container animate-slide-in-right">
-          <picture class="bg-image">
-            <!-- Mobile: cut-off version -->
-            <source media="(max-width: 575px)" srcset="/img/Feli_soca2_phone.webp" type="image/webp">
-            <source media="(max-width: 575px)" srcset="/img/Feli_soca2_phone.jpg" type="image/jpeg">
-            <!-- Desktop: full image -->
-            <source srcset="/img/Feli_soca2_cut.webp" type="image/webp">
-            <source srcset="/img/Feli_soca2_cut.jpg" type="image/jpeg">
-            <img class="bg-image-img" src="/img/Feli_soca2_cut.jpg" alt="About Me Background" width="1320" height="665" loading="eager" fetchpriority="high">
-          </picture>
-        </div>
-        <!-- Text overlay -->
-        <div class="text-overlay aboutme-text animate-slide-in-left bg-white bg-opacity-75 p-4 p-xxl-5">
-          <h1 class="separator text-uppercase">
-            <span class="d-block mb-2">
-              <span><strong>About Me</strong></span>
-            </span>
-          </h1>
-            <h4>
-              <span class="d-block mb-3 fst-italic">
-                The power lies in the flow
-              </span>
-            </h4>
-          <p>
-            Coach and kayaker, with a deep passion for both the river and people. With my experience in coaching and my love for the water, I guide others towards greater self-confidence, balance, and strength—both on the river and in life.
-          </p>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-<!-- End Hero Section -->
-<div class="sun-divider">
-  <span class="sun"></span>
-</div>
-<!-- Tabs Section -->
-<section class="py-5 gray-bg tab-section">
-  <div class="custom-tabs">
-    <!-- Tab Navigation -->
-    <ul class="nav nav-tabs justify-content-center border-0" id="aboutMeTabs" role="tablist">
-      <li class="nav-item">
-        <button class="nav-link px-4 active" id="tab-about" data-bs-toggle="tab" data-bs-target="#about" type="button" role="tab" aria-controls="about" aria-selected="true" aria-label="About Me">
-          About me
-        </button>
-      </li>
-      <li class="nav-item">
-        <button class="nav-link px-4" id="tab-studies" data-bs-toggle="tab" data-bs-target="#studies" type="button" role="tab" aria-controls="studies" aria-selected="false" aria-label="Studies">
-          Studies
-        </button>
-      </li>
-      <li class="nav-item">
-        <button class="nav-link px-4" id="tab-work" data-bs-toggle="tab" data-bs-target="#work" type="button" role="tab" aria-controls="work" aria-selected="false" aria-label="Work Experience">
-          Work experience
-        </button>
-      </li>
-    </ul>
-    <div class="tab-line"></div>
-  </div>
-  <div class="container px-0 px-sm-3">
-    <div class="tab-content pt-3 mt-4" id="aboutMeTabsContent" style="overflow:hidden">
-      <!-- About me Tab -->
-      <div class="mb-3 tab-pane fade active show" id="about" role="tabpanel" aria-labelledby="tab-about">
-        <div class="row px-2 px-sm-0">
-          <div class="col-lg-6">
-            <h4 class="mt-4 mb-3 separator">Hi, I'm Feli Aarsman.</h4>
-            <h5 class="mb-0 mb-lg-3"><i>Explore, experience, inspire, and trust</i></h5>
-            <p>
-              I moved to Wageningen to study Ecology and it was here that I first discovered a deep connection between people and nature: just like ecosystems, we rely on an interplay of internal and external factors. Our well-being is shaped by <strong>biological, psychological, and social layers</strong>, constantly interacting with each other.
-            </p>
-            <p>
-              Over the years, my focus shifted from academia to a growing passion for sport, movement, and lifestyle. I found balance by combining outdoor adventures in the mountains and on white-water rivers with indoor activities focused on fitness, body, and muscle control. My love for nature, movement, and human interaction led me to explore how we <strong>think, communicate, and behave</strong>, with a special emphasis on health and well-being. This journey ultimately inspired me to start coaching and guiding others both physically and mentally.
-            </p>
-          </div>
-          <div class="col-lg-6 my-0 my-lg-3">
-            <picture>
-              <source srcset="/img/Feli2.webp" type="image/webp">
-              <source srcset="/img/Feli2.jpg" type="image/jpeg">
-              <img class="img-fluid profile-img my-3 my-lg-5" src="/img/Feli2.jpg" alt="Feli Aarsman profile picture" loading="lazy">
-            </picture>
-          </div>
-        </div>
-        <div class="row px-2 px-sm-0">
-          <div class="col-lg-6 px-0 px-lg-3 my-3 order-last order-lg-first ">
-            <picture>
-              <source media="(max-width: 575px)" srcset="/img/Feli_kayak_phone.webp" type="image/webp">
-              <source media="(max-width: 575px)" srcset="/img/Feli_kayak.jpg" type="image/jpeg">
-              <source srcset="/img/Feli_kayak.webp" type="image/webp">
-              <source srcset="/img/Feli_kayak.jpg" type="image/jpeg">
-              <img class="img-fluid kayak-img me-lg-5" src="/img/Feli_kayak.jpg" alt="Feli Aarsman kayak picture">
-            </picture>
-          </div>
-          <div class="col-lg-6 order-first order-lg-last">
-            <p>
-              Nature and human connection are at the core of everything I do. In the <strong>summer</strong>, I pass on my love for the outdoors as a white-water kayaking instructor in the mountains of Slovenia. In the <strong>winter</strong>, I coach individuals in the gym and teach group classes, sharing my passion for movement and vitality.
-            </p>
-            <p>
-              With over <strong>eight years of experience</strong> as a <strong>certified instructor</strong>, I’ve gained valuable insights into how people think, feel, and act. This strengthened my belief: with positive energy, we make the world stronger, happier, and more beautiful. To radiate that energy, it’s essential to be healthy, strong, and resilient. My mission is to inspire myself and others to embrace their strength and live life with vitality
-            </p>
-          </div>
-        </div>
-      </div>
-      <!-- Studies Tab-->
-      <div class="mb-3 tab-pane fade px-2 px-sm-0" id="studies" role="tabpanel" aria-labelledby="tab-studies">
-        <h4 class="mt-4 mb-3 separator">My studies</h4>
-        <p>
-          My journey began with a university degree in science, where my interest in communication and human psychology first became apparent. I then developed my skills in coaching and training, both in extreme natural environments and in the gym. Over time, my focus expanded to include human behavior and its impact on lifestyle. 
-        </p>
-        <p id="studies">
-          <ul class="mt-3 list-unstyled">
-            <li class="mb-3">
-              {% include "icons/academic-cap-icon.njk" %}<span><strong>Bachelor of Science</strong>: Minor in Communication en Psychology <br>Wageningen University, 2015</span>
-            </li>
-            <li class="mb-3">
-              {% include "icons/academic-cap-icon.njk" %}<span><strong>Allround outdoor instructor</strong>: Extreme sports
-              <br>Voshaar Outdoor & Education, 2019</span>
-            </li>
-            <li class="mb-3">
-              {% include "icons/academic-cap-icon.njk" %}<span><strong>Personal Trainer</strong>: Functional trainer & healthcoach
-              <br>Chivo: knowledge institute, 2020</span>
-            </li>
-            <li class="mb-3">
-              {% include "icons/academic-cap-icon.njk" %}<span><strong>Leefstijlcoach</strong>: BGN & KTNO accredited
-              <br>NHA, 2023</span>
-            </li>
-          </ul>
-        </p>
-      </div>
-      <!-- Work experience tab -->
-      <div class="mb-3 tab-pane fade px-2 px-sm-0" id="work" role="tabpanel" aria-labelledby="tab-work">
-          <h4 class="mt-4 mb-3 separator">My work experience</h4>
-          <p>
-            With over 8 years of experience teaching both groups and individuals, I have learned and reflected a great deal. I’ve come to understand that everyone needs a unique approach to be properly motivated, enabling them to achieve their personal goals, both in sports and in daily life.
-          </p>
-          <p id="work-experience">
-            <ul class="mt-3 list-unstyled">
-              <li class="mb-3">
-                {% include "icons/chevron-icon.njk" %}<span><strong>Boulder, Spinning and Fitness instructor</strong>
-                <br>Avalon Fitcentre: 2018 - 2022</span>
-              </li>
-              <li class="mb-3">
-                {% include "icons/chevron-icon.njk" %}<span><strong>Wild water kayak instructor</strong>
-                <br>Slovenië, 2020 - present</span>
-              </li>
-              <li class="mb-3">
-                {% include "icons/chevron-icon.njk" %}<span><strong>Personal trainer and Fitness instructor</strong>
-                <br>MyLife Healthclub: 2022 - present</span>
-              </li>
-              <li class="mb-3">
-                {% include "icons/chevron-icon.njk" %}<span><strong>Pilates, Spinning and XCORE instructor</strong>
-                <br>MyLife Healthclub: 2022 - present</span>
-              </li>
-            </ul>
-          </p>
-      </div>
-  <!-- Navigation buttons -->
-  <div class="mt-3 text-center">
-    <button id="prevTabBtn" class="btn custom-btn mx-3 fs-5" aria-label="Previous tab" disabled>{% include "icons/arrow-left-icon.njk" %}</button>
-    <button id="nextTabBtn" class="btn custom-btn mx-3 fs-5" aria-label="Next tab">{% include "icons/arrow-right-icon.njk" %}</button>
-  </div>
-</section>
+hero:
+  title: "About Me"
+  subtitle: "The power lies in the flow"
+  text: "Coach and kayaker, with a deep passion for both the river and people. With my experience in coaching and my love for the water, I guide others towards greater self-confidence, balance, and strength—both on the river and in life."
+
+tabs:
+  about: "About me"
+  studies: "Studies"
+  work: "Work experience"
+
+tab_about:
+  greeting: "Hi, I'm Feli Aarsman."
+  subtitle: "Explore, experience, inspire, and trust"
+  top_text: |
+    I moved to Wageningen to study Ecology and it was here that I first discovered a deep connection between people and nature: just like ecosystems, we rely on an interplay of internal and external factors. Our well-being is shaped by **biological, psychological, and social layers**, constantly interacting with each other.
+
+    Over the years, my focus shifted from academia to a growing passion for sport, movement, and lifestyle. I found balance by combining outdoor adventures in the mountains and on white-water rivers with indoor activities focused on fitness, body, and muscle control. My love for nature, movement, and human interaction led me to explore how we **think, communicate, and behave**, with a special emphasis on health and well-being. This journey ultimately inspired me to start coaching and guiding others both physically and mentally.
+  profile_image: "/img/Feli2.jpg"
+  bottom_text: |
+    Nature and human connection are at the core of everything I do. In the **summer**, I pass on my love for the outdoors as a white-water kayaking instructor in the mountains of Slovenia. In the **winter**, I coach individuals in the gym and teach group classes, sharing my passion for movement and vitality.
+
+    With over **eight years of experience** as a **certified instructor**, I’ve gained valuable insights into how people think, feel, and act. This strengthened my belief: with positive energy, we make the world stronger, happier, and more beautiful. To radiate that energy, it’s essential to be healthy, strong, and resilient. My mission is to inspire myself and others to embrace their strength and live life with vitality
+  kayak_image: "/img/Feli_kayak.jpg"
+
+tab_studies:
+  title: "My studies"
+  intro_text: "My journey began with a university degree in science, where my interest in communication and human psychology first became apparent. I then developed my skills in coaching and training, both in extreme natural environments and in the gym. Over time, my focus expanded to include human behavior and its impact on lifestyle."
+  items:
+    - text: "**Bachelor of Science**: Minor in Communication en Psychology <br>Wageningen University, 2015"
+      icon: "academic-cap-icon"
+    - text: "**Allround outdoor instructor**: Extreme sports<br>Voshaar Outdoor & Education, 2019"
+      icon: "academic-cap-icon"
+    - text: "**Personal Trainer**: Functional trainer & healthcoach<br>Chivo: knowledge institute, 2020"
+      icon: "academic-cap-icon"
+    - text: "**Leefstijlcoach**: BGN & KTNO accredited<br>NHA, 2023"
+      icon: "academic-cap-icon"
+
+tab_work:
+  title: "My work experience"
+  intro_text: "With over 8 years of experience teaching both groups and individuals, I have learned and reflected a great deal. I’ve come to understand that everyone needs a unique approach to be properly motivated, enabling them to achieve their personal goals, both in sports and in daily life."
+  items:
+    - text: "**Boulder, Spinning and Fitness instructor**<br>Avalon Fitcentre: 2018 - 2022"
+      icon: "chevron-icon"
+    - text: "**Wild water kayak instructor**<br>Slovenië, 2020 - present"
+      icon: "chevron-icon"
+    - text: "**Personal trainer and Fitness instructor**<br>MyLife Healthclub: 2022 - present"
+      icon: "chevron-icon"
+    - text: "**Pilates, Spinning and XCORE instructor**<br>MyLife Healthclub: 2022 - present"
+      icon: "chevron-icon"
+---

@@ -1,0 +1,21 @@
+---
+layout: layouts/base.njk
+---
+<div class="container mt-custom my-5">
+    <h1 class="text-center mb-4">{{ title_display }}</h1>
+    
+    {% if last_updated %}
+    <p class="text-muted text-center">{{ last_updated }}</p>
+    {% endif %}
+
+    {% for section in sections %}
+    <section class="mb-4">
+        <h2>{{ section.title }}</h2>
+        <div>{{ section.content | markdown | safe }}</div>
+    </section>
+    {% endfor %}
+    
+    <a href="{{ pdf_link }}">
+        <button class="btn custom-btn" aria-label="{{ button_label }}">{{ button_text }}</button>
+    </a>
+</div>

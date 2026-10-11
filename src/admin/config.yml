@@ -1,3 +1,5 @@
+# --- BACKEND SETTINGS ---
+
 # Use DecapBridge PKCE auth (required)
 backend:
   name: git-gateway
@@ -31,40 +33,132 @@ logo_url: https://decapbridge.com/decapcms-with-bridge.svg
 # Add site links in Decap CMS (optional)
 site_url: https://joyfelicoaching.nl
 
-# ---  CONTENT STRUCTURE ---
+
+# --- CONTENT STRUCTURE ---
 media_folder: "src/img" 
 public_folder: "/img"
 
 collections:
-  - name: "pages_nl"
-    label: "Dutch Pages"
-    folder: "src"
-    create: true
-    fields:
-      - {label: "Title", name: "title", widget: "string"}
-      - {label: "Publish Date", name: "date", widget: "datetime"}
-      - {label: "Body", name: "body", widget: "markdown"}
-      
-  - name: "pages_en"
+  # ==========================================
+  # ENGLISH PAGES
+  # ==========================================
+  - name: "english_pages"
     label: "English Pages"
-    folder: "src/en"
-    create: true
-    fields:
-      - {label: "Title", name: "title", widget: "string"}
-      - {label: "Publish Date", name: "date", widget: "datetime"}
-      - {label: "Body", name: "body", widget: "markdown"}
-
-  - name: "specific_pages"
-    label: "Specific Pages"
     files:
+      # 1. Home Page
+      - file: "src/en/index.md"
+        label: "Home"
+        name: "home_en"
+        fields: &home_fields
+          - {label: "Layout", name: "layout", widget: "hidden"}
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Locale", name: "locale", widget: "hidden"}
+          - {label: "Page Key", name: "pageKey", widget: "hidden"}
+          - {label: "Navbar Class", name: "navbarClass", widget: "hidden", required: false}
+          - {label: "Hero Image", name: "heroImage", widget: "image"}
+          - label: "Hero Quote"
+            name: "quote"
+            widget: "object"
+            fields:
+              - {label: "Text", name: "text", widget: "text"}
+              - {label: "Author", name: "author", widget: "string"}
+          - label: "Welcome Section"
+            name: "welcome"
+            widget: "object"
+            fields:
+              - {label: "Image", name: "image", widget: "image"}
+              - {label: "Title Part 1", name: "title_part1", widget: "string"}
+              - {label: "Title Part 2", name: "title_part2", widget: "string"}
+              - {label: "Subtitle", name: "subtitle", widget: "string"}
+              - {label: "Text", name: "text", widget: "markdown"}
+          - label: "Coaching Services"
+            name: "services"
+            widget: "object"
+            fields:
+              - {label: "Title", name: "title", widget: "string"}
+              - label: "Cards"
+                name: "cards"
+                widget: "list"
+                fields:
+                  - {label: "Image", name: "image", widget: "image"}
+                  - {label: "Title", name: "title", widget: "string"}
+                  - {label: "Subtitle", name: "subtitle", widget: "string"}
+                  - {label: "Text", name: "text", widget: "text"}
+                  - {label: "Button Text", name: "button_text", widget: "string"}
+                  - {label: "Link Key", name: "link_key", widget: "string"}
+          - label: "About Section"
+            name: "about"
+            widget: "object"
+            fields:
+              - {label: "Title", name: "title", widget: "string"}
+              - {label: "Image", name: "image", widget: "image"}
+              - {label: "Button Text", name: "button_text", widget: "string"}
+              - {label: "Link Key", name: "link_key", widget: "string"}
+              - {label: "Text", name: "text", widget: "markdown"}
+          - label: "Reviews Section"
+            name: "reviews"
+            widget: "object"
+            fields:
+              - {label: "Title", name: "title", widget: "string"}
+              - label: "Review Items"
+                name: "items"
+                widget: "list"
+                fields:
+                  - {label: "Title", name: "title", widget: "string"}
+                  - {label: "Quote", name: "quote", widget: "text"}
+                  - {label: "Author", name: "author", widget: "string"}
+          - label: "Contact Section"
+            name: "contact_section"
+            widget: "object"
+            fields:
+              - {label: "Title", name: "title", widget: "string"}
+              - {label: "Subtitle", name: "subtitle", widget: "string"}
+          - label: "Form Settings"
+            name: "form_section"
+            widget: "object"
+            fields:
+              - {label: "Submit Button", name: "button", widget: "string"}
+              - label: "Labels"
+                name: "labels"
+                widget: "object"
+                fields:
+                  - {label: "Name", name: "name", widget: "string"}
+                  - {label: "Email", name: "email", widget: "string"}
+                  - {label: "Phone", name: "phone", widget: "string"}
+                  - {label: "Message", name: "message", widget: "string"}
+              - label: "Placeholders"
+                name: "placeholders"
+                widget: "object"
+                fields:
+                  - {label: "Name", name: "name", widget: "string"}
+                  - {label: "Email", name: "email", widget: "string"}
+                  - {label: "Phone", name: "phone", widget: "string"}
+                  - {label: "Message", name: "message", widget: "string"}
+
+      # 2. Personal Training
       - file: "src/en/personal-training.md"
-        label: "Personal Training (EN)"
+        label: "Personal Training"
         name: "personal_training_en"
-        fields:
-          - {label: "Hero Title", name: "hero.title", widget: "string"}
-          - {label: "Hero Subtitle", name: "hero.subtitle", widget: "string"}
-          - {label: "Hero Text", name: "hero.text", widget: "text"}
-          
+        fields: &coaching_fields
+          - {label: "Layout", name: "layout", widget: "hidden"}
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Locale", name: "locale", widget: "hidden"}
+          - {label: "Page Key", name: "pageKey", widget: "hidden"}
+          - {label: "Hero Image", name: "heroImage", widget: "image"}
+          - label: "Tabs Navigation"
+            name: "tabs"
+            widget: "object"
+            fields:
+              - {label: "Tab 1 Name", name: "ptraining", widget: "string"}
+              - {label: "Tab 2 Name", name: "info", widget: "string"}
+              - {label: "Tab 3 Name", name: "pricing", widget: "string"}
+          - label: "Hero Content"
+            name: "hero"
+            widget: "object"
+            fields:
+              - {label: "Title", name: "title", widget: "string"}
+              - {label: "Subtitle", name: "subtitle", widget: "string"}
+              - {label: "Text", name: "text", widget: "text"}
           - label: "Tab 1: Intro Texts"
             name: "tab_intro"
             widget: "object"
@@ -75,7 +169,6 @@ collections:
               - {label: "Section 2 Title", name: "section2_title", widget: "string"}
               - {label: "Section 2 Subtitle", name: "section2_subtitle", widget: "string"}
               - {label: "Section 2 Text", name: "section2_text", widget: "markdown"}
-
           - label: "Tab 2: Practical Info"
             name: "tab_info"
             widget: "object"
@@ -96,13 +189,12 @@ collections:
                     fields:
                       - {label: "Icon Name", name: "icon", widget: "string"}
                       - {label: "Text", name: "text", widget: "string"}
-
           - label: "Tab 3: Pricing"
             name: "tab_pricing"
             widget: "object"
             fields:
               - {label: "Title", name: "title", widget: "string"}
-              - {label: "Intro Text", name: "intro_text", widget: "markdown"}
+              - {label: "Intro Text", name: "intro_text", widget: "markdown", required: false}
               - label: "Pricing Packages"
                 name: "packages"
                 widget: "list"
@@ -111,9 +203,200 @@ collections:
                   - {label: "Title", name: "title", widget: "string"}
                   - {label: "Duration", name: "duration", widget: "string"}
                   - {label: "Solo Price", name: "price_solo", widget: "string"}
-                  - {label: "Duo Price", name: "price_duo", widget: "string"}
+                  - {label: "Duo Price (Optional)", name: "price_duo", widget: "string", required: false}
+                  - {label: "More Info Text", name: "more_info", widget: "markdown"}
                   - label: "Features"
                     name: "features"
                     widget: "list"
                     field: {label: "Feature Text", name: "feature", widget: "string"}
-                  - {label: "More Info Text", name: "more_info", widget: "markdown"}
+
+      # 3. Lifestyle Coaching
+      - file: "src/en/lifestyle-coaching.md"
+        label: "Lifestyle Coaching"
+        name: "lifestyle_coaching_en"
+        fields: *coaching_fields
+
+      # 4. For Her
+      - file: "src/en/for-her.md"
+        label: "For Her"
+        name: "for_her_en"
+        fields: *coaching_fields
+
+      # 5. About
+      - file: "src/en/about.md"
+        label: "About Me"
+        name: "about_en"
+        fields: &about_fields
+          - {label: "Layout", name: "layout", widget: "hidden"}
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Locale", name: "locale", widget: "hidden"}
+          - {label: "Page Key", name: "pageKey", widget: "hidden"}
+          - {label: "Hero Image", name: "heroImage", widget: "image"}
+          - label: "Hero"
+            name: "hero"
+            widget: "object"
+            fields:
+              - {label: "Title", name: "title", widget: "string"}
+              - {label: "Subtitle", name: "subtitle", widget: "string"}
+              - {label: "Text", name: "text", widget: "text"}
+          - label: "Tabs Navigation"
+            name: "tabs"
+            widget: "object"
+            fields:
+              - {label: "Tab 1 Name", name: "about", widget: "string"}
+              - {label: "Tab 2 Name", name: "studies", widget: "string"}
+              - {label: "Tab 3 Name", name: "work", widget: "string"}
+          - label: "Tab 1: About Me"
+            name: "tab_about"
+            widget: "object"
+            fields:
+              - {label: "Greeting", name: "greeting", widget: "string"}
+              - {label: "Subtitle", name: "subtitle", widget: "string"}
+              - {label: "Top Text", name: "top_text", widget: "markdown"}
+              - {label: "Profile Image", name: "profile_image", widget: "image"}
+              - {label: "Bottom Text", name: "bottom_text", widget: "markdown"}
+              - {label: "Kayak Image", name: "kayak_image", widget: "image"}
+          - label: "Tab 2: Studies"
+            name: "tab_studies"
+            widget: "object"
+            fields:
+              - {label: "Title", name: "title", widget: "string"}
+              - {label: "Intro Text", name: "intro_text", widget: "markdown"}
+              - label: "Study Items"
+                name: "items"
+                widget: "list"
+                fields:
+                  - {label: "Text", name: "text", widget: "markdown"}
+                  - {label: "Icon Name", name: "icon", widget: "string"}
+          - label: "Tab 3: Work Experience"
+            name: "tab_work"
+            widget: "object"
+            fields:
+              - {label: "Title", name: "title", widget: "string"}
+              - {label: "Intro Text", name: "intro_text", widget: "markdown"}
+              - label: "Work Items"
+                name: "items"
+                widget: "list"
+                fields:
+                  - {label: "Text", name: "text", widget: "markdown"}
+                  - {label: "Icon Name", name: "icon", widget: "string"}
+
+      # 6. Contact
+      - file: "src/en/contact.md"
+        label: "Contact"
+        name: "contact_en"
+        fields: &contact_fields
+          - {label: "Layout", name: "layout", widget: "hidden"}
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Locale", name: "locale", widget: "hidden"}
+          - {label: "Page Key", name: "pageKey", widget: "hidden"}
+          - {label: "Hero Image", name: "heroImage", widget: "image"}
+          - label: "Hero"
+            name: "hero"
+            widget: "object"
+            fields:
+              - {label: "Title", name: "title", widget: "string"}
+              - {label: "Subtitle", name: "subtitle", widget: "string"}
+              - {label: "Text", name: "text", widget: "text"}
+          - label: "Contact Info"
+            name: "contact_info"
+            widget: "object"
+            fields:
+              - {label: "Title", name: "title", widget: "string"}
+              - {label: "Text", name: "text", widget: "markdown"}
+          - label: "Form Settings"
+            name: "form_section"
+            widget: "object"
+            fields:
+              - {label: "Title", name: "title", widget: "string"}
+              - {label: "Submit Button", name: "button", widget: "string"}
+              - label: "Labels"
+                name: "labels"
+                widget: "object"
+                fields:
+                  - {label: "Name", name: "name", widget: "string"}
+                  - {label: "Email", name: "email", widget: "string"}
+                  - {label: "Phone", name: "phone", widget: "string"}
+                  - {label: "Message", name: "message", widget: "string"}
+              - label: "Placeholders"
+                name: "placeholders"
+                widget: "object"
+                fields:
+                  - {label: "Name", name: "name", widget: "string"}
+                  - {label: "Email", name: "email", widget: "string"}
+                  - {label: "Phone", name: "phone", widget: "string"}
+                  - {label: "Message", name: "message", widget: "string"}
+
+      # 7. Terms and Conditions
+      - file: "src/en/terms-and-conditions.md"
+        label: "Terms & Conditions"
+        name: "terms_en"
+        fields: &legal_fields
+          - {label: "Layout", name: "layout", widget: "hidden"}
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Locale", name: "locale", widget: "hidden"}
+          - {label: "Page Key", name: "pageKey", widget: "hidden"}
+          - {label: "Date", name: "date", widget: "datetime", required: false}
+          - {label: "Display Title", name: "title_display", widget: "string"}
+          - {label: "Last Updated Text", name: "last_updated", widget: "string", required: false}
+          - {label: "PDF Link", name: "pdf_link", widget: "file"}
+          - {label: "Button Text", name: "button_text", widget: "string"}
+          - {label: "Button Label", name: "button_label", widget: "string"}
+          - label: "Sections"
+            name: "sections"
+            widget: "list"
+            fields:
+              - {label: "Title", name: "title", widget: "string"}
+              - {label: "Content", name: "content", widget: "markdown"}
+
+      # 8. Privacy Policy
+      - file: "src/en/privacy-policy.md"
+        label: "Privacy Policy"
+        name: "privacy_en"
+        fields: *legal_fields
+
+  # ==========================================
+  # DUTCH PAGES
+  # ==========================================
+  - name: "dutch_pages"
+    label: "Dutch Pages"
+    files:
+      - file: "src/index.md"
+        label: "Home"
+        name: "home_nl"
+        fields: *home_fields
+
+      - file: "src/personal-training-nl.md"
+        label: "Personal Training"
+        name: "personal_training_nl"
+        fields: *coaching_fields
+
+      - file: "src/leefstijlcoaching.md"
+        label: "Leefstijlcoaching"
+        name: "lifestyle_coaching_nl"
+        fields: *coaching_fields
+
+      - file: "src/voor-haar.md"
+        label: "Voor Haar"
+        name: "for_her_nl"
+        fields: *coaching_fields
+
+      - file: "src/over.md"
+        label: "Over mij"
+        name: "about_nl"
+        fields: *about_fields
+
+      - file: "src/contact_2.md"
+        label: "Contact"
+        name: "contact_nl"
+        fields: *contact_fields
+
+      - file: "src/algemene-voorwaarden.md"
+        label: "Algemene Voorwaarden"
+        name: "terms_nl"
+        fields: *legal_fields
+
+      - file: "src/privacy-verklaring.md"
+        label: "Privacyverklaring"
+        name: "privacy_nl"
+        fields: *legal_fields

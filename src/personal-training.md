@@ -1,469 +1,131 @@
 ---
-layout: layouts/base.njk
+layout: layouts/coaching-pages.njk
 title: "JoyFeli - Personal Training"
 locale: "nl"
 pageKey: "personalTraining"
-heroImage: "/img/Feli_mangart_phone.webp"
----
+heroImage: "/img/Feli_mangart.jpg"
 
-<!-- Hero Section -->
-<section class="hero-section overflow-hidden">
-  <div class="container position-relative">
-    <div class="row">
-      <div class="col-12 position-relative m-0 p-0">
-        <!-- Background image container -->
-        <div class="bg-image-container animate-slide-in-left">
-          <picture class="bg-image">
-            <!-- Mobile: cut-off version -->
-            <source media="(max-width: 575px)" srcset="/img/Feli_mangart_phone.webp" type="image/webp">
-            <source media="(max-width: 575px)" srcset="/img/Feli_mangart.jpg" type="image/jpeg">
-            <!-- Desktop: full image -->
-            <source srcset="/img/Feli_mangart.webp" type="image/webp">
-            <source srcset="/img/Feli_mangart.jpg" type="image/jpeg">
-            <img class="bg-image-img" src="/img/Feli_mangart.jpg" alt="Personal Training Background" width="1320" height="665" loading="eager" fetchpriority="high">
-          </picture>
-        </div>
-        <!-- Text overlay -->
-        <div class="text-overlay ptraining-text animate-slide-in-right bg-white bg-opacity-75 p-4 p-xxl-5">
-          <h1 class="separator text-uppercase">
-            <span class="d-block mb-2">
-              <span><strong>Personal Training</strong></span>
-            </span>
-          </h1>
-            <h4>
-              <span class="d-block mb-3 fst-italic">
-                Gezond lichaam, sterke geest.
-              </span>
-            </h4>
-          <p>
-            Versterk zowel je fysieke gezondheid als je mentale welzijn met deskundige, persoonlijke begeleiding.
-          </p>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-<!-- End Hero Section -->
-<div class="sun-divider">
-  <span class="sun"></span>
-</div>
-<!-- Tabs Section -->
-<section class="py-5 gray-bg tab-section">
-  <div class="custom-tabs">
-    <!-- Tab Navigation -->
-    <ul class="nav nav-tabs justify-content-center border-0" id="personalTrainingTabs" role="tablist">
-      <li class="nav-item">
-        <button class="nav-link px-4 active" id="tab-ptraining" data-bs-toggle="tab" data-bs-target="#ptraining" type="button" role="tab" aria-controls="ptraining" aria-selected="true" aria-label="Personal Training">
-          Personal Training
-        </button>
-      </li>
-      <li class="nav-item">
-        <button class="nav-link px-4" id="tab-info" data-bs-toggle="tab" data-bs-target="#info" type="button" role="tab" aria-controls="info" aria-selected="false" aria-label="Praktische Informatie">
-          Praktische Informatie
-        </button>
-      </li>
-      <li class="nav-item">
-        <button class="nav-link px-4" id="tab-pricing" data-bs-toggle="tab" data-bs-target="#pricing" type="button" role="tab" aria-controls="pricing" aria-selected="false" aria-label="Tarieven">
-          Tarieven
-        </button>
-      </li>
-    </ul>
-    <div class="tab-line"></div>
-  </div>
-  <div class="container">
-    <div class="tab-content pt-3 mt-4" id="PersonalTrainingTabsContent" style="overflow:hidden">
-      <!-- Personal Training Tab -->
-      <div class="mb-3 tab-pane fade active show" id="ptraining" role="tabpanel" aria-labelledby="tab-ptraining">
-        <h4 class="mt-4 mb-3 separator">Wat is Personal Training?</h4>
-        <h5 class="mb-3"><i>Kracht, motivatie, progressie en doorzettingsvermogen</i></h5>
-        <p>
-          Personal training is een persoonlijke benadering van fitness, ontworpen om je te helpen je gezondheids- en fitnessdoelen te bereiken door middel van op maat gemaakte trainingen, deskundige begeleiding en constante motivatie. Of je nu wilt afvallen, spiermassa wilt opbouwen, je uithoudingsvermogen wilt verbeteren of je algehele gezondheid wilt bevorderen, personal training stelt een plan op dat <strong>specifiek is afgestemd op jou</strong>, je doelen en je fitnessniveau.   
-        </p>
-        <p>
-          Ik voorzie je van de <strong>tools, kennis</strong> en het <strong>zelfvertrouwen</strong> om blijvende vooruitgang te boeken. Mijn doel is om je in staat te stellen je fitnessreis zelfstandig voort te zetten, zodat je mij uiteindelijk niet meer nodig hebt, maar over de vaardigheden beschikt om zelf succesvol te zijn.
-        </p>
-        <h4 class="mt-5 mb-3 separator">Waarom nu?</h4>
-        <h5 class="mb-3"><i>Het is een investering in je kracht, conditie, zelfvertrouwen en prestaties.</i></h5>
-        <p>
-          Als je niet zeker weet waar je moet beginnen of moeite hebt om gemotiveerd te blijven, ben ik hier om je te helpen. Personal training biedt je de structuur, begeleiding en ondersteuning die je nodig hebt om op koers te blijven en je doelen te bereiken. Dit is het perfecte moment om in <strong>jezelf te investeren, sterker te worden</strong> en <strong>meer energie</strong> te krijgen.
-        </p>
-        <p>
-          Met persoonlijke coaching help ik je om je innerlijke kracht en motivatie te ontdekken, zodat je je zowel fysiek als mentaal sterker voelt.
-        </p>
-      </div>
-      <!-- Practical Information Tab-->
-      <div class="mb-3 tab-pane fade" id="info" role="tabpanel" aria-labelledby="tab-info">
-        <h4 class="mt-4 mb-3 separator">Hoe verloopt het traject?</h4>
-        <p>
-          Personal training richt zich op het verbeteren van je fysieke gezondheid en fitheid door middel van doelgerichte training, beweging en motivatie. Ik stem de trainingen af op <strong>jouw persoonlijke doelen, niveau en mogelijkheden</strong>, zodat je op een effectieve en duurzame manier vooruitgang boekt.
-        </p>
-        <p class="mb-5">
-          Een coachingstraject bestaat uit meerdere sessies die in een logische volgorde zijn opgebouwd. 
-        </p>            
-        <div class="row g-4">
-          <div class="col-md-6 col-lg-6">
-            <div class="card">
-              <div class="card-body custom-color px-2 py-3 p-lg-5">
-                <button
-                  class="btn toggle-btn w-100 d-flex justify-content-between align-items-center collapsed collapsed"
-                  data-bs-toggle="collapse"
-                  data-bs-target="#introduction"
-                  aria-expanded="false"
-                  aria-label="Kennismaking"
-                >
-                  <span class="card-title fs-4"><span class="pe-2 pe-lg-3">{% include "icons/chat-bubble-icon.njk" %}
-                  </span>Kennismaking</span>
-                  <span class="toggle-icon"></span>
-                </button>
-                <div class="collapse collapse-text" id="introduction">
-                  <div class="mt-2">
-                    We beginnen met een informele kennismaking om te kijken of er een klik is. Een goede <strong>vertrouwensband</strong> is essentieel voor een succesvolle samenwerking. Het is belangrijk dat je je op je gemak voelt, zodat we samen een fijne en open werksfeer kunnen creëren.
-                    <ul class="mt-3 list-unstyled">
-                      <li>{% include "icons/tag-icon.njk" %}<span>Gratis</span></li>
-                      <li>{% include "icons/lock-open-icon.njk" %}<span>Vrijblijvend</span></li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-6 col-lg-6">
-            <div class="card">
-              <div class="card-body custom-color px-2 py-3 p-lg-5">
-                <button
-                  class="btn toggle-btn w-100 d-flex justify-content-between align-items-center collapsed"
-                  data-bs-toggle="collapse"
-                  data-bs-target="#intake"
-                  aria-expanded="false"
-                  aria-label="Intakegesprek"
-                >
-                  <span class="card-title fs-4"><span class="pe-2 pe-lg-3">{% include "icons/pencil-square-icon.njk" %}
-                  </span>Intakegesprek</span>
-                  <span class="toggle-icon"></span>
-                </button>
-                <div class="collapse collapse-text" id="intake">
-                  <div class="mt-2">
-                    In dit gesprek bespreken we je <strong>fitheid, doelen, motivatie en verwachtingen</strong>. We kijken naar je fysieke gesteldheid, trainingservaring en eventuele beperkingen om een plan op maat te maken. Jij bepaalt het tempo, en we voeren analyses uit die aansluiten bij jouw doelen en behoeften.
-                    <ul class="mt-3 list-unstyled">
-                      <li>{% include "icons/cog-6-tooth-icon.njk" %}<span>Lichaamsanalyse</span></li>
-                      <li>{% include "icons/chart-pie-icon.njk" %}<span>Kracht- en conditietests</span></li>
-                      <li>{% include "icons/battery-50-icon.njk" %}<span>Beweegpatroonanalyse</span></li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-6 col-lg-6">
-            <div class="card">
-              <div class="card-body custom-color px-2 py-3 p-lg-5">
-                <button
-                  class="btn toggle-btn w-100 d-flex justify-content-between align-items-center collapsed"
-                  data-bs-toggle="collapse"
-                  data-bs-target="#consultation"
-                  aria-expanded="false"
-                  aria-label="Adviesgesprek"
-                >
-                  <span class="card-title fs-4"><span class="pe-2 pe-lg-3">{% include "icons/light-bulb-icon.njk" %}
-                  </span>Adviesgesprek</span>
-                  <span class="toggle-icon"></span>
-                </button>
-                <div class="collapse collapse-text" id="consultation">
-                  <div class="mt-2">
-                    In het adviesgesprek gaan we verder met de inzichten uit de intake en bespreken we <strong>gerichte adviezen</strong> die passen bij jouw doelen en behoeften. We ontwikkelen een persoonlijk trainingsprogramma waarmee je zowel zelfstandig als met mijn begeleiding aan de slag kunt. Dit programma wordt afgestemd op jouw niveau, wensen en mogelijkheden, zodat je effectief en haalbaar vooruitgang boekt.
-                    <ul class="mt-3 list-unstyled">
-                      <li>{% include "icons/adjustment-icon.njk" %}<span>Eigen programma</span></li>
-                      <li>{% include "icons/heart-icon.njk" %}<span>Passend bij jouw passie</span></li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-6 col-lg-6">
-            <div class="card">
-              <div class="card-body custom-color px-2 py-3 p-lg-5">
-                <button
-                  class="btn toggle-btn w-100 d-flex justify-content-between align-items-center collapsed"
-                  data-bs-toggle="collapse"
-                  data-bs-target="#followUp"
-                  aria-expanded="false"
-                  aria-label="Vervolgsessies"
-                >
-                  <span class="card-title fs-4"><span class="pe-2 pe-lg-3">{% include "icons/arrow-trending-up-icon.njk" %}
-                  </span>Vervolgsessies</span>
-                  <span class="toggle-icon"></span>
-                </button>
-                <div class="collapse collapse-text" id="followUp">
-                  <div class="mt-2">
-                    In de vervolgsessies evalueren we je voortgang, bespreken resultaten en passen het programma aan waar nodig. Nieuwe doelen kunnen worden toegevoegd. Openheid is belangrijk om samen te blijven werken aan je groei. De sessies bieden <strong>praktische handvatten</strong> en <strong>gerichte adviezen</strong> om je effectief naar je einddoel te leiden.
-                    <ul class="mt-3 list-unstyled">
-                      <li>{% include "icons/arrow-path-icon.njk" %}<span>Terugkoppelen</span></li>
-                      <li>{% include "icons/wrench-screwdriver-icon.njk" %}<span>Bijsturen</span></li>
-                      <li>{% include "icons/cog-icon.njk" %}<span>Optimaliseren</span></li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-6 col-lg-6">
-            <div class="card">
-              <div class="card-body custom-color px-2 py-3 p-lg-5">
-                <button
-                  class="btn toggle-btn w-100 d-flex justify-content-between align-items-center collapsed"
-                  data-bs-toggle="collapse"
-                  data-bs-target="#evaluation"
-                  aria-expanded="false"
-                  aria-label="Evaluatiegesprek"
-                >
-                  <span class="card-title fs-4"><span class="pe-2 pe-lg-3">{% include "icons/clipboard-icon.njk" %}
-                  </span>Evaluatiegesprek</span>
-                  <span class="toggle-icon"></span>
-                </button>
-                <div class="collapse collapse-text" id="evaluation">
-                  <div class="mt-2">
-                    We sluiten het traject af met een evaluatie van je voortgang, behaalde resultaten en obstakels. We bespreken mogelijke <strong>toekomstige uitdagingen</strong> en ontwikkelen strategieën om deze te overwinnen. Het doel is om duurzame resultaten te behalen, met de juiste tools en motivatie om je nieuwe fysieke niveau vast te houden en <strong>blijvende veranderingen</strong> in je fitheid door te voeren.
-                    <ul class="mt-3 list-unstyled">
-                      <li>{% include "icons/exclamation-triangle-icon.njk" %}<span>Obstakels</span></li>
-                      <li>{% include "icons/arrow-path-rounded-square-icon.njk" %}<span>Duurzaamheid</span></li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-6 col-lg-6">
-            <div class="card">
-              <div class="card-body custom-color px-2 py-3 p-lg-5">
-                <button
-                  class="btn toggle-btn w-100 d-flex justify-content-between align-items-center collapsed"
-                  data-bs-toggle="collapse"
-                  data-bs-target="#location"
-                  aria-expanded="false"
-                  aria-label="Locatie"
-                >
-                  <span class="card-title fs-4"><span class="pe-2 pe-lg-3">{% include "icons/home-icon.njk" %}</span>Locatie</span>
-                  <span class="toggle-icon"></span>
-                </button>
-                <div class="collapse collapse-text" id="location">
-                  <div class="mt-2">
-                    De personal training sessies vinden plaats in mijn rustige praktijkruimte in <strong>Wageningen</strong>, waar we samen aan jouw doelen werken. Als je liever <strong>thuis of buiten</strong> traint, kan dat ook. Het belangrijkste is dat jij je op je gemak voelt en gemotiveerd bent om duurzame veranderingen in je fysieke gezondheid te realiseren.
-                    <ul class="mt-3 list-unstyled">
-                      <li>{% include "icons/home-modern-icon.njk" %}<span>Wageningen</span></li>
-                      <li>{% include "icons/sun-icon.njk" %}<span>Buiten of andere locatie</span></li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <!-- Pricing tab -->
-      <div class="mb-3 tab-pane fade" id="pricing" role="tabpanel" aria-labelledby="tab-pricing">
-          <h4 class="mt-4 mb-3 separator">Welk coachingstraject?</h4>
-          <p>
-            Alle sessies en pakketten zijn ook beschikbaar voor <strong>duo’s</strong>. Deel de kosten, sport samen en ontvang een plan op maat!
-          </p>
-          <div class="row g-4">
-            <!-- Start pakket Card -->
-            <div class="col-md-6 col-lg-6">
-                <div class="card">
-                    <div class="card-body custom-color p-4 p-lg-5">
-                        <h5 class="card-title text-center fs-4">Start pakket</h5>
-                        <p class="card-text fs-lg-4 text-stacking">
-                          {% include "icons/calendar-icon.njk" %}
-                          <span class="ps-2 ps-lg-3">1 - 2 maanden, 6 sessies</span>
-                        </p>
-                        <p class="card-text fs-lg-4">
-                          {% include "icons/user-icon.njk" %}<span class="ps-2 ps-lg-3 pe-4 pe-lg-5">€ 350</span>
-                          {% include "icons/users-icon.njk" %}<span class="ps-2 ps-lg-3">€ 200 p.p</span>
-                        </p>
-                        <div class="card-text">
-                          <div class="text-stacking">
-                            {% include "icons/check-icon.njk" %}
-                            <span class="ps-2 ps-lg-3">Gratis kennismaking</span>
-                          </div>
-                          <div class="text-stacking">
-                            {% include "icons/check-icon.njk" %}
-                            <span class="ps-2 ps-lg-3">6 Trainingssessies</span>
-                          </div>
-                          <div class="text-stacking">
-                            {% include "icons/check-icon.njk" %}
-                            <span class="ps-2 ps-lg-3">Vlotte intake</span>
-                          </div>
-                          <div class="text-stacking">
-                            {% include "icons/check-icon.njk" %}
-                            <span class="ps-2 ps-lg-3">Eind evaluatie</span>
-                          </div>
-                          <button
-                            class="btn toggle-btn w-100 d-flex justify-content-center align-items-center collapsed"
-                            data-bs-toggle="collapse"
-                            data-bs-target="#startPakket"
-                            aria-expanded="false"
-                            aria-label="Meer informatie"
-                          >
-                            <span class="fs-lg-4 visually-hidden">Meer Informatie</span>
-                            <span class="toggle-icon"></span>
-                          </button>
-                          <div class="collapse collapse-text" id="startPakket">
-                            <div class="mt-2">
-                              Een <strong>kort, intensief traject</strong> met persoonlijke begeleiding voor snel resultaat, ondersteund door gerichte oefeningen voor thuis.
-                            </div>
-                          </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- Medium Pakket Card -->
-            <div class="col-md-6 col-lg-6">
-                <div class="card">
-                    <div class="card-body custom-color p-4 p-lg-5">
-                        <h5 class="card-title text-center fs-4">Medium pakket</h5>
-                        <p class="card-text fs-lg-4 text-stacking">
-                          {% include "icons/calendar-icon.njk" %}
-                          <span class="ps-2 ps-lg-3">2 - 3 maanden, 8 sessies</span>
-                        </p>
-                        <p class="card-text fs-lg-4">
-                          {% include "icons/user-icon.njk" %}<span class="ps-2 ps-lg-3 pe-4 pe-lg-5">€ 450</span>
-                          {% include "icons/users-icon.njk" %}<span class="ps-2 ps-lg-3">€ 250 p.p</span>
-                        </p>
-                        <div class="card-text">
-                          <div class="text-stacking">
-                            {% include "icons/check-icon.njk" %}
-                            <span class="ps-2 ps-lg-3">Gratis kennismaking</span>
-                          </div>
-                          <div class="text-stacking">
-                            {% include "icons/check-icon.njk" %}
-                            <span class="ps-2 ps-lg-3">8 Trainingssessies</span>
-                          </div>
-                          <div class="text-stacking">
-                            {% include "icons/check-icon.njk" %}
-                            <span class="ps-2 ps-lg-3">Intake met analyse</span>
-                          </div>
-                          <div class="text-stacking">
-                            {% include "icons/check-icon.njk" %}
-                            <span class="ps-2 ps-lg-3">Eind evaluatie</span>
-                          </div>
-                          <button
-                            class="btn toggle-btn w-100 d-flex justify-content-center align-items-center collapsed"
-                            data-bs-toggle="collapse"
-                            data-bs-target="#mediumPakket"
-                            aria-expanded="false"
-                            aria-label="Meer informatie"
-                          >
-                            <span class="fs-lg-4 visually-hidden">Meer Informatie</span>
-                            <span class="toggle-icon"></span>
-                          </button>
-                          <div class="collapse collapse-text" id="mediumPakket">
-                            <div class="mt-2">
-                              De meest gekozen optie, met <strong>intensieve personal training</strong> en ruimte om aanpassingen in je routine te integreren. Ontvang de juiste tools om je beweeggedrag duurzaam aan te passen.
-                            </div>
-                          </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- 10 - Sessies Pakket Card -->
-            <div class="col-md-6 col-lg-6">
-                <div class="card">
-                    <div class="card-body custom-color p-4 p-lg-5">
-                        <h5 class="card-title text-center fs-4">10 - Sessies pakket</h5>
-                        <p class="card-text fs-lg-4 text-stacking">
-                          {% include "icons/calendar-icon.njk" %}
-                          <span class="ps-2 ps-lg-3">10 sessies</span>
-                        </p>
-                        <p class="card-text fs-lg-4">
-                          {% include "icons/user-icon.njk" %}<span class="ps-2 ps-lg-3 pe-4 pe-lg-5">€ 550</span>
-                          {% include "icons/users-icon.njk" %}<span class="ps-2 ps-lg-3">€ 300 p.p</span>
-                        </p>
-                        <div class="card-text">
-                          <div class="text-stacking">
-                            {% include "icons/check-icon.njk" %}
-                            <span class="ps-2 ps-lg-3">Gratis kennismaking</span>
-                          </div>
-                          <div class="text-stacking">
-                            {% include "icons/check-icon.njk" %}
-                            <span class="ps-2 ps-lg-3">10 Trainingssessies</span>
-                          </div>
-                          <div class="text-stacking">
-                            {% include "icons/check-icon.njk" %}
-                            <span class="ps-2 ps-lg-3">Uitgebreide intake</span>
-                          </div>
-                          <div class="text-stacking">
-                            {% include "icons/check-icon.njk" %}
-                            <span class="ps-2 ps-lg-3">Eind evaluatie</span>
-                          </div>
-                          <button
-                            class="btn toggle-btn w-100 d-flex justify-content-center align-items-center collapsed"
-                            data-bs-toggle="collapse"
-                            data-bs-target="#tenSessiesPakket"
-                            aria-expanded="false"
-                            aria-label="Meer informatie"
-                          >
-                            <span class="fs-lg-4 visually-hidden">Meer Informatie</span>
-                            <span class="toggle-icon"></span>
-                          </button>
-                          <div class="collapse collapse-text" id="tenSessiesPakket">
-                            <div class="mt-2">
-                              <strong>Meer flexibiliteit</strong> in het plannen van sessies, met een aanpak die past bij jouw persoonlijke trainingsdoelen. Er is voldoende ruimte voor feedback, zodat je met impact en kracht vooruitgang boekt en blijvende resultaten behaalt.
-                            </div>
-                          </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- Losse sessie Card -->
-            <div class="col-md-6 col-lg-6">
-                <div class="card">
-                    <div class="card-body custom-color p-4 p-lg-5">
-                        <h5 class="card-title text-center fs-4">Losse sessie</h5>
-                        <p class="card-text fs-lg-4 text-stacking">
-                          {% include "icons/calendar-icon.njk" %}
-                          <span class="ps-2 ps-lg-3">45 - 60 min</span>
-                        </p>
-                        <p class="card-text fs-lg-4">
-                          {% include "icons/user-icon.njk" %}<span class="ps-2 ps-lg-3 pe-4 pe-lg-5">€ 65</span>
-                          {% include "icons/users-icon.njk" %}<span class="ps-2 ps-lg-3">€ 40 p.p</span>
-                        </p>
-                        <div class="card-text">
-                          <div class="text-stacking">
-                            {% include "icons/check-icon.njk" %}
-                            <span class="ps-2 ps-lg-3">Gratis kennismaking</span>
-                          </div>
-                          <div class="text-stacking">
-                            {% include "icons/check-icon.njk" %}
-                            <span class="ps-2 ps-lg-3">Flexibel</span>
-                          </div>
-                          <div class="text-stacking">
-                            {% include "icons/check-icon.njk" %}
-                            <span class="ps-2 ps-lg-3">Keuzevrijheid</span>
-                          </div>
-                          <button
-                            class="btn toggle-btn w-100 d-flex justify-content-center align-items-center collapsed"
-                            data-bs-toggle="collapse"
-                            data-bs-target="#singlePakket"
-                            aria-expanded="false"
-                            aria-label="Meer informatie"
-                          >
-                            <span class="fs-lg-4 visually-hidden">Meer Informatie</span>
-                            <span class="toggle-icon"></span>
-                          </button>
-                          <div class="collapse collapse-text" id="singlePakket">
-                            <strong>Ultieme flexibiliteit:</strong> of je nu alleen een intake wilt om je startpunt te bepalen, of behoefte hebt aan enkele trainingssessies, alles wordt afgestemd op jouw wensen en tempo.
-                          </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <!-- Navigation buttons -->
-  <div class="mt-3 text-center">
-    <button id="prevTabBtn" class="btn custom-btn mx-3 fs-5" aria-label="Previous tab" disabled>{% include "icons/arrow-left-icon.njk" %}</button>
-    <button id="nextTabBtn" class="btn custom-btn mx-3 fs-5" aria-label="Next tab">{% include "icons/arrow-right-icon.njk" %}</button>
-  </div>
-</section>
+hero:
+  title: "Personal Training"
+  subtitle: "Gezond lichaam, sterke geest."
+  text: "Versterk zowel je fysieke gezondheid als je mentale welzijn met deskundige, persoonlijke begeleiding."
+
+tabs:
+  ptraining: "Personal Training"
+  info: "Praktische Informatie"
+  pricing: "Tarieven"
+
+tab_intro:
+  section1_title: "Wat is Personal Training?"
+  section1_subtitle: "Kracht, motivatie, progressie en doorzettingsvermogen"
+  section1_text: |
+    Personal training is een persoonlijke benadering van fitness, ontworpen om je te helpen je gezondheids- en fitnessdoelen te bereiken door middel van op maat gemaakte trainingen, deskundige begeleiding en constante motivatie. Of je nu wilt afvallen, spiermassa wilt opbouwen, je uithoudingsvermogen wilt verbeteren of je algehele gezondheid wilt bevorderen, personal training stelt een plan op dat **specifiek is afgestemd op jou**, je doelen en je fitnessniveau.   
+
+    Ik voorzie je van de **tools, kennis** en het **zelfvertrouwen** om blijvende vooruitgang te boeken. Mijn doel is om je in staat te stellen je fitnessreis zelfstandig voort te zetten, zodat je mij uiteindelijk niet meer nodig hebt, maar over de vaardigheden beschikt om zelf succesvol te zijn.
+  section2_title: "Waarom nu?"
+  section2_subtitle: "Het is een investering in je kracht, conditie, zelfvertrouwen en prestaties."
+  section2_text: |
+    Als je niet zeker weet waar je moet beginnen of moeite hebt om gemotiveerd te blijven, ben ik hier om je te helpen. Personal training biedt je de structuur, begeleiding en ondersteuning die je nodig hebt om op koers te blijven en je doelen te bereiken. Dit is het perfecte moment om in **jezelf te investeren, sterker te worden** en **meer energie** te krijgen.
+
+    Met persoonlijke coaching help ik je om je innerlijke kracht en motivatie te ontdekken, zodat je je zowel fysiek als mentaal sterker voelt.
+
+tab_info:
+  title: "Hoe verloopt het traject?"
+  intro_text: |
+    Personal training richt zich op het verbeteren van je fysieke gezondheid en fitheid door middel van doelgerichte training, beweging en motivatie. Ik stem de trainingen af op **jouw persoonlijke doelen, niveau en mogelijkheden**, zodat je op een effectieve en duurzame manier vooruitgang boekt.
+
+    Een coachingstraject bestaat uit meerdere sessies die in een logische volgorde zijn opgebouwd.
+  steps:
+    - id: "introduction"
+      title: "Kennismaking"
+      main_icon: "chat-bubble-icon"
+      description: "We beginnen met een informele kennismaking om te kijken of er een klik is. Een goede **vertrouwensband** is essentieel voor een succesvolle samenwerking. Het is belangrijk dat je je op je gemak voelt, zodat we samen een fijne en open werksfeer kunnen creëren."
+      features:
+        - { icon: "tag-icon", text: "Gratis" }
+        - { icon: "lock-open-icon", text: "Vrijblijvend" }
+    - id: "intake"
+      title: "Intakegesprek"
+      main_icon: "pencil-square-icon"
+      description: "In dit gesprek bespreken we je **fitheid, doelen, motivatie en verwachtingen**. We kijken naar je fysieke gesteldheid, trainingservaring en eventuele beperkingen om een plan op maat te maken. Jij bepaalt het tempo, en we voeren analyses uit die aansluiten bij jouw doelen en behoeften."
+      features:
+        - { icon: "cog-6-tooth-icon", text: "Lichaamsanalyse" }
+        - { icon: "chart-pie-icon", text: "Kracht- en conditietests" }
+        - { icon: "battery-50-icon", text: "Beweegpatroonanalyse" }
+    - id: "consultation"
+      title: "Adviesgesprek"
+      main_icon: "light-bulb-icon"
+      description: "In het adviesgesprek gaan we verder met de inzichten uit de intake en bespreken we **gerichte adviezen** die passen bij jouw doelen en behoeften. We ontwikkelen een persoonlijk trainingsprogramma waarmee je zowel zelfstandig als met mijn begeleiding aan de slag kunt. Dit programma wordt afgestemd op jouw niveau, wensen en mogelijkheden, zodat je effectief en haalbaar vooruitgang boekt."
+      features:
+        - { icon: "adjustment-icon", text: "Eigen programma" }
+        - { icon: "heart-icon", text: "Passend bij jouw passie" }
+    - id: "followUp"
+      title: "Vervolgsessies"
+      main_icon: "arrow-trending-up-icon"
+      description: "In de vervolgsessies evalueren we je voortgang, bespreken resultaten en passen het programma aan waar nodig. Nieuwe doelen kunnen worden toegevoegd. Openheid is belangrijk om samen te blijven werken aan je groei. De sessies bieden **praktische handvatten** en **gerichte adviezen** om je effectief naar je einddoel te leiden."
+      features:
+        - { icon: "arrow-path-icon", text: "Terugkoppelen" }
+        - { icon: "wrench-screwdriver-icon", text: "Bijsturen" }
+        - { icon: "cog-icon", text: "Optimaliseren" }
+    - id: "evaluation"
+      title: "Evaluatiegesprek"
+      main_icon: "clipboard-icon"
+      description: "We sluiten het traject af met een evaluatie van je voortgang, behaalde resultaten en obstakels. We bespreken mogelijke **toekomstige uitdagingen** en ontwikkelen strategieën om deze te overwinnen. Het doel is om duurzame resultaten te behalen, met de juiste tools en motivatie om je nieuwe fysieke niveau vast te houden en **blijvende veranderingen** in je fitheid door te voeren."
+      features:
+        - { icon: "exclamation-triangle-icon", text: "Obstakels" }
+        - { icon: "arrow-path-rounded-square-icon", text: "Duurzaamheid" }
+    - id: "location"
+      title: "Locatie"
+      main_icon: "home-icon"
+      description: "De personal training sessies vinden plaats in mijn rustige praktijkruimte in **Wageningen**, waar we samen aan jouw doelen werken. Als je liever **thuis of buiten** traint, kan dat ook. Het belangrijkste is dat jij je op je gemak voelt en gemotiveerd bent om duurzame veranderingen in je fysieke gezondheid te realiseren."
+      features:
+        - { icon: "home-modern-icon", text: "Wageningen" }
+        - { icon: "sun-icon", text: "Buiten of andere locatie" }
+
+tab_pricing:
+  title: "Welk coachingstraject?"
+  intro_text: "Alle sessies en pakketten zijn ook beschikbaar voor **duo’s**. Deel de kosten, sport samen en ontvang een plan op maat!"
+  packages:
+    - id: "startPakket"
+      title: "Start pakket"
+      duration: "1 - 2 maanden, 6 sessies"
+      price_solo: "€ 350"
+      price_duo: "€ 200 p.p"
+      more_info: "Een **kort, intensief traject** met persoonlijke begeleiding voor snel resultaat, ondersteund door gerichte oefeningen voor thuis."
+      features:
+        - "Gratis kennismaking"
+        - "6 Trainingssessies"
+        - "Vlotte intake"
+        - "Eind evaluatie"
+    - id: "mediumPakket"
+      title: "Medium pakket"
+      duration: "2 - 3 maanden, 8 sessies"
+      price_solo: "€ 450"
+      price_duo: "€ 250 p.p"
+      more_info: "De meest gekozen optie, met **intensieve personal training** en ruimte om aanpassingen in je routine te integreren. Ontvang de juiste tools om je beweeggedrag duurzaam aan te passen."
+      features:
+        - "Gratis kennismaking"
+        - "8 Trainingssessies"
+        - "Intake met analyse"
+        - "Eind evaluatie"
+    - id: "tenSessiesPakket"
+      title: "10 - Sessies pakket"
+      duration: "10 sessies"
+      price_solo: "€ 550"
+      price_duo: "€ 300 p.p"
+      more_info: "**Meer flexibiliteit** in het plannen van sessies, met een aanpak die past bij jouw persoonlijke trainingsdoelen. Er is voldoende ruimte voor feedback, zodat je met impact en kracht vooruitgang boekt en blijvende resultaten behaalt."
+      features:
+        - "Gratis kennismaking"
+        - "10 Trainingssessies"
+        - "Uitgebreide intake"
+        - "Eind evaluatie"
+    - id: "singlePakket"
+      title: "Losse sessie"
+      duration: "45 - 60 min"
+      price_solo: "€ 65"
+      price_duo: "€ 40 p.p"
+      more_info: "**Ultieme flexibiliteit:** of je nu alleen een intake wilt om je startpunt te bepalen, of behoefte hebt aan enkele trainingssessies, alles wordt afgestemd op jouw wensen en tempo."
+      features:
+        - "Gratis kennismaking"
+        - "Flexibel"
+        - "Keuzevrijheid"
+---

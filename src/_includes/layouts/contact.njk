@@ -1,0 +1,96 @@
+---
+layout: layouts/base.njk
+---
+<!-- Hero Section -->
+<section class="hero-section overflow-hidden">
+  <div class="container position-relative">
+    <div class="row">
+      <div class="col-12 position-relative m-0 p-0">
+        <div class="bg-image-container animate-slide-in-right">
+          <picture class="bg-image">
+            <source media="(max-width: 575px)" srcset="{{ heroImage | replace('.jpg', '_phone.webp') }}" type="image/webp">
+            <source media="(max-width: 575px)" srcset="{{ heroImage | replace('.jpg', '_phone.jpg') }}" type="image/jpeg">
+            <source srcset="{{ heroImage | replace('.jpg', '.webp') }}" type="image/webp">
+            <source srcset="{{ heroImage }}" type="image/jpeg">
+            <img class="bg-image-img" src="{{ heroImage }}" alt="{{ hero.title }} Background" width="1320" height="665" loading="eager" fetchpriority="high">
+          </picture>
+        </div>
+        <div class="text-overlay contact-text animate-slide-in-left bg-white bg-opacity-75 p-4 p-xxl-5">
+          <h1 class="separator text-uppercase">
+            <span class="d-block mb-2">
+              <span><strong>{{ hero.title }}</strong></span>
+            </span>
+          </h1>
+          <h4>
+            <span class="d-block mb-3 fst-italic">
+              {{ hero.subtitle }}
+            </span>
+          </h4>
+          <p>{{ hero.text }}</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="sun-divider"><span class="sun"></span></div>
+
+<section class="contact-section py-5">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-6 mb-5">
+        <h4 class="mb-5 separator">{{ contact_info.title }}</h4>
+        <div>{{ contact_info.text | markdown | safe }}</div>
+      </div>
+      <div class="col-lg-6 ps-lg-5">
+        <div class="mb-5">
+          <h4 class="separator">{{ form_section.title }}</h4>
+          <p>
+            {% include "icons/whatsapp-icon.njk" %}
+            <a href="https://wa.me/{{ settings.phone }}" target="_blank" rel="noopener noreferrer">{{ settings.phoneText }}</a> 
+          </p>
+          <p>
+            {% include "icons/email-icon.njk" %}
+            <a href="mailto:{{ settings.email }}">{{ settings.emailText }}</a>
+          </p>
+          <p>
+            {% include "icons/instagram-icon.njk" %}
+            <a href="https://www.instagram.com/{{ settings.instagram }}" target="_blank" rel="noopener noreferrer">{{ settings.instagramText }}</a>
+          </p>
+        </div>
+        
+        <form 
+          method="POST"
+          data-netlify="true"
+          netlify-honeypot="bot-field"
+          name="contact-form" class="needs-validation"
+          novalidate
+        >
+          <input type="hidden" name="form-name" value="contact-form" />
+          <div class="visually-hidden">
+            <label>Don't fill this out if you're human:<input name="bot-field"></label>
+          </div>
+          <div class="mb-3">
+            <label for="name" class="form-label">{{ form_section.labels.name }}</label>
+            <input type="text" class="form-control" id="name" name="name" placeholder="{{ form_section.placeholders.name }}" required>
+          </div>
+          <div class="mb-3">
+            <label for="email" class="form-label">{{ form_section.labels.email }}</label>
+            <input type="email" class="form-control" id="email" name="email" placeholder="{{ form_section.placeholders.email }}" required>
+          </div>
+          <div class="mb-3">
+            <label for="phone" class="form-label">{{ form_section.labels.phone }}</label>
+            <input type="tel" class="form-control" id="phone" name="phone" placeholder="{{ form_section.placeholders.phone }}">
+          </div>
+          <div class="mb-3">
+            <label for="message" class="form-label">{{ form_section.labels.message }}</label>
+            <textarea class="form-control" id="message" name="message" rows="4" placeholder="{{ form_section.placeholders.message }}" required></textarea>
+          </div>
+          <div class="text-center">
+            <button type="submit" class="btn custom-btn fs-5" aria-label="Send">{{ form_section.button }}</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>

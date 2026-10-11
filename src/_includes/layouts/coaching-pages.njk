@@ -9,10 +9,10 @@ layout: layouts/base.njk
         <div class="bg-image-container animate-slide-in-left">
           <picture class="bg-image">
             <source media="(max-width: 575px)" srcset="{{ heroImage | replace('.jpg', '_phone.webp') }}" type="image/webp">
-            <source media="(max-width: 575px)" srcset="{{ heroImage }}" type="image/jpeg">
+            <source media="(max-width: 575px)" srcset="{{ heroImage | replace('.jpg', '_phone.jpg') }}" type="image/jpeg">
             <source srcset="{{ heroImage | replace('.jpg', '.webp') }}" type="image/webp">
             <source srcset="{{ heroImage }}" type="image/jpeg">
-            <img class="bg-image-img" src="{{ heroImage }}" alt="Personal Training Background" width="1320" height="665" loading="eager" fetchpriority="high">
+            <img class="bg-image-img" src="{{ heroImage }}" alt="{{ hero.title }} Background" width="1320" height="665" loading="eager" fetchpriority="high">
           </picture>
         </div>
         <div class="text-overlay ptraining-text animate-slide-in-right bg-white bg-opacity-75 p-4 p-xxl-5">
@@ -40,13 +40,13 @@ layout: layouts/base.njk
   <div class="custom-tabs">
     <ul class="nav nav-tabs justify-content-center border-0" id="personalTrainingTabs" role="tablist">
       <li class="nav-item">
-        <button class="nav-link px-4 active" id="tab-ptraining" data-bs-toggle="tab" data-bs-target="#ptraining" type="button" role="tab">Personal Training</button>
+        <button class="nav-link px-4 active" id="tab-ptraining" data-bs-toggle="tab" data-bs-target="#ptraining" type="button" role="tab">{{ tabs.ptraining }}</button>
       </li>
       <li class="nav-item">
-        <button class="nav-link px-4" id="tab-info" data-bs-toggle="tab" data-bs-target="#info" type="button" role="tab">Practical Information</button>
+        <button class="nav-link px-4" id="tab-info" data-bs-toggle="tab" data-bs-target="#info" type="button" role="tab">{{ tabs.info }}</button>
       </li>
       <li class="nav-item">
-        <button class="nav-link px-4" id="tab-pricing" data-bs-toggle="tab" data-bs-target="#pricing" type="button" role="tab">Prices</button>
+        <button class="nav-link px-4" id="tab-pricing" data-bs-toggle="tab" data-bs-target="#pricing" type="button" role="tab">{{ tabs.pricing }}</button>
       </li>
     </ul>
     <div class="tab-line"></div>
@@ -59,17 +59,17 @@ layout: layouts/base.njk
       <div class="mb-3 tab-pane fade active show" id="ptraining" role="tabpanel">
         <h4 class="mt-4 mb-3 separator">{{ tab_intro.section1_title }}</h4>
         <h5 class="mb-3"><i>{{ tab_intro.section1_subtitle }}</i></h5>
-        <div>{{ tab_intro.section1_text | safe }}</div>
+        <div>{{ tab_intro.section1_text | markdown | safe }}</div>
         
         <h4 class="mt-5 mb-3 separator">{{ tab_intro.section2_title }}</h4>
         <h5 class="mb-3"><i>{{ tab_intro.section2_subtitle }}</i></h5>
-        <div>{{ tab_intro.section2_text | safe }}</div>
+        <div>{{ tab_intro.section2_text | markdown | safe }}</div>
       </div>
 
       <!-- Practical Information Tab -->
       <div class="mb-3 tab-pane fade" id="info" role="tabpanel">
         <h4 class="mt-4 mb-3 separator">{{ tab_info.title }}</h4>
-        <div>{{ tab_info.intro_text | safe }}</div>
+        <div class="mb-5">{{ tab_info.intro_text | markdown | safe }}</div>
         
         <div class="row g-4">
           {% for step in tab_info.steps %}
@@ -84,7 +84,7 @@ layout: layouts/base.njk
                 </button>
                 <div class="collapse collapse-text" id="{{ step.id }}">
                   <div class="mt-2">
-                    {{ step.description | safe }}
+                    {{ step.description | markdown | safe }}
                     <ul class="mt-3 list-unstyled">
                       {% for feature in step.features %}
                       <li>{% include "icons/" ~ feature.icon ~ ".njk" %}<span>{{ feature.text }}</span></li>
@@ -102,7 +102,7 @@ layout: layouts/base.njk
       <!-- Pricing tab -->
       <div class="mb-3 tab-pane fade" id="pricing" role="tabpanel">
         <h4 class="mt-4 mb-3 separator">{{ tab_pricing.title }}</h4>
-        <p>{{ tab_pricing.intro_text | safe }}</p>
+        <div>{{ tab_pricing.intro_text | markdown | safe }}</div>
         
         <div class="row g-4">
           {% for package in tab_pricing.packages %}
@@ -114,8 +114,12 @@ layout: layouts/base.njk
                   {% include "icons/calendar-icon.njk" %}<span class="ps-2 ps-lg-3">{{ package.duration }}</span>
                 </p>
                 <p class="card-text fs-lg-4">
-                  {% include "icons/user-icon.njk" %}<span class="ps-2 ps-lg-3 pe-4 pe-lg-5">{{ package.price_solo }}</span>
-                  {% include "icons/users-icon.njk" %}<span class="ps-2 ps-lg-3">{{ package.price_duo }}</span>
+                  {% if package.price_duo %}
+                    {% include "icons/user-icon.njk" %}<span class="ps-2 ps-lg-3 pe-4 pe-lg-5">{{ package.price_solo }}</span>
+                    {% include "icons/users-icon.njk" %}<span class="ps-2 ps-lg-3">{{ package.price_duo }}</span>
+                  {% else %}
+                    {% include "icons/price-icon.njk" %}<span class="ps-2 ps-lg-3">{{ package.price_solo }}</span>
+                  {% endif %}
                 </p>
                 <div class="card-text">
                   {% for item in package.features %}
@@ -128,7 +132,7 @@ layout: layouts/base.njk
                     <span class="toggle-icon"></span>
                   </button>
                   <div class="collapse collapse-text" id="{{ package.id }}">
-                    <div class="mt-2">{{ package.more_info | safe }}</div>
+                    <div class="mt-2">{{ package.more_info | markdown | safe }}</div>
                   </div>
                 </div>
               </div>

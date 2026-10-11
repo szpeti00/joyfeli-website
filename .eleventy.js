@@ -1,5 +1,6 @@
 import { execSync } from 'child_process';
 import path from 'path';
+import markdownIt from "markdown-it";
 
 export default function (eleventyConfig) {
   // Copy static assets to the output folder
@@ -22,7 +23,24 @@ export default function (eleventyConfig) {
       return "";
     }
   });
-  
+  // Configure markdown-it
+  const md = new markdownIt({
+    html: true,
+    breaks: true,
+    linkify: true
+  });
+  // Add the filter
+  eleventyConfig.addFilter("markdown", (content) => {
+    if (!content) return "";
+    return md.render(content);
+  });
+  // inline markdown filter (no <p> tags)
+  eleventyConfig.addFilter("markdownInline", (content) => {
+    if (!content) return "";
+    return md.renderInline(content);
+  });
+
+
   return {
     dir: {
       input: "src",
