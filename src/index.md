@@ -23,9 +23,6 @@ welcome:
 
 
     Met persoonlijke coaching waarin krachttraining, leefstijl, mindset en kennis over vrouwengezondheid samenkomen, ondersteun ik je om zelf de regie te nemen over je gezondheid en een **sterke basis** te leggen voor nu én de komende jaren, terwijl je de menopauze nadert en leert navigeren door deze **transitionele levensfase**.
-
-
-    Zo ontwikkel je meer **vertrouwen** in je lichaam, **inzicht** in wat je nodig hebt en de **kracht** om bewuste keuzes te maken voor jezelf.
 services:
   title: Coaching Services
   cards:
