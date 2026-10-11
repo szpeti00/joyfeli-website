@@ -54,14 +54,14 @@ about:
   image: /img/feli.jpg
   button_text: Meer
   link_key: about
-  text: >
+  text: >-
     Hi, ik ben Feli Aarsman. Tijdens mijn studie Ecologie in Wageningen werd ik
     verliefd op de stad en haar natuur. Ik ontdekte de sterke wisselwerking
-    tussen mens en omgeving: ons welzijn wordt gevormd door **biologische,
-    psychologische en sociale factoren**.
+    tussen mens en omgeving: ons welzijn wordt gevormd door **biologische**,
+    **psychologische** en **sociale factoren**.
 
 
-    Mijn passie voor natuur groeide uit tot een fascinatie voor denken, communicatie en gedrag, vooral rond leefstijl en beweging. Dit leidde tot mijn rol als coach, waarin ik mensen help **fysiek en mentaal sterker** te worden.
+    Mijn passie voor natuur groeide uit tot een fascinatie voor denken, communicatie en gedrag, vooral rond leefstijl en beweging. Dit leidde tot mijn rol als coach, waarin ik mensen help **fysiek** en **mentaal sterker** te worden.
 
 
     Met **acht jaar** ervaring als **gecertificeerd instructeur** leerde ik hoe we met positieve energie samen een sterkere, gelukkigere wereld creëren. Gezond, sterk en veerkrachtig zijn is daarbij essentieel.
