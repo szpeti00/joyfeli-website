@@ -39,6 +39,8 @@ export default function (eleventyConfig) {
     if (!content) return "";
     return md.renderInline(content);
   });
+  // Add watch targets
+  eleventyConfig.addWatchTarget("./src/css/");
 
 
   return {

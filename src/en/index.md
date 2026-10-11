@@ -14,10 +14,9 @@ welcome:
   image: /img/Feli_mountain.jpg
   title_part1: Empower your life
   title_part2: Educate your body and mind
-  subtitle: |-
-    Women's Health Coach & Personal Trainer
-
-     for Women 30+ | Wageningen & Online
+  subtitle: |
+    Women's Health Coach & Personal Trainer 
+    for Women 30+ | Wageningen & Online
   text: >-
     I work with **women aged 30 and over**. Together, we build strength, develop
     sustainable habits, and deepen your understanding of your body.

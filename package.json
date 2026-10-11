@@ -5,7 +5,8 @@
   "scripts": {
     "build": "npm run build-css && npm run minify-js && npm run minify-css && eleventy",
     "build-css": "postcss src/css/bootstrap.min.css -o dist/css/bootstrap.purged.css",
-    "serve": "eleventy --serve",
+    "watch-css": "chokidar \"src/css/**/*.css\" \"src/**/*.{html,njk,md,js}\" -c \"npm run build-css && npm run minify-css\"",
+    "serve": "npm run build-css && npm run minify-css && concurrently \"npm run watch-css\" \"eleventy --serve\"",
     "test": "echo \"Error: no test specified\" && exit 1",
     "minify-js": "terser src/js/script.js -o dist/js/script.min.js --compress --mangle",
     "minify-css": "csso src/css/styles.css -o dist/css/styles.min.css"
@@ -23,6 +24,8 @@
   "devDependencies": {
     "@fullhuman/postcss-purgecss": "^7.0.2",
     "autoprefixer": "^10.4.21",
+    "chokidar-cli": "^3.0.0",
+    "concurrently": "^10.0.6",
     "csso-cli": "^4.0.2",
     "postcss-cli": "^11.0.1",
     "terser": "^5.39.0"
