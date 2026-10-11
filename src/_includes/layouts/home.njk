@@ -12,7 +12,7 @@ layout: layouts/base.njk
   </picture>
   <div class="container hero-home-content">
     <blockquote class="blockquote">
-      <p class="fs-2 fst-italic">{{ quote.text | safe }}</p>
+      <p class="fs-2 fst-italic">{{ quote.text | markdownInline | safe }}</p>
       <q class="blockquote-footer text-white">{{ quote.author }}</q>
     </blockquote>
   </div>

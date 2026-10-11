@@ -7,7 +7,9 @@ navbarClass: "fixed-top"
 heroImage: "/img/Feli_predel.jpg"
 
 quote:
-  text: '"You cannot step into the same river twice,<br> for other waters are ever flowing on to you."'
+  text: |
+    "You cannot step into the same river twice, 
+    for other waters are ever flowing on to you."
   author: "Heraclitus"
 
 welcome:
