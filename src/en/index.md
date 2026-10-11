@@ -21,9 +21,6 @@ welcome:
 
 
     Through personal coaching that combines strength training, lifestyle, mindset, and women's health education, I support you in taking charge of your health and building a **strong foundation** for your wellbeing, both now and in the years ahead, as you approach and navigate the **menopause transition**.
-
-
-    This is about creating lasting change that helps you feel **stronger**, more **confident**, and **empowered** in your health.
 services:
   title: Coaching Services
   cards:
