@@ -33,21 +33,23 @@ services:
       title: Leefstijlcoaching
       subtitle: De kracht van gedrag
       text: Creëer gezonde gewoontes en ontdek de kracht van je gedrag en innerlijke
-        motivatie, zodat je een duurzaam, gebalanceerd leven kunt leiden.
+        motivatie, zodat je een duurzaam, gebalanceerd leven kunt leiden dat
+        past bij jouw huidige levensfase.
       button_text: Meer
       link_key: lifestyleCoaching
     - image: /img/personaltraining_icon.png
       title: Personal Training
       subtitle: Gezond lichaam, sterke geest
-      text: Versterk zowel je fysieke gezondheid als je mentale welzijn met
-        deskundige, persoonlijke begeleiding.
+      text: Versterk je lichaam en mentale welzijn met persoonlijke begeleiding, met
+        aandacht voor je cyclus, hormoonhuishouding en individuele behoeften.
       button_text: Meer
       link_key: personalTraining
     - image: /img/forher_icon.png
       title: Voor Haar
       subtitle: Veilig, sterk en vrouwelijk
-      text: Herontdek je innerlijke kracht en balans in een veilige setting, speciaal
-        voor vrouwen die zich willen verbinden met hun kracht en zelfvertrouwen.
+      text: >
+        Bouw aan een sterke basis voor de menopauze met persoonlijke begeleiding
+        waarin kracht, leefstijl en vrouwengezondheid samenkomen.
       button_text: Meer
       link_key: forHer
 about:
