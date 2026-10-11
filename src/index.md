@@ -58,11 +58,11 @@ about:
   text: >-
     Hi, ik ben Feli Aarsman. Tijdens mijn studie Ecologie in Wageningen werd ik
     verliefd op de stad en haar natuur. Ik ontdekte de sterke wisselwerking
-    tussen mens en omgeving: ons welzijn wordt gevormd door **biologische**,
-    **psychologische** en **sociale factoren**.
+    tussen **mens en omgeving**: ons welzijn wordt gevormd door biologische,
+    psychologische en sociale factoren.
 
 
-    Mijn fascinatie voor denken, communicatie en gedrag groeide uit tot een passie voor leefstijl, beweging en het complexe vrouwenlichaam. Ik wil **vrouwen** helpen **sterker** te worden, hun lichaam beter te **begrijpen** en meer **vertrouwen** te krijgen in zichzelf.
+    Mijn fascinatie voor denken, communicatie en gedrag groeide uit tot een passie voor **leefstijl**, **beweging** en het complexe **vrouwenlichaam**. Ik wil vrouwen helpen sterker te worden, hun lichaam beter te begrijpen en meer vertrouwen te krijgen in zichzelf.
 
 
     Met **acht jaar** ervaring als **gecertificeerd instructeur** zet ik mijn kennis, passie, enthousiasme en positieve energie in om vrouwen te ondersteunen.
