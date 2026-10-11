@@ -30,22 +30,27 @@ services:
     - image: /img/lifestylecoaching_icon.png
       title: Lifestyle Coaching
       subtitle: The power of behavior
-      text: Create healthy habits and discover the power of your behavior and inner
-        motivation, so you can lead a sustainable, balanced life.
+      text: >
+        Build healthy habits and discover the power of your behaviour and inner
+        motivation to create a sustainable, balanced life that fits your current
+        stage of life.
       button_text: More
       link_key: lifestyleCoaching
     - image: /img/personaltraining_icon.png
       title: Personal Training
       subtitle: Healthy body, strong mind
-      text: Strengthen both your physical health and mental well-being with expert,
-        personal guidance.
+      text: >
+        Strengthen your body and mental wellbeing with personalised guidance
+        that takes your cycle, hormonal health, and individual needs into
+        account.
       button_text: More
       link_key: personalTraining
     - image: /img/forher_icon.png
       title: For Her
       subtitle: Safe, strong, and feminine
-      text: Rediscover your inner strength and balance in a safe setting, specially
-        for women who want to connect with their power and self-confidence.
+      text: >
+        Build a strong foundation for menopause with personalised coaching that
+        brings together strength, lifestyle, and women's health.
       button_text: More
       link_key: forHer
 about:
