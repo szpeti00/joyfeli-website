@@ -48,12 +48,11 @@ tab_intro:
     Waarom die kennis niet in je voordeel gebruiken? Door **wetenschappelijke inzichten** te combineren met **persoonlijke begeleiding,** bouwen we aan een aanpak die jou helpt sterker te worden, je gezondheid te ondersteunen en met vertrouwen vooruit te kijken.
 tab_info:
   title: Hoe verloopt het traject?
-  intro_text: >
-    Personal training richt zich op het verbeteren van je fysieke gezondheid en
-    fitheid door middel van doelgerichte training, beweging en motivatie. Ik
-    stem de trainingen af op **jouw persoonlijke doelen, niveau en
-    mogelijkheden**, zodat je op een effectieve en duurzame manier vooruitgang
-    boekt.
+  intro_text: >-
+    We werken met een persoonlijk trainingsplan dat aansluit bij **jouw doelen,
+    niveau, behoeften en voorkeuren**. Met een gevarieerde mix van
+    trainingsvormen bouwen we stap voor stap aan kracht, conditie en vertrouwen
+    in je lichaam, op een manier die bij jou past.
 
 
     Een coachingstraject bestaat uit meerdere sessies die in een logische volgorde zijn opgebouwd.
@@ -131,11 +130,11 @@ tab_info:
     - id: location
       title: Locatie
       main_icon: home-icon
-      description: De personal training sessies vinden plaats in mijn rustige
-        praktijkruimte in **Wageningen**, waar we samen aan jouw doelen werken.
-        Als je liever **thuis of buiten** traint, kan dat ook. Het belangrijkste
-        is dat jij je op je gemak voelt en gemotiveerd bent om duurzame
-        veranderingen in je fysieke gezondheid te realiseren.
+      description: De personal training vindt plaats op een locatie die past bij jou
+        en jouw training. We kunnen **buiten** trainen in Wageningen en
+        omgeving, of bij **jou thuis** als er voldoende ruimte is. Samen kiezen
+        we een plek waar je prettig kunt bewegen en gericht kunt werken aan jouw
+        doelen.
       features:
         - icon: home-modern-icon
           text: Wageningen
