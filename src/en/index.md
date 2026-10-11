@@ -12,7 +12,7 @@ quote:
   author: Heraclitus
 welcome:
   image: /img/Feli_mountain.jpg
-  title_part1: Educate your mind and body
+  title_part1: Educate your body and mind
   title_part2: Empower your life
   subtitle: Women's Health Coach & Personal Trainer for Women 30+ | Wageningen & Online
   text: >-
