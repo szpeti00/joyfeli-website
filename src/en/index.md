@@ -71,18 +71,6 @@ about:
 reviews:
   title: Reviews
   items:
-    - title: Unique, Supported, Empowered
-      quote: Feli coaches you and truly sees you as a unique person. She listens, is
-        interested, and explains clearly what you can do best. She is
-        enthusiastic with everyone and always helpful. Feli is a real people
-        person and gives you the power to go for it!
-      author: Anja Peterse
-    - title: Inspired to achieve more
-      quote: I’m thrilled to work with Feli as my coach. She understands my goals,
-        creates motivating workouts, and ensures I perform exercises correctly.
-        Her positivity and support push me to achieve more. I highly recommend
-        Feli to anyone seeking an inspiring, professional coach!
-      author: Norbert Essink
     - title: Empowering Coaching for Women
       quote: Feli is a joy to work with! Over the past two years, she has helped me
         gradually build strength through weight training, which is crucial for
@@ -91,6 +79,20 @@ reviews:
         unique situation and goals, and takes an integrated approach, Feli is
         the right coach for you!
       author: Flora Adams
+    - title: Unique, Supported, Empowered
+      quote: Feli coaches you and truly sees you as a unique person. She listens, is
+        interested, and explains clearly what you can do best. She is
+        enthusiastic with everyone and always helpful. Feli is a real people
+        person and gives you the power to go for it!
+      author: Anja Peterse
+    - title: Personalised Support Through Menopause
+      quote: Wow, what an amazing experience! Feli truly stands by your side and takes
+        the time to create a fully personalised programme, including thoughtful
+        nutrition and supplement advice. Her knowledge and dedication are
+        impressive; I immediately felt heard, understood, and really well
+        supported. Highly recommended for anyone serious about taking charge of
+        their health!
+      author: Letty van Hoef
     - title: Embracing the Healthy Bon Vivant Within
       quote: Thank you, Feli, for your thoughtful coaching and the insights I’ve
         gained. You have a wealth of knowledge about lifestyle, nutrition, and
@@ -98,6 +100,12 @@ reviews:
         valuable part of my journey towards a new lifestyle, helping me embrace
         the healthy bon vivant within!
       author: Marjolijn van Roekel
+    - title: Inspired to achieve more
+      quote: I’m thrilled to work with Feli as my coach. She understands my goals,
+        creates motivating workouts, and ensures I perform exercises correctly.
+        Her positivity and support push me to achieve more. I highly recommend
+        Feli to anyone seeking an inspiring, professional coach!
+      author: Norbert Essink
 contact_section:
   title: Contact
   subtitle: Contact me for more information
