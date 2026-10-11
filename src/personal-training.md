@@ -17,13 +17,13 @@ tab_intro:
   section1_title: Wat is Personal Training?
   section1_subtitle: Kracht, balans en vitaliteit
   section1_text: >-
-    Personal training is meer dan trainen alleen. Het is persoonlijke
+    Personal training is **meer dan trainen alleen**. Het is persoonlijke
     begeleiding waarbij we samen werken aan een sterker, fitter en
     veerkrachtiger lichaam, op een manier die past bij jouw behoeften, doelen en
     levensfase.
 
 
-    Met een persoonlijke mix van **kracht, mobiliteit, flexibiliteit, conditie** en **functionele training** help ik je stap voor stap vooruit. De training wordt afgestemd op jouw doelen, behoeften en levensfase, met aandacht voor wat bij jou past en wat je motiveert. Daarbij houd ik rekening met het vrouwenlichaam en wat jouw lichaam nodig heeft om sterk, gezond en energiek te blijven, nu en in de jaren die voor je liggen.
+    Met een **persoonlijke mix** van kracht, mobiliteit, flexibiliteit, conditie en functionele training help ik je stap voor stap vooruit. De training wordt afgestemd op jouw doelen, behoeften en levensfase, met aandacht voor wat bij jou past en wat je motiveert. Daarbij houd ik rekening met het vrouwenlichaam en wat jouw lichaam nodig heeft om sterk, gezond en energiek te blijven, nu en in de jaren die voor je liggen.
 
 
     Mijn doel is om je niet alleen fysiek sterker te maken, maar je ook de **kennis, vaardigheden** en het **zelfvertrouwen** te geven om zelfstandig verder te kunnen. Zo bouw je aan een sterke basis voor een actief leven, met aandacht voor jouw lichaam en gezondheid op de lange termijn.
@@ -32,10 +32,10 @@ tab_intro:
   section2_text: >-
     Lange tijd is veel onderzoek naar gezondheid en training voornamelijk
     gebaseerd geweest op mannen. Inmiddels groeit de aandacht voor de
-    vrouwelijke fysiologie en krijgen we steeds meer inzicht in wat vrouwen
+    **vrouwelijke fysiologie** en krijgen we steeds meer inzicht in wat vrouwen
     nodig hebben om sterk, gezond en fit te blijven. Ook de invloed van
-    hormonale veranderingen tijdens de (peri)menopauze op onder andere
-    **spiermassa, botgezondheid, herstel en energieniveau** krijgt steeds meer
+    hormonale veranderingen tijdens de **(peri)menopauze** op onder andere
+    spiermassa, botgezondheid, herstel en energieniveau krijgt steeds meer
     aandacht.
 
 
