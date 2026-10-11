@@ -62,10 +62,10 @@ about:
     **psychologische** en **sociale factoren**.
 
 
-    Mijn passie voor natuur groeide uit tot een fascinatie voor denken, communicatie en gedrag, vooral rond leefstijl en beweging. Dit leidde tot mijn rol als coach, waarin ik mensen help **fysiek** en **mentaal sterker** te worden.
+    Mijn fascinatie voor denken, communicatie en gedrag groeide uit tot een passie voor leefstijl, beweging en het complexe vrouwenlichaam. Ik wil **vrouwen** helpen **sterker** te worden, hun lichaam beter te **begrijpen** en meer **vertrouwen** te krijgen in zichzelf.
 
 
-    Met **acht jaar** ervaring als **gecertificeerd instructeur** leerde ik hoe we met positieve energie samen een sterkere, gelukkigere wereld creëren. Gezond, sterk en veerkrachtig zijn is daarbij essentieel.
+    Met **acht jaar** ervaring als **gecertificeerd instructeur** zet ik mijn kennis, passie, enthousiasme en positieve energie in om vrouwen te ondersteunen.
 reviews:
   title: Reviews
   items:
