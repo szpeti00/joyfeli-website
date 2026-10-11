@@ -17,12 +17,12 @@ tab_intro:
   section1_title: What is Personal Training?
   section1_subtitle: Strength, Balance & Vitality
   section1_text: >-
-    Personal training is about more than just exercise. It's about personalised
-    coaching that helps you build a stronger, fitter, and more resilient body in
-    a way that suits your needs, goals, and stage of life.
+    Personal training is about **more than just exercise**. It's about
+    personalised coaching that helps you build a stronger, fitter, and more
+    resilient body in a way that suits your needs, goals, and stage of life.
 
 
-    With a personalised mix of **strength, mobility, flexibility, cardiovascular fitness, and functional training**, I'll help you make progress step by step. Your training is tailored to your goals, needs, and stage of life, with a focus on what works for you and what motivates you. I also take the female body into account, considering what your body needs to stay strong, healthy, and energised, both now and in the years ahead.
+    With a **personalised mix** of strength, mobility, flexibility, cardiovascular fitness, and functional training, I'll help you make progress step by step. Your training is tailored to your goals, needs, and stage of life, with a focus on what works for you and what motivates you. I also take the female body into account, considering what your body needs to stay strong, healthy, and energised, both now and in the years ahead.
 
 
     My goal is not only to help you become physically stronger, but also to give you the **knowledge, skills, and confidence** to continue independently. Together, we'll build a strong foundation for an active life, with a focus on your body and long-term health.
@@ -30,11 +30,11 @@ tab_intro:
   section2_subtitle: Train with an Understanding of the Female Body.
   section2_text: >-
     For a long time, much of the research into health and exercise has been
-    based primarily on men. Today, there is growing attention to female
-    physiology, and we are gaining a better understanding of what women need to
-    stay strong, healthy, and fit. The effects of hormonal changes during
-    perimenopause and menopause on **muscle mass, bone health, recovery, and
-    energy levels** are also receiving increasing attention.
+    based primarily on men. Today, there is growing attention to **female
+    physiology**, and we are gaining a better understanding of what women need
+    to stay strong, healthy, and fit. The effects of hormonal changes during
+    **perimenopause** and **menopause** on muscle mass, bone health,recovery,
+    and energy levels are also receiving increasing attention.
 
 
     This knowledge opens up new opportunities to tailor training more effectively to the female body and the stage of life you're in. Rather than following a one-size-fits-all approach, we can take a more considered look at what works for your body, needs, and goals.
