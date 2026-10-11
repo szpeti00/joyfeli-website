@@ -43,10 +43,10 @@ tab_intro:
     Door je lichaam, gedrag, gedachten en omgeving beter te begrijpen, ontdek je wat bij jou past en hoe je bewuste keuzes kunt maken die je welzijn ondersteunen. Zo bouw je aan meer **rust**, **vertrouwen** en **balans** in je dagelijks leven.
 tab_info:
   title: Hoe verloopt het traject?
-  intro_text: >
+  intro_text: >-
     Leefstijlcoaching richt zich op verschillende aspecten van je leven, zoals
-    **gedrag, voeding, beweging, slaap, stress en ontspanning**. Ik maak gebruik
-    van methoden en modellen die aansluiten bij jouw unieke traject.
+    **gedrag, voeding, beweging, slaap, stress en ontspanning**. Ik stem mijn
+    begeleiding af op jouw persoonlijke behoeften, doelen en situatie.
 
 
     Een coachingstraject bestaat uit meerdere sessies die in een logische volgorde zijn opgebouwd.
