@@ -78,12 +78,6 @@ reviews:
         jouw unieke situatie en doelen begrijpt en een geïntegreerde aanpak
         hanteert, dan is Feli de juiste coach voor jou!
       author: Flora Adams
-    - title: Uniek, Ondersteund, Empowered
-      quote: Feli coacht je en ziet je echt als een uniek persoon. Ze luistert, is
-        geïnteresseerd en legt duidelijk uit wat je het beste kunt doen. Ze is
-        enthousiast met iedereen en altijd behulpzaam. Feli is een echt
-        mensenmens en geeft je de kracht om ervoor te gaan
-      author: Anja Peterse
     - title: Persoonlijke begeleiding rondom de menopauze
       quote: Wauw, wat een geweldige ervaring! Feli staat écht naast je en neemt alle
         tijd om een volledig persoonlijk programma op te stellen, met doordacht
@@ -92,6 +86,12 @@ reviews:
         geholpen. Een absolute aanrader voor iedereen die serieus aan de slag
         wil met zijn gezondheid!
       author: Letty van Hoef
+    - title: Uniek, Ondersteund, Empowered
+      quote: Feli coacht je en ziet je echt als een uniek persoon. Ze luistert, is
+        geïnteresseerd en legt duidelijk uit wat je het beste kunt doen. Ze is
+        enthousiast met iedereen en altijd behulpzaam. Feli is een echt
+        mensenmens en geeft je de kracht om ervoor te gaan
+      author: Anja Peterse
     - quote: Dank je wel, Feli, voor jouw prettige manier van coachen en de inzichten
         die ik hieruit heb verkregen. Je hebt veel kennis en kunde op het gebied
         van lifestyle, voeding en beweging, en stelt vragen die me aan het
