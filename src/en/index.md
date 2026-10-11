@@ -106,6 +106,15 @@ reviews:
         Her positivity and support push me to achieve more. I highly recommend
         Feli to anyone seeking an inspiring, professional coach!
       author: Norbert Essink
+    - quote: Working with Feli as a lifestyle coach was a transformative experience.
+        She created a safe, supportive space where I could move at my own pace,
+        helping me accept myself more and develop small but meaningful healthy
+        habits. Rather than telling me what to do, she gently guided me to
+        reflect and discover the answers within myself. I finished the sessions
+        feeling lighter, more positive, and proud of my progress. I absolutely
+        recommend Feli to anyone curious about lifestyle coaching!
+      title: A Supportive Journey Towards Lasting Change
+      author: Nabilah Nuha
 contact_section:
   title: Contact
   subtitle: Contact me for more information
