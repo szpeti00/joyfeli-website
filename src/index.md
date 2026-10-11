@@ -14,8 +14,9 @@ welcome:
   image: /img/Feli_mountain.jpg
   title_part1: Verrijk je leven
   title_part2: Versterk je lichaam en kennis
-  subtitle: Women's Health Coach & Personal Trainer voor vrouwen 30+ | Wageningen
-    & Online
+  subtitle: |-
+    Women's Health Coach & Personal Trainer \
+    voor vrouwen 30+ | Wageningen & Online
   text: >-
     Ik begeleid **vrouwen vanaf 30 jaar**. Samen bouwen we aan kracht,
     ontwikkelen we duurzame gewoontes en verdiepen we je inzicht in je eigen
