@@ -366,7 +366,7 @@ collections:
         name: "home_nl"
         fields: *home_fields
 
-      - file: "src/personal-training-nl.md"
+      - file: "src/personal-training.md"
         label: "Personal Training"
         name: "personal_training_nl"
         fields: *coaching_fields
