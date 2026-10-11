@@ -192,4 +192,17 @@ tab_pricing:
         - Free introduction
         - Flexible
         - Freedom of choice
+    - id: OnlineCoaching
+      title: Online Coaching
+      duration: 1 Month
+      price_solo: € 100
+      more_info: Online coaching offers the flexibility to work on your health at your
+        **own pace** and from the comfort of your **own environment**. With
+        personalised guidance, you'll learn to apply insights independently and
+        make choices that work for you.
+      features:
+        - Personalised check-in calls
+        - Ongoing WhatsApp support
+        - Video analysis & feedback
+        - Personalised coaching
 ---
