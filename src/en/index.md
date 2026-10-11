@@ -57,17 +57,17 @@ about:
   image: /img/feli.jpg
   button_text: More
   link_key: about
-  text: >
+  text: >-
     Hi, I'm Feli Aarsman. During my Ecology studies in Wageningen, I fell in
-    love with the city and its nature. I discovered the strong interaction
-    between people and their environment—our well-being is shaped by
-    **biological, psychological**, and **social factors**.
+    love with the city and its natural surroundings. I discovered the strong
+    connection between people and their environment, and how our wellbeing is
+    shaped by **biological**, **psychological**, and **social factors**.
 
 
-    My passion for nature grew into a fascination with thinking, communication, and behavior, especially in relation to lifestyle and movement. This led me to my role as a coach, where I help people become **physically and mentally stronger**.
+    My fascination with thinking, communication, and behaviour grew into a passion for lifestyle, movement, and the complexity of the female body. I want to help women grow **stronger**, better **understand** their bodies, and develop greater **confidence** in themselves.
 
 
-    With **eight years of experience** as a **certified instructor**, I’ve learned how positive energy can help us create a stronger, happier world together. Being healthy, strong, and resilient is essential to that journey.
+    With **eight years** of experience as a **certified instructor**, I bring my knowledge, passion, enthusiasm, and positive energy to supporting women.
 reviews:
   title: Reviews
   items:
