@@ -18,9 +18,9 @@ tab_intro:
   section1_subtitle: Persoonlijke groei, lichaamsbewustzijn, veerkracht en balans
   section1_text: >-
     Leefstijlcoaching helpt je bewuster om te gaan met je dagelijkse keuzes en
-    gewoontes. Het gaat verder dan alleen **fysieke** **gezondheid** en kijkt
-    ook naar je **mentale** en **emotionele** **welzijn**, je omgeving en de
-    manier waarop je met uitdagingen omgaat.
+    gewoontes. Het gaat verder dan alleen fysieke gezondheid en kijkt ook naar
+    je **mentale** en **emotionele** welzijn, je omgeving en de manier waarop je
+    met uitdagingen omgaat.
 
 
     Door inzicht te krijgen in je gedrag, motivatie en patronen, ontdek je wat voor jou werkt en hoe je stap voor stap duurzame veranderingen kunt maken. Daarbij is er aandacht voor de unieke wisselwerking tussen je **lichaam**, **hormonen**, **gedrag** en de **wereld** om je heen. Ook de rollen, verwachtingen en uitdagingen die je als vrouw ervaart, kunnen invloed hebben op je welzijn en de keuzes die je maakt.
