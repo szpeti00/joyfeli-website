@@ -69,20 +69,6 @@ about:
 reviews:
   title: Reviews
   items:
-    - title: Uniek, Ondersteund, Empowered
-      quote: Feli coacht je en ziet je echt als een uniek persoon. Ze luistert, is
-        geïnteresseerd en legt duidelijk uit wat je het beste kunt doen. Ze is
-        enthousiast met iedereen en altijd behulpzaam. Feli is een echt
-        mensenmens en geeft je de kracht om ervoor te gaan
-      author: Anja Peterse
-    - title: Geïnspireerd om meer te bereiken
-      quote: Ik ben erg blij dat ik met Feli werk als coach. Vanaf het begin voelde ik
-        me welkom en gemotiveerd. Feli begrijpt mijn doelen en stelt
-        persoonlijke schema’s op die me uitdagen. Ze toont de oefeningen,
-        controleert mijn uitvoering en zorgt voor positieve energie. Dankzij
-        haar bereik ik meer dan ik dacht. Ik kan Feli van harte aanbevelen als
-        inspirerende coach
-      author: Norbert Essink
     - title: Krachtige Coaching voor Vrouwen
       quote: Feli is een genot om mee te werken! De afgelopen twee jaar heeft ze me
         geholpen om geleidelijk kracht op te bouwen door middel van
@@ -92,14 +78,12 @@ reviews:
         jouw unieke situatie en doelen begrijpt en een geïntegreerde aanpak
         hanteert, dan is Feli de juiste coach voor jou!
       author: Flora Adams
-    - quote: Dank je wel, Feli, voor jouw prettige manier van coachen en de inzichten
-        die ik hieruit heb verkregen. Je hebt veel kennis en kunde op het gebied
-        van lifestyle, voeding en beweging, en stelt vragen die me aan het
-        nadenken zetten. Je bent een waardevolle aanvulling geweest op mijn
-        koers naar een nieuwe lifestyle, waarbij ik de gezonde Bourgondiër in
-        mezelf heb weten te omarmen!
-      title: De gezonde Bourgondiër omarmen
-      author: Marjolijn van Roekel
+    - title: Uniek, Ondersteund, Empowered
+      quote: Feli coacht je en ziet je echt als een uniek persoon. Ze luistert, is
+        geïnteresseerd en legt duidelijk uit wat je het beste kunt doen. Ze is
+        enthousiast met iedereen en altijd behulpzaam. Feli is een echt
+        mensenmens en geeft je de kracht om ervoor te gaan
+      author: Anja Peterse
     - title: Persoonlijke begeleiding rondom de menopauze
       quote: Wauw, wat een geweldige ervaring! Feli staat écht naast je en neemt alle
         tijd om een volledig persoonlijk programma op te stellen, met doordacht
@@ -108,6 +92,22 @@ reviews:
         geholpen. Een absolute aanrader voor iedereen die serieus aan de slag
         wil met zijn gezondheid!
       author: Letty van Hoef
+    - quote: Dank je wel, Feli, voor jouw prettige manier van coachen en de inzichten
+        die ik hieruit heb verkregen. Je hebt veel kennis en kunde op het gebied
+        van lifestyle, voeding en beweging, en stelt vragen die me aan het
+        nadenken zetten. Je bent een waardevolle aanvulling geweest op mijn
+        koers naar een nieuwe lifestyle, waarbij ik de gezonde Bourgondiër in
+        mezelf heb weten te omarmen!
+      title: De gezonde Bourgondiër omarmen
+      author: Marjolijn van Roekel
+    - title: Geïnspireerd om meer te bereiken
+      quote: Ik ben erg blij dat ik met Feli werk als coach. Vanaf het begin voelde ik
+        me welkom en gemotiveerd. Feli begrijpt mijn doelen en stelt
+        persoonlijke schema’s op die me uitdagen. Ze toont de oefeningen,
+        controleert mijn uitvoering en zorgt voor positieve energie. Dankzij
+        haar bereik ik meer dan ik dacht. Ik kan Feli van harte aanbevelen als
+        inspirerende coach
+      author: Norbert Essink
 contact_section:
   title: Contact
   subtitle: Neem contact met mij op
