@@ -69,7 +69,7 @@ collections:
               - {label: "Image", name: "image", widget: "image"}
               - {label: "Title Part 1", name: "title_part1", widget: "string"}
               - {label: "Title Part 2", name: "title_part2", widget: "string"}
-              - {label: "Subtitle", name: "subtitle", widget: "string"}
+              - {label: "Subtitle", name: "subtitle", widget: "markdown"}
               - {label: "Text", name: "text", widget: "markdown"}
           - label: "Coaching Services"
             name: "services"
