@@ -196,7 +196,7 @@ tab_pricing:
         - Gratis kennismaking
         - Flexibel
         - Keuzevrijheid
-    - id: Online Coaching
+    - id: OnlineCoaching
       title: Online Coaching
       duration: 1 Maand
       price_solo: € 100
@@ -205,8 +205,21 @@ tab_pricing:
         persoonlijke begeleiding leer je zelfstandig inzichten toe te passen en
         keuzes te maken die bij jou passen.
       features:
-        - Persoonlijke belmomenten
-        - Doorlopend appcontact
+        - Wekelijks belmoment (30-60 min)
+        - Doorlopend WhatsApp-contact
         - Videoanalyse & feedback
         - Persoonlijke begeleiding
+    - id: Hybridcoaching
+      title: Hybrid Coaching
+      duration: 1 Maand
+      price_solo: € 175
+      features:
+        - 2 persoonlijke trainingssessies (60 min)
+        - 2 belmomenten per maand
+        - Doorlopend WhatsApp-contact
+        - Persoonlijke coaching & feedback
+      more_info: Hybrid coaching combineert de persoonlijke aandacht van **live
+        trainingssessies** met de flexibiliteit van **online begeleiding**. Zo
+        werk je samen aan je doelen, met persoonlijke ondersteuning tijdens én
+        tussen de trainingen door.
 ---
