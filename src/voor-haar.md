@@ -188,7 +188,7 @@ tab_pricing:
       features:
         - 2 coachingsgesprekken per maand (60–90 min)
         - 2 persoonlijke trainingssessies per maand
-        - Persoonlijk trainingsplan en feedback
+        - Persoonlijk leefstijl- en trainingsadvies
         - Begeleiding bij vrouwengezondheid
         - Doorlopende WhatsApp-ondersteuning
       more_info: Combineer **online** coachingsgesprekken met **face-to-face**
