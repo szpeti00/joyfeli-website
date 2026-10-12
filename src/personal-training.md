@@ -144,7 +144,7 @@ tab_pricing:
   title: Welk coachingstraject?
   intro_text: >-
     Iedere vrouw heeft haar eigen behoeften, doelen en voorkeuren. Bekijk de
-    verschillende mogelijkheden en **ontdek welke vorm van coaching** het beste
+    verschillende mogelijkheden en **ontdek welke vorm** van coaching het beste
     bij jou past. Weet je nog niet zeker welke optie geschikt is voor jou?
     **Neem gerust contact** met me op. We kunnen samen jouw doelen bespreken en
     ontdekken welke begeleiding het beste aansluit bij jouw wensen.
@@ -166,7 +166,7 @@ tab_pricing:
         - Videoanalyse & feedback
         - Persoonlijke begeleiding
     - id: Hybridcoaching
-      title: Hybrid Coaching
+      title: Hybride Coaching
       duration: 1 Maand
       price_solo: € 175
       features:
