@@ -142,60 +142,16 @@ tab_info:
           text: Buiten of andere locatie
 tab_pricing:
   title: Welk coachingstraject?
-  intro_text: Alle sessies en pakketten zijn ook beschikbaar voor **duo’s**. Deel
-    de kosten, sport samen en ontvang een plan op maat!
+  intro_text: >-
+    Iedere vrouw heeft haar eigen behoeften, doelen en voorkeuren. Bekijk de
+    verschillende mogelijkheden en **ontdek welke vorm van coaching** het beste
+    bij jou past. Weet je nog niet zeker welke optie geschikt is voor jou?
+    **Neem gerust contact** met me op. We kunnen samen jouw doelen bespreken en
+    ontdekken welke begeleiding het beste aansluit bij jouw wensen.
+
+
+    **Online Coaching** is het **hele jaar** door beschikbaar, zodat je overal aan je doelen kunt werken met persoonlijke begeleiding. **Live** en **Hybrid** Coaching zijn beschikbaar van **november tot en met april**.
   packages:
-    - id: startPakket
-      title: Start pakket
-      duration: 1 - 2 maanden, 6 sessies
-      price_solo: € 350
-      price_duo: € 200 p.p
-      more_info: Een **kort, intensief traject** met persoonlijke begeleiding voor
-        snel resultaat, ondersteund door gerichte oefeningen voor thuis.
-      features:
-        - Gratis kennismaking
-        - 6 Trainingssessies
-        - Vlotte intake
-        - Eind evaluatie
-    - id: mediumPakket
-      title: Medium pakket
-      duration: 2 - 3 maanden, 8 sessies
-      price_solo: € 450
-      price_duo: € 250 p.p
-      more_info: De meest gekozen optie, met **intensieve personal training** en
-        ruimte om aanpassingen in je routine te integreren. Ontvang de juiste
-        tools om je beweeggedrag duurzaam aan te passen.
-      features:
-        - Gratis kennismaking
-        - 8 Trainingssessies
-        - Intake met analyse
-        - Eind evaluatie
-    - id: tenSessiesPakket
-      title: 10 - Sessies pakket
-      duration: 10 sessies
-      price_solo: € 550
-      price_duo: € 300 p.p
-      more_info: "**Meer flexibiliteit** in het plannen van sessies, met een aanpak
-        die past bij jouw persoonlijke trainingsdoelen. Er is voldoende ruimte
-        voor feedback, zodat je met impact en kracht vooruitgang boekt en
-        blijvende resultaten behaalt."
-      features:
-        - Gratis kennismaking
-        - 10 Trainingssessies
-        - Uitgebreide intake
-        - Eind evaluatie
-    - id: singlePakket
-      title: Losse sessie
-      duration: 45 - 60 min
-      price_solo: € 65
-      price_duo: € 40 p.p
-      more_info: "**Ultieme flexibiliteit:** of je nu alleen een intake wilt om je
-        startpunt te bepalen, of behoefte hebt aan enkele trainingssessies,
-        alles wordt afgestemd op jouw wensen en tempo."
-      features:
-        - Gratis kennismaking
-        - Flexibel
-        - Keuzevrijheid
     - id: OnlineCoaching
       title: Online Coaching
       duration: 1 Maand
@@ -222,4 +178,60 @@ tab_pricing:
         trainingssessies** met de flexibiliteit van **online begeleiding**. Zo
         werk je samen aan je doelen, met persoonlijke ondersteuning tijdens én
         tussen de trainingen door.
+    - id: singlePakket
+      title: Live Coaching | Losse Sessie
+      duration: 45 - 60 min
+      price_solo: € 65
+      price_duo: € 40 p.p
+      more_info: "Een **flexibele, eenmalige sessie** waarin we ons richten op wat jij
+        op dat moment nodig hebt. Of je nu een specifieke vraag hebt, hulp wilt
+        bij een bepaalde oefening of techniek, of behoefte hebt aan persoonlijk
+        advies: we stemmen de sessie **volledig af op jou**."
+      features:
+        - Training afgestemd op jouw behoeften
+        - Focus op een specifieke vraag, uitdaging of doel
+        - Flexibele, eenmalige begeleiding
+    - id: startPakket
+      title: Live Coaching | Start Pakket
+      duration: 1 - 2 maanden, 6 sessies
+      price_solo: € 350
+      price_duo: € 200 p.p
+      more_info: Een **fijne start** om gericht aan je doelen te werken. Tijdens de
+        trainingen bouwen we stap voor stap aan je kracht, techniek en
+        vertrouwen in bewegen. Met praktische oefeningen voor thuis kun je ook
+        buiten de sessies verder aan de slag.
+      features:
+        - Persoonlijk trainingsplan
+        - Werken aan uitvoering en techniek
+        - Praktische oefeningen (voor thuis)
+        - Persoonlijke feedback en begeleiding
+    - id: mediumPakket
+      title: Live Coaching | Progressie pakket
+      duration: 2 - 3 maanden, 8 sessies
+      price_solo: € 450
+      price_duo: € 250 p.p
+      more_info: Een traject waarin je de tijd krijgt om **vooruitgang** te boeken en
+        nieuwe **gewoontes op te bouwen**. We werken stap voor stap aan je
+        kracht en techniek, met persoonlijke begeleiding die aansluit bij jouw
+        doelen en ontwikkeling.
+      features:
+        - Persoonlijk trainingsplan
+        - Stapsgewijze krachtontwikkeling
+        - Verbetering van techniek en uitvoering
+        - Je grenzen verleggen op jouw tempo
+    - id: tenSessiesPakket
+      title: Live Coaching | Verdiepings Pakket
+      duration: 10 sessies
+      price_solo: € 550
+      price_duo: € 300 p.p
+      more_info: Een uitgebreider trainingstraject met ruimte om je kracht te
+        **ontwikkelen**, je manier van bewegen te **verbeteren** en duurzame
+        gewoontes op te **bouwen**. Met persoonlijke begeleiding gedurende het
+        hele traject bouw je verder op je vooruitgang en ontdek je wat het beste
+        bij jou past.
+      features:
+        - Persoonlijk trainingsplan
+        - Doorlopende progressie en adaptatie
+        - Gedetailleerde feedback
+        - Training afgestemd op jouw einddoelen
 ---
