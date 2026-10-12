@@ -192,7 +192,7 @@ tab_pricing:
         - Focus op een specifieke vraag, uitdaging of doel
         - Flexibele, eenmalige begeleiding
     - id: startPakket
-      title: Live Coaching | Start Pakket
+      title: Live Coaching | Prime Pakket
       duration: 1 - 2 maanden, 6 sessies
       price_solo: € 350
       price_duo: € 200 p.p
@@ -206,7 +206,7 @@ tab_pricing:
         - Praktische oefeningen (voor thuis)
         - Persoonlijke feedback en begeleiding
     - id: mediumPakket
-      title: Live Coaching | Progressie pakket
+      title: Live Coaching | Progress pakket
       duration: 2 - 3 maanden, 8 sessies
       price_solo: € 450
       price_duo: € 250 p.p
@@ -220,7 +220,7 @@ tab_pricing:
         - Verbetering van techniek en uitvoering
         - Je grenzen verleggen op jouw tempo
     - id: tenSessiesPakket
-      title: Live Coaching | Verdiepings Pakket
+      title: Live Coaching | Perform Pakket
       duration: 10 sessies
       price_solo: € 550
       price_duo: € 300 p.p
