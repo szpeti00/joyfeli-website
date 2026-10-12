@@ -58,11 +58,11 @@ tab_info:
   intro_text: >-
     Coaching voor haar richt zich op jouw fysieke en mentale welzijn, met
     aandacht voor de gezondheid van vrouwen vanaf 30 jaar. Het combineert
-    **leefstijlcoaching en personal training** met kennis over het vrouwelijk
-    lichaam en hormonale veranderingen. We werken aan **kracht, energie en
-    balans**, afgestemd op jouw behoeften en levensfase, of je nu vooruit wilt
-    kijken naar de (peri)menopauze, veranderingen begint te merken of al verder
-    in deze fase bent.
+    **leefstijlcoaching** en **personal training** met kennis over het
+    vrouwelijk lichaam en hormonale veranderingen. We werken aan **kracht,
+    energie** en **balans**, afgestemd op jouw behoeften en levensfase, of je nu
+    vooruit wilt kijken naar de (peri)menopauze, veranderingen begint te merken
+    of al verder in deze fase bent.
 
 
     Een coachingstraject bestaat uit meerdere sessies die logisch op elkaar aansluiten.
@@ -71,10 +71,10 @@ tab_info:
       title: Kennismaking
       main_icon: chat-bubble-icon
       description: We starten met een informele kennismaking waarin we kijken of er
-        een klik is. Het is belangrijk dat jij je **veilig en op je gemak
-        voelt** en de ruimte ervaart om open te vertellen over jouw wensen,
-        vragen en behoeften. Een vertrouwde basis helpt ons om samen te werken
-        op een manier die bij jou past.
+        **een klik** is. Het is belangrijk dat jij je veilig en op je gemak
+        voelt en de ruimte ervaart om open te vertellen over jouw wensen, vragen
+        en behoeften. Een vertrouwde basis helpt ons om samen te werken op een
+        manier die bij jou past.
       features:
         - icon: tag-icon
           text: Gratis
