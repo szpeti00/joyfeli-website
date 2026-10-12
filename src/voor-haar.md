@@ -166,57 +166,91 @@ tab_info:
           text: Buiten
 tab_pricing:
   title: Welk coachingstraject?
-  intro_text: ""
+  intro_text: >-
+    Iedere vrouw heeft haar eigen behoeften, doelen en voorkeuren. Bekijk de
+    verschillende mogelijkheden en **ontdek welke vorm** van coaching het beste
+    bij jou past. Weet je nog niet zeker welke optie geschikt is voor jou?
+    **Neem gerust contact** met me op. We kunnen samen jouw doelen bespreken en
+    ontdekken welke begeleiding het beste aansluit bij jouw wensen.
+
+
+    **Online Coaching** is het **hele jaar** door beschikbaar, zodat je overal aan je doelen kunt werken met persoonlijke begeleiding. **Live** en **Hybrid** Coaching zijn beschikbaar van **november tot en met april**.
   packages:
-    - id: startPakket
-      title: Start pakket
-      duration: 1 - 2 maanden, 6 sessies
-      price_solo: € 350
-      more_info: "Voor een extra duwtje in de goede richting: **korte, intensieve
-        begeleiding** waarmee je snel kennis opdoet en in hoog tempo vooruitgang
-        boekt met huiswerk."
+    - id: onlinecoaching
+      title: Online Coaching
+      duration: 1 Maand
+      price_solo: € 135
       features:
-        - Gratis kennismaking
-        - Vlotte intake
-        - 4 Coachingsessies
-        - Eind evaluatie
-    - id: mediumPakket
-      title: Medium pakket
-      duration: 2 - 3 maanden, 8 sessies
-      price_solo: € 450
-      more_info: De meest gekozen optie, met meer ruimte voor **actieve
-        gedragsverandering** en tijd om de aanpassingen in je leven te
-        integreren. Toch blijft het een snel traject, zodat je krachtig van
-        start kunt gaan.
+        - 2 coachingsgesprekken per maand (60–90 min)
+        - Persoonlijk leefstijl- en trainingsadvies
+        - Begeleiding bij vrouwengezondheid
+        - Doorlopende WhatsApp-ondersteuning
+      more_info: Leer je lichaam beter begrijpen en werk aan je gezondheid, leefstijl
+        en kracht met **persoonlijke begeleiding op afstand**. Samen kijken we
+        naar wat jij nodig hebt en vertalen we inzichten naar praktische stappen
+        die passen bij jouw leven en levensfase.
+    - id: hybridecoaching
+      title: Hybride Coaching
+      duration: 1 Maand
+      price_solo: € 225
       features:
-        - Gratis kennismaking
-        - Intake gesprek
-        - 6 Coachingsessies
-        - Eind evaluatie
-    - id: tenSessiesPakket
-      title: 10 - Sessies pakket
-      duration: 10 sessies
-      price_solo: € 550
-      more_info: "**Meer flexibiliteit** in het plannen van sessies, met een aanpak
-        van proberen en leren die aansluit bij jouw persoonlijke
-        ontwikkelingscurve. Er is meer ruimte voor terugkoppelmomenten, zodat de
-        veranderingen met impact en kracht plaatsvinden en gedragsverandering
-        blijvend is voor de toekomst."
-      features:
-        - Gratis kennismaking
-        - Uitgebreide intake
-        - 8 Coachingsessies
-        - Eind evaluatie
+        - 2 coachingsgesprekken per maand (60–90 min)
+        - 2 persoonlijke trainingssessies per maand
+        - Persoonlijk trainingsplan en feedback
+        - Begeleiding bij vrouwengezondheid
+        - Doorlopende WhatsApp-ondersteuning
+      more_info: Combineer **online** coachingsgesprekken met **face-to-face**
+        sessies. Deze persoonlijke ontmoetingen kunnen bestaan uit personal
+        training of verdiepende gesprekken over jouw leefstijl, gezondheid en
+        behoeften. Zo stemmen we de begeleiding af op wat jij nodig hebt en waar
+        je aan wilt werken.
     - id: singlePakket
-      title: Losse sessie
+      title: Live Coaching | Losse sessie
       duration: 45 - 60 min
       price_solo: € 65
-      more_info: "**Ultieme flexibiliteit:** misschien wil je alleen een intake om te
-        zien waar je staat, of heb je behoefte aan enkele adviesgesprekken.
-        Misschien wil je juist de tijd nemen die jij nodig hebt, geheel
-        afgestemd op jouw wensen."
+      more_info: "Een flexibele, **eenmalige sessie** afgestemd op jouw behoeften. Of
+        je nu een specifieke vraag hebt, aan je techniek wilt werken of
+        persoonlijk advies zoekt: we richten ons op wat jij op dat moment nodig
+        hebt."
       features:
-        - Gratis kennismaking
-        - Flexibel
-        - Keuzevrijheid
+        - Training afgestemd op jouw behoeften
+        - Focus op een specifieke vraag of doel
+        - Persoonlijk advies en praktische tips
+        - Flexibele, eenmalige begeleiding
+    - id: startPakket
+      title: Live Coaching | Grow Pakket
+      duration: 1 - 2 maanden, 6 sessies
+      price_solo: € 350
+      more_info: Leg een **stevige basis** voor je gezondheid, kracht en leefstijl.
+        Ontdek wat jouw lichaam nodig heeft en zet de eerste stappen naar
+        blijvende verandering.
+      features:
+        - Persoonlijke intake en inzicht in jouw behoeften
+        - Leefstijl- en trainingsadvies op maat
+        - Focus op kracht, energie en gezonde gewoontes
+        - Praktische handvatten om zelf aan de slag te gaan
+    - id: mediumPakket
+      title: Live Coaching | Flow Pakket
+      duration: 2 - 3 maanden, 8 sessies
+      price_solo: € 450
+      more_info: "**Versterk je basis** en ontdek hoe training, voeding, slaap en
+        herstel elkaar beïnvloeden. Werk aan gewoontes die passen bij jouw leven
+        en levensfase."
+      features:
+        - Persoonlijke begeleiding
+        - Verdieping in leefstijl en hormonale gezondheid
+        - Aandacht voor kracht, herstel en energiebalans
+        - Regelmatige evaluatie en bijsturing
+    - id: tenSessiesPakket
+      title: Live Coaching | Glow Pakket
+      duration: 10 sessies
+      price_solo: € 550
+      more_info: Neem de tijd om inzichten om te zetten in **duurzame veranderingen**.
+        Bouw verder aan je kracht, zelfvertrouwen en kennis, zodat je met meer
+        zelfstandigheid voor je gezondheid kunt zorgen.
+      features:
+        - Verdieping in jouw lichaam en leefstijl
+        - Persoonlijk trainingsplan en gerichte feedback
+        - Coaching op gedrag, motivatie en duurzame gewoontes
+        - Evaluatie en een plan voor de toekomst
 ---
