@@ -3,7 +3,7 @@ layout: layouts/coaching-pages.njk
 title: JoyFeli - Personal Training
 locale: en
 pageKey: personalTraining
-heroImage: /img/Feli_mangart.jpg
+heroImage: /img/Feli_personal_training.jpg
 tabs:
   ptraining: Personal Training
   info: Practical Information
