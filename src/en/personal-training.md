@@ -164,7 +164,7 @@ tab_pricing:
     - id: hybridcoaching
       title: Hybrid Coaching
       duration: 1 Month
-      price_solo: "175"
+      price_solo: € 175
       more_info: Hybrid coaching combines the personal attention of **in-person
         training** sessions with the flexibility of **online support**.
         Together, we work towards your goals, with personalised guidance during
@@ -174,6 +174,7 @@ tab_pricing:
         - 2 check-in calls per month
         - Ongoing WhatsApp support
         - Personalised coaching & feedback
+      price_duo: "45"
     - id: singlePakket
       title: Live Coaching | Single Session
       duration: 45 - 60 min
