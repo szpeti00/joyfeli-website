@@ -11,30 +11,22 @@ tabs:
 hero:
   title: Voor Haar
   subtitle: Ontdek je lichaam. Vind kracht in jouw flow.
-  text: "Jouw gezondheid staat centraal in een complete aanpak waarin kracht,
-    beweging, leefstijl en kennis over het vrouwelijk lichaam samenkomen. "
+  text: Jouw gezondheid staat centraal in een complete aanpak waarin kracht,
+    beweging, leefstijl en kennis over het vrouwelijk lichaam samenkomen.
 tab_intro:
   section1_title: Wat is coaching voor haar?
-  section1_subtitle: Begrijp wat er in je lichaam gebeurt.
+  section1_subtitle: Lichaamsbewustzijn, kracht en hormonale gezondheid
   section1_text: >-
-    Coaching voor haar is een combinatie van **personal training**,
-    **leefstijlcoaching** en **kennis** over het vrouwelijk lichaam. Je lichaam
-    verandert gedurende je leven en hormonen spelen daarin een belangrijke rol.
-    Toch krijgen veel vrouwen weinig uitleg over wat deze veranderingen
-    betekenen, wat ze kunnen verwachten en hoe ze hun lichaam hierin kunnen
-    ondersteunen.
+    Coaching voor haar combineert **personal training**, **leefstijlcoaching**
+    en kennis over het vrouwelijk lichaam. Je gezondheid wordt beïnvloed door
+    verschillende factoren, waaronder beweging, voeding, slaap, stress en
+    hormonale veranderingen.
 
 
-    **Ik wil daar verandering in brengen.**
+    In de coaching kijken we **naar het geheel** en naar wat jij nodig hebt. Of je nu wilt werken aan je kracht, meer balans zoekt in je leefstijl of beter wilt begrijpen wat hormonale veranderingen voor je betekenen: we stemmen de begeleiding af op jouw behoeften, doelen en levensfase.
 
 
-    In mijn coaching kijken we naar het geheel. We combineren krachttraining met aandacht voor voeding, slaap, herstel en stress, en verdiepen ons in de invloed van hormonen op je lichaam en welzijn. Ook is er ruimte om te kijken naar andere vormen van ondersteuning, afgestemd op jouw behoeften en situatie.
-
-
-    Daarbij staat **jouw persoonlijke behoefte** centraal. Misschien wil je vooral werken aan je kracht, zoek je meer balans in je leefstijl of wil je beter begrijpen wat hormonale veranderingen voor jou betekenen. Samen ontdekken we waar jouw aandacht en begeleiding het meest nodig zijn.
-
-
-    Je leert niet alleen wat je kunt doen, maar ook waarom bepaalde keuzes belangrijk kunnen zijn en hoe je die op een haalbare manier in je dagelijks leven kunt toepassen. Zo ontwikkel je meer **inzicht** in je lichaam en het **vertrouwen** om bewuste keuzes te maken die bij jou passen.
+    Je krijgt inzicht in je lichaam en praktische handvatten om bewuste keuzes te maken. Zo werk je aan een sterke basis voor je gezondheid, met meer kennis, vertrouwen en aandacht voor jezelf.
   section2_title: Waarom nu?
   section2_subtitle: Bouw aan een sterk lichaam, in elke levensfase.
   section2_text: >-
