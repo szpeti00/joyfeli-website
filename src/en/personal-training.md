@@ -189,7 +189,7 @@ tab_pricing:
         - Focus on a question, challenge or goal
         - Flexible, one-off support
     - id: startPakket
-      title: Live Coaching | Start Package
+      title: Live Coaching | Prime Package
       duration: 1 - 2 months, 6 sessions
       price_solo: € 350
       price_duo: € 200 p.p
@@ -215,7 +215,7 @@ tab_pricing:
         - Technique refinement & feedback
         - Support for lasting habits
     - id: tenSessiesPakket
-      title: Live Coaching | Advanced Package
+      title: Live Coaching | Perform Package
       duration: 10 Sessions
       price_solo: € 550
       price_duo: € 300 p.p
