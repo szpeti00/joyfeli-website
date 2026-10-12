@@ -11,10 +11,8 @@ tabs:
 hero:
   title: Voor Haar
   subtitle: Ontdek je lichaam. Vind kracht in jouw flow.
-  text: Jouw gezondheid staat centraal in een complete aanpak waarin kracht,
-    beweging, leefstijl en kennis over het vrouwelijk lichaam samenkomen. Je
-    ontdekt hoe training, voeding, slaap en herstel elkaar beïnvloeden en hoe je
-    daar zelf bewust mee aan de slag kunt.
+  text: "Jouw gezondheid staat centraal in een complete aanpak waarin kracht,
+    beweging, leefstijl en kennis over het vrouwelijk lichaam samenkomen. "
 tab_intro:
   section1_title: Wat is coaching voor haar?
   section1_subtitle: Begrijp wat er in je lichaam gebeurt.
