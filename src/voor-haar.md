@@ -26,7 +26,7 @@ tab_intro:
     In de coaching kijken we **naar het geheel** en naar wat jij nodig hebt. Of je nu wilt werken aan je kracht, meer balans zoekt in je leefstijl of beter wilt begrijpen wat hormonale veranderingen voor je betekenen: we stemmen de begeleiding af op jouw behoeften, doelen en levensfase.
 
 
-    Je krijgt inzicht in je lichaam en praktische handvatten om bewuste keuzes te maken. Zo werk je aan een sterke basis voor je gezondheid, met meer kennis, vertrouwen en aandacht voor jezelf.
+    Je krijgt **inzicht in je lichaam** en **praktische handvatten** om bewuste keuzes te maken. Zo werk je aan een sterke basis voor je gezondheid, met meer kennis, vertrouwen en aandacht voor jezelf.
   section2_title: Waarom nu?
   section2_subtitle: Bouw aan een sterk lichaam, in elke levensfase.
   section2_text: >-
@@ -76,11 +76,11 @@ tab_info:
       title: Intakegesprek
       main_icon: pencil-square-icon
       description: >-
-        Tijdens het intakegesprek bespreken we jouw doelen, motivatie en
-        verwachtingen. We kijken naar je **fysieke** en **mentale welzijn**, met
+        Tijdens het intakegesprek bespreken we jouw **doelen, motivatie en
+        verwachtingen**. We kijken naar je fysieke en mentale welzijn, met
         aandacht voor je energie, stress, leefstijl en de signalen van je
         lichaam. Wat ervaar je, waar wil je aan werken en wat heb je nodig?
-        Samen bepalen we welke aanpak bij jou past.
+        **Samen** bepalen we **welke aanpak** bij jou past.
 
 
         Afhankelijk van jouw behoeften kunnen we aanvullende analyses uitvoeren:
@@ -131,11 +131,11 @@ tab_info:
     - id: evaluation
       title: Evaluatiegesprek
       main_icon: clipboard-icon
-      description: We sluiten het traject af door samen terug te blikken op jouw
+      description: We sluiten het traject af door samen **terug te blikken** op jouw
         ontwikkeling en wat je hebt geleerd over je lichaam, leefstijl en
-        behoeften. We bespreken wat goed werkt voor jou en hoe je hier ook in de
-        **toekomst** op kunt blijven voortbouwen, zodat je met meer inzicht en
-        vertrouwen voor jezelf en je gezondheid kunt blijven zorgen.
+        behoeften. We bespreken **wat goed werkt** voor jou en hoe je hier ook
+        in de **toekomst** op kunt blijven voortbouwen, zodat je met meer
+        inzicht en vertrouwen voor jezelf en je gezondheid kunt blijven zorgen.
       features:
         - icon: exclamation-triangle-icon
           text: Duurzame verandering
@@ -145,10 +145,10 @@ tab_info:
       title: Locatie
       main_icon: home-icon
       description: De coachingssessies vinden plaats in mijn praktijkruimte in
-        **Wageningen**, een rustige en fijne omgeving waar jij je op je gemak
-        voelt. Ook is het mogelijk om **online sessies** te volgen, of – indien
-        gewenst – een training in de buitenlucht te doen. Samen kiezen we een
-        setting die jou het beste ondersteunt in jouw proces.
+        **Wageningen** of **online**. Voor personal training kijken we samen
+        naar een geschikte locatie. We kunnen **buiten** trainen, **bij jou
+        thuis** als er voldoende ruimte is, of **online**. Zo kiezen we een vorm
+        en plek die bij jou, jouw doelen en jouw voorkeuren passen.
       features:
         - icon: home-modern-icon
           text: Wageningen
