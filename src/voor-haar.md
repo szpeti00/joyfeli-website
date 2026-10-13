@@ -192,10 +192,10 @@ tab_pricing:
         - Begeleiding bij vrouwengezondheid
         - Doorlopende WhatsApp-ondersteuning
       more_info: Combineer **online** coachingsgesprekken met **face-to-face**
-        sessies. Deze persoonlijke ontmoetingen kunnen bestaan uit personal
-        training of verdiepende gesprekken over jouw leefstijl, gezondheid en
-        behoeften. Zo stemmen we de begeleiding af op wat jij nodig hebt en waar
-        je aan wilt werken.
+        sessies. Deze persoonlijke ontmoetingen kunnen bestaan uit **personal
+        training** of verdiepende gesprekken over jouw **leefstijl, gezondheid
+        en behoeften**. Zo stemmen we de begeleiding af op wat jij nodig hebt en
+        waar je aan wilt werken.
     - id: singlePakket
       title: Live Coaching | Losse sessie
       duration: 45 - 60 min
