@@ -3,7 +3,7 @@ layout: layouts/about.njk
 title: "JoyFeli - Over"
 locale: "nl"
 pageKey: "about"
-heroImage: "/img/Feli_soca2_cut.jpg"
+heroImage: "/img/Feli_mangart.jpg"
 
 hero:
   title: "Over mij"

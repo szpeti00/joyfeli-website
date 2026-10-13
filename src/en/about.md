@@ -3,7 +3,7 @@ layout: layouts/about.njk
 title: JoyFeli - About
 locale: en
 pageKey: about
-heroImage: /img/Feli_mangart.jpg
+heroImage: "/img/Feli_mangart.jpg"
 hero:
   title: About Me
   subtitle: The power lies in the flow
