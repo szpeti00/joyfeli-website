@@ -181,9 +181,10 @@ tab_pricing:
       duration: 1 Month
       price_solo: €225
       more_info: Combine **online** coaching sessions with **face-to-face** sessions.
-        These in-person sessions can include personal training or in-depth
-        conversations about your lifestyle, health and needs. Together, we’ll
-        tailor the coaching to what you need and what you want to work towards.
+        These in-person sessions can **include personal training** or in-depth
+        conversations about your **lifestyle, health and needs.** Together,
+        we’ll tailor the coaching to what you need and what you want to work
+        towards.
       features:
         - 2 coaching sessions per month (60–90 minutes)
         - 2 personal training sessions per month
