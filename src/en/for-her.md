@@ -154,54 +154,88 @@ tab_info:
           text: Outdoor
 tab_pricing:
   title: Which coaching package?
-  intro_text: ""
+  intro_text: >-
+    Every woman has her own needs, goals and preferences. Explore the different
+    options and **discover which type** of coaching suits you best. Not sure
+    which option is right for you? **Feel free to get in touch.** We can discuss
+    your goals together and find the approach that best fits your needs.
+
+
+    **Online Coaching** is available **all year round**, so you can work towards your goals with personal guidance wherever you are. **Live** and **Hybrid Coaching** are available from **November through April**.
   packages:
-    - id: startPakket
-      title: Start package
-      duration: 1 - 2 months, 6 sessions
-      price_solo: € 350
-      more_info: "For a little push in the right direction: a **short, intensive
-        package** designed to give you quick insights and fast progress, with
-        additional homework to reinforce your learning."
+    - id: onlinecoaching
+      title: Online Coaching
+      duration: 1 Month
+      price_solo: € 135
+      more_info: Learn to better understand your body and work on your health,
+        lifestyle and strength with **personalised online coaching**. Together,
+        we’ll explore what you need and turn insights into practical steps that
+        fit your life and stage of life.
       features:
-        - Free introduction
-        - Quick intake session
-        - 4 Coaching sessions
-        - Final evaluation
-    - id: mediumPakket
-      title: Medium package
-      duration: 2 - 3 months, 8 sessions
-      price_solo: € 450
-      more_info: The most popular option, offering more room **for active behavioral
-        change** and time to integrate adjustments into your life. It’s still a
-        quick process to ensure you start strong and empowered.
+        - 2 coaching sessions per month (60–90 minutes)
+        - Personalised lifestyle and training advice
+        - Guidance on women’s health
+        - Ongoing WhatsApp support
+    - id: hybridcoaching
+      title: Hybrid Coaching
+      duration: 1 Month
+      price_solo: €225
+      more_info: Combine **online** coaching sessions with **face-to-face** sessions.
+        These in-person sessions can include personal training or in-depth
+        conversations about your lifestyle, health and needs. Together, we’ll
+        tailor the coaching to what you need and what you want to work towards.
       features:
-        - Free introduction
-        - Intake session
-        - 6 coaching sessions
-        - Final evaluation
-    - id: tenSessiesPakket
-      title: 10 - Sessions Package
-      duration: 10 sessions
-      price_solo: € 550
-      more_info: "**More flexibility** in scheduling sessions, with an approach of
-        trying and learning that aligns with your personal development curve.
-        There’s more space for feedback moments, ensuring impactful and lasting
-        behavioral change for the future."
-      features:
-        - Free introduction
-        - In-depth intake
-        - 8 coaching sessions
-        - Final evaluation
+        - 2 coaching sessions per month (60–90 minutes)
+        - 2 personal training sessions per month
+        - Personalised lifestyle and training advice
+        - Guidance on women’s health
+        - Ongoing WhatsApp support
     - id: singlePakket
-      title: Single Session
+      title: Live Coaching | Single Session
       duration: 45 - 60 min
       price_solo: € 65
-      more_info: "**Ultimate flexibility:** whether you just want an intake to assess
-        where you stand or need a few advisory sessions, or even prefer to take
-        your time, everything is customized to your needs."
+      more_info: A flexible, **one-off session** tailored to your needs. Whether you
+        have a specific question, want to improve your technique or are looking
+        for personalised advice, we focus on what you need most at that moment.
       features:
-        - Free introduction
-        - Flexible
-        - Freedom of choice
+        - Training tailored to your needs
+        - Focus on a specific question or goal
+        - Personal advice and practical tips
+        - Flexible, one-off support
+    - id: startPakket
+      title: Live Coaching | Grow package
+      duration: 1 - 2 months, 6 sessions
+      price_solo: € 350
+      more_info: Build a **strong foundation** for your health, strength and
+        lifestyle. Discover what your body needs and take the first steps
+        towards lasting change.
+      features:
+        - Personal intake and insight into your needs
+        - Personalised lifestyle and training advice
+        - Focus on strength, energy and healthy habits
+        - Practical tools to get started on your own
+    - id: mediumPakket
+      title: Live Coaching | Flow Package
+      duration: 2 - 3 months, 8 sessions
+      price_solo: € 450
+      more_info: "**Strengthen your foundation** and discover how training, nutrition,
+        sleep and recovery influence one another. Build habits that fit your
+        life and stage of life."
+      features:
+        - Personalised guidance
+        - A deeper understanding of lifestyle and hormonal health
+        - Focus on strength, recovery and energy balance
+        - Regular evaluation and adjustments
+    - id: tenSessiesPakket
+      title: Live Coaching | Glow Package
+      duration: 10 sessions
+      price_solo: € 550
+      more_info: Take the time to turn insights into **lasting changes**. Continue
+        building your strength, confidence and knowledge so you can take charge
+        of your health with greater independence.
+      features:
+        - A deeper understanding of your body and lifestyle
+        - Personalised training plan and targeted feedback
+        - Coaching on behaviour, motivation and sustainable habits
+        - Evaluation and a plan for the future
 ---
