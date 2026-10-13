@@ -3,7 +3,7 @@ layout: layouts/coaching-pages.njk
 title: JoyFeli - Leefstijlcoaching
 locale: nl
 pageKey: lifestyleCoaching
-heroImage: /img/lifestylecoach_2.jpg
+heroImage: /img/Feli_jump_lifestyle.jpg
 tabs:
   ptraining: Leefstijlcoaching
   info: Praktische Informatie

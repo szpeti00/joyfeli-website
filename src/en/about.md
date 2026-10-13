@@ -27,7 +27,7 @@ tab_about:
 
 
     Over the years, my focus shifted from academia to a growing passion for sport, movement, and lifestyle. I found balance by combining outdoor adventures in the mountains and on white-water rivers with indoor activities focused on fitness, body, and muscle control. My love for nature, movement, and human interaction led me to explore how we **think, communicate, and behave**, with a special emphasis on health and well-being. This journey ultimately inspired me to start coaching and guiding others both physically and mentally.
-  profile_image: /img/Feli2.jpg
+  profile_image: "/img/Feli_profile.jpg"
   bottom_text: >
     Nature and human connection are at the core of everything I do. In the
     **summer**, I pass on my love for the outdoors as a white-water kayaking
@@ -37,7 +37,7 @@ tab_about:
 
 
     With over **eight years of experience** as a **certified instructor**, I’ve gained valuable insights into how people think, feel, and act. This strengthened my belief: with positive energy, we make the world stronger, happier, and more beautiful. To radiate that energy, it’s essential to be healthy, strong, and resilient. My mission is to inspire myself and others to embrace their strength and live life with vitality
-  kayak_image: /img/Feli_kayak.jpg
+  kayak_image: "/img/Feli_kayak.jpg"
 tab_studies:
   title: My studies
   intro_text: My journey began with a university degree in science, where my

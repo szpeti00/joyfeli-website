@@ -22,7 +22,7 @@ tab_about:
     Voor mijn studie Ecologie aan de universiteit verhuisde ik naar Wageningen, hier ontdekte ik voor het eerst een diepe connectie tussen mens en natuur: net als ecosystemen zijn wij afhankelijk van een samenspel van interne en externe factoren. Ons welzijn wordt gevormd door **biologische, psychologische en sociale lagen**, die voortdurend in wisselwerking staan.
 
     In de loop der jaren is mijn interesse verschoven van de academische wereld naar een groeiende passie voor sport, beweging en een gezonde leefstijl. Ik vond balans door avonturen in de bergen en op wildwater rivieren te combineren met coaching in de fitness, waarbij ik me richt op lichaamsbewustzijn, houding, spiercontrole en ademhaling. Mijn liefde voor de natuur, beweging en menselijke interactie leidde me naar het onderzoeken van hoe we **denken, communiceren en ons gedragen**, met een sterke focus op gezondheid en welzijn. Deze reis inspireerde me om anderen zowel fysiek als mentaal te begeleiden en te coachen.
-  profile_image: "/img/Feli2.jpg"
+  profile_image: "/img/Feli_profile.jpg"
   bottom_text: |
     Natuur en menselijke verbinding vormen de kern van alles wat ik doe. In de **zomer** geef ik mijn liefde voor de buitenlucht door als wildwaterkajakinstructeur in de bergen van Slovenië. In de **winter** coach ik individuen in de sportschool en geef ik groepslessen, waarbij ik mijn passie voor beweging en vitaliteit deel.
 

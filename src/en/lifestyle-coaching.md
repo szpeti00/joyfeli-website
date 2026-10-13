@@ -3,7 +3,7 @@ layout: layouts/coaching-pages.njk
 title: JoyFeli - Lifestyle Coaching
 locale: en
 pageKey: lifestyleCoaching
-heroImage: /img/lifestylecoach_2.jpg
+heroImage: /img/Feli_jump_lifestyle.jpg
 tabs:
   ptraining: Lifestyle Coaching
   info: Practical Information
