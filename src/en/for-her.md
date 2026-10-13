@@ -142,9 +142,9 @@ tab_info:
       main_icon: home-icon
       description: Coaching sessions take place in my private practice in
         **Wageningen**, a calm and comfortable environment where you can feel at
-        ease. **Online sessions** are also available, or—if preferred—we can do
-        a training outdoors. Together, we will choose the setting that best
-        supports you in your journey.
+        ease. **Online sessions** are also available, or we can do a **training
+        outdoors**. Together, we will choose the setting that best supports you
+        in your journey.
       features:
         - icon: home-modern-icon
           text: Wageningen
