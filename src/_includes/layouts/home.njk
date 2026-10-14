@@ -25,10 +25,8 @@ layout: layouts/base.njk
   <div class="container position-relative">
     <div class="row">
       <div class="col-12 position-relative m-0 p-0">
-        <div class="bg-image-container welcome-img animate-slide-in-left">
+        <div class="bg-image-container welcome-img animate-slide-in-left d-none d-xl-block">
           <picture class="bg-image">
-            <source media="(max-width: 575px)" srcset="{{ welcome.image | replace('.jpg', '_phone.webp') }}" type="image/webp">
-            <source media="(max-width: 575px)" srcset="{{ welcome.image | replace('.jpg', '_phone.jpg') }}" type="image/jpeg">
             <source srcset="{{ welcome.image | replace('.jpg', '.webp') }}" type="image/webp">
             <source srcset="{{ welcome.image }}" type="image/jpeg">
             <img class="bg-image-img" src="{{ welcome.image }}" alt="Welcome Background" width="1320" height="665" loading="lazy">
