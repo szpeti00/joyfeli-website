@@ -130,11 +130,12 @@ tab_info:
     - id: location
       title: Locatie
       main_icon: home-icon
-      description: De personal training vindt plaats op een locatie die past bij jou
-        en jouw training. We kunnen **buiten** trainen in Wageningen en
-        omgeving, of bij **jou thuis** als er voldoende ruimte is. Samen kiezen
-        we een plek waar je prettig kunt bewegen en gericht kunt werken aan jouw
-        doelen.
+      description: De personal training vindt plaats op een manier die bij jou en jouw
+        doelen past. **Online trainen** biedt je de flexibiliteit om te trainen
+        waar en wanneer het jou uitkomt. Liever samen op een fysieke locatie
+        trainen? Dat kan ook, bijvoorbeeld **buiten** of **bij jou thuis**, als
+        er voldoende ruimte is. Samen kijken we welke vorm het beste aansluit
+        bij jouw wensen en behoeften.
       features:
         - icon: home-modern-icon
           text: Wageningen
