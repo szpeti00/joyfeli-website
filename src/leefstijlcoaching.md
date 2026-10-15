@@ -152,6 +152,49 @@ tab_pricing:
   title: Welk coachingstraject?
   intro_text: ""
   packages:
+    - id: onlinecoaching
+      title: Online Coaching
+      duration: Maandelijks opzegbaar
+      price_solo: € 135 per maand
+      more_info: Online coaching geeft je de **vrijheid** om in je eigen tempo aan je
+        gezondheid en leefstijl te werken. Je hoeft niet vooraf vast te leggen
+        hoeveel sessies je nodig hebt. We kijken samen naar je voortgang en
+        stemmen de begeleiding af op wat je op dat moment nodig hebt. Dankzij
+        het maandelijkse opzegbare abonnement houd je zelf de regie en kun je
+        **doorgaan zolang de coaching waardevol voor je is**.
+      features:
+        - 2 coachingsgesprekken per maand (60 min)
+        - Persoonlijk leefstijladvies
+        - Begeleiding bij vrouwengezondheid
+        - Doorlopende WhatsApp-ondersteuning
+    - id: Hybridecoaching
+      title: Hybride Coaching
+      duration: Maandelijks opzegbaar
+      price_solo: € 135 per maand
+      more_info: Hybride coaching combineert **online** begeleiding met **persoonlijke
+        sessies op locatie**. Zo profiteer je van de flexibiliteit van online
+        coaching én de mogelijkheid om elkaar persoonlijk te ontmoeten. Je hoeft
+        niet vooraf vast te leggen hoeveel sessies je nodig hebt. We kijken
+        samen naar je voortgang en bepalen gaandeweg welke begeleiding het beste
+        bij jou past. Dankzij het maandelijkse opzegbare abonnement houd je zelf
+        de regie en kun je **doorgaan zolang de coaching waardevol voor je is**.
+      features:
+        - 2 coachingsgesprekken per maand (60 min)
+        - Persoonlijk leefstijladvies
+        - Begeleiding bij vrouwengezondheid
+        - Doorlopende WhatsApp-ondersteuning
+    - id: singlePakket
+      title: Losse sessie
+      duration: 45 - 60 min
+      price_solo: € 65
+      more_info: "**Ultieme flexibiliteit:** misschien wil je alleen een intake om te
+        zien waar je staat, of heb je behoefte aan enkele adviesgesprekken.
+        Misschien wil je juist de tijd nemen die jij nodig hebt, geheel
+        afgestemd op jouw wensen."
+      features:
+        - Gratis kennismaking
+        - Flexibel
+        - Keuzevrijheid
     - id: startPakket
       title: Start pakket
       duration: 1 - 2 maanden, 6 sessies
@@ -191,16 +234,4 @@ tab_pricing:
         - Uitgebreide intake
         - 8 Coachingsessies
         - Eind evaluatie
-    - id: singlePakket
-      title: Losse sessie
-      duration: 45 - 60 min
-      price_solo: € 65
-      more_info: "**Ultieme flexibiliteit:** misschien wil je alleen een intake om te
-        zien waar je staat, of heb je behoefte aan enkele adviesgesprekken.
-        Misschien wil je juist de tijd nemen die jij nodig hebt, geheel
-        afgestemd op jouw wensen."
-      features:
-        - Gratis kennismaking
-        - Flexibel
-        - Keuzevrijheid
 ---
