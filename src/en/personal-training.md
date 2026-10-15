@@ -134,6 +134,8 @@ tab_info:
         Together, we’ll find the approach that best suits your needs and
         preferences.
       features:
+        - icon: wifi-icon
+          text: Online
         - icon: home-modern-icon
           text: Wageningen Practice
         - icon: sun-icon
