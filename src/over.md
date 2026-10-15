@@ -81,8 +81,8 @@ tab_work:
     - text: "**Personal Trainer en Fitnessinstructeur**<br>MyLife Healthclub | 2022 -
         heden"
       icon: chevron-icon
-    - text: "**Pilates-, Spinning- en XCORE-instructeur**<br>MyLife Healthclub | 2022
-        - heden"
+    - text: "**Pilates-, Spinning-, Bodypump- en XCORE-instructeur**<br>MyLife
+        Healthclub | 2022 - heden"
       icon: chevron-icon
     - text: "**Wildwaterkajakinstructeur**<br>Slovenië | 2020 - heden"
       icon: chevron-icon
