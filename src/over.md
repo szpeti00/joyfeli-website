@@ -53,22 +53,29 @@ tab_studies:
     gedrag en leefstijl, en naar wat vrouwen nodig hebben om zich sterk en
     gezond te voelen.
   items:
-    - text: "**Menopause 2.0**: Vrouwelijke fysiologie en voedingswetenschap<br>Dr.
-        Stacy Sims | 2026"
+    - text: |
+        **Menopause 2.0**: Vrouwelijke fysiologie en voedingswetenschap
+        Dr. Stacy Sims | 2026
       icon: academic-cap-icon
-    - text: "**Female Health Coach**: Vrouwengezondheid en leefstijlcoaching<br>
-        Centre of Excellence | 2025"
+    - text: |
+        **Female Health Coach**: Vrouwengezondheid en leefstijlcoaching
+        Centre of Excellence | 2025
       icon: academic-cap-icon
-    - text: "**Leefstijlcoach**: BGN- & KTNO-geaccrediteerd<br>NHA | 2023"
+    - text: |
+        **Leefstijlcoach**: BGN- & KTNO-geaccrediteerd
+        NHA | 2023
       icon: academic-cap-icon
-    - text: "**Personal Trainer**: Functioneel trainer & gezondheidscoach<br>Chivo
-        Kennisinstituut | 2020"
+    - text: |
+        **Personal Trainer**: Functioneel trainer & gezondheidscoach
+        Chivo Kennisinstituut | 2020
       icon: academic-cap-icon
-    - text: "**Allround outdoor instructeur**: Extreme sporten<br>Voshaar Outdoor &
-        Education | 2019"
+    - text: |
+        **Allround outdoor instructeur**: Extreme sporten
+        Voshaar Outdoor & Education | 2019
       icon: academic-cap-icon
-    - text: "**Bachelor of Science**: Minor in Communicatie en Psychologie
-        <br>Wageningen University | 2015"
+    - text: |
+        **Bachelor of Science**: Minor in Communicatie en Psychologie
+        Wageningen University | 2015
       icon: academic-cap-icon
 tab_work:
   title: Mijn werkervaring
@@ -79,17 +86,24 @@ tab_work:
     aansluit bij hun lichaam, leefstijl en persoonlijke doelen hen kan helpen om
     sterker en met meer vertrouwen in het leven te staan.
   items:
-    - icon: chevron-icon
-      text: "**Coach en Oprichter** <br>JoyFeli Coaching | 2024 - heden"
-    - text: "**Personal Trainer en Fitnessinstructeur**<br>MyLife Healthclub | 2022 -
-        heden"
+    - text: |
+        **Coach en Oprichter**
+        JoyFeli Coaching | 2024 - heden
       icon: chevron-icon
-    - text: "**Pilates-, Spinning-, Bodypump- en XCORE-instructeur**<br>MyLife
-        Healthclub | 2022 - heden"
+    - text: |
+        **Personal Trainer en Fitnessinstructeur**
+        MyLife Healthclub | 2022 - heden
       icon: chevron-icon
-    - text: "**Wildwaterkajakinstructeur**<br>Slovenië | 2020 - heden"
+    - text: |
+        **Pilates-, Spinning-, Bodypump- en XCORE-instructeur**
+        MyLife Healthclub | 2022 - heden
       icon: chevron-icon
-    - text: "**Boulder-, Spinning- en Fitnessinstructeur**<br>Avalon Fitcentre | 2018
-        - 2022"
+    - text: |
+        **Wildwaterkajakinstructeur**
+        Slovenië | 2020 - heden
+      icon: chevron-icon
+    - text: |
+        **Boulder-, Spinning- en Fitnessinstructeur**
+        Avalon Fitcentre | 2018 - 2022
       icon: chevron-icon
 ---
