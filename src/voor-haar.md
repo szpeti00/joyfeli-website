@@ -144,11 +144,13 @@ tab_info:
     - id: location
       title: Locatie
       main_icon: home-icon
-      description: De coachingssessies vinden plaats in mijn praktijkruimte in
-        **Wageningen** of **online**. Voor personal training kijken we samen
-        naar een geschikte locatie. We kunnen **buiten** trainen, **bij jou
-        thuis** als er voldoende ruimte is, of **online**. Zo kiezen we een vorm
-        en plek die bij jou, jouw doelen en jouw voorkeuren passen.
+      description: De coachingsessies vinden plaats op een manier die bij jou en jouw
+        doelen past. **Online begeleiding** biedt je de flexibiliteit om vanuit
+        je eigen omgeving aan je gezondheid, leefstijl en fitheid te werken. Wil
+        je liever persoonlijk afspreken? Dan kunnen we samen kijken naar een
+        geschikte locatie, bijvoorbeeld mijn praktijkruimte in **Wageningen**,
+        **buiten** of **bij jou thuis**, als er voldoende ruimte is. Zo kiezen
+        we een vorm en plek die aansluiten bij jouw wensen en behoeften.
       features:
         - icon: home-modern-icon
           text: Wageningen
