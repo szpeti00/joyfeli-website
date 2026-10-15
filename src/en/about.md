@@ -46,8 +46,9 @@ tab_studies:
     environments and in the gym. Over time, my focus expanded to include human
     behavior and its impact on lifestyle.
   items:
-    - text: "**Bachelor of Science**: Minor in Communication en Psychology
-        <br>Wageningen University, 2015"
+    - text: | 
+        **Bachelor of Science**: Minor in Communication en Psychology
+        Wageningen University, 2015
       icon: academic-cap-icon
     - text: "**Allround outdoor instructor**: Extreme sports<br>Voshaar Outdoor &
         Education, 2019"
