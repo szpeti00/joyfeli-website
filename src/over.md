@@ -23,13 +23,13 @@ tab_about:
     Wageningen. Daar groeide mijn fascinatie voor de **verbinding tussen mens en
     natuur**. Net als ecosystemen is ons lichaam afhankelijk van een samenspel
     van interne en externe factoren. Onze gezondheid wordt beïnvloed door
-    **biologische, psychologische en sociale factoren** die voortdurend op
-    elkaar inwerken. Dit vormt de basis van mijn visie: we zijn geen machines,
-    maar mensen met een **unieke biologie**, eigen behoeften en een lichaam dat
+    biologische, psychologische en sociale factoren die voortdurend op elkaar
+    inwerken. Dit vormt de basis van mijn visie: **we zijn geen machines, maar
+    mensen** met een unieke biologie, eigen behoeften en een lichaam dat
     voortdurend verandert.
 
 
-    In de loop der jaren verschoof mijn interesse van de academische wereld naar **sport, beweging en een gezonde leefstijl**. Ik vond mijn balans in avonturen in de bergen en op wildwaterrivieren, gecombineerd met mijn werk als coach in de fitness. Daar ontdekte ik hoe belangrijk **lichaamsbewustzijn, houding, spiercontrole en ademhaling** zijn. Het bracht me bij een vraag die nog altijd centraal staat in mijn werk: hoe kunnen we optimaal functioneren door **met ons lichaam samen te werken**, in plaats van ertegen te vechten?
+    In de loop der jaren verschoof mijn interesse van de academische wereld naar **sport, beweging en een gezonde leefstijl**. Ik vond mijn balans in avonturen in de bergen en op wildwaterrivieren, gecombineerd met mijn werk als coach in de fitness. Daar ontdekte ik hoe belangrijk lichaamsbewustzijn, houding, spiercontrole en ademhaling zijn. Het bracht me bij een vraag die nog altijd centraal staat in mijn werk: **hoe kunnen we optimaal functioneren door met ons lichaam samen te werken, in plaats van ertegen te vechten?**
   profile_image: /img/Feli_profile.jpg
   bottom_text: >-
     Die vraag inspireerde me om **vrouwen te begeleiden** naar meer fysieke
