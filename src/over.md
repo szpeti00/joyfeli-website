@@ -53,8 +53,11 @@ tab_studies:
     gedrag en leefstijl, en naar wat vrouwen nodig hebben om zich sterk en
     gezond te voelen.
   items:
-    - text: "**Menopauze 2.0**: Vrouwelijke fysiologie en voedingswetenschap<br>Dr.
+    - text: "**Menopause 2.0**: Vrouwelijke fysiologie en voedingswetenschap<br>Dr.
         Stacy Sims | 2026"
+      icon: academic-cap-icon
+    - text: "**Female Health Coach**: Vrouwengezondheid en leefstijlcoaching<br>
+        Centre of Excellence | 2025"
       icon: academic-cap-icon
     - text: "**Leefstijlcoach**: BGN- & KTNO-geaccrediteerd<br>NHA | 2023"
       icon: academic-cap-icon
