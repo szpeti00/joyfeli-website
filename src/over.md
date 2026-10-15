@@ -54,18 +54,18 @@ tab_studies:
     gezond te voelen.
   items:
     - text: "**Menopauze 2.0**: Vrouwelijke fysiologie en voedingswetenschap<br>Dr.
-        Stacy Sims"
+        Stacy Sims | 2026"
       icon: academic-cap-icon
-    - text: "**Leefstijlcoach**: BGN- & KTNO-geaccrediteerd<br>NHA, 2023"
+    - text: "**Leefstijlcoach**: BGN- & KTNO-geaccrediteerd<br>NHA | 2023"
       icon: academic-cap-icon
     - text: "**Personal Trainer**: Functioneel trainer & gezondheidscoach<br>Chivo
-        Kennisinstituut, 2020"
+        Kennisinstituut | 2020"
       icon: academic-cap-icon
     - text: "**Allround outdoor instructeur**: Extreme sporten<br>Voshaar Outdoor &
-        Education, 2019"
+        Education | 2019"
       icon: academic-cap-icon
     - text: "**Bachelor of Science**: Minor in Communicatie en Psychologie
-        <br>Wageningen University, 2015"
+        <br>Wageningen University | 2015"
       icon: academic-cap-icon
 tab_work:
   title: Mijn werkervaring
