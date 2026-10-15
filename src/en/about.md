@@ -50,13 +50,17 @@ tab_studies:
         **Bachelor of Science**: Minor in Communication en Psychology
         Wageningen University, 2015
       icon: academic-cap-icon
-    - text: "**Allround outdoor instructor**: Extreme sports<br>Voshaar Outdoor &
-        Education, 2019"
+    - text: |
+        **Allround outdoor instructor**: Extreme sports
+        Voshaar Outdoor & Education, 2019
       icon: academic-cap-icon
-    - text: "**Personal Trainer**: Functional trainer & healthcoach<br>Chivo:
-        knowledge institute, 2020"
+    - text: |
+        **Personal Trainer**: Functional trainer & healthcoach
+        Chivo: knowledge institute, 2020
       icon: academic-cap-icon
-    - text: "**Leefstijlcoach**: BGN & KTNO accredited<br>NHA, 2023"
+    - text: |
+        **Leefstijlcoach**: BGN & KTNO accredited
+        NHA, 2023
       icon: academic-cap-icon
 tab_work:
   title: My work experience
@@ -66,15 +70,20 @@ tab_work:
     enabling them to achieve their personal goals, both in sports and in daily
     life.
   items:
-    - text: "**Boulder, Spinning and Fitness instructor**<br>Avalon Fitcentre: 2018 -
-        2022"
+    - text: |
+        **Boulder, Spinning and Fitness instructor**
+        Avalon Fitcentre: 2018 - 2022
       icon: chevron-icon
-    - text: "**Wild water kayak instructor**<br>Slovenië, 2020 - present"
+    - text: |
+        **Wild water kayak instructor**
+        Slovenië, 2020 - present
       icon: chevron-icon
-    - text: "**Personal trainer and Fitness instructor**<br>MyLife Healthclub: 2022 -
-        present"
+    - text: |
+        **Personal trainer and Fitness instructor**
+        MyLife Healthclub: 2022 - present
       icon: chevron-icon
-    - text: "**Pilates, Spinning and XCORE instructor**<br>MyLife Healthclub: 2022 -
-        present"
+    - text: |
+        **Pilates, Spinning and XCORE instructor**
+        MyLife Healthclub: 2022 - present
       icon: chevron-icon
 ---
