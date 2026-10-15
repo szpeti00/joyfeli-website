@@ -127,11 +127,12 @@ tab_info:
     - id: location
       title: Location
       main_icon: home-icon
-      description: Personal training takes place at a location that suits you and your
-        training. We can train **outdoors** in Wageningen and the surrounding
-        area, or **at your home** if you have enough space. Together, we'll
-        choose a place where you feel comfortable moving and can work towards
-        your goals.
+      description: Personal training is tailored to you and your goals. **Online
+        training** offers the flexibility to work out wherever and whenever it
+        suits you. Prefer to train in person? That’s also possible, for example
+        **outdoors** or **at your home**, provided there is enough space.
+        Together, we’ll find the approach that best suits your needs and
+        preferences.
       features:
         - icon: home-modern-icon
           text: Wageningen Practice
