@@ -175,7 +175,7 @@ tab_pricing:
       duration: 1 Maand
       price_solo: € 135
       features:
-        - 2 coachingsgesprekken per maand (60–90 min)
+        - 2 coachingsgesprekken per maand (60 min)
         - Persoonlijk leefstijl- en trainingsadvies
         - Begeleiding bij vrouwengezondheid
         - Doorlopende WhatsApp-ondersteuning
@@ -188,7 +188,7 @@ tab_pricing:
       duration: 1 Maand
       price_solo: € 225
       features:
-        - 2 coachingsgesprekken per maand (60–90 min)
+        - 2 coachingsgesprekken per maand (60 min)
         - 2 persoonlijke trainingssessies per maand
         - Persoonlijk leefstijl- en trainingsadvies
         - Begeleiding bij vrouwengezondheid
