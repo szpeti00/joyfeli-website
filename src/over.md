@@ -41,7 +41,7 @@ tab_about:
     **hormonale gezondheid** te bouwen aan een sterke basis.
 
 
-    Mijn keuze om me specifiek op vrouwen te richten komt voort uit de overtuiging dat de gezondheid en unieke biologievan **vrouwen meer aandacht verdienen**. Met meer dan **acht jaar** ervaring als **instructeur en coach** heb ik gezien hoeveel er kan veranderen wanneer vrouwen vertrouwen krijgen in hun eigen lichaam, hun kracht ontdekken en de **ruimte durven innemen** die ze verdienen. Ik wil vrouwen helpen om hun lichaam beter te begrijpen, hun eigen keuzes te maken en **vol vertrouwen hun plek in te nemen, in sport en in het leven**. Want iedere vrouw verdient het om zich sterk te voelen, gehoord te worden en haar eigen koers te bepalen.
+    Mijn keuze om me specifiek op vrouwen te richten komt voort uit de overtuiging dat de gezondheid en unieke biologievan **vrouwen meer aandacht verdienen**. Met meer dan **acht jaar** ervaring als **instructeur en coach** heb ik gezien hoeveel er kan veranderen wanneer vrouwen vertrouwen krijgen in hun eigen lichaam, **hun kracht ontdekken** en de **ruimte durven innemen** die ze verdienen. Ik wil vrouwen helpen om hun lichaam beter te begrijpen, hun eigen keuzes te maken en **vol vertrouwen hun plek in te nemen, in sport en in het leven**. Want iedere vrouw verdient het om zich sterk te voelen, gehoord te worden en haar eigen koers te bepalen.
   kayak_image: /img/Feli_kayak.jpg
 tab_studies:
   title: Mijn studies
