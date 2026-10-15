@@ -185,7 +185,7 @@ tab_pricing:
         - Keuze uit online of live gesprekken
         - Doorlopende WhatsApp-ondersteuning
     - id: singlePakket
-      title: Live | Losse sessie
+      title: Live Coaching | Losse sessie
       duration: 45 - 60 min
       price_solo: € 65
       more_info: "Een flexibele, **eenmalige sessie** afgestemd op jouw behoeften. Of
