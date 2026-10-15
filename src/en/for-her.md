@@ -175,7 +175,7 @@ tab_pricing:
         we’ll explore what you need and turn insights into practical steps that
         fit your life and stage of life.
       features:
-        - 2 coaching sessions per month (60–90 minutes)
+        - 2 coaching sessions per month (60 minutes)
         - Personalised lifestyle and training advice
         - Guidance on women’s health
         - Ongoing WhatsApp support
@@ -189,7 +189,7 @@ tab_pricing:
         we’ll tailor the coaching to what you need and what you want to work
         towards.
       features:
-        - 2 coaching sessions per month (60–90 minutes)
+        - 2 coaching sessions per month (60 minutes)
         - 2 personal training sessions per month
         - Personalised lifestyle and training advice
         - Guidance on women’s health
