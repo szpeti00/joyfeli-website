@@ -48,38 +48,45 @@ tab_studies:
   intro_text: Mijn reis begon met een universitaire opleiding in de wetenschap,
     waar mijn interesse in communicatie en menselijke psychologie voor het eerst
     naar voren kwam. Vervolgens ontwikkelde ik mijn vaardigheden in coaching en
-    training, zowel in extreme natuurlijke omgevingen als in de sportschool. In
-    de loop der tijd verbreedde mijn focus zich naar menselijk gedrag en de
-    impact ervan op leefstijl.
+    training, zowel in extreme natuurlijke omgevingen als in de sportschool.
+    Mijn interesse verschoof steeds meer naar de wisselwerking tussen lichaam,
+    gedrag en leefstijl, en naar wat vrouwen nodig hebben om zich sterk en
+    gezond te voelen.
   items:
-    - text: "**Bachelor of Science**: Minor in Communicatie en Psychologie
-        <br>Wageningen University, 2015"
+    - text: "**Menopauze 2.0**: Vrouwelijke fysiologie en voedingswetenschap<br>Dr.
+        Stacy Sims"
       icon: academic-cap-icon
-    - text: "**Allround outdoor instructeur**: Extreme sporten<br>Voshaar Outdoor &
-        Education, 2019"
+    - text: "**Leefstijlcoach**: BGN- & KTNO-geaccrediteerd<br>NHA, 2023"
       icon: academic-cap-icon
     - text: "**Personal Trainer**: Functioneel trainer & gezondheidscoach<br>Chivo
         Kennisinstituut, 2020"
       icon: academic-cap-icon
-    - text: "**Leefstijlcoach**: BGN- & KTNO-geaccrediteerd<br>NHA, 2023"
+    - text: "**Allround outdoor instructeur**: Extreme sporten<br>Voshaar Outdoor &
+        Education, 2019"
+      icon: academic-cap-icon
+    - text: "**Bachelor of Science**: Minor in Communicatie en Psychologie
+        <br>Wageningen University, 2015"
       icon: academic-cap-icon
 tab_work:
   title: Mijn werkervaring
-  intro_text: Met meer dan 8 jaar ervaring in het lesgeven aan zowel groepen als
-    individuen, heb ik veel geleerd en gereflecteerd. Ik heb begrepen dat
-    iedereen een unieke benadering nodig heeft om goed gemotiveerd te blijven,
-    zodat ze hun persoonlijke doelen kunnen bereiken, zowel in sport als in het
-    dagelijks leven.
+  intro_text: Met meer dan 8 jaar ervaring in het begeleiden van groepen en
+    individuen heb ik geleerd hoe belangrijk persoonlijke begeleiding is om
+    motivatie en groei te stimuleren. Die ervaring heeft mijn interesse in de
+    unieke behoeften van vrouwen versterkt en me laten zien hoe een aanpak die
+    aansluit bij hun lichaam, leefstijl en persoonlijke doelen hen kan helpen om
+    sterker en met meer vertrouwen in het leven te staan.
   items:
-    - text: "**Boulder-, Spinning- en Fitnessinstructeur**<br>Avalon Fitcentre: 2018 -
-        2022"
-      icon: chevron-icon
-    - text: "**Wildwaterkajakinstructeur**<br>Slovenië, 2020 - heden"
-      icon: chevron-icon
-    - text: "**Personal Trainer en Fitnessinstructeur**<br>MyLife Healthclub: 2022 -
+    - icon: chevron-icon
+      text: "**Coach en Oprichter** <br>JoyFeli Coaching | 2024 - heden"
+    - text: "**Personal Trainer en Fitnessinstructeur**<br>MyLife Healthclub | 2022 -
         heden"
       icon: chevron-icon
-    - text: "**Pilates-, Spinning- en XCORE-instructeur**<br>MyLife Healthclub: 2022 -
-        heden"
+    - text: "**Pilates-, Spinning- en XCORE-instructeur**<br>MyLife Healthclub | 2022
+        - heden"
+      icon: chevron-icon
+    - text: "**Wildwaterkajakinstructeur**<br>Slovenië | 2020 - heden"
+      icon: chevron-icon
+    - text: "**Boulder-, Spinning- en Fitnessinstructeur**<br>Avalon Fitcentre | 2018
+        - 2022"
       icon: chevron-icon
 ---
