@@ -181,57 +181,53 @@ tab_pricing:
       features:
         - 2 coachingsgesprekken per maand (60 min)
         - Persoonlijk leefstijladvies
-        - Begeleiding bij vrouwengezondheid
+        - Keuze uit online of live gesprekken
         - Doorlopende WhatsApp-ondersteuning
     - id: singlePakket
-      title: Losse sessie
+      title: Live | Losse sessie
       duration: 45 - 60 min
       price_solo: € 65
-      more_info: "**Ultieme flexibiliteit:** misschien wil je alleen een intake om te
-        zien waar je staat, of heb je behoefte aan enkele adviesgesprekken.
-        Misschien wil je juist de tijd nemen die jij nodig hebt, geheel
-        afgestemd op jouw wensen."
+      more_info: "Een flexibele, **eenmalige sessie** afgestemd op jouw behoeften. Of
+        je nu een specifieke vraag hebt, aan je techniek wilt werken of
+        persoonlijk advies zoekt: we richten ons op wat jij op dat moment nodig
+        hebt."
       features:
-        - Gratis kennismaking
-        - Flexibel
-        - Keuzevrijheid
+        - Focus op een specifieke vraag of doel
+        - Persoonlijk advies en praktische tips
+        - Flexibele, eenmalige begeleiding
     - id: startPakket
-      title: Start pakket
+      title: Live Coaching | Explore
       duration: 1 - 2 maanden, 6 sessies
       price_solo: € 350
-      more_info: "Voor een extra duwtje in de goede richting: **korte, intensieve
-        begeleiding** waarmee je snel kennis opdoet en in hoog tempo vooruitgang
-        boekt met huiswerk."
+      more_info: Leg een **stevige basis** voor een gezonde leefstijl. Ontdek wat bij
+        jou past en zet met praktische inzichten en persoonlijke begeleiding de
+        eerste stappen naar blijvende verandering.
       features:
-        - Gratis kennismaking
-        - Vlotte intake
-        - 4 Coachingsessies
-        - Eind evaluatie
+        - Persoonlijke intake
+        - Leefstijladvies op maat
+        - Focus op energie en balans
+        - Praktische handvatten
     - id: mediumPakket
-      title: Medium pakket
+      title: Live Coaching | Develop
       duration: 2 - 3 maanden, 8 sessies
       price_solo: € 450
-      more_info: De meest gekozen optie, met meer ruimte voor **actieve
-        gedragsverandering** en tijd om de aanpassingen in je leven te
-        integreren. Toch blijft het een snel traject, zodat je krachtig van
-        start kunt gaan.
+      more_info: "**Verdiep je inzicht** in je leefstijl en ontdek hoe je stap voor
+        stap werkt aan meer energie, balans en duurzame verandering."
       features:
-        - Gratis kennismaking
-        - Intake gesprek
-        - 6 Coachingsessies
-        - Eind evaluatie
+        - Persoonlijke begeleiding
+        - Leefstijladvies op maat
+        - Focus op energie en balans
+        - Evaluatie en bijsturing
     - id: tenSessiesPakket
-      title: 10 - Sessies pakket
+      title: Live Coaching | Thrive
       duration: 10 sessies
       price_solo: € 550
-      more_info: "**Meer flexibiliteit** in het plannen van sessies, met een aanpak
-        van proberen en leren die aansluit bij jouw persoonlijke
-        ontwikkelingscurve. Er is meer ruimte voor terugkoppelmomenten, zodat de
-        veranderingen met impact en kracht plaatsvinden en gedragsverandering
-        blijvend is voor de toekomst."
+      more_info: Investeer in **blijvende verandering** en bouw verder aan een
+        leefstijl die bij jou past. Versterk je gezonde gewoontes en krijg meer
+        inzicht en vertrouwen om zelf de regie te nemen over je gezondheid.
       features:
-        - Gratis kennismaking
-        - Uitgebreide intake
-        - 8 Coachingsessies
-        - Eind evaluatie
+        - Persoonlijke begeleiding
+        - Leefstijladvies op maat
+        - Focus op duurzame verandering
+        - Evaluatie en plan voor de toekomst
 ---
