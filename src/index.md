@@ -12,8 +12,8 @@ quote:
   author: Heraclitus
 welcome:
   image: /img/Feli_mountain.jpg
-  title_part1: Verrijk je leven
-  title_part2: Versterk je lichaam en kennis
+  title_part1: Versterk je leven
+  title_part2: Ontwikkel lichaam en geest
   subtitle: |-
     Women's Health Coach & Personal Trainer \
     voor vrouwen 30+ | Wageningen & Online
