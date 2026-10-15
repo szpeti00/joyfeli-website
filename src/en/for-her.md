@@ -214,10 +214,10 @@ tab_pricing:
         lifestyle. Discover what your body needs and take the first steps
         towards lasting change.
       features:
-        - Personal intake and insight into your needs
-        - Personalised lifestyle and training advice
-        - Focus on strength, energy and healthy habits
-        - Practical tools to get started on your own
+        - Personalised guidance
+        - Tailored lifestyle and training advice
+        - Focus on strength, energy and balance
+        - Practical tools
     - id: mediumPakket
       title: Live Coaching | Flow Package
       duration: 2 - 3 months, 8 sessions
@@ -227,9 +227,9 @@ tab_pricing:
         life and stage of life."
       features:
         - Personalised guidance
-        - A deeper understanding of lifestyle and hormonal health
-        - Focus on strength, recovery and energy balance
-        - Regular evaluation and adjustments
+        - Insight into lifestyle and hormonal health
+        - Focus on strength, recovery and energy
+        - Progress reviews and adjustments
     - id: tenSessiesPakket
       title: Live Coaching | Glow Package
       duration: 10 sessions
@@ -238,8 +238,8 @@ tab_pricing:
         building your strength, confidence and knowledge so you can take charge
         of your health with greater independence.
       features:
-        - A deeper understanding of your body and lifestyle
-        - Personalised training plan and targeted feedback
-        - Coaching on behaviour, motivation and sustainable habits
-        - Evaluation and a plan for the future
+        - Insight into your body and lifestyle
+        - Personalised training plan and feedback
+        - Coaching on behaviour and habits
+        - Evaluation and future plan
 ---
