@@ -135,11 +135,12 @@ tab_info:
     - id: location
       title: Location
       main_icon: home-icon
-      description: Coaching sessions take place in my practice in **Wageningen**, a
-        calm and supportive environment where you can focus on your goals.
-        **Online sessions** are also available for extra flexibility. The most
-        important thing is that you feel comfortable and motivated to achieve
-        lasting change.
+      description: Coaching sessions take place in a way that suits you and your
+        goals. **Online coaching** offers the flexibility to work on your health
+        and lifestyle from the comfort of your own surroundings. Prefer to meet
+        in person? You’re welcome to visit my practice space in **Wageningen**.
+        Together, we’ll choose the format that best suits your needs and
+        preferences.
       features:
         - icon: home-modern-icon
           text: Wageningen
@@ -149,53 +150,82 @@ tab_pricing:
   title: Which coaching package?
   intro_text: ""
   packages:
-    - id: startPakket
-      title: Start Package
-      duration: 1 - 2 months, 6 sessions
-      price_solo: € 350
-      more_info: "For an extra push in the right direction: **short, intensive
-        guidance** to quickly acquire knowledge and make rapid progress with
-        homework."
+    - id: onlinecoaching
+      title: Online Coaching
+      duration: Cancel monthly
+      price_solo: € 135 per month
+      more_info: Online coaching gives you the **freedom** to work on your health and
+        lifestyle at your own pace. You don’t need to commit to a fixed number
+        of sessions in advance. We’ll review your progress together and adapt
+        the coaching to what you need at each stage. With a monthly cancellable
+        subscription, you stay in control and can **continue for as long as the
+        coaching adds value to your life**.
       features:
-        - Free introduction
-        - Quick intake
-        - 4 Coaching sessions
-        - End evaluation
-    - id: mediumPakket
-      title: Medium Package
-      duration: 2 - 3 months, 8 sessions
-      price_solo: € 450
-      more_info: The most popular choice, offering more room for **active behavior
-        change** and time to integrate new habits into your life—while still
-        being a fast-paced process to help you start strong.
+        - 2 coaching sessions per month (60 min)
+        - Personalised lifestyle advice
+        - Guidance on women’s health
+        - Ongoing WhatsApp support
+    - id: hybridcoaching
+      title: Hybrid Coaching
+      duration: Cancel monthly
+      price_solo: € 135 per month
+      more_info: Hybrid coaching combines **online support** with the option to meet
+        **in person**. You benefit from the flexibility of online coaching while
+        also having the opportunity to meet face to face. You don’t need to
+        commit to a fixed number of sessions in advance. We’ll review your
+        progress together and adapt the coaching to what you need at each stage.
+        With a monthly cancellable subscription, you stay in control and can
+        **continue for as long as the coaching adds value to your life**.
       features:
-        - Free introduction
-        - Intake conversation
-        - 6 Coaching sessions
-        - End evaluation
-    - id: tenSessiesPakket
-      title: 10 - Session Package
-      duration: 10 sessions
-      price_solo: € 550
-      more_info: "**More flexibility** in scheduling, allowing for a pace that aligns
-        with your personal development journey. We can take a more gradual
-        approach, spreading the sessions out to fit your needs. This gives your
-        mind and body more time to adjust, making it easier for new habits to
-        take root and create lasting change."
-      features:
-        - Free introduction
-        - Comprehensive intake
-        - 8 Coaching sessions
-        - End evaluation
+        - 2 coaching sessions per month (60 min)
+        - Personalised lifestyle advice
+        - Choice of online or in-person sessions
+        - Ongoing WhatsApp support
     - id: singlePakket
-      title: Single Session
+      title: Live Coaching | Single Session
       duration: 45 - 60 min
       price_solo: € 65
-      more_info: "**Ultimate flexibility:** perhaps you just want an intake to assess
-        where you stand, or you need a few advice sessions. You may also want to
-        take the time you need, fully tailored to your wishes."
+      more_info: A flexible, **one-off session** tailored to your needs. Whether you
+        have a specific question, want to improve your technique or are looking
+        for personalised advice, we’ll focus on what you need most at that
+        moment.
       features:
-        - Free introduction
-        - Flexible
-        - Autonomy
+        - Focus on a specific question or goal
+        - Personalised advice and practical tips
+        - Flexible, one-off support
+    - id: startPakket
+      title: Live Coaching | Explore
+      duration: 1 - 2 months, 6 sessions
+      price_solo: € 350
+      more_info: Build a **strong foundation** for a healthy lifestyle. Discover what
+        works for you and take the first steps towards lasting change with
+        practical insights and personalised guidance.
+      features:
+        - Personal intake
+        - Tailored lifestyle advice
+        - Focus on energy and balance
+        - Practical tools to get started
+    - id: mediumPakket
+      title: Live Coaching | Develop
+      duration: 2 - 3 months, 8 sessions
+      price_solo: € 450
+      more_info: "**Deepen your understanding** of your lifestyle and discover how to
+        build more energy, balance and lasting change, one step at a time."
+      features:
+        - Personalised guidance
+        - Tailored lifestyle advice
+        - Focus on energy and balance
+        - Progress reviews and adjustments
+    - id: tenSessiesPakket
+      title: Live Coaching | Thrive
+      duration: 10 sessions
+      price_solo: € 550
+      more_info: Invest in **lasting change** and continue building a lifestyle that
+        works for you. Strengthen your healthy habits and gain the knowledge and
+        confidence to take charge of your own health..
+      features:
+        - Personalised guidance
+        - Tailored lifestyle advice
+        - Focus on sustainable change
+        - Progress review and plan for the future
 ---
