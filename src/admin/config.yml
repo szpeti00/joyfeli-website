@@ -386,7 +386,7 @@ collections:
         name: "about_nl"
         fields: *about_fields
 
-      - file: "src/contact_2.md"
+      - file: "src/contact.md"
         label: "Contact"
         name: "contact_nl"
         fields: *contact_fields
