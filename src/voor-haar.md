@@ -219,10 +219,10 @@ tab_pricing:
         Ontdek wat jouw lichaam nodig heeft en zet de eerste stappen naar
         blijvende verandering.
       features:
-        - Persoonlijke intake en inzicht in jouw behoeften
-        - Leefstijl- en trainingsadvies op maat
-        - Focus op kracht, energie en gezonde gewoontes
-        - Praktische handvatten om zelf aan de slag te gaan
+        - Persoonlijke begeleiding
+        - Leefstijl- en trainingsadvies
+        - Focus op kracht, energie en balans
+        - Praktische handvatten
     - id: mediumPakket
       title: Live Coaching | Flow Pakket
       duration: 2 - 3 maanden, 8 sessies
@@ -232,9 +232,9 @@ tab_pricing:
         en levensfase."
       features:
         - Persoonlijke begeleiding
-        - Verdieping in leefstijl en hormonale gezondheid
-        - Aandacht voor kracht, herstel en energiebalans
-        - Regelmatige evaluatie en bijsturing
+        - Inzicht in leefstijl en hormonen
+        - Focus op kracht, herstel en energie
+        - Evaluatie en bijsturing
     - id: tenSessiesPakket
       title: Live Coaching | Glow Pakket
       duration: 10 sessies
@@ -243,8 +243,8 @@ tab_pricing:
         Bouw verder aan je kracht, zelfvertrouwen en kennis, zodat je met meer
         zelfstandigheid voor je gezondheid kunt zorgen.
       features:
-        - Verdieping in jouw lichaam en leefstijl
-        - Persoonlijk trainingsplan en gerichte feedback
-        - Coaching op gedrag, motivatie en duurzame gewoontes
-        - Evaluatie en een plan voor de toekomst
+        - Inzicht in lichaam en leefstijl
+        - Persoonlijk trainingsplan en feedback
+        - Coaching op gedrag en gewoontes
+        - Evaluatie en toekomstplan
 ---
