@@ -137,6 +137,8 @@ tab_info:
         er voldoende ruimte is. Samen kijken we welke vorm het beste aansluit
         bij jouw wensen en behoeften.
       features:
+        - icon: wifi-icon
+          text: Online
         - icon: home-modern-icon
           text: Wageningen
         - icon: sun-icon
