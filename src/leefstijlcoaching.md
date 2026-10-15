@@ -138,11 +138,12 @@ tab_info:
     - id: location
       title: Locatie
       main_icon: home-icon
-      description: De coachingssessies vinden plaats in mijn praktijkruimte in
-        **Wageningen**, een rustige en fijne omgeving om aan jouw doelen te
-        werken. **Online sessies** zijn ook mogelijk voor extra flexibiliteit.
-        Het belangrijkste is dat jij je op je gemak voelt en gemotiveerd bent om
-        duurzame veranderingen te realiseren.
+      description: De coachingssessies vinden plaats op een manier die bij jou en jouw
+        doelen past. **Online begeleiding** biedt je de flexibiliteit om vanuit
+        je eigen omgeving aan je gezondheid en leefstijl te werken. Wil je
+        liever persoonlijk afspreken? Dan ben je welkom in mijn praktijkruimte
+        in **Wageningen**. Samen kiezen we de vorm die aansluit bij jouw wensen
+        en behoeften.
       features:
         - icon: home-modern-icon
           text: Wageningen
