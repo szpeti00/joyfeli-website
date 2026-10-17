@@ -31,8 +31,8 @@ services:
       title: Leefstijlcoaching
       subtitle: De kracht van gedrag
       text: Creëer gezonde gewoontes en ontdek de kracht van je gedrag en innerlijke
-        motivatie, zodat je een duurzaam, gebalanceerd leven kunt leiden dat
-        past bij jouw huidige levensfase.
+        motivatie, zodat je een gebalanceerd leven kunt leiden dat past bij jouw
+        huidige levensfase.
       button_text: Meer
       link_key: lifestyleCoaching
     - image: /img/personaltraining_icon.png
