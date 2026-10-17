@@ -10,6 +10,7 @@ export default function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy("src/img");
   eleventyConfig.addPassthroughCopy("src/static");
   eleventyConfig.addPassthroughCopy("src/admin");
+  eleventyConfig.addPassthroughCopy("_redirects");
 
   // Custom filter to get file's last modified timestamp in ISO 8601 format
   eleventyConfig.addFilter("gitLastModified", function (filePath) {
