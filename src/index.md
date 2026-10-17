@@ -23,7 +23,7 @@ welcome:
     lichaam.
 
 
-    Met persoonlijke coaching waarin krachttraining, leefstijl, mindset en kennis over vrouwengezondheid samenkomen, ondersteun ik je om zelf de regie te nemen over je gezondheid en een **sterke basis** te leggen voor nu én de komende jaren, terwijl je de menopauze nadert en leert navigeren door deze **transitionele levensfase**.
+    Met persoonlijke coaching waarin **krachttraining, leefstijl, mindset en kennis** over vrouwengezondheid samenkomen, ondersteun ik je om zelf de regie te nemen over je gezondheid en een sterke basis te leggen. Voor nu én de komende jaren. Want of je nu **vóór, tijdens of na de menopauze** bent, jouw gezondheid verdient aandacht.
 services:
   title: Coaching Services
   cards:
@@ -31,8 +31,8 @@ services:
       title: Leefstijlcoaching
       subtitle: De kracht van gedrag
       text: Creëer gezonde gewoontes en ontdek de kracht van je gedrag en innerlijke
-        motivatie, zodat je een duurzaam, gebalanceerd leven kunt leiden dat
-        past bij jouw huidige levensfase.
+        motivatie, zodat je een gebalanceerd leven kunt leiden dat past bij jouw
+        huidige levensfase.
       button_text: Meer
       link_key: lifestyleCoaching
     - image: /img/personaltraining_icon.png
@@ -62,10 +62,10 @@ about:
     psychologische en sociale factoren.
 
 
-    Mijn fascinatie voor denken, communicatie en gedrag groeide uit tot een passie voor **leefstijl**, **beweging** en het complexe **vrouwenlichaam**. Ik wil vrouwen helpen sterker te worden, hun lichaam beter te begrijpen en meer vertrouwen te krijgen in zichzelf.
+    Mijn interesse in hoe mensen denken, voelen en bewegen groeide uit tot een passie voor **leefstijl, training en vrouwengezondheid**. Ik wil vrouwen helpen sterker te worden, hun lichaam beter te begrijpen en meer vertrouwen te krijgen in zichzelf.
 
 
-    Met **acht jaar** ervaring als **gecertificeerd instructeur** zet ik mijn kennis, passie, enthousiasme en positieve energie in om vrouwen te ondersteunen.
+    Met **acht jaar ervaring als gecertificeerd instructeur** zet ik mijn kennis, passie en positieve energie in om vrouwen te ondersteunen bij het versterken van hun lichaam en het ontwikkelen van een leefstijl die bij hen past.
 reviews:
   title: Reviews
   items:
