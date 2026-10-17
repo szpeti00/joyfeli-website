@@ -62,10 +62,10 @@ about:
     psychologische en sociale factoren.
 
 
-    Mijn fascinatie voor denken, communicatie en gedrag groeide uit tot een passie voor **leefstijl**, **beweging** en het complexe **vrouwenlichaam**. Ik wil vrouwen helpen sterker te worden, hun lichaam beter te begrijpen en meer vertrouwen te krijgen in zichzelf.
+    Mijn interesse in hoe mensen denken, voelen en bewegen groeide uit tot een passie voor **leefstijl, training en vrouwengezondheid**. Ik wil vrouwen helpen sterker te worden, hun lichaam beter te begrijpen en meer vertrouwen te krijgen in zichzelf.
 
 
-    Met **acht jaar** ervaring als **gecertificeerd instructeur** zet ik mijn kennis, passie, enthousiasme en positieve energie in om vrouwen te ondersteunen.
+    Met **acht jaar ervaring als gecertificeerd instructeur** zet ik mijn kennis, passie en positieve energie in om vrouwen te ondersteunen bij het versterken van hun lichaam en het ontwikkelen van een leefstijl die bij hen past.
 reviews:
   title: Reviews
   items:
