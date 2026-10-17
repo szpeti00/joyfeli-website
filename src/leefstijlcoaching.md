@@ -37,7 +37,7 @@ tab_intro:
     we ons voelen en functioneren. Toch valt er nog veel te ontdekken.
 
 
-    Maar je hoeft niet te wachten tot de wetenschap alle antwoorden heeft. Je mag nu al **luisteren** naar je lichaam, **nieuwsgierig** zijn naar wat je ervaarten **serieus** nemen wat je nodig hebt.
+    Maar je hoeft niet te wachten tot de wetenschap alle antwoorden heeft. Je mag nu al **luisteren** naar je lichaam, **nieuwsgierig** zijn naar wat je ervaart en **serieus** nemen wat je nodig hebt.
 
 
     Door je lichaam, gedrag, gedachten en omgeving beter te begrijpen, ontdek je wat bij jou past en hoe je bewuste keuzes kunt maken die je welzijn ondersteunen. Zo bouw je aan meer **rust**, **vertrouwen** en **balans** in je dagelijks leven.
