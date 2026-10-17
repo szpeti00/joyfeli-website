@@ -7,10 +7,9 @@ heroImage: /img/Feli_mangart.jpg
 hero:
   title: Over mij
   subtitle: De kracht zit in de flow
-  text: Als coach en kayaker heb ik een diepe verbinding met de rivier en de mens.
-    Net zoals ik op het water meebeweeg met de stroming, help ik vrouwen hun
-    eigen natuurlijke golven te volgen. Ik begeleid je naar een leven vol
-    zelfvertrouwen, hormonale balans en fysieke kracht.
+  text: "Als coach en kayaker heb ik een diepe verbinding met de rivier en de
+    mens. Net zoals ik op het water meebeweeg met de stroming, help ik vrouwen
+    hun eigen natuurlijke golven te volgen. "
 tabs:
   about: Over mij
   studies: Studies
