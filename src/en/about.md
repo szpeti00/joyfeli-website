@@ -7,10 +7,9 @@ heroImage: /img/Feli_mangart.jpg
 hero:
   title: About Me
   subtitle: The power lies in the flow
-  text: As a coach and kayaker, I feel a deep connection with both the river and
+  text: "As a coach and kayaker, I feel a deep connection with both the river and
     the human experience. Just as I move with the current on the water, I help
-    women learn to navigate their own natural rhythms. I guide you towards a
-    life with greater confidence, hormonal wellbeing and physical strength.
+    women learn to navigate their own natural rhythms. "
 tabs:
   about: About me
   studies: Studies
